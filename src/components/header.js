@@ -36,44 +36,7 @@ function Header() {
 
     { href: '/', text: 'Home' },
 
-    {
-      to: '#',
-      text: 'ABOUT US',
-      dropdownItems: [
-        { href: '/our-Company', label: 'Our Company' },
-        { href: '/vision-&-mission', label: 'Vision & Mission' },
-        { href: '/certificate-&-accreditation', label: 'Certificate & Accreditation' },
-        { href: '/awards-and-recognitions', label: 'Awards and Recognitions' },
-      ],
-    },
-
-
-    {
-      to: '#',
-      text: 'PRODUCTS',
-      dropdownItems: [
-        { href: '/product-overview', label: 'Overview' },
-        { href: '/our-product-clients', label: 'Our Clients' },
-        { href: '/air-washer', label: 'Air Washer' },
-        { href: '/ducted-air-cooler', label: 'Ducted Air Coolers' },
-        { href: '/ventilation-fans', label: 'Ventilation Exhaust Fan' },
-        { href: '/panel-air-conditioners', label: 'Panel Air Conditioner' },
-        { href: '/chiller-oil-water-coolant', label: 'Oil/Coolant Chiller' },
-        { href: '/air-handling-unit', label: 'Air Handling Unit' },
-        { href: '/air-shower', label: 'Air Shower & Pass Box' },
-      ],
-    },
-
-    {
-      text: 'HVAC',
-      dropdownItems: [
-        { label: 'Overview', href: '/hvac' },
-        { label: 'Our Quality Service', href: '/our-quality-service' },
-        { label: 'Our Projects ', href: '/our-projects' },
-        { label: 'Our Clients ', href: '/our-client' },
-      ],
-    },
-
+   
     {
       to: '#',
       text: ' FIRE & SAFETY ',
@@ -89,24 +52,7 @@ function Header() {
         { label: " Glow Signage & Emergency Lights ", href: "/glow-signage-&-emergency-lights" },
       ],
     },
-
-    {
-      to: '#',
-      text: 'MANUFACTURING AND R&D',
-      dropdownItems: [
-        { label: 'Overview', href: '/manufacturing-and-r-&-d' },
-
-      ],
-    },
-
-    {
-      to: '#',
-      text: 'MAINTENANCE',
-      dropdownItems: [
-        { label: 'Annual Maintenance Contract (AMC)', href: '/annual-maintenance-contract' },
-
-      ],
-    },
+ 
 
     { text: 'BLOG', href: '/blog' },
     { text: 'CONTACT US', href: '/contact-Us' },
