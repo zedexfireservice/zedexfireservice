@@ -1,8 +1,7 @@
 
 'use client';
 
-import Head from 'next/head';
-
+ 
 import Image from 'next/image';
 import { lazy, useEffect, useRef, useState } from 'react';
 import Link from 'next/link'; 
@@ -19,138 +18,7 @@ export default function HeroPage() {
     return () => clearInterval(interval);
   }, [currentIndex]);
 
-
-
-  const images3 = [
-    {
-      original: "/awi/cooler.webp",
-      thumbnail: "/awi/cooler.webp",
-      originalAlt: "HVAC System Image",
-      thumbnailAlt: "HVAC System Image",
-      originalHeight: 600,
-      originalWidth: 600,
-      loading: "lazy",
-      thumbnailHeight: 150,
-      thumbnailWidth: 150,
-      thumbnailLoading: "lazy",
-    },
-
-    {
-      original: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841648/airwasher_n0a5gw.webp",
-      thumbnail: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841648/airwasher_n0a5gw.webp",
-      originalAlt: "Cooling Equipment Image",
-      thumbnailAlt: "Cooling Equipment Image",
-      originalHeight: 600,
-      originalWidth: 600,
-      loading: "lazy",
-      thumbnailHeight: 150,
-      thumbnailWidth: 150,
-      thumbnailLoading: "lazy",
-    },
-    {
-      original: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841648/9_f9bq6x_onl4kf.webp",
-      thumbnail: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841648/9_f9bq6x_onl4kf.webp",
-      originalAlt: "Cooling Equipment Image",
-      thumbnailAlt: "Cooling Equipment Image",
-      originalHeight: 600,
-      originalWidth: 600,
-      loading: "lazy",
-      thumbnailHeight: 150,
-      thumbnailWidth: 150,
-      thumbnailLoading: "lazy",
-    },
-    {
-      original: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841648/8_l2toyp_naoo5o.webp",
-      thumbnail: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841648/8_l2toyp_naoo5o.webp",
-      originalAlt: "Air Handling Unit Image",
-      thumbnailAlt: "Air Handling Unit Image",
-      originalHeight: 600,
-      originalWidth: 600,
-      loading: "lazy",
-      thumbnailHeight: 150,
-      thumbnailWidth: 150,
-      thumbnailLoading: "lazy",
-    },
-    {
-      original: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841647/7_xjguld_hnctpy.webp",
-      thumbnail: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841647/7_xjguld_hnctpy.webp",
-      originalAlt: "Industrial Air Cooling System Image",
-      thumbnailAlt: "Industrial Air Cooling System Image",
-      originalHeight: 600,
-      originalWidth: 600,
-      loading: "lazy",
-      thumbnailHeight: 150,
-      thumbnailWidth: 150,
-      thumbnailLoading: "lazy",
-    },
-    {
-      original: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841647/3_hlacmx_t3cosf.webp",
-      thumbnail: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841647/3_hlacmx_t3cosf.webp",
-      originalAlt: "Ventilation Fans Image",
-      thumbnailAlt: "Ventilation Fans Image",
-      originalHeight: 600,
-      originalWidth: 600,
-      loading: "lazy",
-      thumbnailHeight: 150,
-      thumbnailWidth: 150,
-      thumbnailLoading: "lazy",
-    },
-    {
-      original: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841647/2_pxs9ab_tp70du.webp",
-      thumbnail: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841647/2_pxs9ab_tp70du.webp",
-      originalAlt: "Panel Air Conditioners Image",
-      thumbnailAlt: "Panel Air Conditioners Image",
-      originalHeight: 600,
-      originalWidth: 600,
-      loading: "lazy",
-      thumbnailHeight: 150,
-      thumbnailWidth: 150,
-      thumbnailLoading: "lazy",
-    },
-    {
-      original: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841647/1_vmsg3f_aqwufc.webp",
-      thumbnail: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841647/1_vmsg3f_aqwufc.webp",
-      originalAlt: "Chiller Oil Water Coolant Image",
-      thumbnailAlt: "Chiller Oil Water Coolant Image",
-      originalHeight: 600,
-      originalWidth: 600,
-      loading: "lazy",
-      thumbnailHeight: 150,
-      thumbnailWidth: 150,
-      thumbnailLoading: "lazy",
-    },
-  ];
-
-
-
-  const logos = [
-    { src: '/projects/1.webp', alt: 'Asahi-India-Glass-Ltd', width: 176, height: 112 },
-    { src: '/projects/2.webp', alt: 'Bajaj', width: 126, height: 100 },
-    { src: '/projects/3.webp', alt: 'Bajaj', width: 176, height: 112 },
-    { src: '/projects/4.webp', alt: 'Bajaj', width: 176, height: 112 },
-    { src: '/projects/5.webp', alt: 'Bajaj', width: 176, height: 112 },
-    { src: '/projects/6.webp', alt: 'Bajaj', width: 176, height: 112 },
-    { src: '/projects/7.webp', alt: 'Bajaj', width: 176, height: 112 },
-    { src: '/projects/8.webp', alt: 'Bajaj', width: 176, height: 112 },
-    { src: '/projects/9.webp', alt: 'Bajaj', width: 176, height: 112 },
-    { src: '/projects/10.webp', alt: 'Bajaj', width: 176, height: 112 },
-    { src: '/projects/10.png', alt: 'Bajaj', width: 176, height: 112 },
-    { src: '/projects/101.webp', alt: 'Bajaj', width: 176, height: 112 },
-  ];
-
-
-
-  const handleButtonClick = (buttonText) => {
-    console.log('Button clicked:', buttonText);  
-    if (buttonText === 'Request A Quote') {
-      window.location.href = '/contact-Us';  
-    }
-    else {
-      console.log('Please chordo');
-      window.location.href = 'tel:08287885885';  
-    }
-  };
-
+ 
   const slides = [
 
     {
@@ -193,9 +61,9 @@ export default function HeroPage() {
       setCurrentSlide((prevSlide) =>
         prevSlide === slides.length - 1 ? 0 : prevSlide + 1
       );
-    }, 5000); // Auto-play every 5 seconds
+    }, 5000);  
 
-    return () => clearInterval(slideInterval); // Clean up on unmount
+    return () => clearInterval(slideInterval);  
   }, [slides.length]);
 
   const handleMouseDown = (e) => {
@@ -208,7 +76,7 @@ export default function HeroPage() {
     const currentPos = e.clientX;
     const diff = startPos - currentPos;
 
-    // If the user drags left
+    
     if (diff > 50) {
       setCurrentSlide((prevSlide) =>
         prevSlide === slides.length - 1 ? 0 : prevSlide + 1
@@ -216,7 +84,7 @@ export default function HeroPage() {
       setIsDragging(false);
     }
 
-    // If the user drags right
+    
     if (diff < -50) {
       setCurrentSlide((prevSlide) =>
         prevSlide === 0 ? slides.length - 1 : prevSlide - 1
@@ -237,195 +105,26 @@ export default function HeroPage() {
     setCurrentSlide(index);
   };
 
-  const images4 = [
-
-    {
-
-      src: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1743493133/india_qejhxm.webp',
-      alt: 'India',
-      label: 'India',
-
-
-    }
-    ,
-
-    {
-      src: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1743498724/nepal_mp0pkh.webp',
-      alt: 'Nepal',
-      label: 'Nepal',
-
-    },
-
-    {
-      src: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1743494131/bangladesh_rtj40y.webp',
-      alt: 'Bangladesh',
-      label: 'Bangladesh',
-
-    },
-    {
-      src: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1743499150/uae_wtdhma.webp',
-      alt: 'UAE',
-      label: 'UAE',
-
-    },
-    {
-      src: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1743499081/saudi_ml8qgc.webp',
-      alt: 'Saudi Arab',
-      label: 'Saudi Arab',
-
-    },
-    {
-      src: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1743494762/iraq_x29kze.webp',
-      alt: 'Iraq',
-      label: 'Iraq',
-
-    },
-
-  ];
-
-  const images6 = [
-    { src: '/l1.webp', alt: 'pics', width: 120, height: 120 },
-    { src: '/l2.webp', alt: 'pics', width: 150, height: 150 }, // Custom size
-    { src: '/GEM.webp', alt: 'pics', width: 220, height: 220 },
-    { src: '/RL.webp', alt: 'pics', width: 200, height: 100 }, // Custom size
-    { src: '/l3.webp', alt: 'pics', width: 120, height: 120 },
-    { src: '/NHWC.webp', alt: 'pics', width: 120, height: 120 },
-    { src: '/NTIC2.webp', alt: 'pics', width: 120, height: 120 },
-
-  ];
-
-  const images7 = [
-    { src: '/l1.webp', alt: 'pics', width: 50, height: 50 },
-    { src: '/l2.webp', alt: 'pics', width: 50, height: 50 },
-    { src: '/GEM.webp', alt: 'pics', width: 50, height: 50 },
-    { src: '/RL.webp', alt: 'pics', width: 50, height: 50 },
-    { src: '/l3.webp', alt: 'pics', width: 120, height: 50 },
-    { src: '/NHWC.webp', alt: 'pics', width: 119, height: 119 },
-    { src: '/NTIC2.webp', alt: 'pics', width: 120, height: 120 },
-
-  ];
-
-
-  const reviewBoxes = [
-    {
-      id: "indiamart",
-      content: (
-        <a
-          className="rounded-xl"
-          href="https://www.indiamart.com/adhunik-cooling-system-limited/"
-          rel="nofollow"
-        >
-          <Image
-            src="/indiamartreview.webp"
-            width={500}
-            height={500}
-            loading="lazy"
-            alt="4.5 out of 5 indiamart ratings of adhunik powertech"
-          />
-        </a>
-      ),
-      classes: "border-2 rounded-xl",
-    },
-
-    {
-      id: "google-widget",
-      content: (
-        <a
-          className="rounded-xl"
-          href="https://www.indiamart.com/adhunik-cooling-system-limited/"
-          rel="nofollow"
-        >
-          <Image
-            src="/googlereview.webp"
-            width={500}
-            height={500}
-            loading="lazy"
-            alt="4.5 out of 5 indiamart ratings of adhunik powertech"
-          />
-        </a>
-      ),
-      classes: "border-2 rounded-xl",
-
-    },
-
-    {
-      id: "ambitionbox",
-      content: (
-        <a href="https://www.ambitionbox.com/overview/adhunik-powertech-private-limited-overview?utm_source=employer-dashboard&utm_campaign=adhunik-powertech-private-limited&utm_medium=badges">
-          <img
-            src="https://employer.ambitionbox.com/api/badge/225936?badge-type=ratings"
-            alt="AmbitionBox rating badge"
-          />
-        </a>
-      ),
-      classes: "border-2 rounded-xl",
-    },
-  ];
-
-  const handleNext = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === reviewBoxes.length - 1 ? 0 : prevIndex + 1
-    );
-  };
-
-  const handlePrev = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? reviewBoxes.length - 1 : prevIndex - 1
-    );
-  };
-
-
-  const [imageSizes, setImageSizes] = useState({});
-
-  const handleImageLoad = (index, event) => {
-    const { naturalWidth, naturalHeight } = event.target;
-    setImageSizes((prev) => ({
-      ...prev,
-      [index]: { width: naturalWidth, height: naturalHeight },
-    }));
-  };
-
-
-
-
-
-
-
-  useEffect(() => {
-
-    const showTimer = setTimeout(() => {
-      setShowPopup(true);
-    }, 5000);
-
-
-    const hideTimer = setTimeout(() => {
-      setShowPopup(false);
-    }, 15000);
-
-    return () => {
-      clearTimeout(showTimer);
-      clearTimeout(hideTimer);
-    };
-  }, []);
-
-  const paragraphs = [
-    <>
-      Adhunik Powertech Private Limited delivers high-quality, personalized HVAC services  across  <strong>Delhi, Gurugram, Noida, Faridabad, Ghaziabad, Sonipat, Greater Noida, Meerut, Rohtak, Muzaffarnagar, Jaipur, Chandigarh, and the entire NCR </strong> region, as well as executing turnkey HVAC projects pan-India. With over 19 years of industry expertise, we exceed client expectations by providing comprehensive solutions from expert HVAC consulting and design, encompassing Engineering and Procurement, to detailed engineering focusing on energy-efficient and cost-effective cooling systems with minimal maintenance for industrial, institutional, commercial, and residential projects. <br />
-
-
-      Our commitment extends to meticulous HVAC project execution , adhering to  <strong>NBC, CPWD, NABH</strong> guidelines, and following  <strong>ISHRAE, ASHRAE, and ISO</strong> standards, ensuring safety, precise measurements, and stringent precautions throughout the project. We specialize in turnkey HVAC projects, offering tailored solutions that prioritize efficiency and client satisfaction, both regionally and nationally.
-    </>
-  ];
-
-  const [showPopup, setShowPopup] = useState(false);
-
-  const handleClosePopup = () => {
-
-    setShowPopup(false);
-
-  };
-
   
+ 
+
+  const columnData = [
+    [
+      { label: 'Fire Extinguisher ISI Mark "Zedex"', href: '/fire-extinguishers' },
+      { label: 'Addressable Fire Alarm System', href: '/fire-alarm-system' },
+      { label: 'Fire Sprinkler System', href: '/fire-sprinkler-system' },
+      { label: 'Fire Hydrant System', href: '/fire-hydrant-system' },
+      { label: 'Fire Tubing System', href: '/fire-tubing-system' },
+      { label: 'Fire Door Service', href: '/fire-door-service' },
+    ],
+    [
+      { label: 'Fire Suppression System', href: '/fire-suppression-system' },
+      { label: 'Anti Rodent System', href: '/anti-rodent-system' },
+      { label: 'Water Leak Device (WLD)', href: '/water-leak-detection-device' },
+      { label: 'Vesda System', href: '/fire-vesda-system' },
+      { label: 'Kitchen Fire Suppression System', href: '/kitchen-fire-suppression-system' },
+    ]
+  ];
  
 
   return (
@@ -517,11 +216,11 @@ export default function HeroPage() {
 </div>
               <div className="font-light text-gray-700 text-[15px]  md:text-[16px] text-center md:text-left">
 
-              <div className="w-full  px-4">
+              <div className="w-full   ">
       <div className="about_right">
         <div className="about-content">
           <div className="mb-6">
-            <h4 className="text-orange-500 text-sm font-semibold uppercase">About Us</h4>
+            <h4 className="text-[#ED3237]  text-sm font-bold py-2 uppercase">About Us</h4>
             <h1 className="text-3xl md:text-4xl font-bold text-gray-800">Zedex Complete Solutions</h1>
             <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">for Fire &amp; Safety</h1>
             <p className="text-gray-600 leading-relaxed">
@@ -530,85 +229,32 @@ export default function HeroPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <ul className="space-y-3">
-              <li className="flex items-start">
-                <i className="bi bi-check-circle text-orange-500 mt-1 mr-2"></i>
-                <Link href="/fire-extinguishers" className="hover:text-orange-600">
-                  Fire Extinguisher ISI Mark "Zedex"
-                </Link>
-              </li>
-              <li className="flex items-start">
-                <i className="bi bi-check-circle text-orange-500 mt-1 mr-2"></i>
-                <Link href="/fire-alarm-system" className="hover:text-orange-600">
-                  Addressable Fire Alarm System
-                </Link>
-              </li>
-              <li className="flex items-start">
-                <i className="bi bi-check-circle text-orange-500 mt-1 mr-2"></i>
-                <Link href="/fire-sprinkler-system" className="hover:text-orange-600">
-                  Fire Sprinkler System
-                </Link>
-              </li>
-              <li className="flex items-start">
-                <i className="bi bi-check-circle text-orange-500 mt-1 mr-2"></i>
-                <Link href="/fire-hydrant-system" className="hover:text-orange-600">
-                  Fire Hydrant System
-                </Link>
-              </li>
-              <li className="flex items-start">
-                <i className="bi bi-check-circle text-orange-500 mt-1 mr-2"></i>
-                <Link href="/fire-tubing-system" className="hover:text-orange-600">
-                  Fire Tubing System
-                </Link>
-              </li>
-              <li className="flex items-start">
-                <i className="bi bi-check-circle text-orange-500 mt-1 mr-2"></i>
-                <Link href="/fire-door-service" className="hover:text-orange-600">
-                  Fire Door Service
-                </Link>
-              </li>
-            </ul>
+      {columnData.map((column, colIndex) => (
+        <ul key={colIndex} className="space-y-3">
+          {column.map((item, index) => (
+            <li key={index} className="flex gap-2 items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+</svg>
 
-            <ul className="space-y-3">
-              <li className="flex items-start">
-                <i className="bi bi-check-circle text-orange-500 mt-1 mr-2"></i>
-                <Link href="/fire-suppression-system" className="hover:text-orange-600">
-                  Fire Suppression System
-                </Link>
-              </li>
-              <li className="flex items-start">
-                <i className="bi bi-check-circle text-orange-500 mt-1 mr-2"></i>
-                <Link href="/anti-rodent-system" className="hover:text-orange-600">
-                  Anti Rodent System
-                </Link>
-              </li>
-              <li className="flex items-start">
-                <i className="bi bi-check-circle text-orange-500 mt-1 mr-2"></i>
-                <Link href="/water-leak-detection-device" className="hover:text-orange-600">
-                  Water Leak Device (WLD)
-                </Link>
-              </li>
-              <li className="flex items-start">
-                <i className="bi bi-check-circle text-orange-500 mt-1 mr-2"></i>
-                <Link href="/fire-vesda-system" className="hover:text-orange-600">
-                  Vesda System
-                </Link>
-              </li>
-              <li className="flex items-start">
-                <i className="bi bi-check-circle text-orange-500 mt-1 mr-2"></i>
-                <Link href="/kitchen-fire-suppression-system" className="hover:text-orange-600">
-                  Kitchen Fire Suppression System
-                </Link>
-              </li>
-            </ul>
-          </div>
+              <Link href={item.href} className="hover:text-orange-600">
+                {item.label}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      ))}
+    </div>
 
           <div className="mt-8">
             <Link
               href="/about-us"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-orange-500 text-white rounded-lg shadow hover:bg-orange-600 transition"
+              className="  font-bold inline-flex items-center gap-2 px-6 py-3 bg-[#ED3237]  text-white rounded-lg shadow hover:bg-orange-600 transition"
             >
-              Read More <span className="flaticon flaticon-right-arrow" />
+              Read More  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+</svg>
+
             </Link>
           </div>
         </div>
