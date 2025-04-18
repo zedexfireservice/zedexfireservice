@@ -11,12 +11,6 @@ export default function HeroPage() {
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      handleNext();
-    }, 3000);  
-    return () => clearInterval(interval);
-  }, [currentIndex]);
 
  
   const slides = [
