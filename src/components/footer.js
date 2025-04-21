@@ -1,5 +1,5 @@
 'use client';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import Link from 'next/link';
 import { FaInstagram, FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
 import { BiEnvelope  } from 'react-icons/bi';
@@ -91,7 +91,6 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-
       <div className="mt-12 border-t border-gray-700 pt-6 text-center text-sm">
         © 2025 ZedEx. All rights reserved.
       </div>
