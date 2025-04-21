@@ -194,9 +194,25 @@ export default function HeroPage() {
       items: "A fire tubing system is an essential element of fire protection engineering, designed to detect and suppress fires across various environments.",
     },
 
+    {
+      href: "/",
+      img: "/firedoor.png",
+      alt: "Fire extinguishers for Offices",
+      title: "Fire Door Service",
+      items: "Fire doors are a critical component of any fire protection system, designed to slow the spread of fire and smoke, providing valuable time for safe evacuation.",
+    },
+
+    {
+      href: "/",
+      img: "/kitchenfire.png",
+      alt: "Fire extinguishers for Offices",
+      title: "Kitchen Fire Suppression System",
+      items: "A commercial kitchen is a high-risk fire zone due to constant exposure to heat, grease, and flammable oils.",
+    },
 
 
-    
+
+
 
   ];
 
