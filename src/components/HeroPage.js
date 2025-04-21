@@ -216,7 +216,32 @@ export default function HeroPage() {
 
   ];
 
+  const logos = [
+    { src: 'https://www.adhunikpowertech.com/_next/image?url=%2Fprojects%2F3.webp&w=384&q=75', alt: 'Asahi-India-Glass-Ltd', width: 176, height: 112 },
+    
+    { src: 'https://www.adhunikpowertech.com/_next/image?url=%2Fprojects%2F3.webp&w=384&q=75', alt: 'Asahi-India-Glass-Ltd', width: 176, height: 112 },
+    
+    { src: 'https://www.adhunikpowertech.com/_next/image?url=%2Fprojects%2F3.webp&w=384&q=75', alt: 'Asahi-India-Glass-Ltd', width: 176, height: 112 },
+    
+    { src: 'https://www.adhunikpowertech.com/_next/image?url=%2Fprojects%2F3.webp&w=384&q=75', alt: 'Asahi-India-Glass-Ltd', width: 176, height: 112 },
+    
+    { src: 'https://www.adhunikpowertech.com/_next/image?url=%2Fprojects%2F3.webp&w=384&q=75', alt: 'Asahi-India-Glass-Ltd', width: 176, height: 112 },
+    
+  ];
 
+ 
+
+  const handleNext = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === reviewBoxes.length - 1 ? 0 : prevIndex + 1
+    );
+  };
+
+  const handlePrev = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === 0 ? reviewBoxes.length - 1 : prevIndex - 1
+    );
+  };
   return (
     <>
 
@@ -423,7 +448,65 @@ export default function HeroPage() {
 
 
 
+<section>
+<div className="row  py-6">
+          <div className="  inline-flex mb-4  items-center justify-center w-full mx-auto mt-3 ">
 
+            <hr className="w-[90%] h-px my-8 bg-gray-300 border-0  " />
+
+            <h2 className="absolute text-3xl px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2  md:text-3xl text-1xl capitalize font-extrabold text-center font-sans" > Proudly We Serve
+            </h2>
+
+          </div>
+          <style jsx>{`
+  @keyframes infinite-scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  .animate-infinite-scroll {
+    animation: infinite-scroll 5s linear infinite;
+  }
+`}</style>
+
+          <div className="w-full py-5 inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]">
+            {[...Array(2)].map((_, index) => (
+              <ul
+                key={index}
+                className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll"
+                aria-hidden={index === 1 ? 'true' : 'false'}
+              >
+                {logos.map((image, index) => (
+                  <li key={index}>
+                    <Image loading='lazy' src={image.src} width={image.width} height={image.height} alt={image.alt} />
+                  </li>
+                ))}
+              </ul>
+            ))}
+
+          </div>
+
+      
+
+
+
+
+
+
+
+       
+
+
+
+      
+
+
+
+        </div>
+</section>
 
 
 
