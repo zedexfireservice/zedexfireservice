@@ -170,6 +170,33 @@ export default function HeroPage() {
     },
 
 
+    {
+      href: "/",
+      img: "/water-leak-device.jpg",
+      alt: "Fire extinguishers for Offices",
+      title: "Water Leak Device (WLD)",
+      items: "Water leaks threaten fire protection, electrical systems, and building safety. A Water Leak Detection Device (WLD) detects and prevents leaks early, minimizing damage and ensuring safety.",
+    },
+
+    {
+      href: "/",
+      img: "/vesda-system.jpg",
+      alt: "Fire extinguishers for Offices",
+      title: "Vesda System",
+      items: "VESDA detects smoke early, ideal for high-risk areas like data centers and museums, providing continuous monitoring and rapid response for superior fire safety.",
+    },
+
+    {
+      href: "/",
+      img: "/tubling.png",
+      alt: "Fire extinguishers for Offices",
+      title: "Fire Tubing System",
+      items: "A fire tubing system is an essential element of fire protection engineering, designed to detect and suppress fires across various environments.",
+    },
+
+
+
+    
 
   ];
 
