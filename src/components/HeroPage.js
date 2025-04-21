@@ -121,6 +121,35 @@ export default function HeroPage() {
   ];
  
 
+const industries = [
+  {
+    href: "/",
+    img: "/fire-extinguisher1.jpg",
+    alt: "Fire Extinguishers for Home",
+    title: "Fire Extinguisher ISI Mark 'Zedex'",
+    items: "Fire extinguishers are vital for fire safety, suppressing small fires before they spread. Knowing their types and proper use ensures effective fire prevention in homes, offices, and public spaces.",
+  },
+  {
+    href: "/",
+    img: "/fire-alarm-system.jpg",
+    alt: "Fire extinguishers for Offices",
+    title: "Addressable Fire Alarm System",
+    items: "A fire alarm system detects smoke, heat, or fire, alerting occupants for timely evacuation. It enhances safety, minimizes damage, and ensures compliance with fire regulations.",
+  },
+
+  {
+    href: "/",
+    img: "/fire-alarm-system.jpg",
+    alt: "Fire extinguishers for Offices",
+    title: "Addressable Fire Alarm System",
+    items: "A fire alarm system detects smoke, heat, or fire, alerting occupants for timely evacuation. It enhances safety, minimizes damage, and ensures compliance with fire regulations.",
+  },
+
+
+
+];
+
+
   return (
     <>
    
@@ -207,6 +236,19 @@ export default function HeroPage() {
   height="960"
 />
 
+<div className="relative top-1/2 right-1/2 w-[20px] h-[20px] mx-auto">
+  <div className="absolute animate-[bounce_3s_infinite] drop-shadow-[0_0_12px_rgba(255,124,0,0.7)]">
+    <Image
+      src="/fire-extinguisher1.jpg"
+      alt="About Shape"
+      width={200}
+      height={200}
+    />
+  </div>
+</div>
+
+
+
 </div>
               <div className="font-light text-gray-700 text-[15px]  md:text-[16px] text-center md:text-left">
 
@@ -214,10 +256,11 @@ export default function HeroPage() {
       <div className="about_right">
         <div className="about-content">
           <div className="mb-6">
+          
             <h2 className="text-[#000000]  text-sm font-bold py-2 uppercase">About Us</h2>
             <p className="text-3xl md:text-4xl font-bold text-[#212529]">Zedex Complete Solutions</p>
             <p className="text-3xl md:text-4xl font-bold text-[#212529] mb-4">for Fire &amp; Safety</p>
-            <p className="text-[#000000] leading-relaxed">
+            <p className="text-[#000000] leading-relaxed ">
               At Zedex, we are dedicated to providing comprehensive fire and safety solutions to safeguard lives and property. With a focus on quality, reliability, and expert installation services, we offer a wide range of fire protection systems that cater to various needs. Whether for residential, commercial, or industrial purposes, Zedex is your trusted partner in ensuring safety in case of fire emergencies.
             </p>
           </div>
@@ -230,6 +273,9 @@ export default function HeroPage() {
             <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="text-[#000000] size-6">
   <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
 </svg>
+ 
+ 
+
 
               <Link  href={item.href} className="hover:text-orange-600 text-[#000000]">
                 {item.label}
@@ -266,7 +312,46 @@ export default function HeroPage() {
 
       
 
+<section>
+<div className="container mx-auto px-4 py-16">
+      <h2 className="text-3xl font-bold text-center mb-4">Our Services</h2>
+      <p className=" font-semibold text-center mb-12">Zedex Complete Solutions for Fire & Safety</p>
+ 
+      <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+        {industries.map((industry, index) => (
+          <a
+            key={index}
+            href={industry.href}
+            className="block bg-white shadow-md rounded overflow-hidden group hover:shadow-lg transition"
+          >
+            <div className="relative w-full h-48">
+              <Image
+                src={industry.img}
+                alt={industry.alt}
+                layout="fill"
+                objectFit="cover"
+                objectPosition='center'
+                className="transition-transform duration-300 group-hover:scale-100"
+              />
+              <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition">
+                <div className="absolute bottom-3 right-3   bg-red-500 rounded-full" >
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 ">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+</svg>
 
+                </div>
+              </div>
+            </div>
+            <div className="p-4 bg-[#f48b52] group-hover:bg-black text-white ">
+              <h3 className="text-lg font-semibold mb-2">{industry.title}</h3>
+              <p className="text-sm   mb-2"> {industry.items}</p>
+          
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+</section>
 
 
 

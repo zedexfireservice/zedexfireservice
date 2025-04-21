@@ -148,40 +148,11 @@ function Header() {
 
 
   const [isPlaying, setIsPlaying] = useState(false);
+
   const audioRef = useRef(null);  
 
    
-  useEffect(() => {
-
-    audioRef.current = new Audio("/audio/1.mp3");
-
-    
-    return () => {
-
-      if (audioRef.current) {
-        audioRef.current.pause();
-        audioRef.current = null;
-      }
-    };
-  }, []);
-
-  const handleAudioToggle = () => {
-    if (!audioRef.current) return;
-
-    if (isPlaying) {
-       
-      audioRef.current.pause();
-      audioRef.current.currentTime = 0;
-      setIsPlaying(false);
-    } else {
-       
-      audioRef.current.play();
-      setIsPlaying(true);
-
-       
-      audioRef.current.onended = () => setIsPlaying(false);
-    }
-  };
+ 
 
 
   const searchBarRef = useRef(null);  
@@ -339,21 +310,7 @@ function Header() {
                   <div className="col flex justify-center items-center">     <i className="px-2 fa-solid fa-magnifying-glass" onClick={() => setShowSearch(!showSearch)}></i>
                   </div>
 
-                  <div className="col">
-                    <div
-                      onClick={handleAudioToggle}
-                      className="cursor-pointer flex items-center justify-center  rounded-full md:p-3  transition"
-                      style={{ width: "50px", height: "40px" }}
-                    >
-                      {isPlaying ? (
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
-                          <path strokeLinecap="round" strokeLinejoin="round" d="M19.114 5.636a9 9 0 0 1 0 12.728M16.463 8.288a5.25 5.25 0 0 1 0 7.424M6.75 8.25l4.72-4.72a.75.75 0 0 1 1.28.53v15.88a.75.75 0 0 1-1.28.53l-4.72-4.72H4.51c-.88 0-1.704-.507-1.938-1.354A9.009 9.009 0 0 1 2.25 12c0-.83.112-1.633.322-2.396C2.806 8.756 3.63 8.25 4.51 8.25H6.75Z" />
-                        </svg>
-                      ) : (
-                        <i className=" md:px-2 fa-solid fa-headphones"></i>
-                      )}
-                    </div>
-                  </div>
+           
                 </div>
 
 
