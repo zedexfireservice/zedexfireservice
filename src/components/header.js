@@ -324,7 +324,7 @@ function Header() {
                     onClick={() => window.location.href = "tel:9999883999"}
                     style={{ cursor: 'pointer' }} // Optional styling for pointer and color
                   >
-                    <p className="font-sans font-thin">Contact Number</p>
+                    <p className="font-sans font-thin">Phone Number</p>
                     <p>+91 9999883999</p>
                   </div>
 

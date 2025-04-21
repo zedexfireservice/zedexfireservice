@@ -194,7 +194,7 @@ export default function HeroPage() {
 
      
 
-          <section className="bg-white  px-11 py-16 ">
+          <section className="bg-white  px-11 py-16  bg-gradient-to-r from-[#efa54c] to-[#f77b56]">
 
             <div className=" gap-7 md:gap-16   items-center flex  flex-wrap-reverse pt-0 mt-0 py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2  lg:px-6">
             <div className="  flex justify-center w-full h-full   ">
@@ -214,10 +214,10 @@ export default function HeroPage() {
       <div className="about_right">
         <div className="about-content">
           <div className="mb-6">
-            <h4 className="text-[#ED3237]  text-sm font-bold py-2 uppercase">About Us</h4>
-            <h1 className="text-3xl md:text-4xl font-bold text-gray-800">Zedex Complete Solutions</h1>
-            <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">for Fire &amp; Safety</h1>
-            <p className="text-gray-600 leading-relaxed">
+            <h2 className="text-[#000000]  text-sm font-bold py-2 uppercase">About Us</h2>
+            <p className="text-3xl md:text-4xl font-bold text-[#212529]">Zedex Complete Solutions</p>
+            <p className="text-3xl md:text-4xl font-bold text-[#212529] mb-4">for Fire &amp; Safety</p>
+            <p className="text-[#000000] leading-relaxed">
               At Zedex, we are dedicated to providing comprehensive fire and safety solutions to safeguard lives and property. With a focus on quality, reliability, and expert installation services, we offer a wide range of fire protection systems that cater to various needs. Whether for residential, commercial, or industrial purposes, Zedex is your trusted partner in ensuring safety in case of fire emergencies.
             </p>
           </div>
@@ -227,11 +227,11 @@ export default function HeroPage() {
         <ul key={colIndex} className="space-y-3">
           {column.map((item, index) => (
             <li key={index} className="flex gap-2 items-start">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+            <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="text-[#000000] size-6">
   <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
 </svg>
 
-              <Link href={item.href} className="hover:text-orange-600">
+              <Link  href={item.href} className="hover:text-orange-600 text-[#000000]">
                 {item.label}
               </Link>
             </li>
