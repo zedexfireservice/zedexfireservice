@@ -614,9 +614,9 @@ export default function HeroPage() {
           
           <div className="flex w-full flex-col gap-0.5">
             <div className="flex items-center justify-between">
-              <h5 className="block  text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+              <h2 className="block text-white  text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
                 {slide.name}
-              </h5>
+              </h2>
                
               <div className="flex items-center gap-0 5 text-[#FBBF2C]">
                 {[...Array(5)].map((_, i) => (
@@ -636,13 +636,13 @@ export default function HeroPage() {
                 ))}
               </div>
             </div>
-            <p className="text-start block  text-base antialiased font-light leading-relaxed text-blue-gray-900">
+            <p className="text-start text-white block  text-base antialiased font-light leading-relaxed text-blue-gray-900">
               {slide.position}
             </p>
           </div>
         </div>
         <div className="p-0 mb-6">
-          <p className="block  text-base text-justify antialiased font-light leading-relaxed text-inherit">
+          <p className="block  text-white text-base text-justify antialiased font-light leading-relaxed ">
             {slide.testimonial}
           </p>
         </div>
