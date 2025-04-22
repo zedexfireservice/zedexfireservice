@@ -4,7 +4,12 @@
 
 import Image from 'next/image';
 import { lazy, useEffect, useRef, useState } from 'react';
-import Link from 'next/link';
+import Link from 'next/link'; 
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination, FreeMode } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 
 export default function HeroPage() {
@@ -242,6 +247,61 @@ export default function HeroPage() {
       prevIndex === 0 ? reviewBoxes.length - 1 : prevIndex - 1
     );
   };
+
+  const slideData = [
+    {
+      name: "Rahul Verma",
+      image: "AboutUs/avatar_ltfwos",
+      position: "Mumbai",
+      testimonial:
+        "Zedex Fire Services provided and installed our entire fire safety system, and we couldn't be happier. Their team was highly knowledgeable, and the equipment installed was top-notch. It's reassuring to know our facility is in safe hands.",
+    },
+    {
+      name: "Sonal Mehta",
+      image: "AboutUs/woman_gphihr",
+      position: "Delhi",
+      testimonial:
+        "We recently upgraded our office with fire extinguishers and alarms from Zedex Fire Services. The process was seamless and professional. They conducted a thorough risk assessment and delivered exactly what we needed. Highly reliable service!",
+    },
+    {
+      name: "Deepak Sharma",
+      image: "AboutUs/avatar_ltfwos",
+      position: "Bangalore",
+      testimonial:
+        "Zedex Fire Services designed and implemented a custom fire suppression system for our manufacturing unit. The quality of equipment and installation was impressive. They also provided detailed training to our staff. Highly recommended!",
+    },
+    {
+      name: "Nisha Roy",
+      image: "AboutUs/woman_gphihr",
+      position: "Kolkata",
+      testimonial:
+        "After a scare last year, we decided to overhaul our fire safety system. Zedex Fire Services delivered a complete package with fire extinguishers, hydrant systems, and emergency signage. Their attention to detail and customer support was exceptional.",
+    },
+    {
+      name: "Ajay Thakur",
+      image: "AboutUs/avatar_ltfwos",
+      position: "Chandigarh",
+      testimonial:
+        "Our hotel recently partnered with Zedex Fire Services for an upgrade to our fire alarm and sprinkler systems. They used modern, certified equipment and ensured minimal disruption to our operations. Very professional and efficient team!",
+    },
+    {
+      name: "Meera Joshi",
+      image: "AboutUs/woman_gphihr",
+      position: "Pune",
+      testimonial:
+        "Zedex Fire Services installed fire safety solutions in our residential complex. From consultation to installation, the experience was smooth. Their team answered every question with patience and ensured everything met the latest safety norms.",
+    },
+    {
+      name: "Vikram Singh",
+      image: "AboutUs/avatar_ltfwos",
+      position: "Jaipur",
+      testimonial:
+        "We trust Zedex Fire Services for all our safety needs across our retail outlets. Their products are ISI-marked, durable, and easy to use. The team is always just a call away for maintenance or refills. Couldn’t ask for better service!",
+    },
+  ];
+  
+
+
   return (
     <>
 
@@ -509,6 +569,89 @@ export default function HeroPage() {
 </section>
 
 
+<section>
+<div className="row h-full w-full px-5 py-5 bg-[#F3F4F6] ">
+
+<div className=" py-4 inline-flex items-center justify-center w-full mx-auto md:mt-0  my-7 md:mb-0">
+  <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
+  <h2 className="absolute px-2 md:px-3  text-gray-700 -translate-x-1/2 bg-[#F3F4F6] left-1/2  text-center text-[20px]  md:text-4xl text-1xl capitalize font-semibold ">                  Testimonials
+  </h2>
+</div>
+<p className=" py-4 inline-flex items-center justify-center w-full mx-auto md:mt-0  my-7 md:mb-0">Rather than taking our word for it, explore what our clients have to say about the quality of our products and services.</p>
+<Swiper
+  slidesPerView={3}
+  spaceBetween={30}
+  freeMode={true}
+  autoplay={{
+    delay: 3500,
+    speed: 2800,
+    disableOnInteraction: false,
+  }}
+  pagination={{
+    clickable: true,
+  }}
+  breakpoints={{
+    0: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    888: {
+      slidesPerView: 2,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 50,
+    },
+  }}
+  modules={[FreeMode, Pagination, Autoplay]}
+  className="mySwiper z-0"
+>
+  {slideData.map((slide, index) => (
+    <SwiperSlide key={index} className="p-4 rounded-lg">
+      <div className="relative flex w-full max-w-[26rem] flex-col rounded-xl bg-transparent bg-clip-border text-gray-700 shadow-none">
+        <div className="relative flex items-center gap-4 pt-0 pb-8 mx-0 mt-4 overflow-hidden text-gray-700 bg-transparent shadow-none rounded-xl bg-clip-border">
+          
+          <div className="flex w-full flex-col gap-0.5">
+            <div className="flex items-center justify-between">
+              <h5 className="block  text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+                {slide.name}
+              </h5>
+               
+              <div className="flex items-center gap-0 5 text-[#FBBF2C]">
+                {[...Array(5)].map((_, i) => (
+                  <svg
+                    key={i}
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    className="w-5 h-5"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                      clipRule="evenodd"
+                    ></path>
+                  </svg>
+                ))}
+              </div>
+            </div>
+            <p className="text-start block  text-base antialiased font-light leading-relaxed text-blue-gray-900">
+              {slide.position}
+            </p>
+          </div>
+        </div>
+        <div className="p-0 mb-6">
+          <p className="block  text-base text-justify antialiased font-light leading-relaxed text-inherit">
+            {slide.testimonial}
+          </p>
+        </div>
+      </div>
+    </SwiperSlide>
+  ))}
+</Swiper>
+</div>
+</section>
 
 
       </div>
