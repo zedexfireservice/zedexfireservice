@@ -36,7 +36,7 @@ function Header() {
 
     { href: '/', text: 'Home' },
 
-   
+
     {
       to: '#',
       text: ' FIRE & SAFETY ',
@@ -52,7 +52,7 @@ function Header() {
         { label: " Glow Signage & Emergency Lights ", href: "/glow-signage-&-emergency-lights" },
       ],
     },
- 
+
 
     { text: 'BLOG', href: '/blog' },
     { text: 'CONTACT US', href: '/contact-Us' },
@@ -116,16 +116,27 @@ function Header() {
     }
   }, [pathname]);
 
-  
+
   const menuItems = [
     {
       label: "About Us",
-href: "/about-Us"
+      href: "/about-Us"
     },
 
+
     {
-      label: "Service",
-    
+      label: "   Service ",
+      dropdown: [
+        { label: "Overview", href: "/fire&safety" },
+        { label: " Fire Extinguishers ", href: "/fire-extinguishers " },
+        { label: " Fire Hydrant System ", href: "/fire-hydrant-system" },
+        { label: " Fire Sprinkler System ", href: "/fire-sprinkler-system" },
+        { label: " Fire suppression system ", href: "/fire-suppression-system" },
+        { label: " Fire Alarm System ", href: "/fire-alarm-system" },
+        { label: " Fire tubing system ", href: "/fire-tubing-system " },
+        { label: " Fire VESDA System ", href: "/fire-VESDA-system " },
+        { label: " Glow Signage & Emergency Lights ", href: "/glow-signage-&-emergency-lights" },
+      ],
     },
 
     {
@@ -133,15 +144,15 @@ href: "/about-Us"
 
     },
 
-    
+
     { label: "Contact Us", href: "/contact-Us" },
   ];
 
 
 
   const handleLinkClick = (href) => {
-    closeMobileMenu();  
-    router.push(href);   
+    closeMobileMenu();
+    router.push(href);
   };
 
 
@@ -149,17 +160,17 @@ href: "/about-Us"
 
   const [isPlaying, setIsPlaying] = useState(false);
 
-  const audioRef = useRef(null);  
-
-   
- 
+  const audioRef = useRef(null);
 
 
-  const searchBarRef = useRef(null);  
+
+
+
+  const searchBarRef = useRef(null);
 
   const [query, setQuery] = useState("");
   const [results, setResults] = useState([]);
-  const [showSearch, setShowSearch] = useState(false);  
+  const [showSearch, setShowSearch] = useState(false);
   const router = useRouter();
 
   const items = [
@@ -204,7 +215,7 @@ href: "/about-Us"
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (searchBarRef.current && !searchBarRef.current.contains(event.target)) {
-        setShowSearch(false);  
+        setShowSearch(false);
       }
     };
 
@@ -234,7 +245,7 @@ href: "/about-Us"
                   height={logoSize.height}
                   alt="Picture"
                   className="md:h-[60px] md:w-auto my-3"
-                  style={{ width: `${logoSize.width}px`, height: `${logoSize.height}px` }}  
+                  style={{ width: `${logoSize.width}px`, height: `${logoSize.height}px` }}
 
                 />
                 )}
@@ -261,9 +272,9 @@ href: "/about-Us"
                 <div className="row flex flex-col md:flex-row justify-center items-center">
 
 
-               
+
                   <div className="col pb-2 md:pb-0">
-                  
+
                     <svg onClick={() => window.location.href = "mailto:info@zedexfire.com"} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
                     </svg>
@@ -273,14 +284,14 @@ href: "/about-Us"
                   <div
                     className="col text-left text-[12px] ps-3 hidden md:block"
                     onClick={() => window.location.href = "mailto:info@zedexfire.com"}
-                    style={{ cursor: 'pointer' }}  
+                    style={{ cursor: 'pointer' }}
                   >
                     <p className="font-sans font-thin">Drop Us An Email</p>
                     <p>info@zedexfire.com</p>
                   </div>
 
 
-                  <hr className='rotate-90 w-10  relative hidden md:block'/>
+                  <hr className='rotate-90 w-10  relative hidden md:block' />
 
                   <div className="col pb-2 md:pb-0 ">
                     <svg onClick={() => window.location.href = "tel:9999883999"} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
@@ -300,17 +311,17 @@ href: "/about-Us"
                   </div>
 
 
-                
 
 
-                 
+
+
 
                 </div>
                 <div className="row flex flex-col  md:flex-row">
                   <div className="col flex justify-center items-center">     <i className="px-2 fa-solid fa-magnifying-glass" onClick={() => setShowSearch(!showSearch)}></i>
                   </div>
 
-           
+
                 </div>
 
 
@@ -329,27 +340,43 @@ href: "/about-Us"
 
                 <ul className="flex md:text-[11px] lg:text-[15px] flex-col font-medium p-4 md:p-0 mt-4 border rounded-lg md:space-x-6 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 ">
                   {menuItems.map((item, index) => (
-                    <li className=" after:content-[''] after:block after:w-full after:h-[3px] after:bg-gradient-to-r after:from-red-500 after:to-red-600 after:scale-x-0 after:origin-left after:transition-transform after:duration-250 after:ease-in-out hover:after:scale-x-100 " key={index}>
+                    <li className=" after:content-[''] after:block after:w-full after:h-[3px] after:bg-gradient-to-r after:from-red-500 after:to-red-700 after:scale-x-0 hover:bg-[#FF0000]  after:origin-left after:transition-transform after:duration-250 after:ease-in-out hover:after:scale-x-100 " key={index}>
                       {item.dropdown ? (
-                        <Dropdown label={item.label} inline>
-                          {item.dropdown.map((subItem, subIndex) => (
-                            <div key={subIndex}>
-                              {subItem.dropdown ? (
-                                <Dropdown className='w-44' placement="right" label={subItem.label} inline>
-                                  {subItem.dropdown.map((nestedItem, nestedIndex) => (
-                                    <Link key={nestedIndex} href={nestedItem.href || "#"}>
-                                      <Dropdown.Item onClick={() => handleLinkClick(nestedItem.href)}>{nestedItem.label}</Dropdown.Item>
-                                    </Link>
-                                  ))}
-                                </Dropdown>
-                              ) : (
-                                <Link href={subItem.href || "#"}>
-                                  <Dropdown.Item onClick={() => handleLinkClick(subItem.href)}>{subItem.label}</Dropdown.Item>
-                                </Link>
-                              )}
-                            </div>
-                          ))}
+
+                    
+
+                        <Dropdown label="Service"   inline>
+                          <DropdownItem> 
+                          <Link href='/'>
+                          Fire Extinguisher ISI Mark "Zedex"
+                          </Link> 
+                          </DropdownItem>
+                        
+                          <DropdownItem> 
+                          <Link href='/'>
+                          Addressable Fire Alarm System
+                          </Link> 
+                          </DropdownItem>
+                        
+
+                          <DropdownItem> 
+                          <Link href='/'>
+                          Fire Sprinkler System
+                          </Link> 
+                          </DropdownItem>
+                        
+
+                          <DropdownItem> 
+                          <Link href='/'>
+                          Fire Hydrant System
+                          </Link> 
+                          </DropdownItem>
+                        
+
+
                         </Dropdown>
+
+
                       ) : (
                         <Link href={item.href || "#"} onClick={() => handleLinkClick(item.href)}>
                           {item.label}
@@ -366,7 +393,7 @@ href: "/about-Us"
           </div>
 
 
-          
+
           <div className="xl:hidden flex items-center">
             <button
               className="mobile-menu-button"
@@ -374,12 +401,12 @@ href: "/about-Us"
               aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
             >
               {isMobileMenuOpen ? (
-                
+
                 <svg className="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
                 </svg>
               ) : (
-                
+
                 <svg className="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
                 </svg>
@@ -391,7 +418,7 @@ href: "/about-Us"
         </div>
       </div>
 
-       
+
 
 
 
@@ -409,9 +436,9 @@ href: "/about-Us"
                   onClick={() => toggleDropdown(index)}
                 >
                   <Link
-                    href={link.to || '/'} 
+                    href={link.to || '/'}
                     className="block py-2 px-4 text-sm hover:bg-gray-200"
-                   
+
                   >
                     {link.text}
                   </Link>
