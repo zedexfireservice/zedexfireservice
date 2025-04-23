@@ -108,7 +108,7 @@ export default function ContactUs() {
         }
     };
 
-    
+
 
     const contactDetails = [
         {
@@ -242,7 +242,7 @@ export default function ContactUs() {
                                 onSubmit={sendEmail}
                                 ref={form}
                             >
-                                <h2 className="text-4xl mb-7 capitalize">Talk to our expert.</h2>
+                                <h2 className="text-4xl mb-7 capitalize">Talk to our Fire experts.</h2>
                                 <div className="flex flex-wrap -mx-3 mb-6">
                                     <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                                         <label
