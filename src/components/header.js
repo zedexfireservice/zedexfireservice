@@ -216,7 +216,7 @@ function Header() {
 
   return (
 
-    <nav className={` fixed    h-[7.5rem]  z-20 w-full top-0 transition-all duration-300 ${isScrolled ? " bg-gray-100 text-black shadow-md" : "  text-white"
+    <nav className={` fixed    h-[7.5rem]  z-20 w-full top-0 transition-all duration-300 ${isScrolled ? " bg-gray-100 text-black shadow-md" : " bg-gradient-to-b from-black  text-white"
       }`}
     >
       <div className=" md:mx-2 md:px-4">
@@ -329,7 +329,7 @@ function Header() {
 
                 <ul className="flex md:text-[11px] lg:text-[15px] flex-col font-medium p-4 md:p-0 mt-4 border rounded-lg md:space-x-6 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 ">
                   {menuItems.map((item, index) => (
-                    <li className=" after:content-[''] after:block after:w-full after:h-[3px] after:bg-gradient-to-r after:from-blue-500 after:to-blue-700 after:scale-x-0 after:origin-left after:transition-transform after:duration-250 after:ease-in-out hover:after:scale-x-100 " key={index}>
+                    <li className=" after:content-[''] after:block after:w-full after:h-[3px] after:bg-gradient-to-r after:from-red-500 after:to-red-600 after:scale-x-0 after:origin-left after:transition-transform after:duration-250 after:ease-in-out hover:after:scale-x-100 " key={index}>
                       {item.dropdown ? (
                         <Dropdown label={item.label} inline>
                           {item.dropdown.map((subItem, subIndex) => (
@@ -409,9 +409,9 @@ function Header() {
                   onClick={() => toggleDropdown(index)}
                 >
                   <Link
-                    href={link.to || '/'} // Use a fallback if link.to is undefined
+                    href={link.to || '/'} 
                     className="block py-2 px-4 text-sm hover:bg-gray-200"
-                  // Call handleLinkClick
+                   
                   >
                     {link.text}
                   </Link>

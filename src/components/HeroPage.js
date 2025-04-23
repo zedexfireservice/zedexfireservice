@@ -10,7 +10,9 @@ import { Autoplay, Pagination, FreeMode } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import { ToastContainer, toast } from 'react-toastify';
 
+import 'react-toastify/dist/ReactToastify.css';
 
 export default function HeroPage() {
 
@@ -301,6 +303,83 @@ export default function HeroPage() {
   ];
   
 
+  const [formData, setFormData] = useState({
+    name: "",
+    phoneNumber: "",
+    email: "",
+    city: "",
+    state: "",
+    message: "",
+});
+
+const [errors, setErrors] = useState({});
+const form = useRef();
+
+const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+};
+
+const validateForm = () => {
+    const newErrors = {};
+    // Basic validation rules
+    if (formData.name.trim() === "") {
+        newErrors.name = "Name is required";
+    }
+    if (formData.phoneNumber.trim() === "") {
+        newErrors.phoneNumber = "Phone Number is required";
+        
+    }
+ else if (!/^\d{10}$/.test(formData.phoneNumber)) {
+    newErrors.phoneNumber = "Phone Number must be exactly 10 digits";
+}
+    if (formData.email.trim() === "") {
+        newErrors.email = "Email is required";
+    } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
+        newErrors.email = "Invalid email address";
+    }
+    if (formData.city.trim() === "") {
+        newErrors.city = "City is required";
+    }
+    if (formData.state.trim() === "") {
+        newErrors.state = "State is required";
+    }
+    if (formData.message.trim() === "") {
+        newErrors.message = "Message is required";
+    }
+
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
+};
+
+const sendEmail = (e) => {
+    e.preventDefault();
+
+    if (validateForm()) {
+      
+        emailjs
+            .sendForm("service_6utblzp", "template_kzeykwe", form.current, {
+                publicKey: "IK-vYskESzTrQeKdI",
+            })
+            .then(() => {
+                notifys();
+                console.log("SUCCESS!");
+               
+                setTimeout(() => {
+                    router.push("/");
+                }, 5000);
+            })
+            .catch((error) => {
+                console.log("FAILED...", error);
+            });
+        console.log("Form validate");
+    } else {
+        // Form validation failed
+        console.log("Form validation failed");
+        notifye();
+    }
+};
+   const notifye = () => toast.error(" Invalid Details ");
+    const notifys = () => toast(" Message Sent ");
 
   return (
     <>
@@ -308,7 +387,7 @@ export default function HeroPage() {
 
 
 
-
+<ToastContainer />
 
       <div className="row   h-auto w-full relative font-sans" >
 
@@ -651,6 +730,165 @@ export default function HeroPage() {
   ))}
 </Swiper>
 </div>
+</section>
+
+<section>
+      <div className=" w-full bg-[white] mt-5 flex flex-col md:flex-row items-center justify-center mx-auto">
+  
+  
+  
+                          <div className="h-fit justify-center items-center flex w-full md:w-7/12">
+                              <Image
+                                  src="https://images.unsplash.com/photo-1571624436279-b272aff752b5?q=80&w=2944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" // Replace this with your desired image URL
+                                  width={500}
+                                  height={500}
+                                  alt="Description of the image"
+                                  className="w-full h-auto object-cover"
+                              />
+                          </div>
+  
+  
+  
+                          <div className="h-fit w-auto lg:w-5/12  mt-5">
+  
+                              <form
+                                  className="w-auto m-3 md:m-7"
+                                  onSubmit={sendEmail}
+                                  ref={form}
+                              >
+                                  <h2 className="text-4xl mb-7 capitalize">Talk to our F expert.</h2>
+                                  <div className="flex flex-wrap -mx-3 mb-6">
+                                      <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                                          <label
+                                              className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                                              htmlFor="grid-first-name"
+                                          >
+                                              Name
+                                          </label>
+                                          <input
+                                              type="text"
+                                              name="name"
+                                              value={formData.name}
+                                              onChange={handleChange}
+                                              className="appearance-none block w-full bg-gray-200 text-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                                              placeholder="Enter Name"
+                                          />
+                                          {errors.name && (
+                                              <p className="text-red-500">{errors.name}</p>
+                                          )}
+                                      </div>
+                                      <div className="w-full md:w-1/2 px-3">
+                                          <label
+                                              className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                                              htmlFor="grid-last-name"
+                                          >
+                                              Phone Number
+                                          </label>
+                                          <input
+                                              type="text"
+                                              name="phoneNumber"
+                                              value={formData.phoneNumber}
+                                              onChange={handleChange}
+                                              className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                                              placeholder="Enter Phone Number"
+                                          />
+                                          {errors.phoneNumber && (
+                                              <p className="text-red-500">{errors.phoneNumber}</p>
+                                          )}
+                                      </div>
+                                  </div>
+                                  <div className="flex flex-wrap -mx-3 mb-6">
+                                      <div className="w-full px-3">
+                                          <label
+                                              className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                                              htmlFor="grid-password"
+                                          >
+                                              Email ID
+                                          </label>
+                                          <input
+                                              type="email"
+                                              name="email"
+                                              value={formData.email}
+                                              onChange={handleChange}
+                                              className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                                              placeholder="Enter Email ID"
+                                          />
+                                          {errors.email && (
+                                              <p className="text-red-500">{errors.email}</p>
+                                          )}
+                                      </div>
+                                  </div>
+                                  <div className="flex flex-wrap -mx-3 mb-6">
+                                      <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                                          <label
+                                              className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                                              htmlFor="grid-city"
+                                          >
+                                              City
+                                          </label>
+                                          <input
+                                              type="text"
+                                              name="city"
+                                              value={formData.city}
+                                              onChange={handleChange}
+                                              className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                                              placeholder="Gurugram"
+                                          />
+                                          {errors.city && (
+                                              <p className="text-red-500">{errors.city}</p>
+                                          )}
+                                      </div>
+                                      <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                                          <label
+                                              className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                                              htmlFor="grid-state"
+                                          >
+                                              State
+                                          </label>
+                                          <input
+                                              type="text"
+                                              name="state"
+                                              value={formData.state}
+                                              onChange={handleChange}
+                                              className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                                              placeholder="Haryana"
+                                          />
+                                          {errors.state && (
+                                              <p className="text-red-500">{errors.state}</p>
+                                          )}
+                                      </div>
+                                  </div>
+                                  <div className="text-area mt-5">
+                                      <label
+                                          htmlFor="message"
+                                          className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                                      >
+                                          Your message
+                                      </label>
+                                      <textarea
+                                          name="message"
+                                          id="message"
+                                          rows="4"
+                                          value={formData.message}
+                                          onChange={handleChange}
+                                          className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-green-100     dark:focus:ring-blue-500 "
+                                          placeholder="Write here..."
+                                      ></textarea>
+                                      {errors.message && (
+                                          <p className="text-red-500">{errors.message}</p>
+                                      )}
+                                  </div>
+                                  <button
+                                      type="submit"
+  
+                                      className="w-full button bg-transparent hover:bg-black text-black font-semibold hover:text-white py-2 px-4 border border-black hover:border-transparent rounded mt-5"
+                                  >
+                                      BOOK A CONSULTATION
+                                  </button>
+                              </form>
+  
+                          </div>
+                      </div>
 </section>
 
 
