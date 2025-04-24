@@ -39,7 +39,7 @@ function Header() {
 
     {
       to: '#',
-      text: ' FIRE & SAFETY ',
+      text: ' Service ',
       dropdownItems: [
         { label: 'Overview', href: '/fire&safety' },
         { label: " Fire Extinguishers ", href: "/fire-extinguishers " },
@@ -106,7 +106,7 @@ function Header() {
     if (pathname) {
       if (pathname === '/fire&safety' || pathname === '/fire-extinguishers' || pathname === '/fire-hydrant-system' || pathname === '/fire-sprinkler-system' || pathname === '/fire-suppression-system' || pathname === '/glow-signage-&-emergency-lights' || pathname === '/fire-tubing-system' || pathname === '/fire-VESDA-system' || pathname === '/fire-alarm-system') {
         setLogoSrc('/zedexLOGO.png');
-        setLogoSize({ width: '180', height: '44' });
+        setLogoSize({ width: '150', height: '60' });
 
       } else {
         setLogoSrc('/zedexLOGO.png');
@@ -158,9 +158,7 @@ function Header() {
 
 
 
-  const [isPlaying, setIsPlaying] = useState(false);
 
-  const audioRef = useRef(null);
 
 
 
@@ -347,7 +345,7 @@ function Header() {
 
                         <Dropdown label="Service" inline>
                           <DropdownItem>
-                            <Link href='/'>
+                            <Link href='/fire-extinguishers'>
                               Fire Extinguisher ISI Mark "Zedex"
                             </Link>
                           </DropdownItem>
