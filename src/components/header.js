@@ -125,7 +125,7 @@ function Header() {
 
 
     {
-      label: "   Service ",
+      label: "Service",
       dropdown: [
         { label: "Overview", href: "/fire&safety" },
         { label: " Fire Extinguishers ", href: "/fire-extinguishers " },
@@ -351,7 +351,7 @@ function Header() {
                           </DropdownItem>
 
                           <DropdownItem>
-                            <Link href='/'>
+                            <Link href='/fire-alarm-system'>
                               Addressable Fire Alarm System
                             </Link>
                           </DropdownItem>

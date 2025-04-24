@@ -62,7 +62,7 @@ export default function page() {
 
             <section className="py-16 bg-white">
                 <div className="container mx-auto px-4">
-                    <div className="flex flex-col  md:flex-row items-center gap-10">
+                    <div className="flex flex-col  justify-evenly  md:flex-row items-center gap-10">
                         {/* Left Image */}
                         <div className="lg:w-1/3 w-full">
                             <div className="relative h-full border-2 border-red-300 p-2 w-full rounded-lg overflow-hidden">

@@ -135,11 +135,13 @@ export default function page() {
     ];
 
     const certificates = [
+
         { src: "/Certificate1.png", alt: "ISI Certified" },
         { src: "/Certificate2.png", alt: "IRS Certified" },
         { src: "/Certificate3.png", alt: "CE Certified" },
         { src: "/Certificate4.png", alt: "ISO Certified" },
         { src: "/Certificate5.png", alt: "ISO Certified" },
+        
       ];
 
     return (
