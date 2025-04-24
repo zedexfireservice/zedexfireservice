@@ -304,7 +304,7 @@ function Header() {
                   <div
                     className="col text-left text-[12px] ps-2 hidden md:block"
                     onClick={() => window.location.href = "tel:9999883999"}
-                    style={{ cursor: 'pointer' }} // Optional styling for pointer and color
+                    style={{ cursor: 'pointer' }}  
                   >
                     <p className="font-sans font-thin">Contact Number</p>
                     <p>+91 9999883999</p>
@@ -343,35 +343,84 @@ function Header() {
                     <li className=" after:content-[''] after:block after:w-full after:h-[3px] after:bg-gradient-to-r after:from-red-500 after:to-red-700 after:scale-x-0 hover:bg-[#FF0000]  after:origin-left after:transition-transform after:duration-250 after:ease-in-out hover:after:scale-x-100 " key={index}>
                       {item.dropdown ? (
 
-                    
 
-                        <Dropdown label="Service"   inline>
-                          <DropdownItem> 
-                          <Link href='/'>
-                          Fire Extinguisher ISI Mark "Zedex"
-                          </Link> 
-                          </DropdownItem>
-                        
-                          <DropdownItem> 
-                          <Link href='/'>
-                          Addressable Fire Alarm System
-                          </Link> 
-                          </DropdownItem>
-                        
 
-                          <DropdownItem> 
-                          <Link href='/'>
-                          Fire Sprinkler System
-                          </Link> 
+                        <Dropdown label="Service" inline>
+                          <DropdownItem>
+                            <Link href='/'>
+                              Fire Extinguisher ISI Mark "Zedex"
+                            </Link>
                           </DropdownItem>
-                        
 
-                          <DropdownItem> 
-                          <Link href='/'>
-                          Fire Hydrant System
-                          </Link> 
+                          <DropdownItem>
+                            <Link href='/'>
+                              Addressable Fire Alarm System
+                            </Link>
                           </DropdownItem>
-                        
+
+
+                          <DropdownItem>
+                            <Link href='/'>
+                              Fire Sprinkler System
+                            </Link>
+                          </DropdownItem>
+
+
+                          <DropdownItem>
+                            <Link href='/'>
+                              Fire Hydrant System
+                            </Link>
+                          </DropdownItem>
+
+                          <DropdownItem>
+                            <Link href='/'>
+                              Fire Suppression System
+                            </Link>
+                          </DropdownItem>
+
+
+                          <DropdownItem>
+                            <Link href='/'>
+                              Anti Rodent System
+                            </Link>
+                          </DropdownItem>
+
+
+
+                          <DropdownItem>
+                            <Link href='/'>
+                              Water Leak Device (WLD)
+                            </Link>
+                          </DropdownItem>
+
+
+                          <DropdownItem>
+                            <Link href='/'>
+                              Vesda System
+                            </Link>
+                          </DropdownItem>
+
+
+                          <DropdownItem>
+                            <Link href='/'>
+                              Fire Tubing System
+                            </Link>
+                          </DropdownItem>
+
+
+                          <DropdownItem>
+                            <Link href='/'>
+                              Fire Door Service
+                            </Link>
+                          </DropdownItem>
+
+
+                          <DropdownItem>
+                            <Link href='/'>
+                              Kitchen Fire Suppression System
+                            </Link>
+                          </DropdownItem>
+
 
 
                         </Dropdown>
@@ -471,9 +520,9 @@ function Header() {
                               onClick={() => toggleNestedDropdown(i)}
                             >
                               <Link
-                                href={dropdownItem.href || '/'} // Use a fallback if dropdownItem.href is undefined
+                                href={dropdownItem.href || '/'}  
                                 className="block py-2 px-4 text-sm hover:bg-gray-200"
-                              // Call handleLinkClick
+                              
                               >
                                 {dropdownItem.label}
                               </Link>
@@ -501,9 +550,9 @@ function Header() {
                                 {dropdownItem.dropdownItems.map((subItem, j) => (
                                   <Link
                                     key={j}
-                                    href={subItem.href || '/'} // Use a fallback if subItem.href is undefined
+                                    href={subItem.href || '/'} 
                                     className="block py-2 px-4 text-sm hover:bg-gray-200"
-                                    onClick={() => handleLinkClick(subItem.href)} // Call handleLinkClick
+                                    onClick={() => handleLinkClick(subItem.href)}  
                                   >
                                     {subItem.label}
                                   </Link>
@@ -513,9 +562,9 @@ function Header() {
                           </div>
                         ) : (
                           <Link
-                            href={dropdownItem.href || '/'} // Use a fallback if dropdownItem.href is undefined
+                            href={dropdownItem.href || '/'}  
                             className="block py-2 px-4 text-sm hover:bg-gray-200"
-                            onClick={() => handleLinkClick(dropdownItem.href)} // Call handleLinkClick
+                            onClick={() => handleLinkClick(dropdownItem.href)}  
                           >
                             {dropdownItem.label}
                           </Link>
@@ -527,9 +576,9 @@ function Header() {
               </div>
             ) : (
               <Link
-                href={link.href || '/'} // Use a fallback if link.to is undefined
+                href={link.href || '/'}  
                 className="block py-2 px-4 text-sm hover:bg-gray-200"
-                onClick={() => handleLinkClick(link.href)} // Call handleLinkClick
+                onClick={() => handleLinkClick(link.href)}  
               >
                 {link.text}
               </Link>
@@ -541,14 +590,13 @@ function Header() {
       </div>
 
       <div className="search-bar-container">
-        {/* Logo Section */}
+        
 
         <div className="logo-section">
 
         </div>
 
-        {/* Input Section */}
-
+ 
         {showSearch && (
           <div className="search-bar p-5" ref={searchBarRef}>
             <input
