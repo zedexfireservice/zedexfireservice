@@ -100,8 +100,8 @@ export default function page() {
                             />
                         </div>
                         <div className="lg:w-6/12 w-full">
-                            <h1 className="text-3xl font-bold mb-4">Automatic Fire Protection</h1>
-                            <p className="text-gray-700">
+                            <h1 className="text-3xl font-bold mb-4 text-center md:text-left">Automatic Fire Protection</h1>
+                            <p className="text-gray-700  text-justify md:text-left">
                                 A <span className="font-semibold">fire sprinkler system</span> is a crucial component of modern fire safety, designed to <span className="font-semibold">automatically detect and suppress fires</span> in residential, commercial, and industrial spaces. The system consists of a <span className="font-semibold">network of pipes, sprinkler heads, and a reliable water supply</span>, ensuring quick activation when heat from a fire is detected. By releasing water directly onto the flames, it helps control or extinguish fires before they spread, protecting both lives and property.
                             </p>
                         </div>
@@ -110,11 +110,11 @@ export default function page() {
                     <div className="mt-20">
                         <div className="flex flex-col-reverse lg:flex-row items-center gap-12">
                             <div className="lg:w-6/12 w-full">
-                                <h2 className="text-2xl font-bold mb-4">Key Components of a Fire Sprinkler System</h2>
+                                <h2 className="text-2xl font-bold mb-4 text-center md:text-left">Key Components of a Fire Sprinkler System</h2>
                                 <ul className="list-disc pl-6 space-y-2 text-gray-700">
                                     {sprinklerComponents.map((item, index) => (
-                                        <li key={index}>
-                                            <span className="font-semibold">{item.title}</span> {item.description}
+                                        <li key={index} className='text-justify md:text-left'>
+                                            <span className="font-semibold  ">{item.title}</span> {item.description}
                                         </li>
                                     ))}
                                 </ul>
@@ -131,22 +131,22 @@ export default function page() {
                         </div>
 
                         <div className="mt-12">
-                            <h2 className="text-2xl font-bold mb-4">Benefits of Fire Sprinkler Systems</h2>
+                            <h2 className="text-2xl font-bold mb-4 text-center md:text-left">Benefits of Fire Sprinkler Systems</h2>
                             <ul className="list-disc pl-6 space-y-2 text-gray-700">
                                 {sprinklerBenefits.map((item, index) => (
-                                    <li key={index}>
-                                        <span className="font-semibold">{item.title}</span> {item.description}
+                                    <li key={index} className='text-justify md:text-left'>
+                                        <span className="font-semibold ">{item.title}</span> {item.description}
                                     </li>
                                 ))}
                             </ul>
                         </div>
 
                         <div className="mt-12">
-                            <h2 className="text-2xl font-bold mb-4">Maintenance & Inspection</h2>
-                            <p className="text-gray-700 mb-4">Regular maintenance ensures optimal functionality:</p>
+                            <h2 className="text-2xl font-bold mb-4 text-center md:text-left">Maintenance & Inspection</h2>
+                            <p className="text-gray-700 mb-4 text-center md:text-left">Regular maintenance ensures optimal functionality:</p>
                             <ul className="list-disc pl-6 space-y-2 text-gray-700">
                                 {maintenanceItems.map((item, index) => (
-                                    <li key={index}>
+                                    <li key={index} className='text-justify md:text-left'>
                                         <span className="font-semibold">{item.title}</span> {item.description}
                                     </li>
                                 ))}
