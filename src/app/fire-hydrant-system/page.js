@@ -116,8 +116,8 @@ export default function page() {
                     </div>
                     <Section title="Importance of Fire Hydrant Systems" list={importance} />
                     <div>
-                        <h2 className="text-2xl font-bold mb-2">Maintenance & Inspection</h2>
-                        <p className="mb-4">Regular maintenance is crucial for hydrants to function correctly during emergencies. Key practices include:</p>
+                        <h2 className="text-2xl font-bold mb-2 text-center md:text-left">Maintenance & Inspection</h2>
+                        <p className="mb-4  text-justify md:text-left">Regular maintenance is crucial for hydrants to function correctly during emergencies. Key practices include:</p>
                         <List list={maintenance} />
                     </div>
                 </div>

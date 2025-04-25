@@ -2,7 +2,7 @@
 import Image from "next/legacy/image";
 import Link from 'next/link';
 import { FaInstagram, FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
-import { BiEnvelope  } from 'react-icons/bi';
+import { BiEnvelope } from 'react-icons/bi';
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { IoLocationSharp } from "react-icons/io5";
 
@@ -12,9 +12,9 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white py-12">
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
-        
+
         <div>
-          <div className="mb-6">
+          <div className="mb-6 flex justify-center md:justify-start">
             <Image
               src="/zedexLOGO2.png"
               alt="Zedex Logo"
@@ -22,10 +22,10 @@ export default function Footer() {
               height={80}
             />
           </div>
-          <p className="text-sm mb-4">
+          <p className="text-sm mb-4 text-center md:text-left">
             At Zedex, we are dedicated to providing comprehensive fire and safety solutions to safeguard lives and property.
           </p>
-          <div className="flex space-x-4">
+          <div className="flex space-x-4 justify-center md:justify-start py-4">
             <a href="#" className="hover:text-orange-500"><FaInstagram /></a>
             <a href="#" className="hover:text-orange-500"><FaFacebookF /></a>
             <a href="#" className="hover:text-orange-500"><TbBrandX /></a>
@@ -33,10 +33,10 @@ export default function Footer() {
           </div>
         </div>
 
-        
+
         <div>
-          <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
-          <ul className="space-y-2 text-sm">
+          <h4 className="text-lg font-semibold mb-4 text-center md:text-left">Quick Links</h4>
+          <ul className="space-y-2 text-sm  text-center md:text-left">
             <li><Link href="/" className="hover:text-orange-500">Home</Link></li>
             <li><Link href="/about-us" className="hover:text-orange-500">About Us</Link></li>
             <li><Link href="/clients" className="hover:text-orange-500">Clients</Link></li>
@@ -44,10 +44,10 @@ export default function Footer() {
           </ul>
         </div>
 
-       
+
         <div>
-          <h4 className="text-lg font-semibold mb-4">Our Services</h4>
-          <ul className="space-y-2 text-sm">
+          <h4 className="text-lg font-semibold mb-4 text-center md:text-left">Our Services</h4>
+          <ul className="space-y-2 text-sm text-center md:text-left">
             {[
               'fire-extinguishers',
               'fire-alarm-system',
@@ -70,11 +70,11 @@ export default function Footer() {
           </ul>
         </div>
 
-        
+
         <div>
-          <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
-          <ul className="space-y-3 text-sm">
-            <li className="flex items-start gap-2">
+          <h4 className="text-lg font-semibold mb-4 text-center md:text-left">Contact Us</h4>
+          <ul className="space-y-3 text-sm flex md:justify-center items-center flex-col">
+            <li className="flex  items-start gap-2">
               <BiEnvelope className="mt-1" />
               <a href="mailto:info@zedexfire.com">info@zedexfire.com</a>
             </li>
