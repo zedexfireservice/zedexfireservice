@@ -358,7 +358,7 @@ function Header() {
 
 
                           <DropdownItem>
-                            <Link href='/'>
+                            <Link href='/fire-sprinkler-system'>
                               Fire Sprinkler System
                             </Link>
                           </DropdownItem>
