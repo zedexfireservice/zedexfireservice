@@ -127,15 +127,7 @@ function Header() {
     {
       label: "Service",
       dropdown: [
-        { label: "Overview", href: "/fire&safety" },
-        { label: " Fire Extinguishers ", href: "/fire-extinguishers " },
-        { label: " Fire Hydrant System ", href: "/fire-hydrant-system" },
-        { label: " Fire Sprinkler System ", href: "/fire-sprinkler-system" },
-        { label: " Fire suppression system ", href: "/fire-suppression-system" },
-        { label: " Fire Alarm System ", href: "/fire-alarm-system" },
-        { label: " Fire tubing system ", href: "/fire-tubing-system " },
-        { label: " Fire VESDA System ", href: "/fire-VESDA-system " },
-        { label: " Glow Signage & Emergency Lights ", href: "/glow-signage-&-emergency-lights" },
+         
       ],
     },
 
@@ -302,7 +294,7 @@ function Header() {
                   <div
                     className="col text-left text-[12px] ps-2 hidden md:block"
                     onClick={() => window.location.href = "tel:9999883999"}
-                    style={{ cursor: 'pointer' }}  
+                    style={{ cursor: 'pointer' }}
                   >
                     <p className="font-sans font-thin">Contact Number</p>
                     <p>+91 9999883999</p>
@@ -518,9 +510,9 @@ function Header() {
                               onClick={() => toggleNestedDropdown(i)}
                             >
                               <Link
-                                href={dropdownItem.href || '/'}  
+                                href={dropdownItem.href || '/'}
                                 className="block py-2 px-4 text-sm hover:bg-gray-200"
-                              
+
                               >
                                 {dropdownItem.label}
                               </Link>
@@ -548,9 +540,9 @@ function Header() {
                                 {dropdownItem.dropdownItems.map((subItem, j) => (
                                   <Link
                                     key={j}
-                                    href={subItem.href || '/'} 
+                                    href={subItem.href || '/'}
                                     className="block py-2 px-4 text-sm hover:bg-gray-200"
-                                    onClick={() => handleLinkClick(subItem.href)}  
+                                    onClick={() => handleLinkClick(subItem.href)}
                                   >
                                     {subItem.label}
                                   </Link>
@@ -560,9 +552,9 @@ function Header() {
                           </div>
                         ) : (
                           <Link
-                            href={dropdownItem.href || '/'}  
+                            href={dropdownItem.href || '/'}
                             className="block py-2 px-4 text-sm hover:bg-gray-200"
-                            onClick={() => handleLinkClick(dropdownItem.href)}  
+                            onClick={() => handleLinkClick(dropdownItem.href)}
                           >
                             {dropdownItem.label}
                           </Link>
@@ -574,9 +566,9 @@ function Header() {
               </div>
             ) : (
               <Link
-                href={link.href || '/'}  
+                href={link.href || '/'}
                 className="block py-2 px-4 text-sm hover:bg-gray-200"
-                onClick={() => handleLinkClick(link.href)}  
+                onClick={() => handleLinkClick(link.href)}
               >
                 {link.text}
               </Link>
@@ -588,13 +580,13 @@ function Header() {
       </div>
 
       <div className="search-bar-container">
-        
+
 
         <div className="logo-section">
 
         </div>
 
- 
+
         {showSearch && (
           <div className="search-bar p-5" ref={searchBarRef}>
             <input
