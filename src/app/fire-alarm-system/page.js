@@ -35,12 +35,12 @@ export default function page() {
                     />
 
                     <div className="absolute w-full h-full p-9 bottom-0 flex flex-col md:flex-row justify-center md:justify-between items-center md:text-center mx-auto">
-                        <p className="text-red-900 text-6xl font-bold flex flex-col justify-center items-center h-full my-auto">
+                        <p className="text-center md:text-left text-red-900 text-6xl font-bold flex flex-col justify-center items-center h-full my-auto">
                         Addressable Fire Alarm System
 
 
                             <br />
-                            <span className="text-[15px] pt-5 w-full text-start uppercase">Home /  Addressable Fire Alarm System
+                            <span className="text-center  text-[15px] pt-5 w-full md:text-start uppercase">Home /  Addressable Fire Alarm System
 
                             </span>
                         </p>
@@ -66,8 +66,8 @@ export default function page() {
           </div>
           <div className="lg:w-6/12 w-full">
             <div className="mb-6">
-              <h1 className="text-3xl font-bold mb-4">Ensuring Safety & Early Detection</h1>
-              <p className="text-gray-700">
+              <h1 className="text-3xl font-bold text-center md:text-left mb-4">Ensuring Safety & Early Detection</h1>
+              <p className="text-gray-700 text-justify md:text-left">
                 A fire alarm system is a crucial safety measure designed to detect smoke, heat, or fire and alert building occupants for timely evacuation and response.
                 By providing <span className="font-semibold">early warning</span>, these systems help protect lives, minimize property damage, and ensure compliance with fire safety regulations.
                 Equipped with <span className="font-semibold">detectors, control panels, and alarm devices</span>, fire alarm systems enhance overall building safety and enable a rapid response from emergency services.
@@ -78,10 +78,10 @@ export default function page() {
 
         {/* Types of Fire Alarm Systems */}
         <div className="mt-16">
-          <h2 className="text-3xl font-bold mb-4">Types of Fire Alarm Systems</h2>
+          <h2 className="text-3xl font-bold mb-4 text-center md:text-left">Types of Fire Alarm Systems</h2>
           <ul className="list-disc list-inside text-gray-700 space-y-2">
-            <li><span className="font-semibold">Conventional Systems -</span> Divide the building into zones, identifying the affected area when an alarm is triggered. Ideal for smaller buildings.</li>
-            <li><span className="font-semibold">Addressable Systems -</span> Assign a unique address to each detector, allowing precise identification of the unit that activated the alarm for a faster response.</li>
+            <li className='text-justify md:text-left'><span className="font-semibold">Conventional Systems -</span> Divide the building into zones, identifying the affected area when an alarm is triggered. Ideal for smaller buildings.</li>
+            <li className='text-justify md:text-left'><span className="font-semibold">Addressable Systems -</span> Assign a unique address to each detector, allowing precise identification of the unit that activated the alarm for a faster response.</li>
           </ul>
         </div>
 
@@ -90,7 +90,7 @@ export default function page() {
         <div className="lg:w-6/12 w-full space-y-10">
     {fireAlarmDetails.map((section, index) => (
       <div key={index}>
-        <h2 className="text-2xl font-bold mb-4">{section.title}</h2>
+        <h2 className="text-2xl font-bold mb-4 text-center md:text-left">{section.title}</h2>
         <ul className="list-disc pl-6 text-gray-700 space-y-2">
           {section.items.map((item, idx) => (
             <li key={idx}>
@@ -114,8 +114,8 @@ export default function page() {
 
         {/* Maintenance Section */}
         <div className="mt-16">
-          <h2 className="text-3xl font-bold mb-4">Maintenance & Inspection</h2>
-          <p className="text-gray-700">
+          <h2 className="text-3xl font-bold mb-4 text-center md:text-left">Maintenance & Inspection</h2>
+          <p className="text-gray-700 text-justify md:text-left">
             Regular maintenance is essential for reliability. Routine inspections, detector testing, battery replacements, and record-keeping help maintain system effectiveness and compliance with safety standards.
           </p>
         </div>
