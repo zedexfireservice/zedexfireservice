@@ -36,20 +36,22 @@ function Header() {
 
     { href: '/', text: 'Home' },
 
-
     {
       to: '#',
       text: ' Service ',
       dropdownItems: [
-        { label: 'Overview', href: '/fire&safety' },
-        { label: " Fire Extinguishers ", href: "/fire-extinguishers " },
-        { label: " Fire Hydrant System ", href: "/fire-hydrant-system " },
-        { label: " Fire Sprinkler System ", href: "/fire-sprinkler-system" },
-        { label: " Fire suppression system ", href: "/fire-suppression-system" },
-        { label: " Fire Alarm System ", href: "/fire-alarm-system " },
-        { label: " Fire tubing system ", href: "/fire-tubing-system " },
-        { label: " Fire VESDA System ", href: "/fire-VESDA-system " },
-        { label: " Glow Signage & Emergency Lights ", href: "/glow-signage-&-emergency-lights" },
+        { label: 'Fire Extinguisher ISI Mark "Zedex"', href: '/fire-extinguishers' },
+        { label: "Addressable Fire Alarm System ", href: "/fire-alarm-system" },
+        { label: "Fire Sprinkler System", href: "/fire-sprinkler-system" },
+        { label: "Fire Hydrant System", href: "/fire-hydrant-system" },
+        { label: "Fire Suppression System", href: "/" },
+        { label: "Anti Rodent System ", href: "/" },
+        { label: " Water Leak Device (WLD) ", href: "/" },
+        { label: " Vesda System ", href: "/" },
+        { label: "  Fire Tubing System ", href: "/" },
+        { label: " Fire Door Service ", href: "/" },
+        { label: "  Kitchen Fire Suppression System ", href: "/" },
+
       ],
     },
 
@@ -123,37 +125,26 @@ function Header() {
       href: "/about-Us"
     },
 
-
     {
       label: "Service",
-      dropdown: [
-         
-      ],
+      dropdown: [ ],
     },
 
     {
       label: "Clients",
-
     },
 
-
-    { label: "Contact Us", href: "/contact-Us" },
+    { 
+      label: "Contact Us", 
+      href: "/contact-Us" 
+    },
   ];
-
 
 
   const handleLinkClick = (href) => {
     closeMobileMenu();
     router.push(href);
   };
-
-
-
-
-
-
-
-
 
 
   const searchBarRef = useRef(null);
@@ -217,7 +208,7 @@ function Header() {
 
   return (
 
-    <nav className={` fixed    h-[7.5rem]  z-20 w-full top-0 transition-all duration-300 ${isScrolled ? " bg-gray-100 text-black shadow-md" : " bg-gradient-to-b from-black  text-white"
+    <nav className={` fixed   h-[6.1rem] md:h-[7.5rem]  z-20 w-full top-0 transition-all duration-300 ${isScrolled ? " bg-gray-100 text-black shadow-md" : " bg-gradient-to-b from-black  text-white"
       }`}
     >
       <div className=" md:mx-2 md:px-4">
@@ -241,8 +232,6 @@ function Header() {
                 )}
 
 
-
-
               </Link>
 
             </div>
@@ -259,11 +248,11 @@ function Header() {
 
               <div className="row text-right flex flex-row justify-end items-center">
 
-                <div className="row flex flex-col md:flex-row justify-center items-center">
+                <div className="row flex gap-4 md:gap-0   flex-row md:flex-row justify-center items-center">
 
 
 
-                  <div className="col pb-2 md:pb-0">
+                  <div className="col pb-2 md:pb-0  ps-5  md:ps-0">
 
                     <svg onClick={() => window.location.href = "mailto:info@zedexfire.com"} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
@@ -299,9 +288,6 @@ function Header() {
                     <p className="font-sans font-thin">Contact Number</p>
                     <p>+91 9999883999</p>
                   </div>
-
-
-
 
 
 
@@ -357,7 +343,7 @@ function Header() {
 
 
                           <DropdownItem>
-                            <Link href='/'>
+                            <Link href='/fire-hydrant-system'>
                               Fire Hydrant System
                             </Link>
                           </DropdownItem>
@@ -459,15 +445,9 @@ function Header() {
 
 
 
-
-
-
-
-
-
-      <div className={`mobile-menu xl:hidden  ${isMobileMenuOpen ? 'mobile-menu-open bg-gray-100 text-black' : 'mobile-menu-closed'}`}>
+      <div className={`mobile-menu xl:hidden  ${isMobileMenuOpen ? 'mobile-menu-open py-2 bg-gray-100 text-black' : 'mobile-menu-closed'}`}>
         {isMobileMenuOpen && links.map((link, index) => (
-          <div key={index} className="mx-7 mb-2 border-b-2">
+          <div key={index} className="mx-7 mb-2 border-b-[1px] border-red-600 ">
             {link.dropdownItems ? (
               <div>
                 <div
