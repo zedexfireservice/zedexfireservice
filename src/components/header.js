@@ -44,8 +44,8 @@ function Header() {
         { label: "Addressable Fire Alarm System ", href: "/fire-alarm-system" },
         { label: "Fire Sprinkler System", href: "/fire-sprinkler-system" },
         { label: "Fire Hydrant System", href: "/fire-hydrant-system" },
-        { label: "Fire Suppression System", href: "/" },
-        { label: "Anti Rodent System ", href: "/" },
+        { label: "Fire Suppression System", href: "/fire-suppression-system" },
+        { label: "Anti Rodent System ", href: "/anti-rodent-system" },
         { label: " Water Leak Device (WLD) ", href: "/" },
         { label: " Vesda System ", href: "/" },
         { label: "  Fire Tubing System ", href: "/" },
@@ -154,27 +154,8 @@ function Header() {
   const [showSearch, setShowSearch] = useState(false);
   const router = useRouter();
 
-  const items = [
-    { id: "1", name: "Air Washer", link: "/air-washer" },
-    { id: "2", name: "Ducted Air Coolers", link: "/ducted-air-cooler" },
-    { id: "3", name: "Ventilation Exhaust Fan", link: "/ventilation-fans" },
-    { id: "4", name: "Panel Air Conditioner", link: "/panel-air-conditioners" },
-    { id: "5", name: "Oil/Coolant Chiller", link: "/chiller-oil-water-coolant" },
-    { id: "6", name: "Air Handling Unit", link: "/air-handling-unit" },
-    { id: "7", name: " Air Shower & Pass Box ", link: "/air-shower" },
-    { id: "8", name: " Fire Extinguishers", link: "/fire-extinguishers" },
-    { id: "9", name: " Fire Hydrant System", link: "/fire-hydrant-system" },
-    { id: "10", name: " Fire Sprinkler System", link: "/fire-sprinkler-system" },
-    { id: "11", name: " Fire suppression system", link: "/fire-suppression-system" },
-    { id: "12", name: " Glow Signage & Emergency Lights", link: "/glow-signage-&-emergency-lights" },
-    { id: "13", name: " Fire tubing system", link: "/fire-tubing-system" },
-    { id: "14", name: " Fire VESDA System", link: "/fire-VESDA-system" },
-  ];
-
-  const fuse = new Fuse(items, {
-    keys: ["name"],
-    threshold: 0.3,
-  });
+ 
+ 
 
   const handleSearch = (e) => {
     const input = e.target.value;
@@ -349,14 +330,16 @@ function Header() {
                           </DropdownItem>
 
                           <DropdownItem>
-                            <Link href='/'>
+                          
+                            <Link href='/fire-suppression-system' >
                               Fire Suppression System
                             </Link>
+                            
                           </DropdownItem>
 
 
                           <DropdownItem>
-                            <Link href='/'>
+                            <Link href='/anti-rodent-system'>
                               Anti Rodent System
                             </Link>
                           </DropdownItem>

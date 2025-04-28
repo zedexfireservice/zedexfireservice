@@ -73,7 +73,7 @@ export default function Footer() {
 
         <div>
           <h4 className="text-lg font-semibold mb-4 text-center md:text-left">Contact Us</h4>
-          <ul className="space-y-3 text-sm flex md:justify-center items-center flex-col">
+          <ul className="space-y-3 text-sm flex md:justify-center md:items-start items-center flex-col">
             <li className="flex  items-start gap-2">
               <BiEnvelope className="mt-1" />
               <a href="mailto:info@zedexfire.com">info@zedexfire.com</a>
