@@ -46,7 +46,7 @@ function Header() {
         { label: "Fire Hydrant System", href: "/fire-hydrant-system" },
         { label: "Fire Suppression System", href: "/fire-suppression-system" },
         { label: "Anti Rodent System ", href: "/anti-rodent-system" },
-        { label: " Water Leak Device (WLD) ", href: "/" },
+        { label: " Water Leak Device (WLD) ", href: "/water-leak-detection-device" },
         { label: " Vesda System ", href: "/" },
         { label: "  Fire Tubing System ", href: "/" },
         { label: " Fire Door Service ", href: "/" },
@@ -347,7 +347,7 @@ function Header() {
 
 
                           <DropdownItem>
-                            <Link href='/'>
+                            <Link href='/water-leak-detection-device'>
                               Water Leak Device (WLD)
                             </Link>
                           </DropdownItem>
