@@ -10,9 +10,8 @@ export default function page() {
           <Image
             src="/inner-bg.jpg"
             alt="interior l-shape category for design with oven and appliances"
-            fill
-
-            className="object-cover rounded-lg "
+            layout="fill"
+            className="object-cover rounded-lg"
             priority
           />
 
@@ -37,7 +36,7 @@ export default function page() {
         <div className=" py-4 md:py-16 bg-white">
           <div className="container mx-auto px-4">
 
-             
+
             <div className="flex justify-around flex-col lg:flex-row items-center ">
               <div className="lg:w-5/12 w-full">
                 <Image
@@ -59,7 +58,7 @@ export default function page() {
               </div>
             </div>
 
-             
+
             <div className="mt-20">
               <div className="flex flex-col gap-6 lg:flex-row-reverse items-center">
                 <div className="lg:w-6/12 w-full">
@@ -116,7 +115,7 @@ export default function page() {
               <p className="text-gray-700 mb-4 text-center md:text-left">Regular maintenance ensures the system’s reliability -</p>
               <ul className="list-disc text-justify md:text-left pl-5 space-y-4 text-gray-700">
                 <li>
-                  <span className="font-semibold">Routine Inspections –</span> Annual or bi-annual checks to confirm all components are functioning properly.  
+                  <span className="font-semibold">Routine Inspections –</span> Annual or bi-annual checks to confirm all components are functioning properly.
                 </li>
                 <li>
                   <span className="font-semibold">Detection Device Testing –</span> Regular assessment of smoke and heat detectors for accurate system activation.
@@ -132,6 +131,7 @@ export default function page() {
 
           </div>
         </div>
+
       </section>
 
     </>

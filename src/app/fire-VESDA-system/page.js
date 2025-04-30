@@ -12,7 +12,8 @@ export default function page() {
                 alt="interior l-shape category for design with oven and appliances"
                 layout='fill'
     
-                className="object-cover rounded-lg "
+                className="object-cover rounded-lg"
+
                 priority
               />
     
@@ -72,7 +73,9 @@ export default function page() {
               <h1 className="text-3xl font-bold text-gray-800 mb-4">
                 Key Features of VESDA Systems
               </h1>
+              
               <ul className="list-disc list-outside pl-5 space-y-2 text-gray-700">
+
                 <li>
                   <span className="font-semibold">Ultra-Early Detection –</span> Uses laser-based technology to detect microscopic smoke particles before visible signs appear.
                 </li>

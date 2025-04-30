@@ -24,7 +24,8 @@ export default function HeroPage() {
 
     {
       id: 1,
-      img: 'https://www.kanexfire.com/images/slider/05-Suppression-System-Banner.jpg',
+      img: '/banner1.png',
+      img2: '/mobilebanner1.png',
       title: 'Fire Alarm System',
       content: 'At Zedex, we are dedicated to providing comprehensive fire and safety solutions to safeguard lives and property. With a focus on quality, reliability, and expert installation services',
       buttonText: 'Request A Quote',
@@ -35,7 +36,8 @@ export default function HeroPage() {
 
     {
       id: 2,
-      img: 'https://www.kanexfire.com/images/slider/03-ABC-CO2-Banner.jpg',
+      img: '/banner1.png',
+      img2: '/mobilebanner1.png',
       title: 'Air Cooling & Air Conditioning System',
       content: <>
         Installation, Service, Repair &amp; Maintenance
@@ -416,9 +418,10 @@ export default function HeroPage() {
                 style={{ position: 'absolute', top: 0, left: 0, zIndex: 1 }}
 
               >
-                <Image src={slide.img} className=' h-full w-full object-fill' alt='ss' width="500" height="500" />
+                <Image src={slide.img} className=' hidden md:block h-full w-full object-fill' alt='ss' width="500" height="500" />
+                <Image src={slide.img2} className=' md:hidden  h-full w-full object-fill' alt='ss' width="500" height="500" />
 
-                {/* {slide.descriptivetext} */}
+                
 
               </div>
 
@@ -454,10 +457,10 @@ export default function HeroPage() {
 
 
 
-        <section className="bg-white  px-11 py-16  bg-gradient-to-r from-[#efa54c] to-[#f77b56]">
+        <section className="bg-white  md:px-11 py-16  bg-gradient-to-r from-[#efa54c] to-[#f77b56]">
 
-          <div className=" gap-7 md:gap-16   items-center flex  flex-wrap-reverse pt-0 mt-0 py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2  lg:px-6">
-            <div className="  flex justify-center w-full h-full   ">
+          <div className=" gap-7 md:gap-16   items-center flex  flex-wrap pt-0 mt-0 py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2  lg:px-6">
+            <div className="  flex justify-center w-full h-full    ">
 
               <Image
                 className="w-full h-full object-center   object-cover rounded-3xl"
@@ -481,6 +484,7 @@ export default function HeroPage() {
 
 
             </div>
+
             <div className="font-light text-gray-700 text-[15px]  md:text-[16px] text-center md:text-left">
 
               <div className="w-full   ">
@@ -491,7 +495,7 @@ export default function HeroPage() {
                       <h2 className="text-[#000000]  text-sm font-bold py-2 uppercase">About Us</h2>
                       <p className="text-3xl md:text-4xl font-bold text-[#212529]">Zedex Complete Solutions</p>
                       <p className="text-3xl md:text-4xl font-bold text-[#212529] mb-4">for Fire &amp; Safety</p>
-                      <p className="text-[#000000] leading-relaxed ">
+                      <p className="text-[#000000] leading-relaxed  text-justify ">
                         At Zedex, we are dedicated to providing comprehensive fire and safety solutions to safeguard lives and property. With a focus on quality, reliability, and expert installation services, we offer a wide range of fire protection systems that cater to various needs. Whether for residential, commercial, or industrial purposes, Zedex is your trusted partner in ensuring safety in case of fire emergencies.
                       </p>
                     </div>
@@ -557,6 +561,7 @@ export default function HeroPage() {
                 >
 
                   <div className="relative w-full h-48">
+
                     <Image
                       src={industry.img}
                       alt={industry.alt}
@@ -565,18 +570,19 @@ export default function HeroPage() {
                       objectPosition='center'
                       className="transition-transform duration-300 group-hover:scale-100"
                     />
+
                     <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition">
                       <div className="absolute bottom-3 right-3   bg-red-500 rounded-full" >
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 ">
                           <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                         </svg>
-
                       </div>
                     </div>
+
                   </div>
                   <div className="p-4 h-full bg-[#f48b52] group-hover:bg-black text-white ">
-                    <h3 className="text-lg font-semibold mb-2">{industry.title}</h3>
-                    <p className="text-sm   mb-2"> {industry.items}</p>
+                    <h3 className="text-lg font-semibold mb-2 text-center md:text-left">{industry.title}</h3>
+                    <p className="text-sm   mb-2 text-justify md:text-left"> {industry.items}</p>
 
                   </div>
                 </a>
@@ -649,14 +655,14 @@ export default function HeroPage() {
 
 
         <section>
-          <div className="row h-full w-full px-5 py-5 bg-[#F3F4F6] ">
+          <div className="row h-full w-full px-5 md:py-5 bg-[#F3F4F6] ">
 
-            <div className=" py-4 inline-flex items-center justify-center w-full mx-auto md:mt-0  my-7 md:mb-0">
+            <div className=" py-4 inline-flex items-center justify-center w-full mx-auto md:mt-0  md:my-7 md:mb-0">
               <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
               <h2 className="absolute px-2 md:px-3  text-gray-700 -translate-x-1/2 bg-[#F3F4F6] left-1/2  text-center text-[20px]  md:text-4xl text-1xl capitalize font-semibold ">                  Testimonials
               </h2>
             </div>
-            <p className=" py-4 inline-flex items-center justify-center w-full mx-auto md:mt-0  my-7 md:mb-0">Rather than taking our word for it, explore what our clients have to say about the quality of our products and services.</p>
+            <p className=" py-4 inline-flex items-center justify-center w-full mx-auto md:mt-0 text-center  md:my-7 md:mb-0">Rather than taking our word for it, explore what our clients have to say about the quality of our products and services.</p>
             <Swiper
               slidesPerView={3}
               spaceBetween={30}
@@ -756,7 +762,7 @@ export default function HeroPage() {
                 onSubmit={sendEmail}
                 ref={form}
               >
-                <h2 className="text-4xl mb-7 capitalize">Talk to our Fire experts.</h2>
+                <h2 className="text-4xl mb-7 capitalize text-center  md:text-left">Talk to our Fire experts.</h2>
                 <div className="flex flex-wrap -mx-3 mb-6">
                   <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                     <label

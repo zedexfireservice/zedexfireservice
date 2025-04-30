@@ -45,12 +45,12 @@ function Header() {
         { label: "Fire Sprinkler System", href: "/fire-sprinkler-system" },
         { label: "Fire Hydrant System", href: "/fire-hydrant-system" },
         { label: "Fire Suppression System", href: "/fire-suppression-system" },
-        { label: "Anti Rodent System ", href: "/anti-rodent-system" },
-        { label: " Water Leak Device (WLD) ", href: "/water-leak-detection-device" },
-        { label: " Vesda System ", href: "/fire-VESDA-system" },
-        { label: "  Fire Tubing System ", href: "/" },
-        { label: " Fire Door Service ", href: "/" },
-        { label: "  Kitchen Fire Suppression System ", href: "/" },
+        { label: "Anti Rodent System", href: "/anti-rodent-system" },
+        { label: "Water Leak Device (WLD)", href: "/water-leak-detection-device" },
+        { label: "Vesda System", href: "/fire-VESDA-system" },
+        { label: "Fire Tubing System", href: "/fire-tubing-system" },
+        { label: "Fire Door Service", href: "/" },
+        { label: "Kitchen Fire Suppression System", href: "/" },
 
       ],
     },
@@ -127,16 +127,16 @@ function Header() {
 
     {
       label: "Service",
-      dropdown: [ ],
+      dropdown: [],
     },
 
     {
       label: "Clients",
     },
 
-    { 
-      label: "Contact Us", 
-      href: "/contact-Us" 
+    {
+      label: "Contact Us",
+      href: "/contact-Us"
     },
   ];
 
@@ -154,8 +154,8 @@ function Header() {
   const [showSearch, setShowSearch] = useState(false);
   const router = useRouter();
 
- 
- 
+
+
 
   const handleSearch = (e) => {
     const input = e.target.value;
@@ -271,8 +271,6 @@ function Header() {
                   </div>
 
 
-
-
                 </div>
                 <div className="row flex flex-col  md:flex-row">
                   <div className="col flex justify-center items-center">     <i className="px-2 fa-solid fa-magnifying-glass" onClick={() => setShowSearch(!showSearch)}></i>
@@ -301,8 +299,8 @@ function Header() {
                       {item.dropdown ? (
 
 
-
                         <Dropdown label="Service" inline>
+
                           <DropdownItem>
                             <Link href='/fire-extinguishers'>
                               Fire Extinguisher ISI Mark "Zedex"
@@ -322,7 +320,6 @@ function Header() {
                             </Link>
                           </DropdownItem>
 
-
                           <DropdownItem>
                             <Link href='/fire-hydrant-system'>
                               Fire Hydrant System
@@ -330,20 +327,18 @@ function Header() {
                           </DropdownItem>
 
                           <DropdownItem>
-                          
+
                             <Link href='/fire-suppression-system' >
                               Fire Suppression System
                             </Link>
-                            
-                          </DropdownItem>
 
+                          </DropdownItem>
 
                           <DropdownItem>
                             <Link href='/anti-rodent-system'>
                               Anti Rodent System
                             </Link>
                           </DropdownItem>
-
 
 
                           <DropdownItem>
@@ -361,7 +356,7 @@ function Header() {
 
 
                           <DropdownItem>
-                            <Link href='/'>
+                            <Link href='/fire-tubing-system'>
                               Fire Tubing System
                             </Link>
                           </DropdownItem>
