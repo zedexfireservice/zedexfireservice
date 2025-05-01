@@ -50,7 +50,7 @@ function Header() {
         { label: "Vesda System", href: "/fire-VESDA-system" },
         { label: "Fire Tubing System", href: "/fire-tubing-system" },
         { label: "Fire Door Service", href: "/fire-door-service" },
-        { label: "Kitchen Fire Suppression System", href: "/" },
+        { label: "Kitchen Fire Suppression System", href: "/kitchen-fire-suppression-system" },
 
       ],
     },
@@ -201,7 +201,8 @@ function Header() {
 
               <Link href='/'>
 
-                {pathname && (<Image
+                {pathname && (
+                  <Image
                   src={logoSrc}
                   width={logoSize.width}
                   height={logoSize.height}
@@ -370,7 +371,7 @@ function Header() {
 
 
                           <DropdownItem>
-                            <Link href='/'>
+                            <Link href='/kitchen-fire-suppression-system'>
                               Kitchen Fire Suppression System
                             </Link>
                           </DropdownItem>
