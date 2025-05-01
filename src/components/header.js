@@ -49,7 +49,7 @@ function Header() {
         { label: "Water Leak Device (WLD)", href: "/water-leak-detection-device" },
         { label: "Vesda System", href: "/fire-VESDA-system" },
         { label: "Fire Tubing System", href: "/fire-tubing-system" },
-        { label: "Fire Door Service", href: "/" },
+        { label: "Fire Door Service", href: "/fire-door-service" },
         { label: "Kitchen Fire Suppression System", href: "/" },
 
       ],
@@ -363,7 +363,7 @@ function Header() {
 
 
                           <DropdownItem>
-                            <Link href='/'>
+                            <Link href='/fire-door-service'>
                               Fire Door Service
                             </Link>
                           </DropdownItem>

@@ -39,13 +39,17 @@ export default function page() {
 
             <div className="flex justify-around flex-col lg:flex-row items-center ">
               <div className="lg:w-5/12 w-full">
+
                 <Image
+                
                   src="/fire-suppression-system-1.webp"
                   alt="Fire Suppression System"
                   width={600}
                   height={500}
                   className="rounded-xl w-full h-auto"
+
                 />
+
               </div>
 
               <div className="w-0 lg:w-1/12"></div>
