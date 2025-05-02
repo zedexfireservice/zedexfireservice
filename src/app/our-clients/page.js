@@ -8,6 +8,46 @@ export default function page() {
             img: '/clients/1.png',
             title: 'cadila pharmaceuticals ltd',
         },
+        {
+            img: '/clients/2.png',
+            title: 'H.J. Heinz Company',
+        },
+        {
+            img: '/clients/3.png',
+            title: 'Uflex Ltd',
+        },
+        {
+            img: '/clients/4.png',
+            title: 'Uflex Ltd',
+        },
+        {
+            img: '/clients/5.png',
+            title: 'Uflex Ltd',
+        },
+        {
+            img: '/clients/6.png',
+            title: 'Uflex Ltd',
+        },
+        {
+            img: '/clients/7.png',
+            title: 'Uflex Ltd',
+        },
+        {
+            img: '/clients/8.png',
+            title: 'Uflex Ltd',
+        },
+        {
+            img: '/clients/9.png',
+            title: 'Uflex Ltd',
+        },
+        {
+            img: '/clients/10.png',
+            title: 'Uflex Ltd',
+        },
+        {
+            img: '/clients/11.png',
+            title: 'Uflex Ltd',
+        },
 
     ]
 
@@ -43,15 +83,15 @@ export default function page() {
             </section>
 
             <section>
-                <div className="container">
+                <div className="container-fluid">
 
 
-                    <div className="row">
-                        <div className="grid  grid-cols-3">
+                    <div className="row flex justify-center items-center  py-4">
+                        <div className="grid gap-4   md:grid-cols-3 lg:grid-cols-4 grid-cols-2 ">
                             {ourclients.map((item, index) => (
                                 <div
                                     key={index}
-                                    className="bg-white rounded-xl  border-[1px] border-[#FFAE00] p-6 flex flex-col items-center text-center"
+                                    className="bg-white rounded-xl  border-[1px] border-[#EE1E24] p-6 flex flex-col items-center text-center"
                                 >
                                     <div className="mb-4 ">
                                         <Image
