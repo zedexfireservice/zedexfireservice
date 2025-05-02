@@ -24,7 +24,7 @@ export default function HeroPage() {
 
     {
       id: 1,
-      img: '/banner1.webp',
+      img: '/banner2.webp',
       img2: '/mobilebanner1.png',
       title: 'Fire Alarm System',
       content: 'At Zedex, we are dedicated to providing comprehensive fire and safety solutions to safeguard lives and property. With a focus on quality, reliability, and expert installation services',
@@ -36,7 +36,7 @@ export default function HeroPage() {
 
     {
       id: 2,
-      img: '/banner2.webp',
+      img: '/banner1.webp',
       img2: '/mobilebanner1.png',
       title: 'Air Cooling & Air Conditioning System',
       content: <>
