@@ -41,7 +41,7 @@ export default function page() {
                     <Image
                         src="/inner-bg.jpg"
                         alt="interior l-shape category for design with oven and appliances"
-                        fill
+                        layout='fill'
 
                         className="object-cover rounded-lg "
                         priority

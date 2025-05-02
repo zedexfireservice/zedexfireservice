@@ -141,8 +141,8 @@ export default function page() {
         { src: "/Certificate3.png", alt: "CE Certified" },
         { src: "/Certificate4.png", alt: "ISO Certified" },
         { src: "/Certificate5.png", alt: "ISO Certified" },
-        
-      ];
+
+    ];
 
     return (
         <>
@@ -204,7 +204,7 @@ export default function page() {
                         <Image
                             className="w-full h-full object-center   object-cover rounded-3xl"
                             src="https://websiteonlinedemo.com/zedex-new/assets/images/about_thumb02.webp"
-                            alt="Adhunik Powertech Private Limited has been honored with the India Business Award 2025 Presented by Actress Bipasha Basu"
+                            alt=" "
                             width="600"
                             height="960"
                         />
@@ -233,9 +233,11 @@ export default function page() {
                                         <h2 className="text-[#000000]  text-sm font-bold py-2 uppercase">About Us</h2>
                                         <p className="text-3xl md:text-4xl font-bold text-[#212529]">Zedex Complete Solutions</p>
                                         <p className="text-3xl md:text-4xl font-bold text-[#212529] mb-4">for Fire &amp; Safety</p>
+
                                         <p className="text-[#000000] leading-relaxed ">
                                             At Zedex, we are dedicated to providing comprehensive fire and safety solutions to safeguard lives and property. With a focus on quality, reliability, and expert installation services, we offer a wide range of fire protection systems that cater to various needs. Whether for residential, commercial, or industrial purposes, Zedex is your trusted partner in ensuring safety in case of fire emergencies.
                                         </p>
+
                                     </div>
 
                                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -311,65 +313,65 @@ export default function page() {
             </section>
 
             <section
-      className="bg-cover object-center object-fill bg-center bg-no-repeat py-16 px-4"
-      style={{ backgroundImage: 'url("/Mission-vision_Banner.jpg")' }} 
-    >
-      <div className="container mx-auto">
-        <div className="flex flex-col lg:flex-row justify-between gap-8 backdrop-brightness-100/80">
-          {/* Mission */}
-          <div className="bg-white bg-opacity-90 shadow-md rounded-xl p-6 w-full lg:w-1/2">
-            <div className="text-2xl font-semibold mb-4 text-gray-800">
-              Our <b className="text-red-600">MISSION</b>
-            </div>
-            <ul className="list-disc list-outside pl-6 text-gray-700">
-              <li className="text-justify leading-relaxed">
-                Our mission at Kanex Fire Solutions Ltd is clear — to build the best
-                products, exceed expectations, and unite as one team with one plan and one goal.
-              </li>
-            </ul>
-          </div>
-
-          {/* Vision */}
-          <div className="bg-white bg-opacity-90 shadow-md rounded-xl p-6 w-full lg:w-1/2">
-            <div className="text-2xl font-semibold mb-4 text-gray-800">
-              Our <b className="text-red-600">VISION</b>
-            </div>
-            <ul className="list-disc list-outside pl-6 text-gray-700">
-              <li className="text-justify leading-relaxed">
-                We envision expanding our global outreach, forging enduring partnerships,
-                and creating a brighter, safer future together.
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    
-
-    <section className="py-16">
-      <div className="container mx-auto px-4">
-        <h2 className="text-2xl lg:text-3xl font-semibold text-center text-gray-800 mb-10">
-          Quality Standard Certificates
-        </h2>
-
-        <div className="flex flex-wrap justify-center  md:gap-6">
-          {certificates.map((cert, index) => (
-            <div
-              key={index}
-              className="w-1/2 sm:w-1/3 md:w-1/6 flex justify-center py-3"
+                className="bg-cover object-center object-fill bg-center bg-no-repeat py-16 px-4"
+                style={{ backgroundImage: 'url("/Mission-vision_Banner.jpg")' }}
             >
-              <Image
-                src={cert.src}
-                alt={cert.alt}
-                width={120}
-                height={120}
-                className={`object-contain rounded-lg`}
-              />
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
+                <div className="container mx-auto">
+                    <div className="flex flex-col lg:flex-row justify-between gap-8 backdrop-brightness-100/80">
+                        {/* Mission */}
+                        <div className="bg-white bg-opacity-90 shadow-md rounded-xl p-6 w-full lg:w-1/2">
+                            <div className="text-2xl font-semibold mb-4 text-gray-800">
+                                Our <b className="text-red-600">MISSION</b>
+                            </div>
+                            <ul className="list-disc list-outside pl-6 text-gray-700">
+                                <li className="text-justify leading-relaxed">
+                                    Our mission at Kanex Fire Solutions Ltd is clear — to build the best
+                                    products, exceed expectations, and unite as one team with one plan and one goal.
+                                </li>
+                            </ul>
+                        </div>
+
+                        {/* Vision */}
+                        <div className="bg-white bg-opacity-90 shadow-md rounded-xl p-6 w-full lg:w-1/2">
+                            <div className="text-2xl font-semibold mb-4 text-gray-800">
+                                Our <b className="text-red-600">VISION</b>
+                            </div>
+                            <ul className="list-disc list-outside pl-6 text-gray-700">
+                                <li className="text-justify leading-relaxed">
+                                    We envision expanding our global outreach, forging enduring partnerships,
+                                    and creating a brighter, safer future together.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section className="py-16">
+                <div className="container mx-auto px-4">
+                    <h2 className="text-2xl lg:text-3xl font-semibold text-center text-gray-800 mb-10">
+                        Quality Standard Certificates
+                    </h2>
+
+                    <div className="flex flex-wrap justify-center  md:gap-6">
+                        {certificates.map((cert, index) => (
+                            <div
+                                key={index}
+                                className="w-1/2 sm:w-1/3 md:w-1/6 flex justify-center py-3"
+                            >
+                                <Image
+                                    src={cert.src}
+                                    alt={cert.alt}
+                                    width={120}
+                                    height={120}
+                                    className={`object-contain rounded-lg`}
+                                />
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </section>
         </>
     )
 }

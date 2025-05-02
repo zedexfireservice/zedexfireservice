@@ -24,7 +24,7 @@ export default function HeroPage() {
 
     {
       id: 1,
-      img: '/banner1.png',
+      img: '/banner1.webp',
       img2: '/mobilebanner1.png',
       title: 'Fire Alarm System',
       content: 'At Zedex, we are dedicated to providing comprehensive fire and safety solutions to safeguard lives and property. With a focus on quality, reliability, and expert installation services',
@@ -36,7 +36,7 @@ export default function HeroPage() {
 
     {
       id: 2,
-      img: '/banner1.png',
+      img: '/banner2.webp',
       img2: '/mobilebanner1.png',
       title: 'Air Cooling & Air Conditioning System',
       content: <>
@@ -396,7 +396,7 @@ export default function HeroPage() {
 
         <div
 
-          className="relative w-full h-screen overflow-hidden"
+          className="relative w-full h-[90vh] overflow-hidden"
           ref={containerRef}
           onMouseDown={handleMouseDown}
           onMouseMove={handleMouseMove}
@@ -418,16 +418,29 @@ export default function HeroPage() {
                 style={{ position: 'absolute', top: 0, left: 0, zIndex: 1 }}
 
               >
-                <Image src={slide.img} className=' hidden md:block h-full w-full object-fill' alt='ss' width="500" height="500" />
-                <Image src={slide.img2} className=' md:hidden  h-full w-full object-fill' alt='ss' width="500" height="500" />
-
+                <Image 
+                src={slide.img} 
+                className=' hidden md:block h-full w-full   object-center object-cover' 
+                alt='ss' 
+                width="2000" 
+                height="1000" 
                 
+
+                />
+                <Image
+                 src={slide.img2}
+                  className=' md:hidden  h-full w-full object-center object-cover' 
+                  alt='ss' 
+                  width="2000"
+                   height="500" />
+
+
 
               </div>
 
 
               <div className="  flex items-center h-screen bg-black bg-opacity-40">
-
+ 
 
               </div>
 

@@ -56,7 +56,7 @@ function Header() {
     },
 
 
-    { text: 'BLOG', href: '/blog' },
+    { text: 'Our Clients', href: '/our-clients' },
     { text: 'CONTACT US', href: '/contact-Us' },
   ];
 
@@ -132,6 +132,7 @@ function Header() {
 
     {
       label: "Clients",
+      href:"/our-clients"
     },
 
     {
