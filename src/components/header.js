@@ -58,7 +58,7 @@ function Header() {
 
 
     { text: 'Our Clients', href: '/our-clients' },
-    { href: '/blogs', text: 'Blogs' },
+    { href: '/top-Fire-Fighting-Company-in-Delhi-NCR', text: 'Blogs' },
 
     { text: 'CONTACT US', href: '/contact-Us' },
   ];
@@ -143,7 +143,7 @@ function Header() {
     },
     {
       label: "Blogs",
-      href:"/blogs"
+      href:"/top-Fire-Fighting-Company-in-Delhi-NCR"
     },
 
     {
