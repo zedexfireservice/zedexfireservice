@@ -226,7 +226,7 @@ export default function HeroPage() {
   ];
 
   const logos = [
-    { src: 'https://websiteonlinedemo.com/zedex-new/assets/images/clients/29.png', alt: 'Asahi-India-Glass-Ltd', width: 176, height: 112 },
+    { src: 'https://websiteonlinedemo.com/zedex-new/assets/images/clients/29.png', alt: 'Asahi-India-Glass-Ltd', width: 2000, height: 112 },
     { src: 'https://websiteonlinedemo.com/zedex-new/assets/images/clients/19.png', alt: 'Asahi-India-Glass-Ltd', width: 176, height: 112 },
     { src: 'https://websiteonlinedemo.com/zedex-new/assets/images/clients/1.png', alt: 'Asahi-India-Glass-Ltd', width: 176, height: 112 },
     { src: 'https://websiteonlinedemo.com/zedex-new/assets/images/clients/2.png', alt: 'Asahi-India-Glass-Ltd', width: 176, height: 112 },
@@ -425,7 +425,7 @@ export default function HeroPage() {
                   className=' md:hidden  h-full w-full object-center object-cover'
                   alt='ss'
                   width="2000"
-                  height="500" 
+                  height="500"
                 />
 
               </div>
@@ -475,7 +475,7 @@ export default function HeroPage() {
                 height="960"
               />
 
-              
+
 
 
 
@@ -621,7 +621,7 @@ export default function HeroPage() {
                 >
                   {logos.map((image, index) => (
                     <li key={index}>
-                      <Image loading='lazy' src={image.src} width={image.width} height={image.height} alt={image.alt} />
+                      <Image loading='lazy' src={image.src} className=' object-center  object-cover' width={200} height={300} alt={image.alt} />
                     </li>
                   ))}
                 </ul>
@@ -741,7 +741,7 @@ export default function HeroPage() {
             <div className="h-fit justify-center items-center flex w-full md:w-7/12">
               <Image
                 src="https://images.unsplash.com/photo-1571624436279-b272aff752b5?q=80&w=2944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" // Replace this with your desired image URL
-                width={500}
+                width={2000}
                 height={500}
                 alt="Description of the image"
                 className="w-full h-auto object-cover"
