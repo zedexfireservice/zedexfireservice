@@ -209,16 +209,7 @@ export default function page() {
                             height="960"
                         />
 
-                        <div className="relative top-1/2 right-1/2 w-[20px] h-[20px] mx-auto">
-                            <div className="absolute animate-[bounce_3s_infinite] drop-shadow-[0_0_12px_rgba(255,124,0,0.7)]">
-                                <Image
-                                    src="/fire-extinguisher1.jpg"
-                                    alt="About Shape"
-                                    width={200}
-                                    height={200}
-                                />
-                            </div>
-                        </div>
+                      
 
 
 

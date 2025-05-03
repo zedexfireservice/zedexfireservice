@@ -36,6 +36,7 @@ function Header() {
 
     { href: '/', text: 'Home' },
 
+   
     {
       to: '#',
       text: ' Service ',
@@ -57,6 +58,8 @@ function Header() {
 
 
     { text: 'Our Clients', href: '/our-clients' },
+    { href: '/blogs', text: 'Blogs' },
+
     { text: 'CONTACT US', href: '/contact-Us' },
   ];
 
@@ -121,6 +124,10 @@ function Header() {
 
   const menuItems = [
     {
+      label: "Home",
+      href: "/"
+    },
+    {
       label: "About Us",
       href: "/about-Us"
     },
@@ -133,6 +140,10 @@ function Header() {
     {
       label: "Clients",
       href:"/our-clients"
+    },
+    {
+      label: "Blogs",
+      href:"/blogs"
     },
 
     {
@@ -295,9 +306,9 @@ function Header() {
             <div className="col">
               <div className="hidden xl:flex items-center space-x-1">
 
-                <ul className="flex md:text-[11px] lg:text-[15px] flex-col font-medium p-4 md:p-0 mt-4 border rounded-lg md:space-x-6 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 ">
+                <ul className="flex   flex-col font-medium p-4 md:p-0 mt-4 border rounded-lg md:space-x-6 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 ">
                   {menuItems.map((item, index) => (
-                    <li className=" after:content-[''] after:block after:w-full after:h-[3px] after:bg-gradient-to-r after:from-red-500 after:to-red-700 after:scale-x-0 hover:bg-[#FF0000]  after:origin-left after:transition-transform after:duration-250 after:ease-in-out hover:after:scale-x-100 " key={index}>
+                    <li className=" md:px-3 after:content-[''] after:block after:w-full after:h-[3px] after:bg-gradient-to-r after:from-red-500 after:to-red-700 after:scale-x-0 hover:bg-[#FF0000]  after:origin-left after:transition-transform after:duration-250 after:ease-in-out hover:after:scale-x-100 " key={index}>
                       {item.dropdown ? (
 
 

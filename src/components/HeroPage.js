@@ -475,16 +475,7 @@ export default function HeroPage() {
                 height="960"
               />
 
-              <div className="relative top-1/2 right-1/2 w-[20px] h-[20px] mx-auto">
-                <div className="absolute animate-[bounce_3s_infinite] drop-shadow-[0_0_12px_rgba(255,124,0,0.7)]">
-                  <Image
-                    src="/fire-extinguisher1.jpg"
-                    alt="About Shape"
-                    width={200}
-                    height={200}
-                  />
-                </div>
-              </div>
+              
 
 
 
@@ -565,15 +556,14 @@ export default function HeroPage() {
                   className="block bg-white shadow-md rounded overflow-hidden group hover:shadow-lg transition"
                 >
 
-                  <div className="relative w-full h-48">
+                  <div className="relative w-full ">
 
                     <Image
                       src={industry.img}
                       alt={industry.alt}
-                      layout="fill"
-                      objectFit="cover"
-                      objectPosition='center'
-                      className="transition-transform duration-300 group-hover:scale-100"
+                      height={200}
+                      width={2000}
+                      className="transition-transform duration-300 group-hover:scale-100 object-cover object-center"
                     />
 
                     <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition">
