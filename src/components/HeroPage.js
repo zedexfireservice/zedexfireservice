@@ -48,6 +48,76 @@ export default function HeroPage() {
       descriptivetext: "Air Cooling & Air Conditioning System"
 
     },
+    {
+      id: 3,
+      img: '/banner3.webp',
+      img2: '/mobilebanner1.png',
+      title: 'Air Cooling & Air Conditioning System',
+      content: <>
+        Installation, Service, Repair &amp; Maintenance
+        <br />
+        24x7 Service Available
+      </>,
+      buttonText: 'CALL US NOW',
+      descriptivetext: "Air Cooling & Air Conditioning System"
+
+    },
+    {
+      id: 4,
+      img: '/banner4.webp',
+      img2: '/mobilebanner1.png',
+      title: 'Air Cooling & Air Conditioning System',
+      content: <>
+        Installation, Service, Repair &amp; Maintenance
+        <br />
+        24x7 Service Available
+      </>,
+      buttonText: 'CALL US NOW',
+      descriptivetext: "Air Cooling & Air Conditioning System"
+
+    },
+    {
+      id: 5,
+      img: '/banner5.webp',
+      img2: '/mobilebanner1.png',
+      title: 'Air Cooling & Air Conditioning System',
+      content: <>
+        Installation, Service, Repair &amp; Maintenance
+        <br />
+        24x7 Service Available
+      </>,
+      buttonText: 'CALL US NOW',
+      descriptivetext: "Air Cooling & Air Conditioning System"
+
+    },
+    {
+      id: 6,
+      img: '/banner6.webp',
+      img2: '/mobilebanner1.png',
+      title: 'Air Cooling & Air Conditioning System',
+      content: <>
+        Installation, Service, Repair &amp; Maintenance
+        <br />
+        24x7 Service Available
+      </>,
+      buttonText: 'CALL US NOW',
+      descriptivetext: "Air Cooling & Air Conditioning System"
+
+    },
+    {
+      id: 7,
+      img: '/banner7.webp',
+      img2: '/mobilebanner1.png',
+      title: 'Air Cooling & Air Conditioning System',
+      content: <>
+        Installation, Service, Repair &amp; Maintenance
+        <br />
+        24x7 Service Available
+      </>,
+      buttonText: 'CALL US NOW',
+      descriptivetext: "Air Cooling & Air Conditioning System"
+
+    },
 
 
 
@@ -628,21 +698,6 @@ export default function HeroPage() {
               ))}
 
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
           </div>

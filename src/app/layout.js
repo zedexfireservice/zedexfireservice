@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 
   variable: "--font-geist-mono",
   subsets: ["latin"],
-  
+
 });
 
 export const metadata = {
@@ -30,50 +30,53 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-    <head>
-
-    
-<meta itemProp="name" content="Zedex Fire Services" />
+      <head>
 
 
-<GoogleTagManager gtmId="G-SJ6EERXFS4" />
-<meta name="google-site-verification" content="JZS7lm8ZnieiJrYNPlrak7_aof-8UBTd74dNVuDpaaM" />
+        <meta itemProp="name" content="Zedex Fire Services" />
 
-<Script async src="https://www.googletagmanager.com/gtag/js?id=G-SJ6EERXFS4"></Script>
 
-<Script id="google-analytics" >
+        <GoogleTagManager gtmId="G-SJ6EERXFS4" />
+        <meta name="google-site-verification" content="JZS7lm8ZnieiJrYNPlrak7_aof-8UBTd74dNVuDpaaM" />
 
-  {` window.dataLayer = window.dataLayer || [];
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-SJ6EERXFS4"></Script>
+
+        <Script id="google-analytics" >
+
+          {` window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 
 gtag('config', 'G-SJ6EERXFS4');`}
 
-</Script>
+        </Script>
 
 
-  
-    </head>
+
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-<Analytics/>
-<SpeedInsights/>
-      <Header/>
+        <Analytics />
+        <SpeedInsights />
+        <Header />
 
-      <noscript>
-        <iframe src="https://www.googletagmanager.com/ns.html?id=G-SJ6EERXFS4"
-          height="0"
-           width="0" 
-           style={{ 
-            display: "none", 
-            visibility: "hidden" }}>
-
-            </iframe>
-            </noscript>
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=G-SJ6EERXFS4"
+            height="0"
+            width="0"
+            style={{
+              display: "none",
+              visibility: "hidden"
+            }}>
+          </iframe>
+        </noscript>
 
         {children}
-        <Footer/>
+
+        <Footer />
+        
       </body>
     </html>
   );
