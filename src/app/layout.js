@@ -4,6 +4,10 @@ import Header from "@/components/header";
 import Footer from "@/components/footer";
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { GoogleTagManager } from '@next/third-parties/google'
+import Script from "next/script";
+
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -27,7 +31,28 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
     <head>
-    <meta name="google-site-verification" content="JZS7lm8ZnieiJrYNPlrak7_aof-8UBTd74dNVuDpaaM" />
+
+    
+<meta itemProp="name" content="Zedex Fire Services" />
+
+
+<GoogleTagManager gtmId="G-SJ6EERXFS4" />
+<meta name="google-site-verification" content="JZS7lm8ZnieiJrYNPlrak7_aof-8UBTd74dNVuDpaaM" />
+
+<Script async src="https://www.googletagmanager.com/gtag/js?id=G-SJ6EERXFS4"></Script>
+
+<Script id="google-analytics" >
+
+  {` window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-SJ6EERXFS4');`}
+
+</Script>
+
+
+  
     </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
@@ -35,6 +60,18 @@ export default function RootLayout({ children }) {
 <Analytics/>
 <SpeedInsights/>
       <Header/>
+
+      <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=G-SJ6EERXFS4"
+          height="0"
+           width="0" 
+           style={{ 
+            display: "none", 
+            visibility: "hidden" }}>
+
+            </iframe>
+            </noscript>
+
         {children}
         <Footer/>
       </body>
