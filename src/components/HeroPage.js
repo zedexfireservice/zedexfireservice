@@ -24,8 +24,8 @@ export default function HeroPage() {
 
     {
       id: 1,
-      img: '/banner2.webp',
-      img2: '/mobilebanner1.jpg',
+      img: '/Newbanner2.webp',
+      img2: '/Newmobilebanner1.jpg',
       title: 'Fire Alarm System',
       content: 'At Zedex, we are dedicated to providing comprehensive fire and safety solutions to safeguard lives and property. With a focus on quality, reliability, and expert installation services',
       buttonText: 'Request A Quote',
@@ -36,8 +36,8 @@ export default function HeroPage() {
 
     {
       id: 2,
-      img: '/banner1.webp',
-      img2: '/mobilebanner1.jpg',
+      img: '/Newbanner1.webp',
+      img2: '/Newmobilebanner1.jpg',
       title: 'Air Cooling & Air Conditioning System',
       content: <>
         Installation, Service, Repair &amp; Maintenance
@@ -50,8 +50,8 @@ export default function HeroPage() {
     },
     {
       id: 3,
-      img: '/banner3.webp',
-      img2: '/mobilebanner1.jpg',
+      img: '/Newbanner3.webp',
+      img2: '/Newmobilebanner1.jpg',
       title: 'Air Cooling & Air Conditioning System',
       content: <>
         Installation, Service, Repair &amp; Maintenance
@@ -64,8 +64,8 @@ export default function HeroPage() {
     },
     {
       id: 4,
-      img: '/banner4.webp',
-      img2: '/mobilebanner1.jpg',
+      img: '/Newbanner4.webp',
+      img2: '/Newmobilebanner1.jpg',
       title: 'Air Cooling & Air Conditioning System',
       content: <>
         Installation, Service, Repair &amp; Maintenance
@@ -78,8 +78,8 @@ export default function HeroPage() {
     },
     {
       id: 5,
-      img: '/banner5.webp',
-      img2: '/mobilebanner1.jpg',
+      img: '/Newbanner5.webp',
+      img2: '/Newmobilebanner1.jpg',
       title: 'Air Cooling & Air Conditioning System',
       content: <>
         Installation, Service, Repair &amp; Maintenance
@@ -92,8 +92,8 @@ export default function HeroPage() {
     },
     {
       id: 6,
-      img: '/banner6.webp',
-      img2: '/mobilebanner1.jpg',
+      img: '/Newbanner6.webp',
+      img2: '/Newmobilebanner1.jpg',
       title: 'Air Cooling & Air Conditioning System',
       content: <>
         Installation, Service, Repair &amp; Maintenance
@@ -106,8 +106,22 @@ export default function HeroPage() {
     },
     {
       id: 7,
-      img: '/banner7.webp',
-      img2: '/mobilebanner1.jpg',
+      img: '/Newbanner7.webp',
+      img2: '/Newmobilebanner1.jpg',
+      title: 'Air Cooling & Air Conditioning System',
+      content: <>
+        Installation, Service, Repair &amp; Maintenance
+        <br />
+        24x7 Service Available
+      </>,
+      buttonText: 'CALL US NOW',
+      descriptivetext: "Air Cooling & Air Conditioning System"
+
+    },
+    {
+      id: 8,
+      img: '/Newbanner8.webp',
+      img2: '/Newmobilebanner1.jpg',
       title: 'Air Cooling & Air Conditioning System',
       content: <>
         Installation, Service, Repair &amp; Maintenance
