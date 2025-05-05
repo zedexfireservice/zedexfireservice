@@ -159,7 +159,8 @@ export default function page() {
                     <Image
                         src="/Zedexfire7.jpg"
                         alt="interior l-shape category for design with oven and appliances"
-                        fill
+                        
+                        layout="fill"
 
                         className="object-cover rounded-lg "
                         priority
@@ -192,9 +193,9 @@ export default function page() {
 
                                 <Image
 
-                                    src="/Fire-Door-Service2.png"
+                                    src="/Fire-Door-Service2.jpg"
                                     alt="Fire Suppression System"
-                                    width={600}
+                                    width={500}
                                     height={500}
                                     className="rounded-xl w-full h-auto"
 

@@ -8,6 +8,7 @@ export default function TopFireFighting() {
         <>
 
             <div className="row px-4 md:px-24">
+
                 <section className="py-12 bg-white mt-24">
                     <div className="container mx-auto ">
                         <div className="flex justify-around flex-col lg:flex-row items-center">
@@ -141,6 +142,7 @@ export default function TopFireFighting() {
                         Contact us today to discuss your fire safety requirements and discover how Zedex Fire Services can help you build a more secure future. Whether you are in Delhi, Noida, Gurgaon, or any other part of India, we are your trusted partner for comprehensive and reliable fire fighting solutions.
                     </p>
                 </section>
+                
             </div>
 
         </>

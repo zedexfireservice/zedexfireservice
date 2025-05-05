@@ -115,7 +115,7 @@ export default function page() {
                         <div className="lg:w-5/12 w-full">
                             <div className="rounded overflow-hidden shadow-md">
                                 <Image
-                                    src="/Fire-Tubing-System1.png"
+                                    src="/Fire-Tubing-System1.jpg"
                                     alt="Fire Tubing System"
                                     width={600}
                                     height={400}
