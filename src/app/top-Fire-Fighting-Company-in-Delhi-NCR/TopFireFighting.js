@@ -16,7 +16,7 @@ export default function TopFireFighting() {
                             <div className="lg:w-5/12 w-full">
                                 <div className="relative w-full    rounded overflow-hidden">
 
-                                    <Image
+                                    <img
                                         src="/topfire.webp"
                                         alt="Fire VESDA System"
                                         width={800}

@@ -13,7 +13,7 @@ export default function page() {
 
         {
             id: 1,
-            img: 'https://media.istockphoto.com/id/2091536398/photo/engineer-check-fire-extinguisher-tank-in-the-fire-control-room-for-safety-in-factory-or.jpg?s=1024x1024&w=is&k=20&c=mAFnHpXTYL2Jet7Y4fVUSLmIvk1v-zJj5K6iAyrv25o=',
+            // img: 'https://media.istockphoto.com/id/2091536398/photo/engineer-check-fire-extinguisher-tank-in-the-fire-control-room-for-safety-in-factory-or.jpg?s=1024x1024&w=is&k=20&c=mAFnHpXTYL2Jet7Y4fVUSLmIvk1v-zJj5K6iAyrv25o=',
             title: 'Fire Alarm System',
             content: 'At Zedex, we are dedicated to providing comprehensive fire and safety solutions to safeguard lives and property. With a focus on quality, reliability, and expert installation services',
             buttonText: 'Request A Quote',
@@ -164,7 +164,7 @@ export default function page() {
                             style={{ position: 'absolute', top: 0, left: 0, zIndex: 1 }}
 
                         >
-                            <Image src={slide.img} className=' h-full w-full object-fill' alt='ss' width="500" height="500" />
+                            <img src={slide.img} className=' h-full w-full object-fill' alt='ss' width="500" height="500" />
 
 
                         </div>
@@ -201,13 +201,13 @@ export default function page() {
                 <div className=" gap-7 md:gap-16   items-center flex  flex-wrap-reverse pt-0 mt-0 py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2  lg:px-6">
                     <div className="  flex justify-center w-full h-full   ">
 
-                        <Image
+                        {/* <img
                             className="w-full h-full object-center   object-cover rounded-3xl"
                             src="https://websiteonlinedemo.com/zedex-new/assets/images/about_thumb02.webp"
                             alt=" "
                             width="600"
                             height="960"
-                        />
+                        /> */}
 
                       
 
@@ -285,7 +285,7 @@ export default function page() {
                                 className="bg-white rounded-xl  border-[1px] border-[#FFAE00] p-6 flex flex-col items-center text-center"
                             >
                                 <div className="mb-4 ">
-                                    <Image
+                                    <img
                                         src={item.img}
                                         alt={item.title}
                                         width={500}
@@ -351,13 +351,13 @@ export default function page() {
                                 key={index}
                                 className="w-1/2 sm:w-1/3 md:w-1/6 flex justify-center py-3"
                             >
-                                <Image
+                                {/* <img
                                     src={cert.src}
                                     alt={cert.alt}
                                     width={120}
                                     height={120}
                                     className={`object-contain rounded-lg`}
-                                />
+                                /> */}
                             </div>
                         ))}
                     </div>

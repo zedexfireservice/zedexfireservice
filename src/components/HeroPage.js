@@ -550,13 +550,13 @@ export default function HeroPage() {
           <div className=" gap-7 md:gap-16   items-center flex  flex-wrap pt-0 mt-0 py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2  lg:px-6">
             <div className="  flex justify-center w-full h-full    ">
 
-              <Image
+               <Image
                 className="w-full h-full object-center   object-cover rounded-3xl"
-                src="https://websiteonlinedemo.com/zedex-new/assets/images/about_thumb02.webp"
+                src="/zedexundermaintainance.webp"
                 alt="Adhunik Powertech Private Limited has been honored with the India Business Award 2025 Presented by Actress Bipasha Basu"
                 width="600"
                 height="960"
-              />
+              /> 
 
 
 
@@ -641,7 +641,7 @@ export default function HeroPage() {
 
                   <div className="relative w-full ">
 
-                    <Image
+                    <img
                       src={industry.img}
                       alt={industry.alt}
                       height={200}
@@ -704,7 +704,7 @@ export default function HeroPage() {
                 >
                   {logos.map((image, index) => (
                     <li key={index}>
-                      <Image loading='lazy' src={image.src} className=' object-center  object-cover' width={200} height={300} alt={image.alt} />
+                      {/* <img loading='lazy' src={image.src} className=' object-center  object-cover' width={200} height={300} alt={image.alt} /> */}
                     </li>
                   ))}
                 </ul>
@@ -807,13 +807,13 @@ export default function HeroPage() {
 
 
             <div className="h-fit justify-center items-center flex w-full md:w-7/12">
-              <Image
+              {/* <img
                 src="https://images.unsplash.com/photo-1571624436279-b272aff752b5?q=80&w=2944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" // Replace this with your desired image URL
                 width={2000}
                 height={500}
                 alt="Description of the image"
                 className="w-full h-auto object-cover"
-              />
+              /> */}
             </div>
 
 

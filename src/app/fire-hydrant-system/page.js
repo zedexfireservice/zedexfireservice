@@ -66,14 +66,14 @@ export default function page() {
         <>
             <section>
                 <div className="relative flex  h-[86vh] md:h-[60vh] w-full">
-                    <Image
+                    {/* <img
                         src="/fire-hydrant01.jpg"
                         alt="interior l-shape category for design with oven and appliances"
                         fill
 
                         className="object-cover rounded-lg "
                         priority
-                    />
+                    /> */}
 
                     <div className="absolute w-full h-full p-9 bottom-0 flex flex-col md:flex-row justify-center md:justify-between items-center md:text-center mx-auto">
                         <p className="text-center md:text-left text-red-800 text-6xl font-bold flex flex-col justify-center items-center h-full my-auto">
@@ -93,7 +93,7 @@ export default function page() {
             <section className="px-4 py-12 md:px-20 bg-white text-gray-800">
                 <div className="flex flex-col justify-around lg:flex-row items-center gap-10">
                     <div className="lg:w-5/12">
-                        <Image src="/Fire-Hydrants-2.png" alt="Fire Hydrant" width={500} height={400} className="rounded-xl" />
+                        {/* <img src="/Fire-Hydrants-2.png" alt="Fire Hydrant" width={500} height={400} className="rounded-xl" /> */}
                     </div>
                     <div className="lg:w-6/12">
                         <h1 className="text-3xl font-bold mb-4 text-center md:text-left">Essential Fire Protection</h1>
@@ -111,7 +111,7 @@ export default function page() {
                             <Section title="Benefits of Fire Alarm Systems" list={benefits} />
                         </div>
                         <div className="lg:w-6/12">
-                            <Image src="/Fire-Hydrants-3.jpg" alt="Hydrant Diagram" width={600} height={400} className="rounded-xl" />
+                            {/* <img src="/Fire-Hydrants-3.jpg" alt="Hydrant Diagram" width={600} height={400} className="rounded-xl" /> */}
                         </div>
                     </div>
                     <Section title="Importance of Fire Hydrant Systems" list={importance} />

@@ -144,14 +144,14 @@ export default function page() {
             <section>
 
                 <div className="relative flex  h-[86vh] md:h-[67vh] w-full">
-                    <Image
+                    {/* <img
                         src="/kitchen-banner1.png"
                         alt="interior l-shape category for design with oven and appliances"
                         fill
 
                         className="object-cover rounded-lg "
                         priority
-                    />
+                    /> */}
 
                     <div className="absolute w-full h-full p-9 bottom-0 flex flex-col md:flex-row justify-center md:justify-between items-center md:text-center mx-auto">
                         <p className="text-center md:text-left text-red-900 text-6xl font-bold flex flex-col justify-center items-center h-full my-auto">
@@ -181,13 +181,13 @@ export default function page() {
                                     className="bg-white rounded-xl  border-[1px] border-[#ee1e257b] p-6 flex flex-col items-center text-center"
                                 >
                                     <div className="mb-4 ">
-                                        <Image
+                                        {/* <img
                                             src={item.img}
                                             alt={item.title}
                                             width={500}
                                             height={500}
                                             className="mx-auto w-full h-[14vh] "
-                                        />
+                                        /> */}
                                     </div>
 
                                 </div>

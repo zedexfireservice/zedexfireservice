@@ -7,13 +7,13 @@ export default function page() {
 
       <section>
         <div className="relative flex  h-[86vh] md:h-[60vh] w-full">
-          <Image
+          {/* <img
             src="/inner-bg.jpg"
             alt="interior l-shape category for design with oven and appliances"
             layout="fill"
             className="object-cover rounded-lg"
             priority
-          />
+          /> */}
 
           <div className="absolute w-full h-full p-9 bottom-0 flex flex-col md:flex-row justify-center md:justify-between items-center md:text-center mx-auto">
             <p className="text-center md:text-left text-red-50 text-6xl font-bold flex flex-col justify-center items-center h-full my-auto">
@@ -40,7 +40,7 @@ export default function page() {
             <div className="flex justify-around flex-col lg:flex-row items-center ">
               <div className="lg:w-5/12 w-full">
 
-                <Image
+                {/* <img
                 
                   src="/fire-suppression-system-1.webp"
                   alt="Fire Suppression System"
@@ -48,7 +48,7 @@ export default function page() {
                   height={500}
                   className="rounded-xl w-full h-auto"
 
-                />
+                /> */}
 
               </div>
 
@@ -66,13 +66,13 @@ export default function page() {
             <div className="mt-20">
               <div className="flex flex-col gap-6 lg:flex-row-reverse items-center">
                 <div className="lg:w-6/12 w-full">
-                  <Image
+                  {/* <img
                     src="/fire-suppression-system-2.webp"
                     alt="Fire Suppression Components"
                     width={600}
                     height={500}
                     className="rounded-xl w-full h-auto"
-                  />
+                  /> */}
                 </div>
 
                 <div className="lg:w-6/12 w-full mt-8 lg:mt-0">

@@ -38,14 +38,14 @@ export default function page() {
         <>
             <section>
                 <div className="relative flex  h-[86vh] md:h-[60vh] w-full">
-                    <Image
+                    {/* <img
                         src="/inner-bg.jpg"
                         alt="interior l-shape category for design with oven and appliances"
                         layout='fill'
 
                         className="object-cover rounded-lg "
                         priority
-                    />
+                    /> */}
 
                     <div className="absolute w-full h-full p-9 bottom-0 flex flex-col md:flex-row justify-center md:justify-between items-center md:text-center mx-auto">
                         <p className="text-red-50 text-6xl font-bold flex flex-col justify-center items-center h-full my-auto">
@@ -66,13 +66,13 @@ export default function page() {
                         {/* Left Image */}
                         <div className="lg:w-1/3 w-full">
                             <div className="relative h-full border-2 border-red-300 p-2 w-full rounded-lg overflow-hidden">
-                                <Image
+                                {/* <img
                                     src="/abc-dry-powder-extinguisher.jpg"
                                     alt="ABC Dry Powder Extinguisher"
                                     className=' w-full h-full'
                                     width={500}
                                     height={500}
-                                />
+                                /> */}
                             </div>
 
                         </div>
@@ -101,13 +101,13 @@ export default function page() {
                             Types of Fire Extinguishers & Their Benefits
                         </h2>
                         <div className="relative pb-3 h-full w-full rounded-lg overflow-hidden">
-                            <Image
+                            {/* <img
                                 src="/fire-extinguishers-type.png"
                                 alt="ABC Dry Powder Extinguisher"
                                 className=' w-full h-full'
                                 width={500}
                                 height={500}
-                            />
+                            /> */}
                         </div>
                         {extinguishers.map(({ title, description }, index) => (
                             <div key={index} className="mb-10 ">

@@ -85,13 +85,13 @@ export default function page() {
 
                 <div className="relative flex  h-[86vh] md:h-[60vh] w-full">
 
-                    <Image
+                    {/* <img
                         src="/Zedexfire6.jpg"
                         alt="interior l-shape category for design with oven and appliances"
                         layout="fill"
                         className="object-cover rounded-lg"
                         priority
-                    />
+                    /> */}
 
                     <div className="absolute w-full h-full p-9 bottom-0 flex flex-col md:flex-row justify-center md:justify-between items-center md:text-center mx-auto">
                         <p className="text-center md:text-left text-red-900 text-3xl md:text-6xl font-bold flex flex-col justify-center items-center h-full my-auto">
@@ -114,13 +114,13 @@ export default function page() {
                     <div className="flex flex-col lg:flex-row justify-around ">
                         <div className="lg:w-5/12 w-full">
                             <div className="rounded overflow-hidden shadow-md">
-                                <Image
+                                {/* <img
                                     src="/Fire-Tubing-System1.jpg"
                                     alt="Fire Tubing System"
                                     width={600}
                                     height={400}
                                     className=" object-contain rounded-lg"
-                                />
+                                /> */}
                             </div>
                         </div>
                         <div className="lg:w-5/12 w-full py-4">

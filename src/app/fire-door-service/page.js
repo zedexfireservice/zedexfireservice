@@ -156,7 +156,7 @@ export default function page() {
             <section>
 
                 <div className="relative flex  h-[86vh] md:h-[60vh] w-full">
-                    <Image
+                    {/* <img
                         src="/Zedexfire7.jpg"
                         alt="interior l-shape category for design with oven and appliances"
                         
@@ -164,7 +164,7 @@ export default function page() {
 
                         className="object-cover rounded-lg "
                         priority
-                    />
+                    /> */}
 
                     <div className="absolute w-full h-full p-9 bottom-0 flex flex-col md:flex-row justify-center md:justify-between items-center md:text-center mx-auto">
                         <p className="text-red-900 text-3xl md:text-6xl font-bold flex flex-col justify-center items-center h-full my-auto">
@@ -191,7 +191,7 @@ export default function page() {
 
                             <div className="lg:w-6/12 w-full">
 
-                                <Image
+                                {/* <img
 
                                     src="/Fire-Door-Service2.jpg"
                                     alt="Fire Suppression System"
@@ -199,7 +199,7 @@ export default function page() {
                                     height={500}
                                     className="rounded-xl w-full h-auto"
 
-                                />
+                                /> */}
 
                             </div>
 
@@ -222,7 +222,7 @@ export default function page() {
                         <div className="mt-20">
                             <div className="flex flex-col gap-6 lg:flex-row-reverse items-center">
                                 <div className="lg:w-6/12 w-full">
-                                    <Image
+                                    <img
                                         src="/Fire-Door-Service1.png"
                                         alt="Fire Suppression Components"
                                         width={600}

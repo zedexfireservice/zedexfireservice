@@ -22,7 +22,7 @@ const blogsCards  = [
   <section>
                 <div className="relative flex  h-[86vh] md:h-[67vh] w-full">
 
-                    <Image
+                    {/* <img
 
                         src="/zedexfirebg.jpg"
                         alt="interior l-shape category for design with oven and appliances"
@@ -30,7 +30,7 @@ const blogsCards  = [
                         className="object-cover rounded-lg "
                         priority
 
-                    />
+                    /> */}
 
 
                     <div className="absolute w-full h-full p-9 bottom-0 flex flex-col md:flex-row justify-center md:justify-between items-center md:text-center mx-auto">
@@ -64,8 +64,8 @@ const blogsCards  = [
 
                   <div className="relative w-full ">
 
-                    <Image src={items.img}  alt={items.alt}  height={200}  width={500} className="transition-transform duration-300 group-hover:scale-100 object-cover object-center"
-                    />
+                    {/* <img src={items.img}  alt={items.alt}  height={200}  width={500} className="transition-transform duration-300 group-hover:scale-100 object-cover object-center"
+                    /> */}
 
                     <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition">
                       <div className="absolute bottom-3 right-3   bg-red-500 rounded-full" >

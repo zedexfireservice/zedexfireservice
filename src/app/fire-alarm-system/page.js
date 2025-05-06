@@ -25,14 +25,14 @@ export default function page() {
         <>
             <section>
                 <div className="relative flex  h-[86vh] md:h-[67vh] w-full">
-                    <Image
+                    {/* <img
                         src="/inner-bg2.jpg"
                         alt="interior l-shape category for design with oven and appliances"
                         fill
 
                         className="object-cover rounded-lg "
                         priority
-                    />
+                    /> */}
 
                     <div className="absolute w-full h-full p-9 bottom-0 flex flex-col md:flex-row justify-center md:justify-between items-center md:text-center mx-auto">
                         <p className="text-center md:text-left text-red-900 text-6xl font-bold flex flex-col justify-center items-center h-full my-auto">
@@ -55,13 +55,13 @@ export default function page() {
         <div className="flex flex-col lg:flex-row items-center  justify-around gap-8">
           <div className="lg:w-5/12 w-full">
             <div className="rounded overflow-hidden">
-              <Image
+              {/* <img
                 src="/fire-alarm-system_02.jpg"
                 alt="Fire Alarm System"
                 width={800}
                 height={600}
                 className="rounded-2xl border-2 border-red-300"
-              />
+              /> */}
             </div>
           </div>
           <div className="lg:w-6/12 w-full">
@@ -105,13 +105,13 @@ export default function page() {
     ))}
   </div>
           <div className="lg:w-6/12">
-            <Image
+            {/* <img
               src="/Fire-Alarm.jpg"
               alt="Fire Alarm Components"
               width={800}
               height={600}
               className="rounded-2xl"
-            />
+            /> */}
           </div>
         </div>
 
