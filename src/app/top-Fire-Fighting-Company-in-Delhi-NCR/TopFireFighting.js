@@ -16,14 +16,14 @@ export default function TopFireFighting() {
                             <div className="lg:w-5/12 w-full">
                                 <div className="relative w-full    rounded overflow-hidden">
 
-                                    <img
+                                    {/* <img
                                         src="/topfire.webp"
                                         alt="Fire VESDA System"
-                                        width={800}
+                                        width={500}
                                         height={500}
                                         // layout='fill'
                                         className=" rounded-xl object-center  object-cover "
-                                    />
+                                    /> */}
 
                                 </div>
                             </div>
