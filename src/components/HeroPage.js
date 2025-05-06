@@ -553,9 +553,9 @@ export default function HeroPage() {
                <Image
                 className="w-full h-full object-center   object-cover rounded-3xl"
                 src="/zedexundermaintainance.webp"
-                alt="Adhunik Powertech Private Limited has been honored with the India Business Award 2025 Presented by Actress Bipasha Basu"
-                width="600"
-                height="960"
+                alt="under maintainance"
+                width="200"
+                height="200"
               /> 
 
 
