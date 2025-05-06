@@ -66,7 +66,10 @@ export default function page() {
           </div>
           <div className="lg:w-6/12 w-full">
             <div className="mb-6">
-              <h1 className="text-3xl font-bold text-center md:text-left mb-4">Ensuring Safety & Early Detection</h1>
+            
+              <h1 className="text-3xl font-bold text-center md:text-left mb-4">
+              ZedEx Addressable Fire Alarm Systems : Intelligent Fire Protection for Delhi NCR
+</h1>
               <p className="text-gray-700 text-justify md:text-left">
                 A fire alarm system is a crucial safety measure designed to detect smoke, heat, or fire and alert building occupants for timely evacuation and response.
                 By providing <span className="font-semibold">early warning</span>, these systems help protect lives, minimize property damage, and ensure compliance with fire safety regulations.

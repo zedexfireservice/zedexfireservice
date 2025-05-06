@@ -10,8 +10,8 @@ const blogsCards  = [
     href:'/top-Fire-Fighting-Company-in-Delhi-NCR',
     img:"https://www.zedexfire.com/_next/image?url=%2Ftopfire.webp&w=1920&q=75",
     alt:"Fire extinguishers image ",
-    title:"Is Your Novec Fire Suppression System Undercharged?",
-    para:" Friday, 02 May 2025 by Dipti Jena "
+    title:"Zedex Fire Company : Your Trusted Partner for Comprehensive Fire Safety Solutions in Delhi NCR and India",
+    para:" Friday, 02 May 2025 by Zedex Fire Company "
 
   }
 ]
@@ -49,9 +49,7 @@ const blogsCards  = [
 
             <section >
 
-              <h2 className="  text-3xl font-sans w-full text-center py-5 text-gray-600">
-              Blog for Fire Protection
-              </h2>
+            
 
 <div className="row">
   <div className=" px-3 grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 md:px-24 py-12 ">
@@ -80,7 +78,7 @@ const blogsCards  = [
                   </div>
 
                   <div className="p-4 h-full  text-gray-700">
-                    <h3 className="text-lg font-semibold mb-2 text-center md:text-left">{items.title}</h3>
+                    <h1 className="text-lg font-semibold mb-2 text-center md:text-left">{items.title}</h1>
                     <p className="text-sm   mb-2 text-justify md:text-left"> {items.para}</p>
 
 <p className="text-md text-justify md:text-left">
