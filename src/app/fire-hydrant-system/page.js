@@ -66,14 +66,12 @@ export default function page() {
         <>
             <section>
                 <div className="relative flex  h-[86vh] md:h-[60vh] w-full">
-                    {/* <img
-                        src="/fire-hydrant01.jpg"
-                        alt="interior l-shape category for design with oven and appliances"
-                        fill
-
+                    <img
+                        src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618656/fire-hydrant01_w8qel3.webp"
+                        alt="Fire Hydrant System"
                         className="object-cover rounded-lg "
-                        priority
-                    /> */}
+                        
+                    />
 
                     <div className="absolute w-full h-full p-9 bottom-0 flex flex-col md:flex-row justify-center md:justify-between items-center md:text-center mx-auto">
                         <p className="text-center md:text-left text-red-800 text-6xl font-bold flex flex-col justify-center items-center h-full my-auto">
@@ -93,7 +91,10 @@ export default function page() {
             <section className="px-4 py-12 md:px-20 bg-white text-gray-800">
                 <div className="flex flex-col justify-around lg:flex-row items-center gap-10">
                     <div className="lg:w-5/12">
-                        {/* <img src="/Fire-Hydrants-2.png" alt="Fire Hydrant" width={500} height={400} className="rounded-xl" /> */}
+                        <img src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618656/Fire-Hydrants-2_ak1vij.webp"
+                         alt="Fire Hydrant System" 
+                     
+                          className="rounded-xl" />
                     </div>
                     <div className="lg:w-6/12">
                         <h1 className="text-3xl font-bold mb-4 text-center md:text-left">Essential Fire Protection</h1>
@@ -108,10 +109,13 @@ export default function page() {
                     <div className="flex flex-col-reverse lg:flex-row gap-10 items-center">
                         <div className="lg:w-6/12 space-y-10">
                             <Section title="Key Components of a Fire Hydrant System" list={keyComponents} />
-                            <Section title="Benefits of Fire Alarm Systems" list={benefits} />
+                            <Section title="Benefits of Fire Hydrant System" list={benefits} />
                         </div>
                         <div className="lg:w-6/12">
-                            {/* <img src="/Fire-Hydrants-3.jpg" alt="Hydrant Diagram" width={600} height={400} className="rounded-xl" /> */}
+                            <img src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618656/Fire-Hydrants-3_qkrvxi.webp"
+                             alt="Fire Hydrant System"
+                              
+                               className="rounded-xl" />
                         </div>
                     </div>
                     <Section title="Importance of Fire Hydrant Systems" list={importance} />
