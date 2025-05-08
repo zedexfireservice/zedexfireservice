@@ -63,14 +63,12 @@ export default function page() {
         <>
             <section>
                 <div className="relative flex  h-[86vh] md:h-[60vh] w-full">
-                    {/* <img
-                        src="/fire-sprinkler01.jpg"
-                        alt="interior l-shape category for design with oven and appliances"
-                        fill
-
+                    <img
+                        src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618657/fire-sprinkler01_lhqscg.webp"
+                        alt=" Fire Sprinkler System"
                         className="object-cover rounded-lg "
-                        priority
-                    /> */}
+                        
+                    />
 
                     <div className="absolute w-full h-full p-9 bottom-0 flex flex-col md:flex-row justify-center md:justify-between items-center md:text-center mx-auto">
                         <p className="text-center md:text-left text-red-50 text-6xl font-bold flex flex-col justify-center items-center h-full my-auto">
@@ -91,13 +89,12 @@ export default function page() {
                 <div className="container mx-auto px-4">
                     <div className="flex justify-around flex-col lg:flex-row items-center gap-12">
                         <div className="lg:w-5/12 w-full">
-                            {/* <img
-                                src="/fire-sprinkler-system-2.jpg"
+                            <img
+                                src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618656/fire-sprinkler-system-2_ey3qlf.webp"
                                 alt="Fire Sprinkler System"
-                                width={600}
-                                height={400}
+                               
                                 className="rounded-xl w-full h-auto"
-                            /> */}
+                            />
                         </div>
                         <div className="lg:w-6/12 w-full">
                             <h1 className="text-3xl font-bold mb-4 text-center md:text-left">Automatic Fire Protection</h1>
@@ -120,13 +117,12 @@ export default function page() {
                                 </ul>
                             </div>
                             <div className="lg:w-6/12 w-full">
-                                {/* <img
-                                    src="/fire-sprinkler-system-3.jpg"
-                                    alt="Sprinkler Components"
-                                    width={600}
-                                    height={400}
+                                <img
+                                    src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618656/fire-sprinkler-system-3_w6g04z.webp"
+                                    alt=" Fire Sprinkler System"
+                                    
                                     className="rounded-xl w-full h-auto"
-                                /> */}
+                                />
                             </div>
                         </div>
 
