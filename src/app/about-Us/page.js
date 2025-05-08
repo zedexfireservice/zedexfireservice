@@ -13,7 +13,8 @@ export default function page() {
 
         {
             id: 1,
-            // img: 'https://media.istockphoto.com/id/2091536398/photo/engineer-check-fire-extinguisher-tank-in-the-fire-control-room-for-safety-in-factory-or.jpg?s=1024x1024&w=is&k=20&c=mAFnHpXTYL2Jet7Y4fVUSLmIvk1v-zJj5K6iAyrv25o=',
+            img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618764/Newbanner2_jwiq1q.webp',
+            img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746683932/Fire_Mobile_View_638_x_870_px_ezbcq6.webp',
             title: 'Fire Alarm System',
             content: 'At Zedex, we are dedicated to providing comprehensive fire and safety solutions to safeguard lives and property. With a focus on quality, reliability, and expert installation services',
             buttonText: 'Request A Quote',
@@ -103,32 +104,32 @@ export default function page() {
 
     const reasons = [
         {
-            img: "/r1.png",
+            img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618660/r1_pbs34k.webp",
             title: "Uncompromising Work Ethics",
             description: "Integrity and professionalism at every step",
         },
         {
-            img: "/r2.png",
+            img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618661/r2_kjbifb.webp",
             title: "Timely Delivery",
             description: "Ensuring efficiency with a commitment to deadlines",
         },
         {
-            img: "/r3.png",
+            img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618661/r3_yzig6m.webp",
             title: "Comprehensive Technical Expertise",
             description: "End-to-end solutions for all your needs",
         },
         {
-            img: "/r4.png",
+            img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618661/r4_y0nnr7.webp",
             title: "Reliable After-Sales Support",
             description: "Dedicated assistance whenever you need it",
         },
         {
-            img: "/r5.png",
+            img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618662/r5_ieob2h.webp",
             title: "International Standard Products",
             description: "Quality that meets global benchmarks",
         },
         {
-            img: "/r6.png",
+            img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618663/r6_b4zoee.webp",
             title: "Extensive PAN India Network",
             description: "A strong presence across the country",
         },
@@ -136,11 +137,11 @@ export default function page() {
 
     const certificates = [
 
-        { src: "/Certificate1.png", alt: "ISI Certified" },
-        { src: "/Certificate2.png", alt: "IRS Certified" },
-        { src: "/Certificate3.png", alt: "CE Certified" },
-        { src: "/Certificate4.png", alt: "ISO Certified" },
-        { src: "/Certificate5.png", alt: "ISO Certified" },
+        { src: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618670/Certificate1_vslyt7.webp", alt: "ISI Certified" },
+        { src: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618671/Certificate2_tvogq9.webp", alt: "IRS Certified" },
+        { src: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618671/Certificate3_gb5rh6.webp", alt: "CE Certified" },
+        { src: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618672/Certificate4_hf5ya6.webp", alt: "ISO Certified" },
+        { src: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618672/Certificate5_o1rxql.webp", alt: "UL Certified listed" },
 
     ];
 
@@ -164,8 +165,13 @@ export default function page() {
                             style={{ position: 'absolute', top: 0, left: 0, zIndex: 1 }}
 
                         >
-                            <img src={slide.img} className=' h-full w-full object-fill' alt='ss' width="500" height="500" />
-
+                            <img src={slide.img} className='  hidden md:block h-full w-full   object-center object-cover' alt='ss' width="500" height="500" />
+                            <img
+                  src={slide.img2}
+                  className=' md:hidden  h-full w-full object-center object-cover'
+                  alt='ss'
+                 
+                />
 
                         </div>
 
@@ -201,13 +207,12 @@ export default function page() {
                 <div className=" gap-7 md:gap-16   items-center flex  flex-wrap-reverse pt-0 mt-0 py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2  lg:px-6">
                     <div className="  flex justify-center w-full h-full   ">
 
-                        {/* <img
+                        <img
                             className="w-full h-full object-center   object-cover rounded-3xl"
-                            src="https://websiteonlinedemo.com/zedex-new/assets/images/about_thumb02.webp"
-                            alt=" "
-                            width="600"
-                            height="960"
-                        /> */}
+                            src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746619560/about_thumb02_mhu7je.webp"
+                            alt="Zedex Complete Solutions for Fire Safety "
+                           
+                        />
 
                       
 
@@ -288,8 +293,7 @@ export default function page() {
                                     <img
                                         src={item.img}
                                         alt={item.title}
-                                        width={500}
-                                        height={500}
+                                       
                                         className="mx-auto w-auto h-14 "
                                     />
                                 </div>
@@ -305,7 +309,7 @@ export default function page() {
 
             <section
                 className="bg-cover object-center object-fill bg-center bg-no-repeat py-16 px-4"
-                style={{ backgroundImage: 'url("/Mission-vision_Banner.jpg")' }}
+                style={{ backgroundImage: 'url("https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618660/Mission-vision_Banner_ejxosd.webp")' }}
             >
                 <div className="container mx-auto">
                     <div className="flex flex-col lg:flex-row justify-between gap-8 backdrop-brightness-100/80">
@@ -351,13 +355,12 @@ export default function page() {
                                 key={index}
                                 className="w-1/2 sm:w-1/3 md:w-1/6 flex justify-center py-3"
                             >
-                                {/* <img
+                                <img
                                     src={cert.src}
                                     alt={cert.alt}
-                                    width={120}
-                                    height={120}
+                                    
                                     className={`object-contain rounded-lg`}
-                                /> */}
+                                />
                             </div>
                         ))}
                     </div>
