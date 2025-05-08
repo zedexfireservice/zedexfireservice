@@ -104,17 +104,17 @@ function Header() {
 
 
   const pathname = usePathname();
-  const [logoSrc, setLogoSrc] = useState('/zedexLOGO.png');
+  const [logoSrc, setLogoSrc] = useState('https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618668/zedexLOGO_sy1y2y.webp');
   const [logoSize, setLogoSize] = useState({ width: '150', height: '60' });
 
   useEffect(() => {
     if (pathname) {
       if (pathname === '/fire&safety' || pathname === '/fire-extinguishers' || pathname === '/fire-hydrant-system' || pathname === '/fire-sprinkler-system' || pathname === '/fire-suppression-system' || pathname === '/glow-signage-&-emergency-lights' || pathname === '/fire-tubing-system' || pathname === '/fire-VESDA-system' || pathname === '/fire-alarm-system') {
-        setLogoSrc('/zedexLOGO.png');
+        setLogoSrc('https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618668/zedexLOGO_sy1y2y.webp');
         setLogoSize({ width: '150', height: '60' });
 
       } else {
-        setLogoSrc('/zedexLOGO.png');
+        setLogoSrc('https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618668/zedexLOGO_sy1y2y.webp');
         setLogoSize({ width: '150', height: '60' });
       }
 

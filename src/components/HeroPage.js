@@ -24,8 +24,8 @@ export default function HeroPage() {
 
     {
       id: 1,
-      img: '/Newbanner2.webp',
-      img2: '/Newmobilebanner1.jpg',
+      img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618764/Newbanner2_jwiq1q.webp',
+      img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746683932/Fire_Mobile_View_638_x_870_px_ezbcq6.webp',
       title: 'Fire Alarm System',
       content: 'At Zedex, we are dedicated to providing comprehensive fire and safety solutions to safeguard lives and property. With a focus on quality, reliability, and expert installation services',
       buttonText: 'Request A Quote',
@@ -35,8 +35,8 @@ export default function HeroPage() {
 
     {
       id: 2,
-      img: '/Newbanner1.webp',
-      img2: '/Newmobilebanner1.jpg',
+      img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618763/Newbanner1_qqdhxk.webp',
+      img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746683931/Fire_Mobile_View_638_x_870_px_1_ede02j.webp',
       title: 'Air Cooling & Air Conditioning System',
       content: <>
         Installation, Service, Repair &amp; Maintenance
@@ -49,8 +49,8 @@ export default function HeroPage() {
     },
     {
       id: 3,
-      img: '/Newbanner3.webp',
-      img2: '/Newmobilebanner1.jpg',
+      img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618764/Newbanner3_umgow4.webp',
+      img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746683930/1_k7nyla.webp',
       title: 'Air Cooling & Air Conditioning System',
       content: <>
         Installation, Service, Repair &amp; Maintenance
@@ -63,8 +63,8 @@ export default function HeroPage() {
     },
     {
       id: 4,
-      img: '/Newbanner4.webp',
-      img2: '/Newmobilebanner1.jpg',
+      img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618765/Newbanner4_xr7kgn.webp',
+      img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746683930/6_gby5he.webp',
       title: 'Air Cooling & Air Conditioning System',
       content: <>
         Installation, Service, Repair &amp; Maintenance
@@ -77,8 +77,8 @@ export default function HeroPage() {
     },
     {
       id: 5,
-      img: '/Newbanner5.webp',
-      img2: '/Newmobilebanner1.jpg',
+      img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618765/Newbanner5_fwjuyx.webp',
+      img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746683931/7_a11fdl.webp',
       title: 'Air Cooling & Air Conditioning System',
       content: <>
         Installation, Service, Repair &amp; Maintenance
@@ -91,8 +91,8 @@ export default function HeroPage() {
     },
     {
       id: 6,
-      img: '/Newbanner6.webp',
-      img2: '/Newmobilebanner1.jpg',
+      img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618765/Newbanner6_bb2hvu.webp',
+      img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746683931/4_lv9biw.webp',
       title: 'Air Cooling & Air Conditioning System',
       content: <>
         Installation, Service, Repair &amp; Maintenance
@@ -105,8 +105,8 @@ export default function HeroPage() {
     },
     {
       id: 7,
-      img: '/Newbanner7.webp',
-      img2: '/Newmobilebanner1.jpg',
+      img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618765/Newbanner7_q3u9ph.webp',
+      img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746683932/Fire_Mobile_View_638_x_870_px_ezbcq6.webp',
       title: 'Air Cooling & Air Conditioning System',
       content: <>
         Installation, Service, Repair &amp; Maintenance
@@ -119,8 +119,8 @@ export default function HeroPage() {
     },
     {
       id: 8,
-      img: '/Newbanner8.webp',
-      img2: '/Newmobilebanner1.jpg',
+      img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618766/Newbanner8_okzcmw.webp',
+      img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746683931/Fire_Mobile_View_638_x_870_px_1_ede02j.webp',
       title: 'Air Cooling & Air Conditioning System',
       content: <>
         Installation, Service, Repair &amp; Maintenance
@@ -216,14 +216,14 @@ export default function HeroPage() {
   const industries = [
     {
       href: "/",
-      img: "/fire-extinguisher1.jpg",
+      img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618655/fire-extinguisher1_ogj1a9.webp",
       alt: "Fire Extinguishers for Home",
       title: "Fire Extinguisher ISI Mark 'Zedex'",
       items: "Fire extinguishers are vital for fire safety, suppressing small fires before they spread. Knowing their types and proper use ensures effective fire prevention in homes, offices, and public spaces.",
     },
     {
       href: "/",
-      img: "/fire-alarm-system.jpg",
+      img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618654/fire-alarm-system_tunw9g.webp",
       alt: "Fire extinguishers for Offices",
       title: "Addressable Fire Alarm System",
       items: "A fire alarm system detects smoke, heat, or fire, alerting occupants for timely evacuation. It enhances safety, minimizes damage, and ensures compliance with fire regulations.",
@@ -231,7 +231,7 @@ export default function HeroPage() {
 
     {
       href: "/",
-      img: "/fire-sprinkler-system.jpg",
+      img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618656/fire-sprinkler-system_xclv3j.webp",
       alt: "Fire extinguishers for Offices",
       title: "Fire Sprinkler System",
       items: "A fire sprinkler system is a crucial component of modern fire safety, designed to automatically detect and suppress fires in residential, commercial, and industrial spaces.",
@@ -239,7 +239,7 @@ export default function HeroPage() {
 
     {
       href: "/",
-      img: "/fire-hydrant-system.jpg",
+      img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618655/fire-hydrant-system_y6jt44.webp",
       alt: "Fire extinguishers for Offices",
       title: "Fire Hydrant System",
       items: "A fire hydrant system is a vital component of fire safety infrastructure, providing firefighters with immediate access to water during emergencies.",
@@ -247,7 +247,7 @@ export default function HeroPage() {
 
     {
       href: "/",
-      img: "/fire-suppression-system.jpg",
+      img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618657/fire-suppression-system_dawyka.webp",
       alt: "Fire extinguishers for Offices",
       title: "Fire Suppression System",
       items: "A fire suppression system is an essential safety solution designed to control or extinguish fires in various environments, safeguarding lives, property, and assets.",
@@ -255,7 +255,7 @@ export default function HeroPage() {
 
     {
       href: "/",
-      img: "/anti-rodent-system.jpg",
+      img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618669/anti-rodent-system_kljufa.webp",
       alt: "Fire extinguishers for Offices",
       title: "Anti Rodent System",
       items: "Rodents threaten fire safety by damaging wires and insulation. An Anti-Rodent System prevents infestations, protecting buildings, industries, and infrastructure for safety and continuity.",
@@ -264,7 +264,7 @@ export default function HeroPage() {
 
     {
       href: "/",
-      img: "/water-leak-device.jpg",
+      img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618663/water-leak-device_as5yxy.webp",
       alt: "Fire extinguishers for Offices",
       title: "Water Leak Device (WLD)",
       items: "Water leaks threaten fire protection, electrical systems, and building safety. A Water Leak Detection Device (WLD) detects and prevents leaks early, minimizing damage and ensuring safety.",
@@ -272,7 +272,7 @@ export default function HeroPage() {
 
     {
       href: "/",
-      img: "/vesda-system.jpg",
+      img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618663/vesda-system_urtikc.webp",
       alt: "Fire extinguishers for Offices",
       title: "Vesda System",
       items: "VESDA detects smoke early, ideal for high-risk areas like data centers and museums, providing continuous monitoring and rapid response for superior fire safety.",
@@ -280,7 +280,7 @@ export default function HeroPage() {
 
     {
       href: "/",
-      img: "/tubling.png",
+      img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618663/tubling_ts7kec.webp",
       alt: "Fire extinguishers for Offices",
       title: "Fire Tubing System",
       items: "A fire tubing system is an essential element of fire protection engineering, designed to detect and suppress fires across various environments.",
@@ -288,7 +288,7 @@ export default function HeroPage() {
 
     {
       href: "/",
-      img: "/firedoor.png",
+      img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618654/Fire-Door-Service1_rmxcde.webp",
       alt: "Fire extinguishers for Offices",
       title: "Fire Door Service",
       items: "Fire doors are a critical component of any fire protection system, designed to slow the spread of fire and smoke, providing valuable time for safe evacuation.",
@@ -296,7 +296,7 @@ export default function HeroPage() {
 
     {
       href: "/",
-      img: "/kitchenfire.png",
+      img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618659/kitchenfire_biq0pf.webp",
       alt: "Fire extinguishers for Offices",
       title: "Kitchen Fire Suppression System",
       items: "A commercial kitchen is a high-risk fire zone due to constant exposure to heat, grease, and flammable oils.",
@@ -309,15 +309,15 @@ export default function HeroPage() {
   ];
 
   const logos = [
-    { src: 'https://websiteonlinedemo.com/zedex-new/assets/images/clients/29.png', alt: 'Asahi-India-Glass-Ltd', width: 2000, height: 112 },
-    { src: 'https://websiteonlinedemo.com/zedex-new/assets/images/clients/19.png', alt: 'Asahi-India-Glass-Ltd', width: 176, height: 112 },
-    { src: 'https://websiteonlinedemo.com/zedex-new/assets/images/clients/1.png', alt: 'Asahi-India-Glass-Ltd', width: 176, height: 112 },
-    { src: 'https://websiteonlinedemo.com/zedex-new/assets/images/clients/2.png', alt: 'Asahi-India-Glass-Ltd', width: 176, height: 112 },
-    { src: 'https://websiteonlinedemo.com/zedex-new/assets/images/clients/4.png', alt: 'Asahi-India-Glass-Ltd', width: 176, height: 112 },
-    { src: 'https://websiteonlinedemo.com/zedex-new/assets/images/clients/6.png', alt: 'Asahi-India-Glass-Ltd', width: 176, height: 112 },
-    { src: 'https://websiteonlinedemo.com/zedex-new/assets/images/clients/8.png', alt: 'Asahi-India-Glass-Ltd', width: 176, height: 112 },
-    { src: 'https://websiteonlinedemo.com/zedex-new/assets/images/clients/10.png', alt: 'Asahi-India-Glass-Ltd', width: 176, height: 112 },
-    { src: 'https://websiteonlinedemo.com/zedex-new/assets/images/clients/11.png', alt: 'Asahi-India-Glass-Ltd', width: 176, height: 112 },
+    { src: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746682207/1_n3dez9.webp', alt: 'Asahi-India-Glass-Ltd', width: 176, height: 112 },
+    { src: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746682207/2_edxtax.webp', alt: 'Asahi-India-Glass-Ltd', width: 176, height: 112 },
+    { src: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746682208/4_l39gtm.webp', alt: 'Asahi-India-Glass-Ltd', width: 176, height: 112 },
+    { src: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746682241/28_zseh41.webp', alt: 'Asahi-India-Glass-Ltd', width: 176, height: 112 },
+    { src: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746682239/27_h8edfl.webp', alt: 'Asahi-India-Glass-Ltd', width: 176, height: 112 },
+    { src: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746682213/8_o1borr.webp', alt: 'Asahi-India-Glass-Ltd', width: 176, height: 112 },
+    { src: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746682215/9_ht35t3.webp', alt: 'Asahi-India-Glass-Ltd', width: 176, height: 112 },
+    { src: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746682223/15_r0hocj.webp', alt: 'Asahi-India-Glass-Ltd', width: 176, height: 112 },
+    { src: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746682227/18_x6zb8e.webp', alt: 'Asahi-India-Glass-Ltd', width: 176, height: 112 },
 
   ];
 
@@ -495,20 +495,18 @@ export default function HeroPage() {
                 style={{ position: 'absolute', top: 0, left: 0, zIndex: 1 }}
 
               >
-                <Image
+                <img
                   src={slide.img}
                   className=' hidden md:block h-full w-full   object-center object-cover'
                   alt='ss'
-                  width="1200"
-                  height="500"
+                  
                 />
 
-                <Image
+                <img
                   src={slide.img2}
                   className=' md:hidden  h-full w-full object-center object-cover'
                   alt='ss'
-                  width="500"
-                  height="500"
+                 
                 />
 
               </div>
@@ -550,12 +548,11 @@ export default function HeroPage() {
           <div className=" gap-7 md:gap-16   items-center flex  flex-wrap pt-0 mt-0 py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2  lg:px-6">
             <div className="  flex justify-center w-full h-full    ">
 
-               <Image
+               <img
                 className="w-full h-full object-center   object-cover rounded-3xl"
-                src="/zedexundermaintainance.webp"
+                src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746619560/about_thumb02_mhu7je.webp"
                 alt="under maintainance"
-                width="200"
-                height="200"
+               
               /> 
 
 
@@ -644,8 +641,7 @@ export default function HeroPage() {
                     <img
                       src={industry.img}
                       alt={industry.alt}
-                      height={200}
-                      width={500}
+                     
                       className="transition-transform duration-300 group-hover:scale-100 object-cover object-center"
                     />
 
@@ -704,7 +700,12 @@ export default function HeroPage() {
                 >
                   {logos.map((image, index) => (
                     <li key={index}>
-                      {/* <img loading='lazy' src={image.src} className=' object-center  object-cover' width={200} height={300} alt={image.alt} /> */}
+                      <img loading='lazy' 
+                      src={image.src}
+                       className=' object-center  object-cover'
+                        width={image.width}
+                         height={image.height}
+                         alt={image.alt} />
                     </li>
                   ))}
                 </ul>
@@ -807,13 +808,12 @@ export default function HeroPage() {
 
 
             <div className="h-fit justify-center items-center flex w-full md:w-7/12">
-              {/* <img
-                src="https://images.unsplash.com/photo-1571624436279-b272aff752b5?q=80&w=2944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" // Replace this with your desired image URL
-                width={2000}
-                height={500}
+              <img
+                src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618655/contactus_d1deoi.webp" // Replace this with your desired image URL
+                
                 alt="Description of the image"
                 className="w-full h-auto object-cover"
-              /> */}
+              />
             </div>
 
 

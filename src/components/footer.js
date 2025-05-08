@@ -14,18 +14,18 @@ export default function Footer() {
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
 
         <div>
-          <div className="mb-6 flex justify-center md:justify-start">
-            <Image
-              src="/zedexLOGO2.png"
-              alt="Zedex Logo"
-              width={200}
-              height={80}
-            />
-          </div>
-          <p className="text-sm mb-4 text-center md:text-left">
+        <div className="w-full h-24 md:h-32 lg:h-16 flex justify-start items-start mb-5 md:justify-start">
+  <img
+    src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618668/zedexLOGO2_gi6vfd.webp"
+    alt="Zedex Logo"
+    className="w-full h-full object-contain"
+  />
+</div>
+
+          <p className="text-sm mb-4 text-center  ">
             At Zedex, we are dedicated to providing comprehensive fire and safety solutions to safeguard lives and property.
           </p>
-          <div className="flex space-x-4 justify-center md:justify-start py-4">
+          <div className="flex space-x-4 justify-center  py-4">
             <a href="#" className="hover:text-orange-500"><FaInstagram /></a>
             <a href="#" className="hover:text-orange-500"><FaFacebookF /></a>
             <a href="#" className="hover:text-orange-500"><TbBrandX /></a>
@@ -34,9 +34,9 @@ export default function Footer() {
         </div>
 
 
-        <div>
-          <h4 className="text-lg font-semibold mb-4 text-center md:text-left">Quick Links</h4>
-          <ul className="space-y-2 text-sm  text-center md:text-left">
+        <div className=" text-center">
+          <h4 className="text-lg font-semibold mb-4 text-center ">Quick Links</h4>
+          <ul className="space-y-2 text-sm  text-center ">
             <li><Link href="/" className="hover:text-orange-500">Home</Link></li>
             <li><Link href="/about-us" className="hover:text-orange-500">About Us</Link></li>
             <li><Link href="/clients" className="hover:text-orange-500">Clients</Link></li>
@@ -46,8 +46,8 @@ export default function Footer() {
 
 
         <div>
-          <h4 className="text-lg font-semibold mb-4 text-center md:text-left">Our Services</h4>
-          <ul className="space-y-2 text-sm text-center md:text-left">
+          <h4 className="text-lg font-semibold mb-4 text-center ">Our Services</h4>
+          <ul className="space-y-2 text-sm text-center ">
             {[
               'fire-extinguishers',
               'fire-alarm-system',
@@ -72,17 +72,17 @@ export default function Footer() {
 
 
         <div>
-          <h4 className="text-lg font-semibold mb-4 text-center md:text-left">Contact Us</h4>
-          <ul className="space-y-3 text-sm flex md:justify-center md:items-start items-center flex-col">
-            <li className="flex  items-start gap-2">
+          <h4 className="text-lg font-semibold mb-4 text-center">Contact Us</h4>
+          <ul className="space-y-3 text-sm flex md:justify-center   items-center flex-col">
+            <li className="flex text-center  gap-2">
               <BiEnvelope className="mt-1" />
               <a href="mailto:info@zedexfire.com">info@zedexfire.com</a>
             </li>
-            <li className="flex items-start gap-2">
+            <li className="flex text-center gap-2">
               <BsFillTelephoneFill className="mt-1 " />
               <a href="tel:+919999883999">+91 9999883999</a>
             </li>
-            <li className="flex items-start gap-2">
+            <li className="flex text-center gap-2">
               <IoLocationSharp className="mt-1  h-full  w-14" />
               <span>
                 239/20, Rajiv Chowk Flyover, Shanti Nagar, Shivaji Nagar, Sector 11, Gurugram, Haryana 122001
