@@ -25,14 +25,14 @@ export default function page() {
         <>
             <section>
                 <div className="relative flex  h-[86vh] md:h-[67vh] w-full">
-                    {/* <img
-                        src="/inner-bg2.jpg"
+                    <img
+                        src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618658/inner-bg2_sbmqgm.webp"
                         alt="interior l-shape category for design with oven and appliances"
-                        fill
+                        
 
-                        className="object-cover rounded-lg "
-                        priority
-                    /> */}
+                        className="object-cover rounded-lg object-center w-full h-full "
+                         
+                    />
 
                     <div className="absolute w-full h-full p-9 bottom-0 flex flex-col md:flex-row justify-center md:justify-between items-center md:text-center mx-auto">
                         <p className="text-center md:text-left text-red-900 text-6xl font-bold flex flex-col justify-center items-center h-full my-auto">
@@ -55,13 +55,12 @@ export default function page() {
         <div className="flex flex-col lg:flex-row items-center  justify-around gap-8">
           <div className="lg:w-5/12 w-full">
             <div className="rounded overflow-hidden">
-              {/* <img
-                src="/fire-alarm-system_02.jpg"
+              <img
+                src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618655/fire-alarm-system_02_uzvg1k.webp"
                 alt="Fire Alarm System"
-                width={800}
-                height={600}
+               
                 className="rounded-2xl border-2 border-red-300"
-              /> */}
+              />
             </div>
           </div>
           <div className="lg:w-6/12 w-full">
@@ -71,9 +70,8 @@ export default function page() {
               ZedEx Addressable Fire Alarm Systems : Intelligent Fire Protection for Delhi NCR
 </h1>
               <p className="text-gray-700 text-justify md:text-left">
-                A fire alarm system is a crucial safety measure designed to detect smoke, heat, or fire and alert building occupants for timely evacuation and response.
-                By providing <span className="font-semibold">early warning</span>, these systems help protect lives, minimize property damage, and ensure compliance with fire safety regulations.
-                Equipped with <span className="font-semibold">detectors, control panels, and alarm devices</span>, fire alarm systems enhance overall building safety and enable a rapid response from emergency services.
+             In the critical moments of a fire emergency, every second counts. ZedEx Fire offers state-of-the-art addressable fire alarm systems engineered for rapid and precise detection. These systems give you the vital time needed for safe evacuation and minimize potential damage. Unlike conventional systems, our addressable technology pinpoints the exact location of a fire, enabling swift and targeted responses. Discover how ZedEx's intelligent fire protection can safeguard your property and personnel in Delhi NCR.
+
               </p>
             </div>
           </div>
@@ -105,13 +103,12 @@ export default function page() {
     ))}
   </div>
           <div className="lg:w-6/12">
-            {/* <img
-              src="/Fire-Alarm.jpg"
+            <img
+              src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618654/Fire-Alarm_qlh32m.webp"
               alt="Fire Alarm Components"
-              width={800}
-              height={600}
+             
               className="rounded-2xl"
-            /> */}
+            />
           </div>
         </div>
 

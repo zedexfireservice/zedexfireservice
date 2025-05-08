@@ -8,7 +8,7 @@ const blogsCards  = [
 
   {
     href:'/top-Fire-Fighting-Company-in-Delhi-NCR',
-    img:"https://www.zedexfire.com/_next/image?url=%2Ftopfire.webp&w=1920&q=75",
+    img:"https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618767/topfire_jx2sgb.webp",
     alt:"Fire extinguishers image ",
     title:"Zedex Fire Company : Your Trusted Partner for Comprehensive Fire Safety Solutions in Delhi NCR and India",
     para:" Friday, 02 May 2025 by Zedex Fire Company "
@@ -22,15 +22,15 @@ const blogsCards  = [
   <section>
                 <div className="relative flex  h-[86vh] md:h-[67vh] w-full">
 
-                    {/* <img
+                    <img
 
-                        src="/zedexfirebg.jpg"
+                        src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618667/zedexfirebg_dt84ni.webp"
                         alt="interior l-shape category for design with oven and appliances"
-                      layout='fill'
-                        className="object-cover rounded-lg "
-                        priority
+                      
+                        className="object-cover rounded-lg w-full h-full "
+                         
 
-                    /> */}
+                    />
 
 
                     <div className="absolute w-full h-full p-9 bottom-0 flex flex-col md:flex-row justify-center md:justify-between items-center md:text-center mx-auto">
@@ -64,8 +64,8 @@ const blogsCards  = [
 
                   <div className="relative w-full ">
 
-                    {/* <img src={items.img}  alt={items.alt}  height={200}  width={500} className="transition-transform duration-300 group-hover:scale-100 object-cover object-center"
-                    /> */}
+                    <img src={items.img}  alt={items.alt}    className="transition-transform duration-300 group-hover:scale-100 object-cover object-center"
+                    />
 
                     <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition">
                       <div className="absolute bottom-3 right-3   bg-red-500 rounded-full" >
