@@ -26,10 +26,8 @@ export default function HeroPage() {
       id: 1,
       img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618764/Newbanner2_jwiq1q.webp',
       img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746683932/Fire_Mobile_View_638_x_870_px_ezbcq6.webp',
-      title: 'Fire Alarm System',
-      content: 'At Zedex, we are dedicated to providing comprehensive fire and safety solutions to safeguard lives and property. With a focus on quality, reliability, and expert installation services',
-      buttonText: 'Request A Quote',
-      descriptivetext: "At Zedex, we are dedicated to providing comprehensive fire and safety solutions to safeguard lives and property. With a focus on quality, reliability, and expert installation services",
+     
+      alt:"Addressable Fire Alarm System, Smart Detection , Faster Response , Safer Spaces."
     }
     ,
 
@@ -37,99 +35,45 @@ export default function HeroPage() {
       id: 2,
       img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618763/Newbanner1_qqdhxk.webp',
       img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746683931/Fire_Mobile_View_638_x_870_px_1_ede02j.webp',
-      title: 'Air Cooling & Air Conditioning System',
-      content: <>
-        Installation, Service, Repair &amp; Maintenance
-        <br />
-        24x7 Service Available
-      </>,
-      buttonText: 'CALL US NOW',
-      descriptivetext: "Air Cooling & Air Conditioning System"
-
+      alt:"Fire Sprinklers System , Your First Line of Defense Against Fire!"
+     
     },
     {
       id: 3,
       img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618764/Newbanner3_umgow4.webp',
       img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746683930/1_k7nyla.webp',
-      title: 'Air Cooling & Air Conditioning System',
-      content: <>
-        Installation, Service, Repair &amp; Maintenance
-        <br />
-        24x7 Service Available
-      </>,
-      buttonText: 'CALL US NOW',
-      descriptivetext: "Air Cooling & Air Conditioning System"
-
+      alt:"Anti Rodent System"
     },
     {
       id: 4,
       img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618765/Newbanner4_xr7kgn.webp',
       img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746683930/6_gby5he.webp',
-      title: 'Air Cooling & Air Conditioning System',
-      content: <>
-        Installation, Service, Repair &amp; Maintenance
-        <br />
-        24x7 Service Available
-      </>,
-      buttonText: 'CALL US NOW',
-      descriptivetext: "Air Cooling & Air Conditioning System"
-
+      alt:"Expert Fire Door System Certified Fire Door Inspections & Installation"
     },
     {
       id: 5,
       img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618765/Newbanner5_fwjuyx.webp',
       img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746683931/7_a11fdl.webp',
-      title: 'Air Cooling & Air Conditioning System',
-      content: <>
-        Installation, Service, Repair &amp; Maintenance
-        <br />
-        24x7 Service Available
-      </>,
-      buttonText: 'CALL US NOW',
-      descriptivetext: "Air Cooling & Air Conditioning System"
-
+     alt:"Water Leak Detection Device"
     },
     {
       id: 6,
       img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618765/Newbanner6_bb2hvu.webp',
       img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746683931/4_lv9biw.webp',
-      title: 'Air Cooling & Air Conditioning System',
-      content: <>
-        Installation, Service, Repair &amp; Maintenance
-        <br />
-        24x7 Service Available
-      </>,
-      buttonText: 'CALL US NOW',
-      descriptivetext: "Air Cooling & Air Conditioning System"
-
-    },
+      alt:"Fire Extinguishers by Zedex Certified Protection You Can Trust — ISI Marked "
+      },
     {
       id: 7,
       img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618765/Newbanner7_q3u9ph.webp',
       img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746683932/Fire_Mobile_View_638_x_870_px_ezbcq6.webp',
-      title: 'Air Cooling & Air Conditioning System',
-      content: <>
-        Installation, Service, Repair &amp; Maintenance
-        <br />
-        24x7 Service Available
-      </>,
-      buttonText: 'CALL US NOW',
-      descriptivetext: "Air Cooling & Air Conditioning System"
-
-    },
+      alt:"Kitchen Fire  Suppression System Engineered for Commercial Kitchens. Trusted by Professionals.."
+       },
     {
       id: 8,
       img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618766/Newbanner8_okzcmw.webp',
       img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746683931/Fire_Mobile_View_638_x_870_px_1_ede02j.webp',
-      title: 'Air Cooling & Air Conditioning System',
-      content: <>
-        Installation, Service, Repair &amp; Maintenance
-        <br />
-        24x7 Service Available
-      </>,
-      buttonText: 'CALL US NOW',
-      descriptivetext: "Air Cooling & Air Conditioning System"
-
+      alt:"Smart Safety Starts Here! Precision-designed hydrant systems installed by certified experts"
+    
     },
 
 
@@ -203,6 +147,7 @@ export default function HeroPage() {
       { label: 'Fire Tubing System', href: '/fire-tubing-system' },
       { label: 'Fire Door Service', href: '/fire-door-service' },
     ],
+
     [
       { label: 'Fire Suppression System', href: '/fire-suppression-system' },
       { label: 'Anti Rodent System', href: '/anti-rodent-system' },
@@ -215,89 +160,90 @@ export default function HeroPage() {
 
   const industries = [
     {
-      href: "/",
+      href: "/fire-extinguishers",
       img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618655/fire-extinguisher1_ogj1a9.webp",
       alt: "Fire Extinguishers for Home",
       title: "Fire Extinguisher ISI Mark 'Zedex'",
       items: "Fire extinguishers are vital for fire safety, suppressing small fires before they spread. Knowing their types and proper use ensures effective fire prevention in homes, offices, and public spaces.",
     },
     {
-      href: "/",
+      href: "/addressable-Fire-Alarm-System-in-Delhi",
       img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618654/fire-alarm-system_tunw9g.webp",
-      alt: "Fire extinguishers for Offices",
+      alt: "Addressable Fire Alarm System",
       title: "Addressable Fire Alarm System",
       items: "A fire alarm system detects smoke, heat, or fire, alerting occupants for timely evacuation. It enhances safety, minimizes damage, and ensures compliance with fire regulations.",
     },
 
     {
-      href: "/",
+      href: "/fire-sprinkler-system",
       img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618656/fire-sprinkler-system_xclv3j.webp",
-      alt: "Fire extinguishers for Offices",
+      alt: "Fire Sprinkler System",
       title: "Fire Sprinkler System",
       items: "A fire sprinkler system is a crucial component of modern fire safety, designed to automatically detect and suppress fires in residential, commercial, and industrial spaces.",
     },
 
     {
-      href: "/",
+      href: "/fire-hydrant-system",
       img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618655/fire-hydrant-system_y6jt44.webp",
-      alt: "Fire extinguishers for Offices",
+      alt: "Fire Hydrant System",
       title: "Fire Hydrant System",
       items: "A fire hydrant system is a vital component of fire safety infrastructure, providing firefighters with immediate access to water during emergencies.",
     },
 
     {
-      href: "/",
+      href: "/fire-suppression-system",
       img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618657/fire-suppression-system_dawyka.webp",
-      alt: "Fire extinguishers for Offices",
+      alt: "Fire Suppression System",
       title: "Fire Suppression System",
       items: "A fire suppression system is an essential safety solution designed to control or extinguish fires in various environments, safeguarding lives, property, and assets.",
     },
 
     {
-      href: "/",
+      href: "/anti-rodent-system",
       img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618669/anti-rodent-system_kljufa.webp",
-      alt: "Fire extinguishers for Offices",
+      alt: "Anti Rodent System",
       title: "Anti Rodent System",
       items: "Rodents threaten fire safety by damaging wires and insulation. An Anti-Rodent System prevents infestations, protecting buildings, industries, and infrastructure for safety and continuity.",
     },
 
 
     {
-      href: "/",
-      img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618663/water-leak-device_as5yxy.webp",
-      alt: "Fire extinguishers for Offices",
+      href: "/water-leak-detection-device",
+      img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618664/Zedexfire2_cvaopn.webp",
+      alt: "Water Leak Device (WLD)",
       title: "Water Leak Device (WLD)",
       items: "Water leaks threaten fire protection, electrical systems, and building safety. A Water Leak Detection Device (WLD) detects and prevents leaks early, minimizing damage and ensuring safety.",
     },
 
+
     {
-      href: "/",
+      href: "/fire-VESDA-system",
       img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618663/vesda-system_urtikc.webp",
-      alt: "Fire extinguishers for Offices",
+      alt: "Vesda System",
       title: "Vesda System",
       items: "VESDA detects smoke early, ideal for high-risk areas like data centers and museums, providing continuous monitoring and rapid response for superior fire safety.",
     },
 
     {
-      href: "/",
+      href: "/fire-tubing-system",
       img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618663/tubling_ts7kec.webp",
-      alt: "Fire extinguishers for Offices",
+      alt: "Fire Tubing System",
       title: "Fire Tubing System",
       items: "A fire tubing system is an essential element of fire protection engineering, designed to detect and suppress fires across various environments.",
     },
 
     {
-      href: "/",
+      href: "/fire-door-service",
       img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618654/Fire-Door-Service1_rmxcde.webp",
-      alt: "Fire extinguishers for Offices",
+      alt: "Fire Door Service",
       title: "Fire Door Service",
       items: "Fire doors are a critical component of any fire protection system, designed to slow the spread of fire and smoke, providing valuable time for safe evacuation.",
     },
 
     {
-      href: "/",
+      href: "/kitchen-fire-suppression-system",
       img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618659/kitchenfire_biq0pf.webp",
-      alt: "Fire extinguishers for Offices",
+      alt: "Kitchen Fire Suppression System",
       title: "Kitchen Fire Suppression System",
       items: "A commercial kitchen is a high-risk fire zone due to constant exposure to heat, grease, and flammable oils.",
     },
@@ -309,15 +255,15 @@ export default function HeroPage() {
   ];
 
   const logos = [
-    { src: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746682207/1_n3dez9.webp', alt: 'Asahi-India-Glass-Ltd', width: 176, height: 112 },
-    { src: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746682207/2_edxtax.webp', alt: 'Asahi-India-Glass-Ltd', width: 176, height: 112 },
-    { src: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746682208/4_l39gtm.webp', alt: 'Asahi-India-Glass-Ltd', width: 176, height: 112 },
-    { src: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746682241/28_zseh41.webp', alt: 'Asahi-India-Glass-Ltd', width: 176, height: 112 },
-    { src: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746682239/27_h8edfl.webp', alt: 'Asahi-India-Glass-Ltd', width: 176, height: 112 },
-    { src: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746682213/8_o1borr.webp', alt: 'Asahi-India-Glass-Ltd', width: 176, height: 112 },
-    { src: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746682215/9_ht35t3.webp', alt: 'Asahi-India-Glass-Ltd', width: 176, height: 112 },
-    { src: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746682223/15_r0hocj.webp', alt: 'Asahi-India-Glass-Ltd', width: 176, height: 112 },
-    { src: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746682227/18_x6zb8e.webp', alt: 'Asahi-India-Glass-Ltd', width: 176, height: 112 },
+    { src: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746682207/1_n3dez9.webp', alt: 'logo of Cadila Pharmaceuticals', width: 176, height: 112 },
+    { src: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746682207/2_edxtax.webp', alt: 'logo of heinz compnay', width: 176, height: 112 },
+    { src: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746682208/4_l39gtm.webp', alt: 'logo of genesis luxury company', width: 176, height: 112 },
+    { src: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746682241/28_zseh41.webp', alt: 'logo of toyota', width: 176, height: 112 },
+    { src: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746682239/27_h8edfl.webp', alt: 'logo of silver streak', width: 176, height: 112 },
+    { src: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746682213/8_o1borr.webp', alt: 'logo of SAN', width: 176, height: 112 },
+    { src: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746682215/9_ht35t3.webp', alt: 'logo of sunbeam', width: 176, height: 112 },
+    { src: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746682223/15_r0hocj.webp', alt: 'logo of HG global company', width: 176, height: 112 },
+    { src: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746682227/18_x6zb8e.webp', alt: 'logo of DLF', width: 176, height: 112 },
 
   ];
 
@@ -498,14 +444,14 @@ export default function HeroPage() {
                 <img
                   src={slide.img}
                   className=' hidden md:block h-full w-full   object-center object-cover'
-                  alt='ss'
+                  alt={slide.alt}
                   
                 />
 
                 <img
                   src={slide.img2}
                   className=' md:hidden  h-full w-full object-center object-cover'
-                  alt='ss'
+                  alt={slide.alt}
                  
                 />
 
@@ -551,7 +497,7 @@ export default function HeroPage() {
                <img
                 className="w-full h-full object-center   object-cover rounded-3xl"
                 src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746619560/about_thumb02_mhu7je.webp"
-                alt="under maintainance"
+                alt="Zedex Complete Solutions for Fire & Safety"
                
               /> 
 
@@ -630,7 +576,7 @@ export default function HeroPage() {
 
             <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
               {industries.map((industry, index) => (
-                <a
+                <Link
                   key={index}
                   href={industry.href}
                   className="block bg-white shadow-md rounded overflow-hidden group hover:shadow-lg transition"
@@ -659,7 +605,7 @@ export default function HeroPage() {
                     <p className="text-sm   mb-2 text-justify md:text-left"> {industry.items}</p>
 
                   </div>
-                </a>
+                </Link>
               ))}
             </div>
           </div>
@@ -809,9 +755,9 @@ export default function HeroPage() {
 
             <div className="h-fit justify-center items-center flex w-full md:w-7/12">
               <img
-                src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618655/contactus_d1deoi.webp" // Replace this with your desired image URL
+                src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618655/contactus_d1deoi.webp"  
                 
-                alt="Description of the image"
+                alt="Talk to our Fire experts."
                 className="w-full h-auto object-cover"
               />
             </div>

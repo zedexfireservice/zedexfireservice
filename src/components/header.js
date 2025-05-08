@@ -280,7 +280,7 @@ function Header() {
                     style={{ cursor: 'pointer' }}
                   >
                     <p className="font-sans font-thin">Contact Number</p>
-                    <p>+91 9999883999</p>
+                    <p>9999-883-999</p>
                   </div>
 
 

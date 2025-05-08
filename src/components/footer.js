@@ -14,7 +14,7 @@ export default function Footer() {
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
 
         <div>
-        <div className="w-full h-24 md:h-32 lg:h-16 flex justify-start items-start mb-5 md:justify-start">
+        <div className="  h-22 w-full  flex justify-start items-start mb-5 md:justify-start">
   <img
     src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618668/zedexLOGO2_gi6vfd.webp"
     alt="Zedex Logo"
@@ -80,7 +80,7 @@ export default function Footer() {
             </li>
             <li className="flex text-center gap-2">
               <BsFillTelephoneFill className="mt-1 " />
-              <a href="tel:+919999883999">+91 9999883999</a>
+              <a href="tel:9999883999">9999-883-999</a>
             </li>
             <li className="flex text-center gap-2">
               <IoLocationSharp className="mt-1  h-full  w-14" />
