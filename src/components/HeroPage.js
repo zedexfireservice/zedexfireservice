@@ -197,7 +197,7 @@ export default function HeroPage() {
   const columnData = [
     [
       { label: 'Fire Extinguisher ISI Mark "Zedex"', href: '/fire-extinguishers' },
-      { label: 'Addressable Fire Alarm System', href: '/fire-alarm-system' },
+      { label: 'Addressable Fire Alarm System', href: '/addressable-Fire-Alarm-System-in-Delhi' },
       { label: 'Fire Sprinkler System', href: '/fire-sprinkler-system' },
       { label: 'Fire Hydrant System', href: '/fire-hydrant-system' },
       { label: 'Fire Tubing System', href: '/fire-tubing-system' },

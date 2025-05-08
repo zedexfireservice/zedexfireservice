@@ -1,148 +1,149 @@
+import React from 'react'
 import Image from 'next/image'
 
-export default function page() {
-  const fireAlarmDetails = [
-    {
-      title: 'Key Components of a Fire Alarm System',
-      items: [
-        { label: 'Control Panel -', desc: 'The central unit that monitors and activates the alarm.' },
-        { label: 'Detectors -', desc: 'Smoke, heat, and multi-sensor detectors for accurate fire detection.' },
-        { label: 'Alarm Notification Devices -', desc: 'Sirens, strobe lights, and pull stations.' },
-        { label: 'Control Modules -', desc: 'Facilitate communication with sprinklers and emergency lights.' },
-      ],
-    },
-    {
-      title: 'Benefits of Fire Alarm Systems',
-      items: [
-        { label: 'Early Detection & Response -', desc: 'Reduces the risk of injuries and fatalities.' },
-        { label: 'Property Protection -', desc: 'Minimizes damage by enabling quicker firefighting measures.' },
-        { label: 'Regulatory Compliance -', desc: 'Ensures adherence to fire safety laws and insurance benefits.' },
-      ],
-    },
-  ];
+export default function FireAlarmSystem() {
 
-
-  const features = [
-    {
-      title: "Control panel",
-      description: "At the heart of the addressable fire alarm system lies a sophisticated control panel. This powerful central processing unit receives and analyzes signals from all connected devices, providing real-time information and enabling precise control over the entire system. Its intuitive interface offers clear status updates and facilitates easy system management.",
-    },
-    {
-      title:"Addressable devices",
-      description:"em utilizes a comprehensive range of addressable devices, including highly sensitive smoke detectors, reliable heat detectors, and easily accessible manual call points. Each device has a unique digital address, allowing the control panel to instantly identify the exact location of an alarm activation, leading to faster and more targeted responses."
-    },
-    {
-      title:"Notification devices",
-      description:"In the event of a fire, clear and immediate notification is paramount. The systems support a variety of notification devices, including loud and distinct bells, powerful horns, attention-grabbing strobe lights, and clear voice evacuation speakers, ensuring all occupants are effectively alerted, regardless of their location within the building."
-    },
-    {
-      title:"Monitoring software",
-      description:"The System offers advanced monitoring software that provides remote access to the system's status and detailed information about individual devices. This allows for real-time oversight, proactive maintenance alerts, and comprehensive reporting, ensuring optimal system performance and faster response coordination, even from off-site locations."
-    },
-    {
-      title:"Battery backup",
-      description:"Recognizing the critical need for continuous operation during power outages, the addressable fire alarm system includes a reliable battery backup. This ensures the system remains fully functional, providing uninterrupted fire detection and notification capabilities, even when primary power is lost"
-    }
-  ]
-
-
-  
-  const WhyChoose = [
-    {
-      title: "Unmatched Accuracy and Lightning-Fast Response",
-      description: "ZedEx's advanced addressable technology assigns a unique identifier to each device, providing precise location details that instantly trigger an alarm. This eliminates guesswork, allowing first responders to act decisively and efficiently, potentially reducing damage and saving lives.",
-    },
-
-    {
-      title:"Effortless Maintenance and Future-Proof Scalability ",
-      description:" Our addressable systems simplify maintenance. Individual devices can be easily tested, replaced, or upgraded without disrupting the entire network, minimizing downtime and reducing long-term costs. As your business grows, ZedEx systems can seamlessly expand to accommodate your evolving needs."
-    },
-
-    {
-      title : " Proactive 24/7 Monitoring for Complete Peace of Mind ",
-      description : "  ZedEx offers comprehensive remote monitoring services, providing real-time status updates and instant alerts in case of fire or system anomalies. Our proactive approach ensures your system is always functioning optimally, offering continuous protection."
-    },
-    {
-      title : " Custom-Tailored Solutions Designed for You",
-      description : "We understand that every building has unique safety requirements. ZedEx's expert team in Delhi and NCR works closely with you to design and implement an addressable fire alarm system perfectly tailored to your specific layout, occupancy, and industry regulations."
-    },
-
-
-    {
-      title : " Reliability You Can Trust, Backed by Local Expertise",
-      description : " ZedEx Fire Service Company is committed to providing dependable, high-quality fire safety solutions. Our systems adhere to stringent industry standards, and our Delhi-based team offers dedicated local support, from initial consultation to ongoing maintenance."
-    },
-
-
-    {
-      title : "Seamless Integration with Your Existing Infrastructure",
-      description : "ZedEx addressable fire alarm systems are designed for smooth integration with other crucial building management systems, such as HVAC, security, and access control, creating a unified safety ecosystem for enhanced protection and efficiency."
-    },
-
-
-
-  ]
-
-
-  const KeyFeatures = [
-    {
-      title: "Pinpoint Accuracy with Intelligent Device Addressing",
-      description: "Each detector, call point, and module has a unique address, allowing the control panel to identify the exact origin of an alarm, significantly speeding up response times.",
-    },
-
-  
-    {
-      title: "Early Detection with Multi-Sensor Intelligence",
-      description: "Our systems utilize sophisticated multi-sensor technology, including smoke, heat, and in some cases, gas detection, minimizing false alarms while ensuring rapid detection of even the earliest signs of fire.",
-    },
-
-  
-
-    {
-      title: "Flexible Zoning for Optimized Building Management",
-      description: "Our systems utilize sophisticated multi-sensor Divide your facility into logical zones for clearer identification of alarm locations and more efficient evacuation procedures. ZedEx systems offer highly configurable zoning options to suit your building's layout",
-    },
-
-  
-    {
-      title: "Real-Time Monitoring and Diagnostic Capabilities",
-      description: " Our intelligent control panels provide a user-friendly interface with live system status, event logs, and diagnostic tools, enabling proactive maintenance and quick identification of any potential issues. Remote monitoring options provide constant oversight.",
-    },
-
-  
-
-    {
-      title: "Versatile Notification Options for Maximum Alert Effectiveness",
-      description: "ZedEx systems support a wide range of notification devices, including loud sirens, clear voice evacuation systems, and bright visual strobes, ensuring occupants are effectively alerted in any situation.",
-    },
-
-  
-
-    {
-      title: "Effortless Integration for a Unified Safety Network",
-      description: "Our addressable systems can seamlessly communicate with other building systems, such as shutting down ventilation to prevent smoke spread or unlocking emergency exits upon alarm activation.",
-    },
+    const fireAlarmDetails = [
+        {
+          title: 'Key Components of a Fire Alarm System',
+          items: [
+            { label: 'Control Panel -', desc: 'The central unit that monitors and activates the alarm.' },
+            { label: 'Detectors -', desc: 'Smoke, heat, and multi-sensor detectors for accurate fire detection.' },
+            { label: 'Alarm Notification Devices -', desc: 'Sirens, strobe lights, and pull stations.' },
+            { label: 'Control Modules -', desc: 'Facilitate communication with sprinklers and emergency lights.' },
+          ],
+        },
+        {
+          title: 'Benefits of Fire Alarm Systems',
+          items: [
+            { label: 'Early Detection & Response -', desc: 'Reduces the risk of injuries and fatalities.' },
+            { label: 'Property Protection -', desc: 'Minimizes damage by enabling quicker firefighting measures.' },
+            { label: 'Regulatory Compliance -', desc: 'Ensures adherence to fire safety laws and insurance benefits.' },
+          ],
+        },
+      ];
+    
+    
+      const features = [
+        {
+          title: "Control panel",
+          description: "At the heart of the addressable fire alarm system lies a sophisticated control panel. This powerful central processing unit receives and analyzes signals from all connected devices, providing real-time information and enabling precise control over the entire system. Its intuitive interface offers clear status updates and facilitates easy system management.",
+        },
+        {
+          title:"Addressable devices",
+          description:"em utilizes a comprehensive range of addressable devices, including highly sensitive smoke detectors, reliable heat detectors, and easily accessible manual call points. Each device has a unique digital address, allowing the control panel to instantly identify the exact location of an alarm activation, leading to faster and more targeted responses."
+        },
+        {
+          title:"Notification devices",
+          description:"In the event of a fire, clear and immediate notification is paramount. The systems support a variety of notification devices, including loud and distinct bells, powerful horns, attention-grabbing strobe lights, and clear voice evacuation speakers, ensuring all occupants are effectively alerted, regardless of their location within the building."
+        },
+        {
+          title:"Monitoring software",
+          description:"The System offers advanced monitoring software that provides remote access to the system's status and detailed information about individual devices. This allows for real-time oversight, proactive maintenance alerts, and comprehensive reporting, ensuring optimal system performance and faster response coordination, even from off-site locations."
+        },
+        {
+          title:"Battery backup",
+          description:"Recognizing the critical need for continuous operation during power outages, the addressable fire alarm system includes a reliable battery backup. This ensures the system remains fully functional, providing uninterrupted fire detection and notification capabilities, even when primary power is lost"
+        }
+      ]
+    
+    
+      
+      const WhyChoose = [
+        {
+          title: "Unmatched Accuracy and Lightning-Fast Response",
+          description: "ZedEx's advanced addressable technology assigns a unique identifier to each device, providing precise location details that instantly trigger an alarm. This eliminates guesswork, allowing first responders to act decisively and efficiently, potentially reducing damage and saving lives.",
+        },
+    
+        {
+          title:"Effortless Maintenance and Future-Proof Scalability ",
+          description:" Our addressable systems simplify maintenance. Individual devices can be easily tested, replaced, or upgraded without disrupting the entire network, minimizing downtime and reducing long-term costs. As your business grows, ZedEx systems can seamlessly expand to accommodate your evolving needs."
+        },
+    
+        {
+          title : " Proactive 24/7 Monitoring for Complete Peace of Mind ",
+          description : "  ZedEx offers comprehensive remote monitoring services, providing real-time status updates and instant alerts in case of fire or system anomalies. Our proactive approach ensures your system is always functioning optimally, offering continuous protection."
+        },
+        {
+          title : " Custom-Tailored Solutions Designed for You",
+          description : "We understand that every building has unique safety requirements. ZedEx's expert team in Delhi and NCR works closely with you to design and implement an addressable fire alarm system perfectly tailored to your specific layout, occupancy, and industry regulations."
+        },
+    
+    
+        {
+          title : " Reliability You Can Trust, Backed by Local Expertise",
+          description : " ZedEx Fire Service Company is committed to providing dependable, high-quality fire safety solutions. Our systems adhere to stringent industry standards, and our Delhi-based team offers dedicated local support, from initial consultation to ongoing maintenance."
+        },
+    
+    
+        {
+          title : "Seamless Integration with Your Existing Infrastructure",
+          description : "ZedEx addressable fire alarm systems are designed for smooth integration with other crucial building management systems, such as HVAC, security, and access control, creating a unified safety ecosystem for enhanced protection and efficiency."
+        },
+    
+    
+    
+      ]
+    
+    
+      const KeyFeatures = [
+        {
+          title: "Pinpoint Accuracy with Intelligent Device Addressing",
+          description: "Each detector, call point, and module has a unique address, allowing the control panel to identify the exact origin of an alarm, significantly speeding up response times.",
+        },
+    
+      
+        {
+          title: "Early Detection with Multi-Sensor Intelligence",
+          description: "Our systems utilize sophisticated multi-sensor technology, including smoke, heat, and in some cases, gas detection, minimizing false alarms while ensuring rapid detection of even the earliest signs of fire.",
+        },
+    
+      
+    
+        {
+          title: "Flexible Zoning for Optimized Building Management",
+          description: "Our systems utilize sophisticated multi-sensor Divide your facility into logical zones for clearer identification of alarm locations and more efficient evacuation procedures. ZedEx systems offer highly configurable zoning options to suit your building's layout",
+        },
+    
+      
+        {
+          title: "Real-Time Monitoring and Diagnostic Capabilities",
+          description: " Our intelligent control panels provide a user-friendly interface with live system status, event logs, and diagnostic tools, enabling proactive maintenance and quick identification of any potential issues. Remote monitoring options provide constant oversight.",
+        },
+    
+      
+    
+        {
+          title: "Versatile Notification Options for Maximum Alert Effectiveness",
+          description: "ZedEx systems support a wide range of notification devices, including loud sirens, clear voice evacuation systems, and bright visual strobes, ensuring occupants are effectively alerted in any situation.",
+        },
+    
+      
+    
+        {
+          title: "Effortless Integration for a Unified Safety Network",
+          description: "Our addressable systems can seamlessly communicate with other building systems, such as shutting down ventilation to prevent smoke spread or unlocking emergency exits upon alarm activation.",
+        },
+        
+    
+      
+        {
+          title: "Self-Diagnostic Functionality for Continuous Reliability",
+          description: " ZedEx systems often include automated self-testing features, ensuring all devices are functioning correctly and providing you with continuous peace of mind.",
+        },
+    
+    
+      
+    
+    
+    
+      ]
     
 
-  
-    {
-      title: "Self-Diagnostic Functionality for Continuous Reliability",
-      description: " ZedEx systems often include automated self-testing features, ensuring all devices are functioning correctly and providing you with continuous peace of mind.",
-    },
-
-
-  
-
-
-
-  ]
-
-
-
-
+      
   return (
     <>
-      <section>
+         <section>
         <div className="relative flex  h-[86vh] md:h-[67vh] w-full">
           <img
             src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618658/inner-bg2_sbmqgm.webp"
