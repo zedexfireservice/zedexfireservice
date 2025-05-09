@@ -36,7 +36,7 @@ function Header() {
 
     { href: '/', text: 'Home' },
 
-   
+
     {
       to: '#',
       text: ' Service ',
@@ -139,11 +139,11 @@ function Header() {
 
     {
       label: "Clients",
-      href:"/our-clients"
+      href: "/our-clients"
     },
     {
       label: "Blogs",
-      href:"/blogs"
+      href: "/blogs"
     },
 
     {
@@ -215,14 +215,14 @@ function Header() {
 
                 {pathname && (
                   <Image
-                  src={logoSrc}
-                  width={logoSize.width}
-                  height={logoSize.height}
-                  alt="Picture"
-                  className="md:h-[60px] md:w-auto my-3"
-                  style={{ width: `${logoSize.width}px`, height: `${logoSize.height}px` }}
+                    src={logoSrc}
+                    width={logoSize.width}
+                    height={logoSize.height}
+                    alt="Picture"
+                    className="md:h-[60px] md:w-auto my-3"
+                    style={{ width: `${logoSize.width}px`, height: `${logoSize.height}px` }}
 
-                />
+                  />
                 )}
 
 
