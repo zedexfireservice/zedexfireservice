@@ -28,14 +28,12 @@ const features = [
     <section>
 
          <div className="relative flex  h-[86vh] md:h-[67vh] w-full">
-                            {/* <img
-                                src="/kitchen-banner1.png"
-                                alt="interior l-shape category for design with oven and appliances"
-                                fill
-        
-                                className="object-cover rounded-lg "
-                                priority
-                            /> */}
+                            <img
+                                src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618658/kitchen-banner1_ocwis4.webp"
+                                alt=" Kitchen Fire Suppression System"
+                                className="object-cover rounded-lg w-full "
+                                 
+                            />
         
                             <div className="absolute w-full h-full p-9 bottom-0 flex flex-col md:flex-row justify-center md:justify-between items-center md:text-center mx-auto">
                                 <p className="text-center md:text-left text-red-900 text-6xl font-bold flex flex-col justify-center items-center h-full my-auto">
@@ -62,15 +60,14 @@ const features = [
                   <div className="flex justify-around flex-col lg:flex-row items-center ">
                     <div className="lg:w-5/12 w-full">
       
-                      {/* <img
+                      <img
                       
-                          src="/kitchen-banner2.png"
-                        alt="Fire Suppression System"
-                        width={600}
-                        height={500}
+                          src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618659/kitchenfire_biq0pf.webp"
+                        alt="Advanced Fire Protection for Commercial Kitchens"
+                    
                         className="rounded-xl w-full h-auto"
       
-                      /> */}
+                      />
       
                     </div>
       
