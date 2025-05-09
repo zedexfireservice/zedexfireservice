@@ -14,11 +14,11 @@ export default function Footer() {
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
 
         <div>
-        <div className="  h-22 w-full  flex justify-start items-start mb-5 md:justify-start">
+        <div className="    flex justify-start items-center mb-5 md:justify-center">
   <img
     src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618668/zedexLOGO2_gi6vfd.webp"
     alt="Zedex Logo"
-    className="w-full h-full object-contain"
+    className="  h-14 object-center object-contain"
   />
 </div>
 
@@ -76,17 +76,17 @@ export default function Footer() {
           <ul className="space-y-3 text-sm flex md:justify-center   items-center flex-col">
             <li className="flex text-center  gap-2">
               <BiEnvelope className="mt-1" />
-              <a href="mailto:info@zedexfire.com">info@zedexfire.com</a>
+              <a href="mailto:info@zedexfire.com" className=" w-54">info@zedexfire.com</a>
             </li>
             <li className="flex text-center gap-2">
               <BsFillTelephoneFill className="mt-1 " />
-              <a href="tel:9999883999">9999-883-999</a>
+              <a href="tel:9999883999" className=" w-54">9999-883-999</a>
             </li>
             <li className="flex text-center gap-2">
-              <IoLocationSharp className="mt-1  h-full  w-14" />
-              <span>
+              <IoLocationSharp className="mt-1 " />
+              <a className=" w-54">
                 239/20, Rajiv Chowk Flyover, Shanti Nagar, Shivaji Nagar, Sector 11, Gurugram, Haryana 122001
-              </span>
+              </a>
             </li>
           </ul>
         </div>

@@ -7,15 +7,11 @@ export default function page() {
     
        <section>
             <div className="relative flex  h-[86vh] md:h-[60vh] w-full">
-              {/* <img
-                src="/Zedexfire3.jpg"
-                alt="interior l-shape category for design with oven and appliances"
-                layout='fill'
-    
+              <img
+                src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618665/Zedexfire3_wmwk1i.webp"
+                alt="Fire VESDA System"
                 className="object-cover rounded-lg"
-
-                priority
-              /> */}
+              />
     
               <div className="absolute w-full h-full p-9 bottom-0 flex flex-col md:flex-row justify-center md:justify-between items-center md:text-center mx-auto">
                 <p className="text-center md:text-left text-red-900 text-6xl font-bold flex flex-col justify-center items-center h-full my-auto">
@@ -41,12 +37,16 @@ export default function page() {
           {/* Left Image */}
           <div className="lg:w-5/12 w-full">
             <div className="relative w-full h-80 lg:h-[400px] rounded overflow-hidden">
-              {/* <img
-                src="/Zedexfire4.jpg"
+
+
+              <img
+                src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618666/Zedexfire4_wz58ui.webp"
                 alt="Fire VESDA System"
-                layout='fill'
                   className="rounded-xl w-full h-auto"
-              /> */}
+              />
+
+
+
             </div>
           </div>
 
@@ -97,12 +97,11 @@ export default function page() {
             {/* Feature Image */}
             <div className="lg:w-6/12 w-full">
               <div className="relative w-full h-80 lg:h-[400px] rounded overflow-hidden">
-                {/* <img
-                  src="/Zedexfire5.jpg"
-                  alt="VESDA System Diagram"
-                  layout='fill'
+                <img
+                  src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618666/Zedexfire5_cigse6.webp"
+                  alt="Benefits of VESDA Systems"
                   className="rounded-xl w-full h-auto"
-                /> */}
+                />
               </div>
             </div>
           </div>
