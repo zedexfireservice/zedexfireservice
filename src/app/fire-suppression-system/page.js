@@ -12,7 +12,7 @@ export default function page() {
 
             alt="Fire suppression system"
           
-            className="object-cover rounded-lg"
+            className="object-cover rounded-lg w-full"
              
           />
 

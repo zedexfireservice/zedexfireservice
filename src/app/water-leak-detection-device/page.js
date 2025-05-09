@@ -9,7 +9,7 @@ export default function page() {
               <img
                 src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618664/Zedexfire1_ixv6nj.webp"
                 alt="Water Leak Detection Device (WLD)"  
-                className="object-cover rounded-lg "
+                className="object-cover rounded-lg  w-full"
                  
               />
     

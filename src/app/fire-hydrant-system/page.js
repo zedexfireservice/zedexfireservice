@@ -69,7 +69,7 @@ export default function page() {
                     <img
                         src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618656/fire-hydrant01_w8qel3.webp"
                         alt="Fire Hydrant System"
-                        className="object-cover rounded-lg "
+                        className="object-cover rounded-lg  w-full"
                         
                     />
 

@@ -10,7 +10,7 @@ export default function page() {
               <img
                 src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618665/Zedexfire3_wmwk1i.webp"
                 alt="Fire VESDA System"
-                className="object-cover rounded-lg"
+                className="object-cover rounded-lg w-full"
               />
     
               <div className="absolute w-full h-full p-9 bottom-0 flex flex-col md:flex-row justify-center md:justify-between items-center md:text-center mx-auto">

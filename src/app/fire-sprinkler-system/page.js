@@ -66,7 +66,7 @@ export default function page() {
                     <img
                         src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618657/fire-sprinkler01_lhqscg.webp"
                         alt=" Fire Sprinkler System"
-                        className="object-cover rounded-lg "
+                        className="object-cover rounded-lg  w-full"
                         
                     />
 

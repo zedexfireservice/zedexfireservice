@@ -41,7 +41,7 @@ export default function page() {
                     <img
                         src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618658/inner-bg_ixhn9v.webp"
                         alt="Fire Extinguisher ISI Mark Zedex"
-                        className="object-cover rounded-lg "
+                        className="object-cover rounded-lg  w-full"
                          
                     />
 

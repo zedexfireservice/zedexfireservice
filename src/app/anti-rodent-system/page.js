@@ -9,7 +9,7 @@ export default function page() {
                     <img
                         src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618670/anti-rodent-system2_gsuoqs.webp"
                         alt="Anti Rodent System"  
-                        className="object-cover rounded-lg "
+                        className="object-cover rounded-lg  w-full"
                          
                     />
 
