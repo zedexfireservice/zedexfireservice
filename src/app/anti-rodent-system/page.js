@@ -6,12 +6,12 @@ export default function page() {
 
             <section>
                 <div className="relative flex  h-[86vh] md:h-[60vh] w-full">
-                    {/* <img
-                        src="/anti-rodent-system2.jpg"
-                        alt="interior l-shape category for design with oven and appliances" fill
+                    <img
+                        src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618670/anti-rodent-system2_gsuoqs.webp"
+                        alt="Anti Rodent System"  
                         className="object-cover rounded-lg "
-                        priority
-                    /> */}
+                         
+                    />
 
                     <div className="absolute w-full h-full p-9 bottom-0 flex flex-col md:flex-row justify-center md:justify-between items-center md:text-center mx-auto">
                         <p className="text-center md:text-left text-red-900 text-6xl font-bold flex flex-col justify-center items-center h-full my-auto">
@@ -37,13 +37,11 @@ export default function page() {
                         {/* About Section */}
                         <div className="flex flex-col lg:flex-row items-center">
                             <div className="lg:w-5/12 w-full">
-                                {/* <img
-                                    src="/anti-rodent-system1.jpg"
+                                <img
+                                    src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618669/anti-rodent-system1_llhvue.webp"
                                     alt="Anti Rodent System"
-                                    width={600}
-                                    height={500}
                                     className="rounded-xl w-full h-auto"
-                                /> */}
+                                />
                             </div>
 
                             <div className="w-0 lg:w-1/12"></div>
