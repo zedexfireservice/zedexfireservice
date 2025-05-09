@@ -224,13 +224,11 @@ export default function ContactUs() {
 
 
                         <div className="h-fit justify-center items-center flex w-full md:w-7/12">
-                            {/* <img
-                                src="https://images.unsplash.com/photo-1571624436279-b272aff752b5?q=80&w=2944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" // Replace this with your desired image URL
-                                width={500}
-                                height={500}
-                                alt="Description of the image"
+                            <img
+                                src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618655/contactus_d1deoi.webp" 
+                                alt="Talk to our Fire experts"
                                 className="w-full h-auto object-cover"
-                            /> */}
+                            />
                         </div>
 
 
