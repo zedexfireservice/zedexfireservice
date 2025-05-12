@@ -7,13 +7,11 @@ export default function page() {
 
       <section>
         <div className="relative flex  h-[86vh] md:h-[60vh] w-full">
+
           <img
             src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618658/inner-bg_ixhn9v.webp"
-
             alt="Fire suppression system"
-          
             className="object-cover rounded-lg w-full"
-             
           />
 
           <div className="absolute w-full h-full p-9 bottom-0 flex flex-col md:flex-row justify-center md:justify-between items-center md:text-center mx-auto">
@@ -42,10 +40,10 @@ export default function page() {
               <div className="lg:w-5/12 w-full">
 
                 <img
-                
+
                   src="/fire-suppression-system-1.webp"
                   alt="Fire suppression system"
-                 
+
                   className="rounded-xl w-full h-auto"
 
                 />
@@ -55,9 +53,11 @@ export default function page() {
               <div className="w-0 lg:w-1/12"></div>
 
               <div className="lg:w-6/12 w-full mt-8 lg:mt-0">
-                <h1 className="text-3xl text-center md:text-left font-bold mb-4">Advanced Fire Protection</h1>
+                <h1 className="text-3xl text-center md:text-left font-bold mb-4">Advanced Fire Suppression Systems in Delhi NCR: Your End-to-End Solution by Zedex Fire - An ISO 9001:2008 Certified Company
+</h1>
                 <p className="text-gray-700 text-justify md:text-left">
-                  A <strong>fire suppression system</strong> is an essential safety solution designed to <strong>control or extinguish fires</strong> in various environments, safeguarding <strong>lives, property, and assets</strong>. Using different suppression agents, these systems provide targeted fire protection, minimizing damage and ensuring a rapid response to fire hazards.
+                 Fires pose a significant threat to businesses and properties in the bustling Delhi NCR region. At Zedex Fire, we understand the critical importance of having reliable and effective fire suppression systems in place to safeguard your valuable assets and ensure the safety of occupants. As a leading  <strong>manufacturer, supplier, dealer, and installer of fire suppression systems in Delhi NCR</strong>, Zedex Fire offers a complete suite of advanced fire protection solutions, providing unparalleled protection against fire hazards in Delhi, Noida, Gurgaon, Faridabad, and Ghaziabad. We are proud to be an <strong>ISO 9001:2008 certified company</strong>, demonstrating our commitment to quality management and customer satisfaction.
+
                 </p>
               </div>
             </div>
