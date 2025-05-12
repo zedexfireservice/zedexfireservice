@@ -136,6 +136,7 @@ export default function FireAlarmSystem() {
     return (
         <>
             <section>
+
                 <div className="relative flex  h-[86vh] md:h-[67vh] w-full">
                     <img
                         src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618658/inner-bg2_sbmqgm.webp"
@@ -158,6 +159,7 @@ export default function FireAlarmSystem() {
                         </p>
                     </div>
                 </div>
+                
             </section>
 
 
@@ -180,7 +182,7 @@ export default function FireAlarmSystem() {
                         <div className="lg:w-6/12 w-full">
                             <div className="mb-6">
 
-                                <h1 className=" text:2xl md:text-3xl font-bold text-center  md:text-left mb-4">
+                                <h1 className="  text:2xl md:text-3xl font-bold text-center  md:text-left mb-4">
                                     ZedEx Addressable Fire Alarm Systems : Intelligent Fire Protection for Delhi NCR
                                 </h1>
 
