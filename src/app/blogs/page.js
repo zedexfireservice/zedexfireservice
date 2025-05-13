@@ -7,7 +7,7 @@ export default function page() {
 const blogsCards  = [
 
   {
-    href:'/top-fire-fighting-company-in-delhi-ncr',
+    href:'/top-Fire-Fighting-Company-In-Delhi-NCR',
     img:"https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618767/topfire_jx2sgb.webp",
     alt:"Fire extinguishers image ",
     title:"Zedex Fire Company : Your Trusted Partner for Comprehensive Fire Safety Solutions in Delhi NCR and India",
