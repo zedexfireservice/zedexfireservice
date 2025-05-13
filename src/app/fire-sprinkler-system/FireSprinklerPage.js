@@ -413,7 +413,7 @@ export default function FireSprinklerPage() {
 
 
 
-                        <div className="w-full md:p-7 rounded-xl">
+                        <div className="w-full md:p-6 rounded-xl">
                             <div className="flex items-center justify-center h-full">
                                 <div className="w-full flex flex-col justify-start lg:items-start items-center gap-3">
 
