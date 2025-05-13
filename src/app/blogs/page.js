@@ -1,13 +1,13 @@
  
 import Link from 'next/link'
-import React from 'react'
+ 
 
 export default function page() {
 
 const blogsCards  = [
 
   {
-    href:'/top-fire-fighting-company-in-delhi-ncr',
+    href:'top-fire-fighting-company-in-delhi-ncr',
     img:"https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618767/topfire_jx2sgb.webp",
     alt:"Fire extinguishers image ",
     title:"Zedex Fire Company : Your Trusted Partner for Comprehensive Fire Safety Solutions in Delhi NCR and India",
@@ -56,9 +56,9 @@ const blogsCards  = [
 
 {blogsCards.map((items,index)=>(
 
-     <a
+     <div
                   key={index}
-                  href={items.href}
+                 
                   className=" block bg-white shadow-md rounded overflow-hidden group hover:shadow-lg transition"
                 >
 
@@ -66,6 +66,7 @@ const blogsCards  = [
 
                     <img src={items.img}  alt={items.alt}    className="transition-transform duration-300 group-hover:scale-100 object-cover object-center"
                     />
+                  
 
                     <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition">
                       <div className="absolute bottom-3 right-3   bg-red-500 rounded-full" >
@@ -84,12 +85,14 @@ const blogsCards  = [
 <p className="text-md text-justify md:text-left">
 <strong> Published in</strong> in Fire Suppression
 </p>
-
+<Link  href="/top-fire-fighting-company-in-delhi-ncr">
+  click here
+  </Link>
 <p>
  <strong>Tagged under :</strong> Fire fighting system, fire fighting system in Delhi, Fire Safety, fire suppression system
 </p>
                   </div>
-                </a>
+                </div>
 
 ))}
 

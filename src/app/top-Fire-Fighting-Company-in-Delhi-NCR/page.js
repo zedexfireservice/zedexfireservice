@@ -1,5 +1,6 @@
+import TopFireFighting from "./TopFireFighting";
+
  
-import TopFireFighting from './TopFireFighting';
 
 export const metadata = {
 

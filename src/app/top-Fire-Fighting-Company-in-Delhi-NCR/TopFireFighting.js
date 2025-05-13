@@ -163,7 +163,7 @@ export default function TopFireFighting() {
                         <strong className=' text-red-500 hover:text-red-700'>
                             Zedex Fire Company
                         </strong>
-                    </Link> , you are partnering with a <Link href="/top-Fire-Fighting-Company-in-Delhi-NCR">
+                    </Link> , you are partnering with a <Link href="/top-fire-fighting-company-in-delhi-ncr">
                             <strong className=' text-red-500 hover:text-red-700'>
                                 top fire fighting company
                             </strong>
