@@ -1,12 +1,11 @@
 "use client"
-import Image from 'next/image'
+ 
 import Link from 'next/link'
 import React, { useEffect, useRef, useState } from 'react'
 
 export default function page() {
 
     const [currentIndex, setCurrentIndex] = useState(0);
-
 
 
     const slides = [
