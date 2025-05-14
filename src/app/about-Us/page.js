@@ -13,7 +13,7 @@ export default function page() {
 
         {
             id: 1,
-            img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618764/Newbanner2_jwiq1q.webp',
+            img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747213898/About_us_a5pjrd.webp',
             img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746683932/Fire_Mobile_View_638_x_870_px_ezbcq6.webp',
             title: 'Fire Alarm System',
             content: 'At Zedex, we are dedicated to providing comprehensive fire and safety solutions to safeguard lives and property. With a focus on quality, reliability, and expert installation services',

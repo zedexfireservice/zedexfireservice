@@ -24,7 +24,7 @@ export default function HeroPage() {
 
     {
       id: 1,
-      img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618764/Newbanner2_jwiq1q.webp',
+      img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747213898/fire_extinguisher_gi0yfp.webp',
       img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746683932/Fire_Mobile_View_638_x_870_px_ezbcq6.webp',
      
       alt:"Addressable Fire Alarm System, Smart Detection , Faster Response , Safer Spaces."
@@ -33,44 +33,51 @@ export default function HeroPage() {
 
     {
       id: 2,
-      img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618763/Newbanner1_qqdhxk.webp',
+      img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747213898/fire_door_services_qvagrn.webp',
       img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746683931/Fire_Mobile_View_638_x_870_px_1_ede02j.webp',
       alt:"Fire Sprinklers System , Your First Line of Defense Against Fire!"
      
     },
     {
       id: 3,
-      img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618764/Newbanner3_umgow4.webp',
+      img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747213898/fire_sprinkler_cqt9y8.webp',
       img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746683930/1_k7nyla.webp',
       alt:"Anti Rodent System"
     },
     {
       id: 4,
-      img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618765/Newbanner4_xr7kgn.webp',
+      img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747213898/Anti_Rodent_System_y3buaf.webp',
       img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746683930/6_gby5he.webp',
       alt:"Expert Fire Door System Certified Fire Door Inspections & Installation"
     },
     {
       id: 5,
-      img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618765/Newbanner5_fwjuyx.webp',
+      img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747213899/fire_vedsa_ye2qtq.webp',
       img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746683931/7_a11fdl.webp',
      alt:"Water Leak Detection Device"
     },
     {
       id: 6,
-      img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618765/Newbanner6_bb2hvu.webp',
+      img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747213899/fire_suprression_qoqajw.webp',
       img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746683931/4_lv9biw.webp',
       alt:"Fire Extinguishers by Zedex Certified Protection You Can Trust — ISI Marked "
       },
     {
       id: 7,
-      img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618765/Newbanner7_q3u9ph.webp',
+      img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747213900/kitchen_fire_supression_oxisl2.webp',
       img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746683932/Fire_Mobile_View_638_x_870_px_ezbcq6.webp',
       alt:"Kitchen Fire  Suppression System Engineered for Commercial Kitchens. Trusted by Professionals.."
        },
     {
       id: 8,
-      img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618766/Newbanner8_okzcmw.webp',
+      img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747213900/fire_hydrant_system_omh3gv.webp',
+      img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746683931/Fire_Mobile_View_638_x_870_px_1_ede02j.webp',
+      alt:"Smart Safety Starts Here! Precision-designed hydrant systems installed by certified experts"
+    
+    },
+    {
+      id: 9,
+      img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747213899/WLD_tkikdv.webp',
       img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746683931/Fire_Mobile_View_638_x_870_px_1_ede02j.webp',
       alt:"Smart Safety Starts Here! Precision-designed hydrant systems installed by certified experts"
     
