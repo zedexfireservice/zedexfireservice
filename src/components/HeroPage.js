@@ -44,18 +44,7 @@ export default function HeroPage() {
       img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746683930/1_k7nyla.webp',
       alt:"Anti Rodent System"
     },
-    {
-      id: 4,
-      img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747213898/Anti_Rodent_System_y3buaf.webp',
-      img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746683930/6_gby5he.webp',
-      alt:"Expert Fire Door System Certified Fire Door Inspections & Installation"
-    },
-    {
-      id: 5,
-      img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747213899/fire_vedsa_ye2qtq.webp',
-      img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746683931/7_a11fdl.webp',
-     alt:"Water Leak Detection Device"
-    },
+  
     {
       id: 6,
       img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747213899/fire_suprression_qoqajw.webp',
@@ -75,13 +64,7 @@ export default function HeroPage() {
       alt:"Smart Safety Starts Here! Precision-designed hydrant systems installed by certified experts"
     
     },
-    {
-      id: 9,
-      img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747213899/WLD_tkikdv.webp',
-      img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746683931/Fire_Mobile_View_638_x_870_px_1_ede02j.webp',
-      alt:"Smart Safety Starts Here! Precision-designed hydrant systems installed by certified experts"
-    
-    },
+     
 
 
 

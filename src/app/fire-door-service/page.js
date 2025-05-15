@@ -157,13 +157,13 @@ export default function page() {
 
                 <div className="relative flex  h-[86vh] md:h-[60vh] w-full">
                     <img
-                        src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618667/Zedexfire7_f5p0fq.webp"
+                        src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1747300835/fir_door_system_gygugg.webp"
                         alt="Fire Door Service"
                         className="object-cover rounded-lg  w-full"
                     />
 
                     <div className="absolute w-full h-full p-9 bottom-0 flex flex-col md:flex-row justify-center md:justify-between items-center md:text-center mx-auto">
-                        <p className="text-red-900 text-3xl md:text-6xl font-bold flex flex-col justify-center items-center h-full my-auto">
+                        <p className="text-red-50 text-3xl md:text-6xl font-bold flex flex-col justify-center items-center h-full my-auto">
                             Fire Door Service
 
                             <br />

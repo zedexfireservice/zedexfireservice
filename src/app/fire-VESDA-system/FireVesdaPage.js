@@ -137,13 +137,13 @@ export default function FireVesdaPage() {
      <section>
         <div className="relative flex  h-[86vh] md:h-[60vh] w-full">
           <img
-            src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618665/Zedexfire3_wmwk1i.webp"
+            src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1747300836/Vedsa_System_sugf6x.webp"
             alt="Fire VESDA System"
             className="object-cover rounded-lg w-full"
           />
 
           <div className="absolute w-full h-full p-9 bottom-0 flex flex-col md:flex-row justify-center md:justify-between items-center md:text-center mx-auto">
-            <p className="text-center md:text-left text-red-900 text-6xl font-bold flex flex-col justify-center items-center h-full my-auto">
+            <p className="text-center md:text-left text-red-50 text-6xl font-bold flex flex-col justify-center items-center h-full my-auto">
               Fire VESDA System
 
 

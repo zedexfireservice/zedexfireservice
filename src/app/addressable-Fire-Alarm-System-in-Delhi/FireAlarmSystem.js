@@ -138,22 +138,32 @@ export default function FireAlarmSystem() {
             <section>
 
                 <div className="relative flex  h-[86vh] md:h-[67vh] w-full">
-                    <img
-                        src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618658/inner-bg2_sbmqgm.webp"
-                        alt="interior l-shape category for design with oven and appliances"
+                 
 
 
-                        className="object-cover rounded-lg object-center w-full h-full "
+                       <div className="box w-full h-full">
+                               <img src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1747302325/Fire_Alarm_System_k65kk5.webp"
+                  className=' hidden md:block  h-full w-full  object-center object-cover'
+                  alt="  Addressable Fire Alarm System"
+                  
+                />
 
-                    />
+                <img
+                src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1747300895/11_helo9e.webp"
+                  className=' md:hidden  h-full w-full object-center object-cover'
+                       alt="  Addressable Fire Alarm System"
+                 
+                />
+                       </div>
+
 
                     <div className="absolute w-full h-full p-9 bottom-0 flex flex-col md:flex-row justify-center md:justify-between items-center md:text-center mx-auto">
-                        <p className="text-center md:text-left text-red-900 text-6xl font-bold flex flex-col justify-center items-center h-full my-auto">
+                        <p className="text-center md:text-left text-red-50 text-3xl md:text-6xl font-bold flex flex-col justify-center items-center h-full my-auto">
                             Addressable Fire Alarm System
 
 
                             <br />
-                            <span className="text-center  text-[15px] pt-5 w-full md:text-start uppercase">Home /  Addressable Fire Alarm System
+                            <span className="text-center  text-[10px] md:text-[15px] pt-5 w-full md:text-start uppercase">Home /  Addressable Fire Alarm System
 
                             </span>
                         </p>
@@ -174,8 +184,10 @@ export default function FireAlarmSystem() {
                                 <img
                                     src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618655/fire-alarm-system_02_uzvg1k.webp"
                                     alt="Fire Alarm System"
-                                    className="rounded-2xl border-2 border-red-300"
+                                    className=" hidden md:block rounded-2xl border-2 border-red-300"
                                 />
+
+                         
 
                             </div>
                         </div>

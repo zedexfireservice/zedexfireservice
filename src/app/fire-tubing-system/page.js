@@ -86,13 +86,13 @@ export default function page() {
                 <div className="relative flex  h-[86vh] md:h-[60vh] w-full">
 
                     <img
-                        src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618667/Zedexfire6_ibnxcj.webp"
+                        src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1747302325/fire_Tubing_sytem_pdbl8w.webp"
                         alt="Fire Tubing System zedex fire service"
                         className="object-cover w-full rounded-lg"
                     />
 
                     <div className="absolute w-full h-full p-9 bottom-0 flex flex-col md:flex-row justify-center md:justify-between items-center md:text-center mx-auto">
-                        <p className="text-center md:text-left text-red-900 text-3xl md:text-6xl font-bold flex flex-col justify-center items-center h-full my-auto">
+                        <p className="text-center md:text-left text-red-50 text-3xl md:text-6xl font-bold flex flex-col justify-center items-center h-full my-auto">
                             Fire Tubing System
 
                             <br />

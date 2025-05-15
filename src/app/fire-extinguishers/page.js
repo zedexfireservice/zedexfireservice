@@ -39,7 +39,7 @@ export default function page() {
             <section>
                 <div className="relative flex  h-[86vh] md:h-[60vh] w-full">
                     <img
-                        src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618658/inner-bg_ixhn9v.webp"
+                        src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1747300835/fire_extinguisher_2_itdsfe.webp"
                         alt="Fire Extinguisher ISI Mark Zedex"
                         className="object-cover rounded-lg  w-full"
                          

@@ -215,7 +215,7 @@ export default function FireSprinklerPage() {
       <section>
                 <div className="relative flex  h-[86vh] md:h-[60vh] w-full">
                     <img
-                        src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618657/fire-sprinkler01_lhqscg.webp"
+                        src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1747300835/fire_sprinklers_fje9ba.webp"
                         alt=" Fire Sprinkler System"
                         className="object-cover rounded-lg  w-full"
 
