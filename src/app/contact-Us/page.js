@@ -14,7 +14,9 @@ export default function ContactUs() {
     const phoneNumber = "9999883999";
 
     const handlePhoneCall = () => {
+
         window.location.href = `tel:${phoneNumber}`;
+
     };
     const emailAddress = "info@zedexfire.com";
 
@@ -25,8 +27,11 @@ export default function ContactUs() {
 
     const handleGetLocation = () => {
         // Constructing the Google Maps URL with the address
+
         const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(locationAddress)}`;
+
         // Opening the URL in a new tab
+        
         window.open(mapsUrl, '_blank');
     };
 
@@ -225,7 +230,7 @@ export default function ContactUs() {
 
                         <div className="h-fit justify-center items-center flex w-full md:w-7/12">
                             <img
-                                src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618655/contactus_d1deoi.webp" 
+                                src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1747378211/contactus_new_ox2pzd.webp" 
                                 alt="Talk to our Fire experts"
                                 className="w-full h-auto object-cover"
                             />

@@ -25,7 +25,7 @@ export default function HeroPage() {
     {
       id: 1,
       img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747213898/fire_extinguisher_gi0yfp.webp',
-      img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746683932/Fire_Mobile_View_638_x_870_px_ezbcq6.webp',
+      img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747373103/_Mobile_View_638_x_870_px_1_cdsmr8.webp',
      
       alt:"Addressable Fire Alarm System, Smart Detection , Faster Response , Safer Spaces."
     }
@@ -34,21 +34,21 @@ export default function HeroPage() {
     {
       id: 2,
       img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747213898/fire_door_services_qvagrn.webp',
-      img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746683931/Fire_Mobile_View_638_x_870_px_1_ede02j.webp',
+      img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747373103/mobile_view_638_x_870_px_fggarf.webp',
       alt:"Fire Sprinklers System , Your First Line of Defense Against Fire!"
      
     },
     {
       id: 3,
       img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747213898/fire_sprinkler_cqt9y8.webp',
-      img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746683930/1_k7nyla.webp',
+      img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747373103/mobile_view_638_x_870_px_2_fxwruu.webp',
       alt:"Anti Rodent System"
     },
   
     {
       id: 6,
       img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747213899/fire_suprression_qoqajw.webp',
-      img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746683931/4_lv9biw.webp',
+      img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747373103/mobile_view_638_x_870_px_1_eviplf.webp',
       alt:"Fire Extinguishers by Zedex Certified Protection You Can Trust — ISI Marked "
       },
     {
