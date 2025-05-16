@@ -745,7 +745,7 @@ export default function HeroPage() {
 
             <div className="h-fit justify-center items-center flex w-full md:w-7/12">
               <img
-                src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618655/contactus_d1deoi.webp"  
+                src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1747378211/contactus_new_ox2pzd.webp"  
                 
                 alt="Talk to our Fire experts."
                 className="w-full h-auto object-cover"
