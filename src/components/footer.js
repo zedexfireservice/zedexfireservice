@@ -38,9 +38,9 @@ export default function Footer() {
           <h4 className="text-lg font-semibold mb-4 text-center ">Quick Links</h4>
           <ul className="space-y-2 text-sm  text-center ">
             <li><Link href="/" className="hover:text-orange-500">Home</Link></li>
-            <li><Link href="/about-us" className="hover:text-orange-500">About Us</Link></li>
-            <li><Link href="/clients" className="hover:text-orange-500">Clients</Link></li>
-            <li><Link href="/contact-us" className="hover:text-orange-500">Contact</Link></li>
+            <li><Link href="/about-Us" className="hover:text-orange-500">About Us</Link></li>
+            <li><Link href="/our-clients" className="hover:text-orange-500">Clients</Link></li>
+            <li><Link href="/contact-Us" className="hover:text-orange-500">Contact</Link></li>
           </ul>
         </div>
 
@@ -60,6 +60,8 @@ export default function Footer() {
               'fire-tubing-system',
               'fire-door-service',
               'kitchen-fire-suppression-system',
+
+
             ].map((slug) => (
               <li key={slug}>
                 <Link href={`/${slug}`} className="hover:text-[#F89A1B] capitalize">

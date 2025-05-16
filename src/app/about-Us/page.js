@@ -319,7 +319,7 @@ export default function page() {
                             </div>
                             <ul className="list-disc list-outside pl-6 text-gray-700">
                                 <li className="text-justify leading-relaxed">
-                                    Our mission at Kanex Fire Solutions Ltd is clear — to build the best
+                                    Our mission at Zedex Fire Service  is clear — to build the best
                                     products, exceed expectations, and unite as one team with one plan and one goal.
                                 </li>
                             </ul>
