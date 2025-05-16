@@ -131,7 +131,7 @@ export default function HeroPage() {
   const columnData = [
     [
       { label: 'Fire Extinguisher ISI Mark "Zedex"', href: '/fire-extinguishers' },
-      { label: 'Addressable Fire Alarm System', href: '/addressable-Fire-Alarm-System-in-Delhi' },
+      { label: 'Addressable Fire Alarm System', href: '/addressable-fire-alarm-system-in-delhi' },
       { label: 'Fire Sprinkler System', href: '/fire-sprinkler-system' },
       { label: 'Fire Hydrant System', href: '/fire-hydrant-system' },
       { label: 'Fire Tubing System', href: '/fire-tubing-system' },
@@ -157,7 +157,7 @@ export default function HeroPage() {
       items: "Fire extinguishers are vital for fire safety, suppressing small fires before they spread. Knowing their types and proper use ensures effective fire prevention in homes, offices, and public spaces.",
     },
     {
-      href: "/addressable-Fire-Alarm-System-in-Delhi",
+      href: "/addressable-fire-alarm-system-in-delhi",
       img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618654/fire-alarm-system_tunw9g.webp",
       alt: "Addressable Fire Alarm System",
       title: "Addressable Fire Alarm System",
