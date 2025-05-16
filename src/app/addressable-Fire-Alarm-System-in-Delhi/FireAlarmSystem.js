@@ -1,6 +1,5 @@
 import React from 'react'
-import Image from 'next/image'
-
+ 
 export default function FireAlarmSystem() {
 
     const fireAlarmDetails = [
