@@ -68,7 +68,7 @@ export default function TopCompany() {
 
                         </li>
                         <li className=' py-2 '>
-                            <strong>Reliable Fire Detection and Alarm Systems :</strong> Early detection is key to preventing significant fire damage. We provide a comprehensive suite of <Link href="/addressable-fire-alarm-system-in-delhi">
+                            <strong>Reliable Fire Detection and Alarm Systems :</strong> Early detection is key to preventing significant fire damage. We provide a comprehensive suite of <Link href="/addressable-fire-alarm-system-in-delhi-ncr">
                                 <strong className=' text-red-500 hover:text-red-700'>
                                     fire detection systems
                                 </strong>
