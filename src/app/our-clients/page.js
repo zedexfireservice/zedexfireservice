@@ -154,13 +154,13 @@ export default function page() {
 
 
         {
-            img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746682237/25_byjund.webp',
+            img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746682238/26_j3heoj.webp',
             title: 'manav  rachna',
         },
 
 
         {
-            img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746682237/25_byjund.webp',
+            img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746682239/27_h8edfl.webp',
             title: 'silver streak hospitals',
         },
 
@@ -187,7 +187,7 @@ export default function page() {
 
                 <div className="relative flex  h-[86vh] md:h-[67vh] w-full">
                     <img
-                        src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618658/inner-bg_ixhn9v.webp"
+                        src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1747381977/Clients_my5h0k.webp"
                         alt="OUR CLIENTS zedex fire  service"
                         className="object-cover w-full rounded-lg "
                          

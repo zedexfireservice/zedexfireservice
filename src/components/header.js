@@ -245,8 +245,38 @@ function Header() {
               <div className="row text-right flex flex-row justify-end items-center">
 
                 <div className="row flex gap-8 md:gap-0   flex-row md:flex-row justify-center items-center">
+    <div
+                    className=" hidden lg:block col text-left text-[12px] ps-3  "
+
+                    style={{ cursor: 'pointer' }} // Optional styling for pointer and color
+                  >
 
 
+                    <a
+                      href="/zedex-fire-services-catalogue-2025.pdf"
+                      download="zedex-fire-services-catalogue-2025"
+                      className={`relative inline-flex items-center justify-start inline-block px-5 py-3 overflow-hidden font-bold rounded-full group ${isScrolled
+                        ? " text-black hover:text-black border-black"
+                        : " text-white hover:text-black "
+                        }`}
+                    >
+                      <span className="w-32 h-32 rotate-45 translate-x-12 -translate-y-2 absolute left-0 top-0 bg-gray-200 opacity-[3%]"></span>
+                      <span className="absolute top-0 left-0 w-48 h-48 -mt-1 transition-all duration-500 ease-in-out rotate-45 -translate-x-56  -translate-y-24 bg-white opacity-100 group-hover:-translate-x-2"></span>
+                      <span className=" text-center relative w-full flex justify-center items-center   ">
+                     <svg   xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 mr-2">
+  <path stroke-linecap="round" stroke-linejoin="round" d="m9 12.75 3 3m0 0 3-3m-3 3v-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+</svg>
+                       Product Catalogue
+                     
+
+                      </span>
+                  
+
+                      <span className="absolute inset-0  rounded-full"></span>
+                    </a>
+
+                  </div>
+ <hr className='rotate-90 w-10  relative hidden lg:block' />
 
                   <div className="col pb-2 md:pb-0  ps-5  md:ps-0">
 
