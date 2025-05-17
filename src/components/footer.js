@@ -1,5 +1,5 @@
 'use client';
-import Image from "next/legacy/image";
+ 
 import Link from 'next/link';
 import { FaInstagram, FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
 import { BiEnvelope } from 'react-icons/bi';
@@ -14,7 +14,7 @@ export default function Footer() {
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
 
         <div>
-        <div className="    flex justify-start items-center mb-5 md:justify-center">
+        <div className="    flex justify-center items-center mb-5 md:justify-center">
   <img
     src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618668/zedexLOGO2_gi6vfd.webp"
     alt="Zedex Logo"

@@ -569,15 +569,13 @@ export default function HeroPage() {
                 <Link
                   key={index}
                   href={industry.href}
-                  className="block bg-white shadow-md rounded overflow-hidden group hover:shadow-lg transition"
-                >
+                  className="block bg-white shadow-md rounded overflow-hidden group hover:shadow-lg transition">
 
                   <div className="relative w-full ">
 
                     <img
                       src={industry.img}
                       alt={industry.alt}
-                     
                       className="transition-transform duration-300 group-hover:scale-100 object-cover object-center"
                     />
 
@@ -740,9 +738,6 @@ export default function HeroPage() {
 
         <section>
           <div className=" w-full bg-[white] mt-5 flex flex-col md:flex-row items-center justify-center mx-auto">
-
-
-
             <div className="h-fit justify-center items-center flex w-full md:w-7/12">
               <img
                 src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1747378211/contactus_new_ox2pzd.webp"  
