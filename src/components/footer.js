@@ -16,7 +16,7 @@ export default function Footer() {
         <div>
         <div className="    flex justify-center items-center mb-5 md:justify-center">
   <img
-    src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618668/zedexLOGO2_gi6vfd.webp"
+    src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1747476068/Zedex_Fire_Logo_2025_PNG_New_1_1_ec1hlx.webp"
     alt="Zedex Logo"
     className="  h-14 object-center object-contain"
   />

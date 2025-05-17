@@ -106,17 +106,17 @@ function Header() {
 
 
   const pathname = usePathname();
-  const [logoSrc, setLogoSrc] = useState('https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618668/zedexLOGO_sy1y2y.webp');
+  const [logoSrc, setLogoSrc] = useState('https://res.cloudinary.com/dgx5cntyb/image/upload/v1747476068/Zedex_Fire_Logo_2025_PNG_New_1_1_ec1hlx.webp');
   const [logoSize, setLogoSize] = useState({ width: '150', height: '60' });
 
   useEffect(() => {
     if (pathname) {
       if (pathname === '/fire&safety' || pathname === '/fire-extinguishers' || pathname === '/fire-hydrant-system' || pathname === '/fire-sprinkler-system' || pathname === '/fire-suppression-system' || pathname === '/glow-signage-&-emergency-lights' || pathname === '/fire-tubing-system' || pathname === '/fire-VESDA-system' || pathname === '/addressable-fire-alarm-system-in-delhi-ncr') {
-        setLogoSrc('https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618668/zedexLOGO_sy1y2y.webp');
+        setLogoSrc('https://res.cloudinary.com/dgx5cntyb/image/upload/v1747476068/Zedex_Fire_Logo_2025_PNG_New_1_1_ec1hlx.webp');
         setLogoSize({ width: '150', height: '60' });
 
       } else {
-        setLogoSrc('https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618668/zedexLOGO_sy1y2y.webp');
+        setLogoSrc('https://res.cloudinary.com/dgx5cntyb/image/upload/v1747476068/Zedex_Fire_Logo_2025_PNG_New_1_1_ec1hlx.webp');
         setLogoSize({ width: '150', height: '60' });
       }
 

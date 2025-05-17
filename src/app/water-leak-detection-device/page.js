@@ -47,13 +47,12 @@ export default function page() {
           <div className="lg:w-6/12 w-full">
             <div className="space-y-4">
               <h1 className="text-3xl font-bold text-gray-800">
-                Automatic Fire Protection
+                Water Leak Detection Device (WLD) for Complete Protection in Delhi
+
               </h1>
               <p className="text-gray-700">
-                Water leaks pose a serious risk to fire protection systems,
-                electrical infrastructure, and building safety. A{" "}
-                <span className="font-semibold">Water Leak Detection Device (WLD)</span> is a smart solution designed to identify and prevent leaks before they cause significant damage. These devices play a vital role in safeguarding{" "}
-                <span className="font-semibold">fire suppression systems, electrical rooms, data centers, and critical infrastructure</span> by ensuring water integrity and preventing fire hazards due to electrical malfunctions.
+               Zedex Fire is the premier provider of cutting-edge Water Leak Detection Devices (WLD) in Delhi and the National Capital Region. Our sophisticated systems are engineered to deliver early, accurate, and reliable detection of water leaks, mitigating potential damage and ensuring the safety and integrity of your valuable assets. Whether you own a residential property in South Delhi, manage a bustling commercial space in Connaught Place, or oversee critical industrial infrastructure in the outskirts of Delhi, our WLD solutions offer unparalleled peace of mind.
+
               </p>
             </div>
           </div>
@@ -61,33 +60,21 @@ export default function page() {
 
         {/* How It Works */}
         <div className="mt-16">
-          <h1 className="text-3xl font-bold text-gray-800 mb-4">
-            How the Water Leak Detection Device Works
-          </h1>
+         
           <p className="text-gray-700 mb-4">
-            The system continuously monitors and detects water leaks in high-risk areas through:
+            <strong>The Critical Need for a Reliable Water Leak Detection Device in Delhi :</strong> Delhi's diverse climate and aging infrastructure make properties particularly susceptible to water leaks. From burst pipes during temperature fluctuations to slow, insidious leaks within walls and under floors, the potential for significant damage is ever-present. Undetected water leaks can lead to structural weakening, mold growth, electrical hazards, and exorbitant repair costs. A proactive approach is essential, and a high-quality Water Leak Detection Device (WLD) from Zedex Fire provides that crucial early warning system. Our WLD technology is designed to identify leaks at their nascent stage, allowing for timely intervention and preventing minor issues from escalating into major disasters that can disrupt your life or business operations in Delhi.
+
           </p>
-          <ul className="list-disc list-outside pl-5 space-y-2 text-gray-700">
-            <li>
-              <span className="font-semibold">Advanced Sensor Technology –</span> Highly sensitive probes that detect even the smallest leaks in real time.
-            </li>
-            <li>
-              <span className="font-semibold">Automated Alerts –</span> Immediate notifications via SMS, email, or alarm systems upon detecting a leak.
-            </li>
-            <li>
-              <span className="font-semibold">Integration with Fire Systems –</span> Ensures fire protection systems remain operational by preventing water damage.
-            </li>
-            <li>
-              <span className="font-semibold">Remote Monitoring & Control –</span> Cloud-based or centralized monitoring for quick response and maintenance.
-            </li>
-          </ul>
+
+
+      
         </div>
 
         {/* Benefits Section */}
         <div className="mt-16">
-          <h1 className="text-3xl font-bold text-gray-800 mb-4">
-            Benefits of a Water Leak Detection Device (WLD)
-          </h1>
+          <h2 className="text-3xl font-bold text-gray-800 mb-4">
+            Why Choose Zedex Fire's Advanced Water Leak Detection Device (WLD) in Delhi?
+          </h2>
           <ul className="list-disc list-outside pl-5 space-y-2 text-gray-700">
             <li>
               <span className="font-semibold">Prevents Fire Hazards –</span> Protects electrical systems and fire control equipment from water damage.
