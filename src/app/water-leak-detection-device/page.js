@@ -148,26 +148,37 @@ export default function page() {
       <section>
         <div className="relative flex  h-[86vh] md:h-[60vh] w-full">
 
+ 
+            
 
-          <div className="box">
+              <div className="box w-full h-full">
             <img src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1747300836/WLD_2_gvdijy.webp"
-              alt="Water Leak Detection Device (WLD)"
-              className="object-cover rounded-lg  w-full"
+              className=' hidden md:block  h-full w-full  object-center object-cover'
+              alt="  Kitchen Fire Suppression System"
 
             />
 
-
+            <img
+              src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1747300893/8_tgp1i4.webp"
+              className=' md:hidden  h-full w-full object-center object-cover'
+              alt="Kitchen Fire Suppression System"
+            />
 
           </div>
 
 
+
+
+         
+
+
           <div className="absolute w-full h-full p-9 bottom-0 flex flex-col md:flex-row justify-center md:justify-between items-center md:text-center mx-auto">
-            <p className="text-center md:text-left text-red-50 text-6xl font-bold flex flex-col justify-center items-center h-full my-auto">
+            <p className="text-center md:text-left text-red-50 text-3xl md:text-5xl font-semibold flex flex-col justify-center items-center h-full my-auto">
               Water Leak Detection Device (WLD)
 
               <br />
 
-              <span className="text-center  text-[15px] pt-5 w-full md:text-start uppercase">Home /  Water Leak Detection Device (WLD)
+              <span className="text-center text-[10px]   md:text-[15px] pt-5 w-full md:text-start uppercase">Home /  Water Leak Detection Device (WLD)
 
 
               </span>
@@ -194,14 +205,15 @@ export default function page() {
             {/* Right Content */}
             <div className="lg:w-6/12 w-full">
               <div className="space-y-4">
-                <h1 className="text-2xl py-3 font-bold text-gray-800">
+
+                <h1 className=" text-center md:text-left text-2xl py-3 font-bold text-gray-800">
                   Water Leak Detection Device (WLD) for Complete Protection in Delhi
-
                 </h1>
-                <p className="text-gray-700">
-                  Zedex Fire is the premier provider of cutting-edge Water Leak Detection Devices (WLD) in Delhi and the National Capital Region. Our sophisticated systems are engineered to deliver early, accurate, and reliable detection of water leaks, mitigating potential damage and ensuring the safety and integrity of your valuable assets. Whether you own a residential property in South Delhi, manage a bustling commercial space in Connaught Place, or oversee critical industrial infrastructure in the outskirts of Delhi, our WLD solutions offer unparalleled peace of mind.
 
+                <p className="text-gray-700 text-justify md:text-left">
+                  Zedex Fire is the premier provider of cutting-edge Water Leak Detection Devices (WLD) in Delhi and the National Capital Region. Our sophisticated systems are engineered to deliver early, accurate, and reliable detection of water leaks, mitigating potential damage and ensuring the safety and integrity of your valuable assets. Whether you own a residential property in South Delhi, manage a bustling commercial space in Connaught Place, or oversee critical industrial infrastructure in the outskirts of Delhi, our WLD solutions offer unparalleled peace of mind.
                 </p>
+
               </div>
             </div>
           </div>
@@ -209,7 +221,7 @@ export default function page() {
           {/* How It Works */}
           <div className="mt-16">
 
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-700 mb-4 text-justify md:text-left">
               <strong>The Critical Need for a Reliable Water Leak Detection Device in Delhi :</strong> Delhi's diverse climate and aging infrastructure make properties particularly susceptible to water leaks. From burst pipes during temperature fluctuations to slow, insidious leaks within walls and under floors, the potential for significant damage is ever-present. Undetected water leaks can lead to structural weakening, mold growth, electrical hazards, and exorbitant repair costs. A proactive approach is essential, and a high-quality Water Leak Detection Device (WLD) from Zedex Fire provides that crucial early warning system. Our WLD technology is designed to identify leaks at their nascent stage, allowing for timely intervention and preventing minor issues from escalating into major disasters that can disrupt your life or business operations in Delhi.
 
             </p>
@@ -220,14 +232,13 @@ export default function page() {
 
           {/* Benefits Section */}
           <div className="mt-16">
-            <h2 className="text-2xl font-bold text-gray-800 mb-4">
-             Why Choose Zedex Fire's Advanced Water Leak Detection Device (WLD) in Delhi?
+            <h2 className="text-2xl text-center md:text-left font-bold text-gray-800 mb-4">
+             Why Choose Zedex Fire's Advanced Water Leak Detection Device (WLD) in Delhi ?
             </h2>
 
 
 
             <ul className="list-disc py-4 text-justify md:text-left pl-5 space-y-4 text-gray-700">
-
               {features.map((items, index) => (
                 <li key={index} className=" py-2">
                   <span className="font-semibold">{items.title} – </span> {items.description}
@@ -236,16 +247,17 @@ export default function page() {
 
             </ul>
 
-            <h2 className="text-2xl font-bold text-gray-800  py-5">
-              How Our Intelligent Water Leak Detection Devices (WLD) Function for Delhi Properties:
-
+            <h2 className="text-2xl font-bold text-gray-800  py-5 ">
+              How Our Intelligent Water Leak Detection Devices (WLD) Function for Delhi Properties :
             </h2>
-            <p className="text-gray-700 mb-4">
+
+            <p className="text-gray-700 mb-4 md:text-left text-justify">
+
               Zedex Fire's Water Leak Detection Devices (WLD) employ a sophisticated network of sensor cables strategically placed throughout your Delhi property in high-risk areas. These sensors continuously monitor for the presence of moisture. When a leak is detected, the sensors transmit a signal to an intelligent control unit. This unit analyzes the data and instantly triggers alerts through multiple channels, including SMS notifications to your mobile device, email alerts to your designated address, and in-app notifications via our user-friendly mobile application. Furthermore, our WLD systems can be seamlessly integrated with existing Building Management Systems (BMS) and alarm systems commonly used in commercial and industrial properties across Delhi NCR, providing a unified and comprehensive security solution. The non-corrosive nature of our sensing technology ensures long-term reliability and accuracy, crucial for the varied environmental conditions experienced in Delhi.
 
             </p>
 
-            <h2 className="text-2xl font-bold text-gray-800 pt-6 py-4 ">
+            <h2 className=" text-center md:text-left text-2xl font-bold text-gray-800 pt-6 py-4 ">
               Key Features and Benefits of Zedex Fire's Water Leak Detection Devices (WLD) in Delhi NCR :
 
             </h2>
@@ -260,7 +272,7 @@ export default function page() {
 
             </ul>
 
-            <h2 className="text-2xl  py-5 font-bold text-gray-800 mb-4">
+            <h2 className="text-2xl  text-center  py-5 font-bold text-gray-800 mb-4">
               Applications: Protecting Delhi's Diverse Infrastructure with Our Advanced WLD Devices :
 
             </h2>
@@ -280,7 +292,7 @@ export default function page() {
 
             </ul>
 
-            <h2 className="text-2xl  py-5 font-bold text-gray-800 ">
+            <h2 className=" text-center md:text-left text-2xl  py-5 font-bold text-gray-800 ">
               Why Choose Zedex Fire as Your Trusted Water Leak Detection Device Provider in Delhi ?
 
             </h2>
