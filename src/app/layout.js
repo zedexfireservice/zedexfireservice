@@ -42,9 +42,24 @@ export default function RootLayout({ children }) {
 
         <meta itemProp="name" content="Zedex Fire Services" />
 
+     <Script
+        strategy="afterInteractive"
+        src="https://www.googletagmanager.com/gtag/js?id=AW-16532850100"
+      />
+      <Script id="google-ads-tag" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'AW-16532850100');
+        `}
+      </Script>
+
+
 
         <GoogleTagManager gtmId="G-SJ6EERXFS4" />
         <meta name="google-site-verification" content="JZS7lm8ZnieiJrYNPlrak7_aof-8UBTd74dNVuDpaaM" />
+
 
         <Script async src="https://www.googletagmanager.com/gtag/js?id=G-SJ6EERXFS4"></Script>
 
@@ -60,7 +75,7 @@ gtag('config', 'G-SJ6EERXFS4');`}
 
 
    <Script async src="https://www.googletagmanager.com/gtag/js?id=G-SJ6EERXFS4"></Script>
-   
+
         <script
           dangerouslySetInnerHTML={{
             __html: `
