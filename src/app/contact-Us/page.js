@@ -12,6 +12,8 @@ export default function ContactUs() {
     const notifys = () => toast(" Message Sent ");
     const router = useRouter();
     const phoneNumber = "9999883999";
+    const phoneNumber2 = "9810216907";
+
 
     const handlePhoneCall = () => {
 
@@ -119,7 +121,15 @@ export default function ContactUs() {
         {
             id: 1,
             title: 'Phone',
-            value: phoneNumber,
+            value: <>
+<strong>Contact Number 1 : </strong>
+{phoneNumber}
+            </>
+            , 
+            value2: <>
+<strong>Contact Number 2 : </strong>
+{phoneNumber2}
+            </> , 
             icon: (
                 <svg
                     className="mx-auto my-auto w-6 h-6"
@@ -209,7 +219,8 @@ export default function ContactUs() {
                                 >
                                     <div className="w-auto h-auto">{detail.icon}</div>
                                     <h4 className="uppercase text-[18px] font-sans py-3 font-bold">{detail.title}</h4>
-                                    <p className="text-sm leading-7  font-light opacity-50">{detail.value}</p>
+                                    <p className="text-sm leading-7  font-light opacity-50">  {detail.value}</p>
+                                    <p className="text-sm leading-7  font-light opacity-50"> {detail.value2}</p>
                                     <button
                                         className="bg-btn_primary py-2.5 px-8  text-[14px] rounded-full hover:text-gray-400"
                                         onClick={detail.onClick}
