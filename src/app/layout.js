@@ -59,6 +59,19 @@ gtag('config', 'G-SJ6EERXFS4');`}
         </Script>
 
 
+   <Script async src="https://www.googletagmanager.com/gtag/js?id=G-SJ6EERXFS4"></Script>
+   
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-SJ6EERXFS4');
+            `,
+          }}
+        />
+
 
       </head>
       <body
