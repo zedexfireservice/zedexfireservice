@@ -221,19 +221,31 @@ export default function FireSuppressionPage() {
  <section>
         <div className="relative flex  h-[86vh] md:h-[60vh] w-full">
 
-          <img
-            src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1747300835/fire_suppression_mlvath.webp"
-            alt="Fire suppression system"
-            className="object-cover rounded-lg w-full"
-          />
+         
+
+
+            <div className="box w-full h-full">
+                               <img src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1747300835/fire_suppression_mlvath.webp"
+                  className=' hidden md:block  h-full w-full  object-center object-cover'
+                  alt="  Addressable Fire Alarm System"
+                  
+                />
+
+                <img
+                src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1747300891/3_sinm6a.webp"
+                  className=' md:hidden  h-full w-full object-center object-cover'
+                       alt="  Addressable Fire Alarm System"
+                 
+                />
+                       </div>
 
           <div className="absolute w-full h-full p-9 bottom-0 flex flex-col md:flex-row justify-center md:justify-between items-center md:text-center mx-auto">
-            <p className="text-center md:text-left text-red-50 text-6xl font-bold flex flex-col justify-center items-center h-full my-auto">
+            <p className="text-center md:text-left text-red-50 text-2xl md:text-5xl font-bold flex flex-col justify-center items-center h-full my-auto">
               Fire suppression system
 
 
               <br />
-              <span className="text-center  text-[15px] pt-5 w-full md:text-start uppercase">Home /  Fire suppression system
+              <span className="text-center  text-[12px] md:text-[15px] pt-5 w-full md:text-start uppercase">Home /  Fire suppression system
 
               </span>
             </p>

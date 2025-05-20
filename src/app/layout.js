@@ -24,7 +24,7 @@ export const metadata = {
 
 
    title: {
-    default: "Zedex Fire Services",
+    default: "Top Fire Fighting Contractors in Delhi | Zedex Fire",
     template: "%s"
   },
 

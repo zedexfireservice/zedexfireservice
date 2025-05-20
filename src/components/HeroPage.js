@@ -25,7 +25,7 @@ export default function HeroPage() {
     {
       id: 1,
       img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747213898/fire_extinguisher_gi0yfp.webp',
-      img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747373103/_Mobile_View_638_x_870_px_1_cdsmr8.webp',
+      img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747736205/FIRE_ALARM_SYSTEM_1_b3zj8c.webp',
      
       alt:"Addressable Fire Alarm System, Smart Detection , Faster Response , Safer Spaces."
     }
@@ -54,13 +54,13 @@ export default function HeroPage() {
     {
       id: 7,
       img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747213900/kitchen_fire_supression_oxisl2.webp',
-      img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746683932/Fire_Mobile_View_638_x_870_px_ezbcq6.webp',
+      img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747736206/phone_view_coj6ny.webp',
       alt:"Kitchen Fire  Suppression System Engineered for Commercial Kitchens. Trusted by Professionals.."
        },
     {
       id: 8,
       img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747213900/fire_hydrant_system_omh3gv.webp',
-      img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746683931/Fire_Mobile_View_638_x_870_px_1_ede02j.webp',
+      img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747736206/phone_view_1_bm2z4h.webp',
       alt:"Smart Safety Starts Here! Precision-designed hydrant systems installed by certified experts"
     
     },

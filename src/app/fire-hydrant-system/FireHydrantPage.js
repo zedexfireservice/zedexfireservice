@@ -275,20 +275,30 @@ export default function FireHydrantPage() {
     
             <section>
                 <div className="relative flex  h-[86vh] md:h-[60vh] w-full">
-                    <img
-                        src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1747300836/hydrant_system_yvuuue.webp"
-                        alt="Fire Hydrant System"
-                        className="object-cover rounded-lg  w-full"
+                    
 
-                    />
 
+  <div className="box w-full h-full">
+                               <img src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1747300836/hydrant_system_yvuuue.webp"
+                  className=' hidden md:block  h-full w-full  object-center object-cover'
+                  alt="  Addressable Fire Alarm System"
+                  
+                />
+
+                <img
+                src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1747300893/6_fplqpy.webp"
+                  className=' md:hidden  h-full w-full object-center object-cover'
+                       alt="  Addressable Fire Alarm System"
+                 
+                />
+                       </div>
                     <div className="absolute w-full h-full p-9 bottom-0 flex flex-col md:flex-row justify-center md:justify-between items-center md:text-center mx-auto">
-                        <p className="text-center md:text-left text-red-50 text-6xl font-bold flex flex-col justify-center items-center h-full my-auto">
+                        <p className="text-center md:text-left text-red-50 md:text-5xl text-3xl font-bold flex flex-col justify-center items-center h-full my-auto">
                             Fire Hydrant System
 
 
                             <br />
-                            <span className="text-center  text-[15px] pt-5 w-full md:text-start uppercase">Home /  Fire Hydrant System
+                            <span className="text-center  text-[12px] md:text-[15px] pt-5 w-full md:text-start uppercase">Home /  Fire Hydrant System
 
                             </span>
                         </p>

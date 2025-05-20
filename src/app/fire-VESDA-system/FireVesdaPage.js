@@ -136,20 +136,31 @@ export default function FireVesdaPage() {
     <>
      <section>
         <div className="relative flex  h-[86vh] md:h-[60vh] w-full">
-          <img
-            src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1747300836/Vedsa_System_sugf6x.webp"
-            alt="Fire VESDA System"
-            className="object-cover rounded-lg w-full"
-          />
+        
+
+            <div className="box w-full h-full">
+                               <img src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1747300836/Vedsa_System_sugf6x.webp"
+                  className=' hidden md:block  h-full w-full  object-center object-cover'
+                  alt="  Addressable Fire Alarm System"
+                  
+                />
+
+                <img
+                src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1747300894/9_cqpe53.webp"
+                  className=' md:hidden  h-full w-full object-center object-cover'
+                       alt="  Addressable Fire Alarm System"
+                 
+                />
+                       </div>
 
           <div className="absolute w-full h-full p-9 bottom-0 flex flex-col md:flex-row justify-center md:justify-between items-center md:text-center mx-auto">
-            <p className="text-center md:text-left text-red-50 text-6xl font-bold flex flex-col justify-center items-center h-full my-auto">
+            <p className="text-center md:text-left text-red-50 text-3xl md:text-5xl font-bold flex flex-col justify-center items-center h-full my-auto">
               Fire VESDA System
 
 
 
               <br />
-              <span className="text-center  text-[15px] pt-5 w-full md:text-start uppercase">Home /  Fire VESDA System
+              <span className="text-center  text-[12px] md:text-[15px] pt-5 w-full md:text-start uppercase">Home /  Fire VESDA System
 
 
               </span>

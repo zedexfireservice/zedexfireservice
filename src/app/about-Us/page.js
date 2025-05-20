@@ -13,7 +13,7 @@ export default function page() {
         {
             id: 1,
             img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747213898/About_us_a5pjrd.webp',
-            img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746683932/Fire_Mobile_View_638_x_870_px_ezbcq6.webp',
+            img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747737759/ph_view_zedex_about_us_duyuas.webp',
             title: 'Fire Alarm System',
             content: 'At Zedex, we are dedicated to providing comprehensive fire and safety solutions to safeguard lives and property. With a focus on quality, reliability, and expert installation services',
             buttonText: 'Request A Quote',
@@ -134,6 +134,7 @@ export default function page() {
         },
     ];
 
+
     const certificates = [
 
         { src: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618670/Certificate1_vslyt7.webp", alt: "ISI Certified" },
@@ -143,6 +144,7 @@ export default function page() {
         { src: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618672/Certificate5_o1rxql.webp", alt: "UL Certified listed" },
 
     ];
+
 
     return (
         <>
@@ -165,10 +167,7 @@ export default function page() {
 
                         >
                             <img src={slide.img} className='  hidden md:block h-full w-full   object-center object-cover' alt='ss' width="500" height="500" />
-                            <img
-                  src={slide.img2}
-                  className=' md:hidden  h-full w-full object-center object-cover'
-                  alt='ss'
+                            <img src={slide.img2} className=' md:hidden  h-full w-full object-center object-cover' alt='ss'
                  
                 />
 
