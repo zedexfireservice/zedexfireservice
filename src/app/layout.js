@@ -38,30 +38,35 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
 
+{/* <script>
+  gtag('event', 'conversion', {'send_to': 'AW-16532850100/t4DICJmHm6cZELSLvcs9'});
+</script> */}
 
-        <meta itemProp="name" content="Zedex Fire Services" />
-
-     <Script
+  <Script
         strategy="afterInteractive"
-        src="https://www.googletagmanager.com/gtag/js?id=AW-16532850100"
+        src={`https://www.googletagmanager.com/gtag/js?id=AW-16532850100`}
       />
-      <Script id="google-ads-tag" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'AW-16532850100');
-        `}
-      </Script>
+      
+      <Script
+        id="gtag-init"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-16532850100');
+          `,
+        }}
+      />
+  
 
 
 
-        <GoogleTagManager gtmId="G-SJ6EERXFS4" />
-
+      
         <meta name="google-site-verification" content="JZS7lm8ZnieiJrYNPlrak7_aof-8UBTd74dNVuDpaaM" />
 
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-SJ6EERXFS4"></Script>
-
+       
         <Script id="google-analytics" >
 
           {` window.dataLayer = window.dataLayer || [];
@@ -72,20 +77,8 @@ gtag('config', 'G-SJ6EERXFS4');`}
 
         </Script>
 
-
-   <Script async src="https://www.googletagmanager.com/gtag/js?id=G-SJ6EERXFS4"></Script>
-
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-SJ6EERXFS4');
-            `,
-          }}
-        />
-
+ 
+        
 
       </head>
       <body
