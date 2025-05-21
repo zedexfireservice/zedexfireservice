@@ -24,7 +24,7 @@ export default function HeroPage() {
 
     {
       id: 1,
-      img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747213898/fire_extinguisher_gi0yfp.webp',
+      img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747818914/Fire_Extinguisher_banner_ous3mu.webp',
       img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747736205/FIRE_ALARM_SYSTEM_1_b3zj8c.webp',
      
       alt:"Addressable Fire Alarm System, Smart Detection , Faster Response , Safer Spaces."
