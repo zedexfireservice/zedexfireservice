@@ -67,7 +67,7 @@ export default function ThankYouPage() {
           />
         </div>
         <h1 className="text-4xl font-bold text-purple-700 mb-4">
-          Congratulations! 🎉
+          Thank You! 🎉
         </h1>
         <p className="text-xl text-gray-600 mb-8">
           Your submission was successful. Redirecting in {countdown} seconds...
