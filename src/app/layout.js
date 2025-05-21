@@ -38,29 +38,19 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
 
-{/* <script>
-  gtag('event', 'conversion', {'send_to': 'AW-16532850100/t4DICJmHm6cZELSLvcs9'});
-</script> */}
+ 
 
-  <Script
-        strategy="afterInteractive"
-        src={`https://www.googletagmanager.com/gtag/js?id=AW-16532850100`}
-      />
-      
-      <Script
-        id="gtag-init"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
+    <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-16532850100"></Script>
+    
+        <script dangerouslySetInnerHTML={{
           __html: `
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'AW-16532850100');
-          `,
-        }}
-      />
-  
 
+            gtag('config', 'AW-16532850100');
+          `
+        }} />
 
 
       

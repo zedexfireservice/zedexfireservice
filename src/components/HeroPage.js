@@ -386,8 +386,8 @@ export default function HeroPage() {
           console.log("SUCCESS!");
 
           setTimeout(() => {
-            router.push("/");
-          }, 5000);
+          router.push("/thank-you");
+          }, 1000);
         })
         .catch((error) => {
           console.log("FAILED...", error);
