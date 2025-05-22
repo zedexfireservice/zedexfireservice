@@ -309,7 +309,7 @@ export default function FireDoorPage() {
                 />
 
                 <img
-                src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1747300892/4_t5bcum.webp"
+                src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1747899706/fire_door_system_jyiwql.webp"
                   className=' md:hidden  h-full w-full object-center object-cover'
                        alt="  Addressable Fire Alarm System"
                  

@@ -22,15 +22,23 @@ const blogsCards  = [
   <section>
                 <div className="relative flex  h-[86vh] md:h-[67vh] w-full">
 
-                    <img
+                  
 
-                        src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618667/zedexfirebg_dt84ni.webp"
-                        alt="interior l-shape category for design with oven and appliances"
-                      
-                        className="object-cover rounded-lg w-full h-full "
-                         
 
-                    />
+  <div className="box w-full h-full">
+                               <img src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1747898961/zedex_Blog_banner_p2vgv0.webp"
+                  className=' hidden md:block  h-full w-full  object-center object-cover'
+                  alt="  Addressable Fire Alarm System"
+                  
+                />
+
+                <img
+                src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1747899628/blog_phone_view_rylp3n.webp"
+                  className=' md:hidden  h-full w-full object-center object-cover'
+                       alt="  Addressable Fire Alarm System"
+                 
+                />
+                       </div>
 
 
                     <div className="absolute w-full h-full p-9 bottom-0 flex flex-col md:flex-row justify-center md:justify-between items-center md:text-center mx-auto">

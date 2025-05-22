@@ -25,7 +25,7 @@ export default function HeroPage() {
     {
       id: 1,
       img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747818914/Fire_Extinguisher_banner_ous3mu.webp',
-      img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747736205/FIRE_ALARM_SYSTEM_1_b3zj8c.webp',
+      img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747899349/FAS_phone_view_sk73ws.webp',
      
       alt:"Addressable Fire Alarm System, Smart Detection , Faster Response , Safer Spaces."
     },
@@ -40,7 +40,7 @@ export default function HeroPage() {
     {
       id: 3,
       img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747894192/fire_sprinkler_cqt9y8_25_tb5bg3.webp',
-      img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747373103/mobile_view_638_x_870_px_2_fxwruu.webp',
+      img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747899779/mobile_view_638_x_870_px_2_fxwruu_uk3hja.webp',
       alt:"Anti Rodent System"
     },
   
