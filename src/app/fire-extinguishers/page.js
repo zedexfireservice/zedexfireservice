@@ -280,7 +280,7 @@ export default function FireExtinguisherPage() {
   return (
     <>
       
-
+<div className="hero mx-auto">
       {/* Hero Section */}
        <section>
 
@@ -436,10 +436,10 @@ export default function FireExtinguisherPage() {
                     <div className="md:w-1/2 w-full">
                       <motion.div 
                         whileHover={{ scale: 1.02 }}
-                        className="relative h-64 md:h-80 rounded-xl overflow-hidden shadow-lg"
+                        className="relative  rounded-xl overflow-hidden shadow-lg"
                       >
                         <img 
-                          src={`https://res.cloudinary.com/dgx5cntyb/image/upload/v174661866${Math.floor(index/5)}/fire-extinguisher-${Math.floor(index/5)}.webp`} 
+                          src={`https://res.cloudinary.com/dgx5cntyb/image/upload/v1748002618/WhatsApp_Image_2025-05-23_at_17.45.48_l0uvu4.jpg`} 
                           alt={item.title}
                           className="w-full h-full object-cover"
                         />
@@ -705,6 +705,8 @@ export default function FireExtinguisherPage() {
           </motion.div>
         </div>
       </motion.section>
+</div>
+
     </>
   );
 }
