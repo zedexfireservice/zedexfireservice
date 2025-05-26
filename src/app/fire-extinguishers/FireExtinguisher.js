@@ -259,33 +259,27 @@ export default function FireExtinguisher() {
 
   const faqs = [
     {
-      question: "How often should fire extinguishers be inspected?",
-      answer: "Fire extinguishers should be inspected monthly for visible damage and proper pressure. A professional maintenance check should be performed annually by a certified technician."
+      question: "What type of fire extinguisher is best for my home in Delhi? ",
+      answer: "For most homes, an ABC Dry Chemical extinguisher is recommended due to its versatility against common fire types (wood, paper, liquids, electrical). Our experts can help you choose the right size and placement."
     },
     {
-      question: "What is the lifespan of a typical fire extinguisher?",
-      answer: "Most fire extinguishers last 5-15 years depending on the type and maintenance. CO2 extinguishers typically last 10 years, while dry chemical extinguishers last 12 years with proper care."
+      question: "How often do fire extinguishers in Delhi NCR need to be refilled or serviced?",
+      answer: "Fire extinguishers require annual maintenance by a certified professional. They also need refilling immediately after any use, or hydrostatic testing and recharging every 3-5 years, depending on the type."
     },
     {
-      question: "Can I use one fire extinguisher for all types of fires?",
-      answer: "No, different fires require different extinguishers. ABC extinguishers work on most common fires, but specialized fires (like cooking oil or electrical) need specific extinguishers."
+      question: "Do you provide Fire NOC consultancy services in Delhi?",
+      answer: "Yes, Zedex Fire offers comprehensive consultancy to help businesses and residential complexes navigate the Fire No Objection Certificate (NOC) process in Delhi, ensuring full compliance."
+    },
+    
+    {
+      question: "What is the cost of fire extinguisher refilling in Delhi NCR?",
+      answer: "Costs vary by extinguisher type and capacity. Please contact us for a customized quote."
     },
     {
-      question: "How do I know which fire extinguisher to choose for my business?",
-      answer: "Our experts will assess your premises, identify potential fire risks, and recommend the appropriate types and sizes of extinguishers for optimal protection."
+      question: "Can Zedex Fire conduct fire safety training at my office in Gurgaon?",
+      answer: " Absolutely! We offer on-site, hands-on fire safety training programs tailored for businesses and organizations across Delhi NCR."
     },
-    {
-      question: "What's included in your Annual Maintenance Contract (AMC)?",
-      answer: "Our AMC includes quarterly inspections, annual maintenance, pressure testing when needed, refilling/recharging, and replacement of parts as required to keep your extinguishers operational."
-    },
-    {
-      question: "How quickly can you respond to service requests in Delhi NCR?",
-      answer: "We typically respond within 24 hours for urgent requests and within 3 working days for routine services across Delhi, Gurgaon, Noida, Faridabad, and Ghaziabad."
-    },
-    {
-      question: "Do you provide fire safety training?",
-      answer: "Yes, we offer comprehensive hands-on training covering proper extinguisher use (PASS method), evacuation procedures, and fire prevention techniques tailored to your specific environment."
-    }
+    
   ];
 
   // Animation variants
