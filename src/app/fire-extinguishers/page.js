@@ -434,16 +434,18 @@ export default function FireExtinguisherPage() {
                     className={`flex flex-col ${index % 10 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'} items-center gap-8 my-12`}
                   >
                     <div className="md:w-1/2 w-full">
-                      <motion.div 
-                        whileHover={{ scale: 1.02 }}
-                        className="relative  rounded-xl overflow-hidden shadow-lg"
-                      >
-                        <img 
-                          src={`https://res.cloudinary.com/dgx5cntyb/image/upload/v1748002618/WhatsApp_Image_2025-05-23_at_17.45.48_l0uvu4.jpg`} 
-                          alt={item.title}
-                          className="w-full h-full object-cover"
-                        />
-                      </motion.div>
+
+                <motion.div 
+  whileHover={{ scale: 1.02 }}
+  className="relative w-full h-[200px]   md:h-[300px]   overflow-hidden"
+>
+  <img 
+    src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1748002618/WhatsApp_Image_2025-05-23_at_17.45.48_l0uvu4.jpg"
+    alt={item.title}
+    className="w-full h-full object-contain border rounded-4xl p-4 "
+  />
+</motion.div>
+                      
                     </div>
                     <div className="md:w-1/2 w-full">
                       <motion.h3 
