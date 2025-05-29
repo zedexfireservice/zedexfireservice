@@ -223,8 +223,8 @@ export default function FireTublingPage() {
                         </div>
                         <div className="lg:w-5/12 w-full py-4">
 
-                            <p className=" text-2xl md:text-3xl text-center md:text-left font-bold mb-4">Fire Tube Suppression System in Delhi NCR - Advanced Fire Protection by Zedex Fire
-                            </p>
+                            <h1 className=" text-2xl md:text-3xl text-center md:text-left font-bold mb-4">Fire Tube Suppression System in Delhi NCR - Advanced Fire Protection by Zedex Fire
+                            </h1>
 
                             <h2 className="text-gray-700 py-3 font-semibold text-justify md:text-left">
                                 Safeguard Your Critical Assets with Zedex Fire Tube Suppression Systems in Delhi NCR

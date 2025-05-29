@@ -380,18 +380,18 @@ export default function FireExtinguisher() {
             </div>
 
             <div className="lg:w-5/12 w-full">
-              <motion.h2 
+              <motion.h1 
                 variants={fadeInVariants}
                 className="text-3xl font-bold mb-4 text-gray-800"
               >
                 Zedex Fire: Your Trusted Partner for Comprehensive Fire Extinguisher Solutions in Delhi NCR
-              </motion.h2>
-              <motion.h3 
+              </motion.h1>
+              <motion.h2 
                 variants={fadeInVariants}
                 className="text-xl font-semibold mb-4 text-red-600"
               >
-                Safeguarding Delhi NCR: Premium Fire Extinguishers & Expert Services by Zedex Fire
-              </motion.h3>
+                Safeguarding Delhi NCR : Premium Fire Extinguishers & Expert Services by Zedex Fire
+              </motion.h2>
               <motion.p 
                 variants={fadeInVariants}
                 className="text-gray-700 leading-relaxed mb-4"

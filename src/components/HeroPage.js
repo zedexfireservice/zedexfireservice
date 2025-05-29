@@ -433,12 +433,14 @@ export default function HeroPage() {
                   <div className="about-content">
                     <div className="mb-6">
 
-                      <h2 className="text-[#000000]  text-sm font-bold py-2 uppercase">About Us</h2>
-                      <p className="text-3xl md:text-4xl font-bold text-[#212529]">Zedex Complete Solutions</p>
+                      <p className="text-[#000000]  text-sm font-bold py-2 uppercase">About Us</p>
+                      <h1 className="text-3xl md:text-4xl font-bold text-[#212529]">Zedex Complete Solutions</h1>
                       <p className="text-3xl md:text-4xl font-bold text-[#212529] mb-4">for Fire &amp; Safety</p>
+                      
                       <p className="text-[#000000] leading-relaxed  text-justify ">
                         At Zedex, we are dedicated to providing comprehensive fire and safety solutions to safeguard lives and property. With a focus on quality, reliability, and expert installation services, we offer a wide range of fire protection systems that cater to various needs. Whether for residential, commercial, or industrial purposes, Zedex is your trusted partner in ensuring safety in case of fire emergencies.
                       </p>
+
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

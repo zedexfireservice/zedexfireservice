@@ -1,4 +1,4 @@
- 
+
 export default function OurClients() {
 
     const ourclients = [
@@ -8,7 +8,7 @@ export default function OurClients() {
             title: 'cadila pharmaceuticals ltd',
         },
 
-      
+
         {
             img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746682207/2_edxtax.webp',
             title: 'Heinz company',
@@ -24,13 +24,13 @@ export default function OurClients() {
             title: 'genesis colors comapny',
         },
 
-      
+
         {
             img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746682211/6_m0sg7n.webp',
             title: 'uno minda',
         },
 
-        
+
         {
             img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746682212/7_zvhuhl.webp',
             title: ' minda company',
@@ -38,7 +38,7 @@ export default function OurClients() {
 
 
 
-      
+
         {
             img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746682213/8_o1borr.webp',
             title: ' SAN company',
@@ -46,7 +46,7 @@ export default function OurClients() {
 
 
 
-      
+
         {
             img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1746682215/9_ht35t3.webp',
             title: ' Sunbeam company',
@@ -175,33 +175,33 @@ export default function OurClients() {
 
 
 
-      
-    ]
-  return (
-    <>
-    
 
-     <section>
+    ]
+    return (
+        <>
+
+
+            <section>
 
                 <div className="relative flex  h-[86vh] md:h-[67vh] w-full">
 
-                 <div className="box w-full h-full">
+                    <div className="box w-full h-full">
 
-                          <img
-          src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1748498240/our_clients_qdlfyu.webp"
-          className="hidden md:block h-full w-full object-cover object-center"
-          alt="Fire Extinguisher Solutions"
-        />
+                        <img
+                            src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1748498240/our_clients_qdlfyu.webp"
+                            className="hidden md:block h-full w-full object-cover object-center"
+                            alt="Fire Extinguisher Solutions"
+                        />
 
-        
-        <img
-          src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1748498635/Our_clients_Phone_view_w4ntxa.webp"
-          className="md:hidden h-full w-full object-cover object-center"
-          alt="Fire Extinguisher Solutions"
-        />
-                       </div>
 
-                 
+                        <img
+                            src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1748498635/Our_clients_Phone_view_w4ntxa.webp"
+                            className="md:hidden h-full w-full object-cover object-center"
+                            alt="Fire Extinguisher Solutions"
+                        />
+                    </div>
+
+
 
                     <div className="absolute w-full h-full p-9 bottom-0 flex flex-col md:flex-row justify-center md:justify-between items-center md:text-center mx-auto">
                         <p className="text-center md:text-left text-red-50 text-6xl font-bold flex flex-col justify-center items-center h-full my-auto">
@@ -221,7 +221,13 @@ export default function OurClients() {
 
             <section>
                 <div className="container-fluid">
+                    <h1 className=" text-2xl md:text-3xl text-center  pt-5 font-bold text-red-900">
+                        Trusted by Industry Leaders for Fire Safety Excellence
+                    </h1>
 
+                    <p className="  text-sm text-center   py-5 font-bold text-red-900">
+                        Zedex Fire Service proudly partners with restaurants, hospitals, industrial facilities, and commercial enterprises across India.  Our certified fire safety solutions  have helped clients prevent <br /> disasters and comply with regulations – delivering peace of mind through every installation, inspection, and emergency response.
+                    </p>
 
                     <div className="row flex justify-center items-center  py-4">
                         <div className="grid md:gap-7 gap-2  px-2  md:grid-cols-3 lg:grid-cols-4 grid-cols-2 ">
@@ -246,6 +252,6 @@ export default function OurClients() {
                     </div>
                 </div>
             </section>
-    </>
-  )
+        </>
+    )
 }
