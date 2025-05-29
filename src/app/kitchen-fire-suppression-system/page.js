@@ -1,22 +1,17 @@
 
 import KitchenFireSuppressionPage from "./KitchenFireSuppressionPage";
 
-
-
-
 export const metadata ={
 
-title:"Fire Suppression Systems Delhi NCR | ISO Certified Zedex Fire",
+title:"Commercial Kitchen Fire Suppression Systems | Zedex Fire Service",
 
 
-description:"Leading ISO 9001:2008 certified provider of fire suppression systems in Delhi NCR. Expert installation & comprehensive solutions by Zedex Fire."
+description:"Restaurant-grade fire suppression for hoods, ducts & cooking equipment. Trust our certified technicians for reliable installation & servicing."
 }
 
 
 
 export default function page() {
-
-
 
   return (
     <>
