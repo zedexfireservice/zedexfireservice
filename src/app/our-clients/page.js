@@ -186,12 +186,22 @@ export default function page() {
             <section>
 
                 <div className="relative flex  h-[86vh] md:h-[67vh] w-full">
-                    <img
-                        src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1748498240/our_clients_qdlfyu.webp"
-                        alt="OUR CLIENTS zedex fire  service"
-                        className="object-cover w-full rounded-lg "
-                         
-                    />
+
+                 <div className="box w-full h-full">
+                 
+                          <img
+          src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1748498240/our_clients_qdlfyu.webp"
+          className="hidden md:block h-full w-full object-cover object-center"
+          alt="Fire Extinguisher Solutions"
+        />
+        <img
+          src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1748498635/Our_clients_Phone_view_w4ntxa.webp"
+          className="md:hidden h-full w-full object-cover object-center"
+          alt="Fire Extinguisher Solutions"
+        />
+                       </div>
+
+                 
 
                     <div className="absolute w-full h-full p-9 bottom-0 flex flex-col md:flex-row justify-center md:justify-between items-center md:text-center mx-auto">
                         <p className="text-center md:text-left text-red-50 text-6xl font-bold flex flex-col justify-center items-center h-full my-auto">
