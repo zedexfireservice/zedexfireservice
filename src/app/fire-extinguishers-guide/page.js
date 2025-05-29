@@ -1,4 +1,6 @@
-// app/blog/fire-extinguisher-guide/page.tsx
+'use client';
+
+import { useRef } from 'react';
 import { Flame, AlertTriangle, Download, Phone, Zap, Fuel, Utensils, Factory, ChevronRight, Shield, FireExtinguisherIcon, AlertCircleIcon, ShieldCheckIcon, FlaskConicalOffIcon, WrenchIcon, CalendarCheck2Icon, ClipboardCheckIcon, LightbulbOffIcon } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -26,6 +28,13 @@ import {
 
 
 export default function FireExtinguisherGuide() {
+ const fireClassesRef = useRef(null); // ✅ Correct in JS
+
+  const scrollToFireClasses = () => {
+    if (fireClassesRef.current) {
+      fireClassesRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
      const passSteps = [
     {
@@ -182,9 +191,9 @@ const extinguishers = [
 ];
 
   return (
-    <div className="bg-white">
+    <div className="bg-white" >
       {/* Premium Hero Section */}
-      <section className="relative h-screen  md:h-[80vh] bg-gradient-to-r from-red-900 to-red-700">
+      <section  className="relative h-screen  md:h-[80vh] bg-gradient-to-r from-red-900 to-red-700">
         <div className="absolute inset-0 bg-black/30">
           <div className="container mx-auto h-full flex flex-col justify-center px-6">
             <div className="max-w-2xl">
@@ -198,11 +207,12 @@ The Ultimate Guide to Fire Extinguishers: Types, Uses, and Essential Safety for 
 Protect your loved ones and assets. Discover the right fire extinguisher for every fire class, learn proper usage, and find expert fire safety tips for homes and businesses in India with Zedex Fire.
               </p>
               <div className="flex flex-wrap gap-4">
-                <button className="flex items-center gap-2 px-6 py-3 bg-white text-red-700 font-medium rounded-lg hover:bg-gray-100 transition-all shadow-md">
+                <a  href="/zedex-fire-services-catalogue-2025.pdf"
+                      download="zedex-fire-services-catalogue-2025" className="cursor-pointer flex items-center gap-2 px-6 py-3 bg-white text-red-700 font-medium rounded-lg hover:bg-gray-100 transition-all shadow-md">
                   <Download className="w-5 h-5" />
                   Download Product Catalogue
-                </button>
-                <button className="flex items-center gap-2 px-6 py-3 text-white border border-white/30 rounded-lg hover:bg-white/10 transition-all shadow-md">
+                </a>
+                <button  onClick={scrollToFireClasses} className="  cursor-pointer flex items-center gap-2 px-6 py-3 text-white border border-white/30 rounded-lg hover:bg-white/10 transition-all shadow-md">
                   Read Case Studies
                   <ChevronRight className="w-5 h-5" />
                 </button>
@@ -214,7 +224,7 @@ Protect your loved ones and assets. Discover the right fire extinguisher for eve
 
       {/* Introduction Section - Exact Content */}
 
-         <section className="py-12 bg-white mt-24">
+         <section className="py-12 bg-white mt-24" ref={fireClassesRef}  >
                     <div className="container mx-auto ">
                         <div className="flex justify-around flex-col lg:flex-row items-center">
 
@@ -231,7 +241,7 @@ Protect your loved ones and assets. Discover the right fire extinguisher for eve
                                 </div>
                             </div>
 
-                            <div className="lg:w-6/12 w-full mt-8 lg:mt-0">
+                            <div  className="lg:w-6/12 w-full mt-8 lg:mt-0">
                                 <div className="space-y-3">
                                     <h2 className=" text-2xl text-center md:text-left md:text-3xl font-bold text-gray-800">
 Introduction: Your First Line of Defence Against Fire
@@ -485,14 +495,15 @@ Introduction: Your First Line of Defence Against Fire
               Zedex Fire provides certified fire protection solutions for businesses and homes across India. Our experts are ready to assess your needs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="px-8 py-4 bg-white text-red-700 font-medium rounded-lg hover:bg-gray-100 transition-all flex items-center justify-center gap-2 shadow-md">
+              <a  href="tel:9999883999"  className="px-8 py-4 bg-white text-red-700 font-medium rounded-lg hover:bg-gray-100 transition-all flex items-center justify-center gap-2 shadow-md">
                 <Phone className="w-5 h-5" />
                 Schedule Consultation
-              </button>
-              <button className="px-8 py-4 border border-white/30 rounded-lg hover:bg-white/10 transition-all flex items-center justify-center gap-2 shadow-md">
+              </a>
+              <a  href="/zedex-fire-services-catalogue-2025.pdf"
+                      download="zedex-fire-services-catalogue-2025" className="px-8 py-4 border border-white/30 rounded-lg hover:bg-white/10 transition-all flex items-center justify-center gap-2 shadow-md">
                 Download Fire Safety Guide
                 <Download className="w-5 h-5" />
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -500,11 +511,11 @@ Introduction: Your First Line of Defence Against Fire
       {/* Floating Emergency Button */}
       <div className="fixed bottom-6 right-6 z-50">
         <a 
-          href="tel:18001234567" 
+          href="tel:9999883999" 
           className="flex items-center gap-2 px-6 py-3 bg-red-600 text-white font-medium rounded-full shadow-lg hover:bg-red-700 transition-all animate-pulse"
         >
           <Phone className="w-5 h-5" />
-          <span>Emergency Call</span>
+          <span>Contact Us</span>
         </a>
       </div>
     </div>
