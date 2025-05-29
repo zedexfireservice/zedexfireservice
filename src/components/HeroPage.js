@@ -32,7 +32,7 @@ export default function HeroPage() {
 
     {
       id: 2,
-      img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747213898/fire_door_services_qvagrn.webp',
+      img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1748496935/fire_door_services_qvagrn_2_ryoo7d.webp',
       img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747373103/mobile_view_638_x_870_px_fggarf.webp',
       alt:"Fire Sprinklers System , Your First Line of Defense Against Fire!"
     },
@@ -40,21 +40,21 @@ export default function HeroPage() {
     {
       id: 3,
       img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747894192/fire_sprinkler_cqt9y8_25_tb5bg3.webp',
-      img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747899779/mobile_view_638_x_870_px_2_fxwruu_uk3hja.webp',
+      img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1748497305/mobile_view_638_x_870_px_2_fxwruu_fvwjeh.webp',
       alt:"Anti Rodent System"
     },
   
     {
       id: 6,
       img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747213899/fire_suprression_qoqajw.webp',
-      img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747373103/mobile_view_638_x_870_px_1_eviplf.webp',
+      img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747899495/1_2_myttgx.webp',
       alt:"Fire Extinguishers by Zedex Certified Protection You Can Trust — ISI Marked "
       },
 
     {
       id: 7,
-      img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747213900/kitchen_fire_supression_oxisl2.webp',
-      img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747736206/phone_view_coj6ny.webp',
+      img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1748496714/kitchen_supression_home_page_banner_m4es0y.webp',
+      img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1748497047/kitchen_supression_in_phone_view_gh2r9t.jpg',
       alt:"Kitchen Fire  Suppression System Engineered for Commercial Kitchens. Trusted by Professionals.."
     },
 

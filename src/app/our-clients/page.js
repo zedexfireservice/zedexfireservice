@@ -187,7 +187,7 @@ export default function page() {
 
                 <div className="relative flex  h-[86vh] md:h-[67vh] w-full">
                     <img
-                        src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1747381977/Clients_my5h0k.webp"
+                        src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1748498240/our_clients_qdlfyu.webp"
                         alt="OUR CLIENTS zedex fire  service"
                         className="object-cover w-full rounded-lg "
                          

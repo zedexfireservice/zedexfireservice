@@ -127,7 +127,7 @@ export default function KitchenFireSuppressionPage() {
 
 
           <div className="box w-full h-full">
-            <img src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1747300835/kitchen_suppression_su1blx.webp"
+            <img src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1748498085/kitchen_supression_bzvbhu.webp"
               className=' hidden md:block  h-full w-full  object-center object-cover'
               alt="  Kitchen Fire Suppression System"
 
