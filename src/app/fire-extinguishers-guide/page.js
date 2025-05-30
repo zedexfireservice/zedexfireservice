@@ -191,9 +191,9 @@ const extinguishers = [
 ];
 
   return (
-    <div className="bg-white" >
+    <div className="" >
       {/* Premium Hero Section */}
-      <section  className="relative h-screen  md:h-[80vh] bg-gradient-to-r from-red-900 to-red-700">
+      <section  className="px-8 relative h-screen  md:h-[80vh] bg-gradient-to-r from-red-900 to-red-700">
         <div className="absolute inset-0 bg-black/30">
           <div className="container mx-auto h-full flex flex-col justify-center px-6">
             <div className="max-w-2xl">
@@ -223,8 +223,8 @@ Protect your loved ones and assets. Discover the right fire extinguisher for eve
       </section>
 
       {/* Introduction Section - Exact Content */}
-
-         <section className="py-12 bg-white mt-24" ref={fireClassesRef}  >
+<div className="container mx-auto">
+ <section className=" py-12 bg-white mt-24" ref={fireClassesRef}  >
                     <div className="container mx-auto ">
                         <div className="flex justify-around flex-col lg:flex-row items-center">
 
@@ -358,56 +358,90 @@ Introduction: Your First Line of Defence Against Fire
 
 
 
-
 <section className="bg-white py-20">
-      <div className="container mx-auto px-6 max-w-5xl">
-        <div className="mb-12 text-center">
-          <h2 className="text-3xl font-bold text-red-700 mb-4">
-            How to Use a Fire Extinguisher: The PASS Method
-          </h2>
-          <p className="text-gray-700 max-w-xl mx-auto">
-            Even with the right extinguisher, knowing how to use it properly is critical. Remember the PASS method:
-          </p>
-        </div>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-3xl mx-auto mb-10">
-          {passSteps.map(({ step, description, icon }) => (
-            <div key={step} className="flex items-start gap-4 p-4 border border-red-200 rounded-lg shadow-sm hover:shadow-md transition">
-              <div className="bg-red-100 p-3 rounded-lg">{icon}</div>
-              <div>
-                <h3 className="font-semibold text-red-700 mb-1">{step}</h3>
-                <p className="text-gray-700 text-sm">{description}</p>
-              </div>
-            </div>
-          ))}
-        </div>
-
-        <div className="max-w-xl mx-auto mb-12 p-6 bg-red-50 border-l-4 border-red-500 text-red-800 text-sm whitespace-pre-line rounded shadow">
-          <strong className="block mb-2">Important Safety Note:</strong>
-          {safetyNote}
-        </div>
-
-        <h2 className="text-3xl font-bold text-red-700 mb-8 text-center">
-          Choosing the Right Fire Extinguisher for Your Needs
+  <div className="container mx-auto px-6 max-w-6xl">
+     <h2 className=" text-center text-3xl font-bold text-red-700 mb-4">
+          Master Fire Extinguisher Use with PASS
         </h2>
-
-        <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2">
-          {usageRecommendations.map(({ title, icon, points }) => (
-            <div key={title} className="p-6 border border-red-200 rounded-2xl shadow hover:shadow-lg transition bg-gradient-to-br from-red-50 to-white">
-              <div className="flex items-center gap-3 mb-4">
-                <div className="p-2 bg-white rounded-full border border-red-100 shadow-sm">{icon}</div>
-                <h3 className="text-lg font-semibold text-red-800">{title}</h3>
-              </div>
-              <ul className="list-disc list-outside px-5 text-gray-700 space-y-2 text-sm">
-                {points.map((point, i) => (
-                  <li key={i}>{point}</li>
-                ))}
-              </ul>
-            </div>
-          ))}
+        <p className=" text-center text-gray-600 mb-6">
+          In an emergency, every second counts. The PASS method provides a simple, memorable technique for effective fire extinguisher use.
+        </p>
+    <div className="flex flex-col lg:flex-row items-start pt-12 gap-12 mb-20">
+    
+      {/* Image Section - Left Side */}
+      <div className="lg:w-1/2 w-full">
+        <div className="relative rounded-xl overflow-hidden shadow-lg">
+          <img 
+            src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1748582659/How_to_use_a_Fire_extinguisher_lggeit.webp" 
+            alt="Proper fire extinguisher usage demonstration"
+            className="w-full h-auto object-cover"
+         
+          />
+        
         </div>
       </div>
-    </section>
+
+      {/* Content Section - Right Side */}
+      <div className="lg:w-1/2 w-full">
+     
+        
+        <div className="space-y-4">
+          {passSteps.map(({ step, description, icon }) => (
+            <div key={step} className="flex items-start gap-4 p-4 bg-white rounded-lg border border-gray-100 shadow-sm hover:border-red-200 transition-all">
+              <div className="bg-red-100 p-2 rounded-lg text-red-600">
+                {icon}
+              </div>
+              <div>
+                <h3 className="font-semibold text-gray-800 mb-1">{step}</h3>
+                <p className="text-gray-600 text-sm">{description}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <div className="mt-8 p-5 bg-red-50 border border-red-100 rounded-lg">
+          <h4 className="font-semibold text-red-800 mb-2 flex items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+              <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2h-1V9z" clipRule="evenodd" />
+            </svg>
+            Safety First
+          </h4>
+          <p className="text-sm text-red-700">{safetyNote}</p>
+        </div>
+      </div>
+    </div>
+
+    {/* Extinguisher Types Section */}
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-red-700 mb-8 text-center">
+        Choosing the Right Fire Extinguisher
+      </h2>
+      
+      <div className="grid gap-6 sm:grid-cols-2">
+        {usageRecommendations.map(({ title, icon, points }) => (
+          <div key={title} className="group p-6 bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-all">
+            <div className="flex items-center gap-4 mb-4">
+              <div className="p-3 bg-red-50 rounded-lg text-red-600 group-hover:bg-red-100 transition">
+                {icon}
+              </div>
+              <h3 className="text-lg font-semibold text-gray-800">{title}</h3>
+            </div>
+            <ul className="space-y-2 pl-2">
+              {points.map((point, i) => (
+                <li key={i} className="flex items-start gap-2 text-gray-600 text-sm">
+                  <svg className="h-4 w-4 text-red-500 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                  {point}
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>
 
 
 
@@ -487,7 +521,9 @@ Introduction: Your First Line of Defence Against Fire
   </div>
 </section>
       {/* Professional CTA */}
-      <section className="py-20 bg-gradient-to-r from-red-800 to-red-600 text-white">
+     
+</div>
+ <section className="py-20 bg-gradient-to-r from-red-800 to-red-600 text-white">
         <div className="container mx-auto px-6 text-center">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-6">Protect What Matters Most</h2>
@@ -508,6 +544,7 @@ Introduction: Your First Line of Defence Against Fire
           </div>
         </div>
       </section>
+        
       {/* Floating Emergency Button */}
       <div className="fixed bottom-6 right-6 z-50">
         <a 
@@ -518,6 +555,9 @@ Introduction: Your First Line of Defence Against Fire
           <span>Contact Us</span>
         </a>
       </div>
+
+
+
     </div>
   );
 }

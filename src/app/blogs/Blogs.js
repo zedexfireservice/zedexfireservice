@@ -7,7 +7,7 @@ export default function Blogs() {
       img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618767/topfire_jx2sgb.webp",
       alt: "Fire extinguishers image",
       title: "Zedex Fire Company: Your Trusted Partner for Comprehensive Fire Safety Solutions in Delhi NCR and India",
-      para: "Friday, 02 May 2025 by Zedex Fire Company",
+      para: "May 2025 by Zedex Fire Company",
       pub: "Fire Suppression",
       tag: "Fire Safety, Fire Fighting Company, Delhi NCR"
     },
@@ -16,7 +16,7 @@ export default function Blogs() {
       img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1748510430/WhatsApp_Image_2025-05-29_at_13.33.00_11zon_pyefty.webp",
       alt: "Fire extinguishers image",
       title: "The Ultimate Guide to Fire Extinguishers: Types, Uses, and Essential Safety for Every Indian Home & Business",
-      para: "Friday, 29 May 2025 by Zedex Fire Company",
+      para: "May 2025 by Zedex Fire Company",
       pub: "Fire Extinguishers",
       tag: "Fire fighting system, Fire Safety, Fire Extinguishers"
     }
