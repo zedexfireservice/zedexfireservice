@@ -19,6 +19,16 @@ export default function Blogs() {
       para: "May 2025 by Zedex Fire Company",
       pub: "Fire Extinguishers",
       tag: "Fire fighting system, Fire Safety, Fire Extinguishers"
+    },
+    
+    {
+      href: '/fire-alarm-system',
+      img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1748510430/WhatsApp_Image_2025-05-29_at_13.33.00_11zon_pyefty.webp",
+      alt: "Fire extinguishers image",
+      title: "What is a Fire Alarm System? Your Complete Guide to Safety & Protection with Zedex Fire",
+      para: "June 2025 by Zedex Fire Company",
+      pub: "Fire Alarm System",
+      tag: "Fire fighting system, Fire Safety, Fire Extinguishers"
     }
   ];
 

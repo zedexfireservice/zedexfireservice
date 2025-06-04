@@ -1,5 +1,8 @@
 import React from 'react'
 
+
+ 
+
 export default function AddressablePage() {
 
         const fireAlarmDetails = [
@@ -354,6 +357,9 @@ export default function AddressablePage() {
 
                 </div>
             </section>
+
+
+         
     </>
   )
 }
