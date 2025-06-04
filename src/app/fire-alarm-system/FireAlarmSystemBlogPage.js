@@ -393,7 +393,7 @@ const faqs = [
 
       {/* Core Definition Section */}
       <section className="mb-16 bg-white rounded-xl shadow-md overflow-hidden border border-gray-100">
-        <div className="md:flex">
+        <div className="md:flex flex-row-reverse">
           <div className="p-8 md:p-10 md:w-2/3">
             <div className="flex items-center gap-3 mb-5">
               <div className="w-10 h-10 bg-red-100 rounded-full flex items-center justify-center">
@@ -412,20 +412,8 @@ const faqs = [
           </div>
           
           <div className="bg-gray-50 p-8 md:p-10 md:w-1/3 border-t md:border-t-0 md:border-l border-gray-200">
-            <h3 className="font-semibold text-lg mb-4 flex items-center gap-2">
-              <Eye className="text-blue-500" size={20} />
-              Key Detection Capabilities
-            </h3>
-            <ul className="space-y-3">
-              {coreDefinition.features.map((feature, index) => (
-                <li key={index} className="flex items-start gap-2">
-                  <div className={`w-5 h-5 bg-${feature.color}-100 rounded-full flex items-center justify-center mt-0.5 shrink-0`}>
-                    {feature.icon}
-                  </div>
-                  <span>{feature.text}</span>
-                </li>
-              ))}
-            </ul>
+            
+     <img className=' object-center object-cover' src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1749038480/fire_alarm_scmnlu.webp" alt="" />
           </div>
         </div>
       </section>
