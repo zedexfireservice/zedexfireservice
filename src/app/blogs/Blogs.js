@@ -23,7 +23,7 @@ export default function Blogs() {
     
     {
       href: '/fire-alarm-system',
-      img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1748510430/WhatsApp_Image_2025-05-29_at_13.33.00_11zon_pyefty.webp",
+      img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1749032051/new_1_avqs6t.webp",
       alt: "Fire extinguishers image",
       title: "What is a Fire Alarm System? Your Complete Guide to Safety & Protection with Zedex Fire",
       para: "June 2025 by Zedex Fire Company",
@@ -61,11 +61,11 @@ export default function Blogs() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
           {blogsCards.map((item, index) => (
             <Link key={index} href={item.href} className="bg-white rounded-xl overflow-hidden shadow hover:shadow-lg transition-all duration-300 group">
-              <div className="overflow-hidden">
+              <div className="overflow-hidden md:h-96 md:w-full">
                 <img
                   src={item.img}
                   alt={item.alt}
-                  className="  w-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  className="  w-full  object-center object-fill transition-transform duration-300 group-hover:scale-105"
                 />
               </div>
               <div className="p-5">
