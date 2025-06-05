@@ -40,6 +40,7 @@ import Link from 'next/link';
 export default function FireAlarmSystemBlogPage() {
 
      const coreDefinition = {
+
     title: "What is a Fire Alarm System? Your Complete Guide to Safety & Protection with Zedex Fire",
     title2:"Understanding the Core: What Exactly is a Fire Alarm System?",
     paragraphs: [
@@ -378,34 +379,34 @@ const faqs = [
               <span className="inline-block px-3 py-1 mb-4 text-sm font-medium text-red-100 bg-red-800/50 rounded-full backdrop-blur-sm">
                 FIRE SAFETY ESSENTIALS
               </span>
-              <h1 className="text-3xl font-bold text-white leading-tight mb-4">
+              <h1 className=" text-2xl md:text-3xl font-bold text-white leading-tight mb-4">
             Fire Alarm Systems: Your Complete Guide to Safety & Protection
               </h1>
-              <p className="text-sm text-red-50 mb-8">
+              <p className=" text-lg md:text-sm text-red-50 mb-8">
   In today's world, where safety is paramount, a robust fire alarm system isn't just an option—it's an absolute necessity.              </p>
             
             </div>
           </div>
       </section>
 
-       <div className="  container mx-auto   font-sans">
+       <div className="  container mx-auto px-4   font-sans">
       
 
       {/* Core Definition Section */}
       <section className="mb-16 bg-white rounded-xl shadow-md overflow-hidden border border-gray-100">
-        <div className="md:flex flex-row-reverse">
+        <div className="flex flex-col-reverse md:flex-row-reverse">
           <div className="p-8 md:p-10 md:w-2/3">
             <div className="flex items-center gap-3 mb-5">
               <div className="w-10 h-10 bg-red-100 rounded-full flex items-center justify-center">
-                <AlertCircleIcon className="text-red-600" size={20} />
+                <AlertCircleIcon className="text-red-600 m-2  "   />
               </div>
-              <h2 className="text-2xl font-bold text-gray-800">
+              <h2 className="   md:text-2xl font-bold text-gray-800">
                 {coreDefinition.title}
               </h2>
             </div>
             
             {coreDefinition.paragraphs.map((paragraph, index) => (
-              <p key={index} className="text-gray-700 mb-4 text-lg leading-relaxed">
+              <p key={index} className="text-gray-700 mb-4 text-sm md:text-left text-justify md:text-lg leading-relaxed">
                 {paragraph}
               </p>
             ))}
@@ -413,7 +414,7 @@ const faqs = [
           
           <div className="bg-gray-50 p-8 md:p-10 md:w-1/3 border-t md:border-t-0 md:border-l border-gray-200">
             
-     <img className=' object-center object-cover' src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1749038480/fire_alarm_scmnlu.webp" alt="" />
+     <img className=' object-center object-cover' src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1749038480/fire_alarm_scmnlu.webp" alt="Fire Alarm Systems" />
           </div>
         </div>
       </section>
@@ -425,33 +426,33 @@ const faqs = [
         <div className="md:col-span-2">
           <div className="flex items-center gap-3 mb-6">
             <div className="w-12 h-12 bg-red-100 text-red-600 rounded-full flex items-center justify-center shadow-sm">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <svg xmlns="http://www.w3.org/2000/svg" className=" m-2 h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3v1m6.364 1.636l-.707.707M21 12h-1M6.343 5.343l-.707.707M3 12H2m9 9v-1m-6.364-1.636l.707-.707M12 21v-1m6.364-1.636l.707-.707M5.343 18.657l-.707-.707" />
               </svg>
             </div>
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
+            <h2 className="   md:text-4xl font-bold text-gray-800">
               Understanding the Core: What Exactly is a Fire Alarm System?
             </h2>
           </div>
 
-          <p className="text-lg text-gray-700 mb-5 leading-relaxed">
+          <p className=" text-sm md:text-lg text-justify md:text-left text-gray-700 mb-5 leading-relaxed">
             A fire alarm system is an integrated network of electronic devices designed to detect the presence of fire or its early signs (smoke, heat, carbon monoxide) and alert occupants, initiating a response to mitigate danger. Its primary function is to provide early warning, allowing for safe evacuation and prompt intervention by emergency services, thereby minimizing property damage and, most importantly, saving lives.
           </p>
 
-          <p className="text-lg text-gray-700 leading-relaxed">
+          <p className="text-sm md:text-lg text-justify md:text-left text-gray-700 leading-relaxed">
             These sophisticated fire detection systems are engineered to operate continuously, monitoring designated areas 24/7 for any indicators of a fire hazard.
           </p>
         </div>
 
         {/* Detection Features */}
         <div className="bg-gray-50 rounded-2xl p-6 shadow-md border border-gray-200">
-          <h3 className="text-xl font-semibold mb-4 flex items-center gap-2 text-gray-800">
+          <span className="md:text-xl font-semibold mb-4 flex items-center gap-2 text-gray-800">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553 2.276A2 2 0 0121 14.118V17a2 2 0 01-2 2H5a2 2 0 01-2-2v-2.882a2 2 0 011.447-1.842L9 10m6 0V5a3 3 0 00-6 0v5m6 0H9" />
             </svg>
-            Key System Capabilities
-          </h3>
-          <ul className="space-y-4">
+            <span> Key System Capabilities</span>
+          </span>
+          <ul className="space-y-4 text-sm md:text-lg">
             {detectionFeatures.map(({ icon: Icon, label, bgColor, textColor }, index) => (
               <li key={index} className="flex gap-3 items-start">
                 <div className={`w-6 h-6 ${bgColor} ${textColor} rounded-full flex items-center justify-center`}>
@@ -467,10 +468,10 @@ const faqs = [
 
       {/* Benefits Section */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold mb-8 text-center text-gray-800">
+        <h2 className=" md:text-3xl font-bold mb-8 text-center text-gray-800">
        Why is a Reliable Fire Alarm System Indispensable for Your Property?
  </h2>
- <p className="text-gray-700 mb-4 text-lg leading-relaxed">
+ <p className="text-gray-700 mb-4 text-sm text-justify md:text-left mx-3  md:text-lg leading-relaxed">
     Investing in a high-quality fire alarm system from Zedex Fire offers multi-faceted benefits, crucial for any property owner or facility manager in Gurugram and beyond:
 
  </p>
@@ -484,25 +485,49 @@ const faqs = [
               <div className={`w-12 h-12 bg-${benefit.color}-100 rounded-full flex items-center justify-center mb-4`}>
                 {benefit.icon}
               </div>
-              <h3 className="text-xl font-semibold mb-3 text-gray-800">{benefit.title}</h3>
-              <p className="text-gray-600">{benefit.content}</p>
+              <h3 className=" md:text-xl font-semibold mb-3 text-gray-800">{benefit.title}</h3>
+              <p className="text-gray-600 text-sm">{benefit.content}</p>
             </div>
           ))}
         </div>
       </section>
 
+   <section className="mb-16 bg-white rounded-xl   overflow-hidden border border-gray-100">
+        <div className="flex  flex-col-reverse  justify-center items-center md:flex-row-reverse">
+          <div className="p-8 md:p-10 md:w-6/12">
+            <div className="  border-l-2 border-red-500 p-4 flex items-center flex-col gap-3 mb-5">
+              
+              <h2 className=" md:text-3xl font-bold text-gray-800">
+                        The Anatomy of Safety : Key Components of a Fire Alarm System
+
+              </h2>
+
+               <p  className="text-gray-700 mb-4 text-sm md:text-lg leading-relaxed">
+                        A typical fire alarm system comprises several interconnected components, each playing a vital role in the detection and notification process :
+
+              </p>
+
+            </div>
+            
+            
+             
+        
+          </div>
+          
+          <div className="  p-8 md:p-10 md:w-6/12 border-t md:border-t-0 md:border-l border-gray-200">
+            
+     <img className=' object-center object-cover' src=" https://res.cloudinary.com/dgx5cntyb/image/upload/v1749102637/alarm_system_ejyv1z.webp" alt="                        The Anatomy of Safety : Key Components of a Fire Alarm System
+" />
+          </div>
+        </div>
+      </section>
+
+
 
 
   <div className="max-w-6xl mx-auto px-4 py-12">
       {/* Section Header */}
-      <div className="text-center mb-16">
-        <h2 className="text-4xl font-bold text-gray-800 mb-4">
-          The Anatomy of Safety: Key Components of a Fire Alarm System
-        </h2>
-        <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-          A typical fire alarm system comprises several interconnected components, each playing a vital role in the detection and notification process:
-        </p>
-      </div>
+     
 
       {/* Components List */}
       <div className="space-y-12">
@@ -514,9 +539,9 @@ const faqs = [
                 {component.icon}
               </div>
               <div>
-                <h3 className="text-2xl font-bold text-gray-800">{component.title}</h3>
+                <h3 className="md:text-2xl font-bold text-gray-800">{component.title}</h3>
                 {component.description && (
-                  <p className="text-gray-700 mt-2">{component.description}</p>
+                  <p className="text-gray-700 text-sm mt-2">{component.description}</p>
                 )}
               </div>
             </div>
@@ -526,16 +551,16 @@ const faqs = [
               <div className="p-6 md:p-8 bg-gray-50">
                 {component.subtypes.map((subtype, subIndex) => (
                   <div key={subIndex} className="mb-6 last:mb-0">
-                    <h4 className="text-lg font-semibold text-gray-800 mb-2">{subtype.name}</h4>
+                    <h4 className="md:text-lg font-semibold text-gray-800 mb-2">{subtype.name}</h4>
                     {subtype.description && (
-                      <p className="text-gray-700 mb-3">{subtype.description}</p>
+                      <p className="text-gray-700 mb-3 text-sm">{subtype.description}</p>
                     )}
                     {subtype.items && (
                       <ul className="space-y-2 pl-5">
                         {subtype.items.map((item, itemIndex) => (
                           <li key={itemIndex} className="text-gray-700 flex items-start gap-2">
                             <span className="text-gray-400 mt-1.5">•</span>
-                            <span>{item}</span>
+                            <span className=' text-sm'>{item}</span>
                           </li>
                         ))}
                       </ul>
@@ -552,30 +577,53 @@ const faqs = [
       {/* Final CTA */}
       <section className="bg-gray-900 text-white rounded-2xl p-8 md:p-12 shadow-lg">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-2xl md:text-3xl font-bold mb-4">
+          <h2 className=" text-xl md:text-3xl font-bold mb-4">
             {ctaContent.title}
           </h2>
-          <p className="text-gray-300 mb-6 text-lg">
+          <p className="text-gray-300 mb-6 text-sm md:text-lg">
             {ctaContent.description}
           </p>
           <Link href="/contact-Us" className="bg-red-600 hover:bg-red-700 text-white font-medium py-3 px-8 rounded-full transition duration-300 inline-flex items-center gap-2">
-            <RadioTower size={20} />
-            {ctaContent.buttonText}
+            <RadioTower   />
+          <span className=' text-sm'>  {ctaContent.buttonText}</span>
           </Link>
         </div>
       </section>
 
 
- <div className="max-w-6xl mx-auto px-4 py-16">
-      {/* Section Header */}
-      <div className="text-center mb-16">
-        <h2 className="text-4xl font-bold text-gray-800 mb-4">
+
+
+   <section className="mt-16 bg-white rounded-xl   overflow-hidden border border-gray-100">
+        <div className="flex flex-col-reverse justify-center items-center md:flex-row-reverse">
+          <div className="p-8 md:p-10 md:w-7/12">
+            <div className="  border-l-2 border-red-500 p-4 flex items-center flex-col gap-3 mb-5">
+              
+              <h2 className=" md:text-3xl font-bold text-gray-800">
           How Does a Fire Alarm System Work? A Step-by-Step Overview
-        </h2>
-        <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-          The operation of a fire alarm system follows a precise sequence to ensure rapid and effective response:
-        </p>
-      </div>
+
+              </h2>
+
+               <p  className="text-gray-700 mb-4 text-sm md:text-lg leading-relaxed">
+                                 The operation of a fire alarm system follows a precise sequence to ensure rapid and effective response:
+
+
+              </p>
+
+            </div>
+          </div>
+          
+          <div className="  p-8 md:p-10 md:w-5/12 border-t md:border-t-0 md:border-l border-gray-200">
+            
+     <img className=' object-center object-cover rounded-2xl' src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1749102637/alaram_system3_vxys6x.webp" alt="  How Does a Fire Alarm System Work? A Step-by-Step Overview
+" />
+          </div>
+        </div>
+      </section>
+
+
+ <div className="max-w-6xl mx-auto px-4 md:py-16">
+    
+      
 
       {/* Workflow Visualization */}
       <div className="relative">
@@ -595,10 +643,10 @@ const faqs = [
                   <div className={`${step.color} w-14 h-14 rounded-xl flex items-center justify-center mb-4`}>
                     {step.icon}
                   </div>
-                  <h3 className="text-2xl font-bold text-gray-800 mb-3">
+                  <h3 className="md:text-2xl font-bold text-gray-800 mb-3">
                     {step.title}
                   </h3>
-                  <p className="text-gray-700">
+                  <p className="text-gray-700 text-sm">
                     {step.description}
                   </p>
                 </div>
@@ -625,18 +673,39 @@ const faqs = [
     </div>
 
 
- <div className="max-w-6xl mx-auto px-4 py-16">
-      {/* Section Header */}
-      <div className="text-center mb-16">
-        <h2 className="text-4xl font-bold text-gray-800 mb-4">
-          Types of Fire Alarm Systems: Finding the Right Fit for Your Needs
-        </h2>
-        <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-          Understanding different fire alarm system types is essential for optimal protection. Zedex Fire specializes in the installation and maintenance of all major categories:
-        </p>
-      </div>
 
-      {/* System Types Grid */}
+
+   <section className="mt-16 bg-white rounded-xl   overflow-hidden border border-gray-100">
+        <div className=" flex flex-col-reverse justify-center items-center md:flex-row-reverse">
+          <div className="p-8 md:p-10 md:w-7/12">
+            <div className="  border-l-2 border-red-500 p-4 flex items-center flex-col gap-3 mb-5">
+              
+              <h2 className=" md:text-3xl font-bold text-gray-800">
+          Types of Fire Alarm Systems : Finding the Right Fit for Your Needs
+
+              </h2>
+
+               <p  className="text-gray-700 mb-4 text-sm md:text-lg leading-relaxed">
+          Understanding different fire alarm system types is essential for optimal protection. Zedex Fire specializes in the installation and maintenance of all major categories:
+
+
+              </p>
+
+            </div>
+          </div>
+          
+          <div className="  p-8 md:p-10 md:w-5/12 border-t md:border-t-0 md:border-l border-gray-200">
+            
+     <img className=' object-center object-cover rounded-2xl' src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1749102637/alaram_system_2_zj922f.webp" alt="  Types of Fire Alarm Systems : Finding the Right Fit for Your Needs
+" />
+          </div>
+        </div>
+      </section>
+
+
+
+ <div className="max-w-6xl mx-auto px-4 md:py-16">
+  
       <div className="grid md:grid-cols-2 gap-6 mb-20">
         {systemTypes.map((system, index) => (
           <div 
@@ -647,10 +716,10 @@ const faqs = [
               <div className={`${system.color} w-14 h-14 rounded-xl flex items-center justify-center mb-4`}>
                 {system.icon}
               </div>
-              <h3 className="text-2xl font-bold text-gray-800 mb-3">
+              <h3 className=" md:text-2xl font-bold text-gray-800 mb-3">
                 {system.title}
               </h3>
-              <p className="text-gray-700">
+              <p className=" text-sm text-gray-700">
                 {system.description}
               </p>
             </div>
@@ -659,15 +728,15 @@ const faqs = [
       </div>
 
       {/* Choosing Section */}
-      <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-8 md:p-12">
+      <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-5 md:p-12">
         <div className="max-w-4xl mx-auto">
-          <h3 className="text-3xl font-bold text-gray-800 mb-6 text-center">
+          <h3 className="md:text-3xl font-bold text-gray-800 mb-6 text-center">
             Choosing the Right Fire Alarm System with Zedex Fire
           </h3>
           
           <div className="flex flex-col md:flex-row gap-8 items-center">
             <div className="md:w-1/2">
-              <p className="text-gray-700 mb-6">
+              <p className="text-gray-700 text-sm mb-6">
                 Selecting the ideal fire detection system involves considering various factors:
               </p>
               
@@ -677,18 +746,18 @@ const faqs = [
                     <div className="bg-white p-2 rounded-full shadow-sm mt-0.5">
                       {factor.icon}
                     </div>
-                    <span className="text-gray-700">{factor.text}</span>
+                    <span className="text-gray-700 text-sm">{factor.text}</span>
                   </li>
                 ))}
               </ul>
             </div>
             
-            <div className="md:w-1/2 bg-white rounded-xl p-6 shadow-sm border border-gray-200">
-              <p className="text-gray-700">
+            <div className="md:w-1/2 bg-white rounded-xl p-4 md:p-6 shadow-sm border border-gray-200">
+              <p className="text-gray-700 text-sm text-justify">
                 At Zedex Fire, our experts provide tailored advice, ensuring you get a system that's not just functional but perfectly suited to your unique requirements. We conduct thorough site assessments and offer comprehensive fire alarm system installation services across Gurugram, Haryana, and Delhi NCR.
               </p>
               
-              <Link href="/contact-Us" className="mt-6 bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-full transition duration-300 inline-flex items-center gap-2">
+              <Link href="/contact-Us" className="mt-6 bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-full transition duration-300 inline-flex items-center text-sm gap-2">
                 Get Expert Consultation <ChevronRight size={18} />
               </Link>
             </div>
@@ -700,10 +769,10 @@ const faqs = [
 
       <section className="max-w-6xl mx-auto px-4 py-16">
       <div className="text-center mb-12">
-        <h2 className="text-4xl font-bold text-gray-900 mb-4">
+        <h2 className=" text-2xl md:text-4xl font-bold text-gray-900 mb-4">
           Zedex Fire: Your Trusted Partner in Fire Safety
         </h2>
-        <p className="text-lg text-gray-600">
+        <p className=" text-sm md:text-lg text-gray-600">
           With a reputation built on technical excellence and local expertise, we go beyond products—we deliver reliable protection and lasting peace of mind.
         </p>
       </div>
@@ -719,7 +788,7 @@ const faqs = [
             >
               <point.icon className={`${point.iconColor}`} size={24} />
             </div>
-            <h3 className="text-xl font-semibold text-gray-800 mb-2">{point.title}</h3>
+            <h3 className="  md:text-xl font-semibold text-gray-800 mb-2">{point.title}</h3>
             <p className="text-gray-600 text-sm leading-relaxed">{point.description}</p>
           </div>
         ))}
@@ -728,8 +797,8 @@ const faqs = [
 
     <section className="max-w-4xl mx-auto px-4 py-12">
       <div className="text-center mb-12">
-        <h2 className="text-4xl font-bold text-red-700 mb-4">Frequently Asked Questions</h2>
-        <p className="text-lg text-gray-600">
+        <h2 className=" text-2xl md:text-4xl font-bold text-red-700 mb-4">Frequently Asked Questions</h2>
+        <p className=" text-sm md:text-lg text-gray-600">
           Explore common questions about fire alarm systems, answered by the experts at Zedex Fire.
         </p>
       </div>
@@ -744,7 +813,7 @@ const faqs = [
               onClick={() => toggle(index)}
               className="flex justify-between items-center w-full text-left"
             >
-              <span className="text-lg font-semibold text-gray-800">{faq.question}</span>
+              <span className="md:text-lg text-sm font-semibold text-gray-800">{faq.question}</span>
               <ChevronDown
                 className={`transition-transform duration-300 ${
                   activeIndex === index ? 'rotate-180' : ''
@@ -752,7 +821,7 @@ const faqs = [
               />
             </button>
             {activeIndex === index && (
-              <p className="mt-4 text-gray-700 leading-relaxed">{faq.answer}</p>
+              <p className="mt-4 text-gray-700 text-sm leading-relaxed">{faq.answer}</p>
             )}
           </div>
         ))}
@@ -765,16 +834,16 @@ const faqs = [
       <div className="max-w-4xl mx-auto text-center">
         <div className="mb-6">
           <ShieldCheck size={36} className="mx-auto text-white drop-shadow-md" />
-          <h2 className="text-3xl sm:text-4xl font-bold mt-4">
+          <h2 className=" md:text-3xl sm:text-4xl font-bold mt-4">
             Secure Your Property Today with Zedex Fire's Expert Fire Alarm Solutions!
           </h2>
         </div>
 
-        <p className="text-lg sm:text-xl text-white/90 mb-8 max-w-2xl mx-auto leading-relaxed">
+        <p className=" text-sm md:text-lg   text-white/90 mb-8 max-w-2xl mx-auto leading-relaxed">
           Don’t wait for a crisis to act. Partner with Zedex Fire for state-of-the-art fire alarm system installation, proactive maintenance, and comprehensive fire safety solutions tailored for your peace of mind.
         </p>
 
-        <a    href="tel:9999883999" className="inline-flex items-center gap-2 bg-white text-red-700 font-semibold px-8 py-3 rounded-full hover:bg-red-100 transition shadow-md">
+        <a    href="tel:9999883999" className=" text-sm inline-flex items-center gap-2 bg-white text-red-700 font-semibold px-8 py-3 rounded-full hover:bg-red-100 transition shadow-md">
           <PhoneCall size={20} />
           Get FREE Consultation
         </a>
