@@ -831,7 +831,9 @@ const faqs = [
 
 
     <section className=" m-4 md:m-12 relative bg-gradient-to-r from-red-700 via-orange-600 to-yellow-500 text-white py-16 rounded-2xl overflow-hidden shadow-lg px-6 sm:px-10">
+
       <div className="max-w-4xl mx-auto text-center">
+      
         <div className="mb-6">
           <ShieldCheck size={36} className="mx-auto text-white drop-shadow-md" />
           <h2 className=" md:text-3xl sm:text-4xl font-bold mt-4">
@@ -851,7 +853,9 @@ const faqs = [
         <p className="mt-6 text-sm text-white/80">
           Now serving Gurugram, Haryana & Delhi NCR
         </p>
+
       </div>
+
     </section>
 
     </div>
