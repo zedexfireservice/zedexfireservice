@@ -42,7 +42,7 @@ export const metadata = {
     title: "Fire Suppression Systems Delhi NCR | ISO Certified Zedex Fire",
     description: "Leading ISO 9001:2008 certified provider of fire suppression systems in Delhi NCR. Expert installation & comprehensive solutions by Zedex Fire.",
     url: "https://www.zedexfire.com/fire-suppression-system",
-    type: "product",
+    type: "website",
     images: [
       {
         url: "https://www.zedexfire.com/images/fire-suppression-system-banner.jpg", 

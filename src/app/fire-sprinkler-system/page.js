@@ -43,7 +43,7 @@ export const metadata = {
     title: "Fire Sprinkler System in Delhi NCR | ZedEx Fire",
     description: "ZedEx Fire: Expert supplier, distributor & installation of fire sprinkler systems in Delhi NCR. Wide range of types & UL-listed hoses. Get a quote!",
     url: "https://www.zedexfire.com/fire-sprinkler-system",
-    type: "product",
+    type: "website",
     images: [
       {
         url: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618656/fire-sprinkler-system-3_w6g04z.webp", 

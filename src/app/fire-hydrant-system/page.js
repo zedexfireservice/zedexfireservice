@@ -48,7 +48,7 @@ export const metadata = {
     title: "Fire Hydrant System in Delhi NCR and India - Zedex Fire",
     description: "Zedex Fire: Top fire hydrant system supplier & installer in Delhi, Gurgaon, Noida & across India. Contact us for top-quality fire safety solutions.",
     url: "https://www.zedexfire.com/fire-hydrant-system",
-    type: "product",
+    type: "website",
     images: [
       {
         url: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618656/Fire-Hydrants-2_ak1vij.webp",

@@ -39,7 +39,7 @@ export const metadata = {
     title: "Top Ultrasonic Anti Rodent in Delhi NCR | Zedex Fire",
     description: "Looking for the best Anti Rodent System in Delhi NCR? Zedex Fire offers effective solutions to protect your properties from rodent damage. Contact us today!",
     url: "https://www.zedexfire.com/anti-rodent-system",
-    type: "product",
+    type: "website",
     images: [
       {
         url: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618669/anti-rodent-system1_llhvue.webp", 
