@@ -1,7 +1,5 @@
 import FireVesdaPage from "./FireVesdaPage";
 
- 
-
 export const metadata = {
   title: "VESDA in Delhi NCR | Early Detection - Zedex Fire",
   description: "Get the ultimate fire protection with VESDA systems in Delhi NCR by Zedex Fire (ISO 9001:2008 certified). Contact us for expert solutions.",
@@ -45,7 +43,7 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: "https://www.zedexfire.com/images/vesda-system-banner.jpg", 
+        url: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618663/vesda-system_urtikc.webp", 
         width: 1200,
         height: 630,
         alt: "VESDA System for Ultimate Fire Protection by Zedex Fire in Delhi NCR",
@@ -59,7 +57,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "VESDA Delhi NCR | Ultimate Fire Protection - Zedex Fire",
     description: "Ultimate fire protection with VESDA systems in Delhi NCR by Zedex Fire (ISO 9001:2008 certified). Expert solutions available.",
-    image: "https://www.zedexfire.com/images/vesda-system-banner.jpg",  
+    image: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618663/vesda-system_urtikc.webp",  
   },
 };
 
