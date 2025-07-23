@@ -25,7 +25,7 @@ export default function HeroPage() {
     {
       id: 1,
       img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1753263667/f1_corlml.webp',
-      img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1750657441/Phone_View_xeddai.webp',
+      img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1753264195/f2_kelxxw.webp',
      
       alt:"Addressable Fire Alarm System, Smart Detection , Faster Response , Safer Spaces."
     },
