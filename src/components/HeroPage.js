@@ -24,7 +24,7 @@ export default function HeroPage() {
 
     {
       id: 1,
-      img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1753256178/fire_banner_rojdzk.webp',
+      img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1753263667/f1_corlml.webp',
       img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1750657441/Phone_View_xeddai.webp',
      
       alt:"Addressable Fire Alarm System, Smart Detection , Faster Response , Safer Spaces."
@@ -60,7 +60,7 @@ export default function HeroPage() {
 
     {
       id: 8,
-      img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1753256177/fire_hydrant2_k86hjl.webp',
+      img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1753263757/fire_hydrant_lsgqlg.webp',
       img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747736206/phone_view_1_bm2z4h.webp',
       alt:"Smart Safety Starts Here! Precision-designed hydrant systems installed by certified experts"
     
@@ -167,7 +167,7 @@ export default function HeroPage() {
 
     {
       href: "/fire-sprinkler-system",
-      img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618656/fire-sprinkler-system_xclv3j.webp",
+      img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1753263837/fire_sprinkler_m2veyv.webp",
       alt: "Fire Sprinkler System",
       title: "Fire Sprinkler System",
       items: "A fire sprinkler system is a crucial component of modern fire safety, designed to automatically detect and suppress fires in residential, commercial, and industrial spaces.",
