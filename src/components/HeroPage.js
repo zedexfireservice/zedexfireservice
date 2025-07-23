@@ -24,7 +24,7 @@ export default function HeroPage() {
 
     {
       id: 1,
-      img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1750657268/home_page_banner_t5lzf7.webp',
+      img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1753256178/fire_banner_rojdzk.webp',
       img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1750657441/Phone_View_xeddai.webp',
      
       alt:"Addressable Fire Alarm System, Smart Detection , Faster Response , Safer Spaces."
@@ -40,7 +40,7 @@ export default function HeroPage() {
     {
       id: 3,
       img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747894192/fire_sprinkler_cqt9y8_25_tb5bg3.webp',
-      img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1748497305/mobile_view_638_x_870_px_2_fxwruu_fvwjeh.webp',
+      img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1753256397/fire_hydrant_kryw3b.webp',
       alt:"Anti Rodent System"
     },
   
@@ -60,7 +60,7 @@ export default function HeroPage() {
 
     {
       id: 8,
-      img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747893980/fire_hydrant_system_omh3gv_1_25_iij4nd.webp',
+      img: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1753256177/fire_hydrant2_k86hjl.webp',
       img2: 'https://res.cloudinary.com/dgx5cntyb/image/upload/v1747736206/phone_view_1_bm2z4h.webp',
       alt:"Smart Safety Starts Here! Precision-designed hydrant systems installed by certified experts"
     

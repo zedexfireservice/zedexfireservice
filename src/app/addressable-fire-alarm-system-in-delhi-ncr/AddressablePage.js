@@ -136,7 +136,9 @@ export default function AddressablePage() {
 
   return (
     <>
+
          <section>
+
 
                 <div className="relative flex  h-[86vh] md:h-[67vh] w-full">
                  
