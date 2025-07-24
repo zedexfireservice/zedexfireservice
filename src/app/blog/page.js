@@ -1,9 +1,11 @@
-import Link from 'next/link';
+ 
+// Example in app/blog/page.js
+import Link from 'next/link'
 
-export default function Blogs() {
-  const blogsCards = [
+export default function BlogHome() {
+      const blogsCards = [
     {
-      href: '/top-fire-fighting-company-in-delhi',
+      href: '/blog/top-fire-fighting-company-in-delhi',
       img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618767/topfire_jx2sgb.webp",
       alt: "Fire extinguishers image",
       title: "Zedex Fire Company: Your Trusted Partner for Comprehensive Fire Safety Solutions in Delhi NCR and India",
@@ -12,7 +14,7 @@ export default function Blogs() {
       tag: "Fire Safety, Fire Fighting Company, Delhi NCR"
     },
     {
-      href: '/fire-extinguishers-guide',
+      href: '/blog/fire-extinguishers-guide',
       img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1748510430/WhatsApp_Image_2025-05-29_at_13.33.00_11zon_pyefty.webp",
       alt: "Fire extinguishers image",
       title: "The Ultimate Guide to Fire Extinguishers: Types, Uses, and Essential Safety for Every Indian Home & Business",
@@ -22,7 +24,7 @@ export default function Blogs() {
     },
     
     {
-      href: '/fire-alarm-system',
+      href: '/blog/fire-alarm-system',
       img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1749032051/new_1_avqs6t.webp",
       alt: "Fire extinguishers image",
       title: "What is a Fire Alarm System? Your Complete Guide to Safety & Protection with Zedex Fire",
@@ -31,20 +33,21 @@ export default function Blogs() {
       tag: "Fire fighting system, Fire Safety, Fire Extinguishers"
     },
     
-    {
-      href: '/blog/fire-extinguisher-supplier-and-dealer-in-gurugram',
-      img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1749032051/new_1_avqs6t.webp",
-      alt: "Fire extinguishers image",
-      title: "What is a Fire Alarm System? Your Complete Guide to Safety & Protection with Zedex Fire",
-      para: "June 2025 by Zedex Fire Company",
-      pub: "Fire Alarm System",
-      tag: "Fire fighting system, Fire Safety, Fire Extinguishers"
-    }
-  ];
+ 
 
+    {
+  href: '/blog/fire-extinguisher-supplier-and-dealer-in-gurugram',
+  img: "https://images.unsplash.com/photo-1715498486443-62e8a5d04d6a?q=80&w=3164&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  alt: "Fire extinguishers image",
+  title: "Fire Extinguisher Supplier & Dealer in Gurugram | Zedexfire",
+  para: "July 2025 by Zedex Fire Company",
+  pub: "Fire Safety Equipment",
+  tag: "Fire Extinguishers, Gurugram Fire Safety, ISI Certified, Haryana Fire Act Compliance"
+}
+  ];
   return (
     <>
-      {/* Hero Banner */}
+
       <section>
         <div className="relative flex h-[75vh] md:h-[60vh] w-full">
           <img
@@ -99,6 +102,14 @@ export default function Blogs() {
           ))}
         </div>
       </section>
+
+
+
+
+     
     </>
-  );
+  )
 }
+
+
+ 

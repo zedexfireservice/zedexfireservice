@@ -60,7 +60,7 @@ function Header() {
 
 
     { text: 'Our Clients', href: '/our-clients' },
-    { href: '/blogs', text: 'Blogs' },
+    { href: '/blog', text: 'Blogs' },
 
     { text: 'Contact Us', href: '/contact-Us' },
   ];
@@ -145,7 +145,7 @@ function Header() {
     },
     {
       label: "Blogs",
-      href: "/blogs"
+      href: "/blog"
     },
 
     {
