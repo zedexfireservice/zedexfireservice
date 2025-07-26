@@ -408,7 +408,7 @@ export default function HeroPage() {
 
 
 
-        <section className="bg-white  md:px-11 py-16  bg-gradient-to-r from-[#efa54c] to-[#f77b56]">
+        <section className="bg-white  md:px-11 py-16  bg-gradient-to-r from-[#f77b56] to-white">
 
           <div className=" gap-7 md:gap-16   items-center flex  flex-wrap pt-0 mt-0 py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2  lg:px-6">
             <div className="  flex justify-center w-full h-full    ">
@@ -519,7 +519,7 @@ export default function HeroPage() {
                     </div>
 
                   </div>
-                  <div className="p-4 h-full bg-[#f48b52] group-hover:bg-black text-white ">
+                  <div className="p-4 h-full  group-hover:text-white  group-hover:bg-black text-black ">
                     <h3 className="text-lg font-semibold mb-2 text-center md:text-left">{industry.title}</h3>
                     <p className="text-sm   mb-2 text-justify md:text-left"> {industry.items}</p>
 
@@ -622,13 +622,13 @@ export default function HeroPage() {
               className="mySwiper z-0"
             >
               {slideData.map((slide, index) => (
-                <SwiperSlide key={index} className="p-4 rounded-lg">
-                  <div className="relative flex w-full max-w-[26rem] flex-col rounded-xl bg-transparent bg-clip-border text-gray-700 shadow-none">
+                <SwiperSlide key={index} className="p-4 rounded-sm    border-[1px] ">
+                  <div className="relative flex w-full max-w-[26rem] flex-col rounded-xl bg-transparent bg-clip-border text-gray-700 shadow-none ">
                     <div className="relative flex items-center gap-4 pt-0 pb-8 mx-0 mt-4 overflow-hidden text-gray-700 bg-transparent shadow-none rounded-xl bg-clip-border">
 
-                      <div className="flex w-full flex-col gap-0.5">
+                      <div className="flex w-full flex-col gap-0.5 ">
                         <div className="flex items-center justify-between">
-                          <h2 className="block text-white  text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+                          <h2 className="block    text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
                             {slide.name}
                           </h2>
 
@@ -650,13 +650,13 @@ export default function HeroPage() {
                             ))}
                           </div>
                         </div>
-                        <p className="text-start text-white block  text-base antialiased font-light leading-relaxed text-blue-gray-900">
+                        <p className="text-start  block  text-base antialiased font-light leading-relaxed text-blue-gray-900">
                           {slide.position}
                         </p>
                       </div>
                     </div>
                     <div className="p-0 mb-6">
-                      <p className="block  text-white text-base text-justify antialiased font-light leading-relaxed ">
+                      <p className="block   text-base text-justify antialiased font-light leading-relaxed ">
                         {slide.testimonial}
                       </p>
                     </div>

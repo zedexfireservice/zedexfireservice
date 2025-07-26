@@ -27,7 +27,7 @@ import {
 import Link from 'next/link';
 
 
-export default function FireSupplierDealer() {
+export default function FireHydrant() {
 
 
  const fireClassesRef = useRef(null);  
@@ -40,18 +40,31 @@ export default function FireSupplierDealer() {
 
      const passSteps = [
     {
-      step: "Clarifying Your Obligations :",
-      description: " We help you interpret the specific fire safety requirements relevant to your property type and location within Gurugram.",
+      step: "Mandatory Installation ",
+      description: " Specified for high-rise buildings (residential above 16.5m, educational/institutional above 9m) and buildings over 500 sq m floor area.",
       icon: <Hand className="w-6 h-6 text-red-600" />
     },
     {
-      step: "Preparation for Inspections :",
-      description: " Our team ensures your fire fighting scheme and equipment align with the National Building Code (NBC) and local Gurugram guidelines.",
+      step: " Design & Layout Approval",
+      description: " Your fire fighting scheme, including the hydrant system, must be approved by the Competent Authority.",
       icon: <Target className="w-6 h-6 text-red-600" />
     },
     {
-      step: "Ensuring Continuous Compliance :",
-      description: " Through our diligent maintenance and refilling services, you can confidently provide the required annual Self-Declaration Certificate, knowing your systems are expertly managed.",
+      step: "Fire NOC",
+      description: " A fully operational and compliant fire hydrant system is essential for obtaining your property's Fire No Objection Certificate, valid for up to 5 years.",
+
+      icon: <MousePointerClick className="w-6 h-6 text-red-600" />
+    },
+    {
+      step: "Annual Self-Declaration Certificate",
+      description: " A yearly verification confirming your fire fighting systems, including the hydrant, are in good working condition.",
+
+      icon: <MousePointerClick className="w-6 h-6 text-red-600" />
+    },
+    {
+      step: " Fire Safety Officer",
+      description: " Certain buildings are required to appoint a qualified Fire Safety Officer to oversee maintenance and compliance.",
+
       icon: <MousePointerClick className="w-6 h-6 text-red-600" />
     },
     
@@ -60,26 +73,47 @@ export default function FireSupplierDealer() {
 
   const usageRecommendations = [
     {
-      title: "Why Gurugram Chooses Zedexfire for Unmatched Safety",
+      title: "Zedexfire's expert services ensure optimal performance",
       icon: <Home className="w-7 h-7 text-red-700" />,
       points: [
-        "Trusted by Leading Organizations : Our proven track record of safeguarding prominent clients such as Reliance, DLF, Apollo Hospitals, ITC, JLL, Honda, and Fortis Healthcare demonstrates our unwavering commitment to excellence and reliability in fire safety solutions.",
+        "Precision Design & Installation : Our highly skilled engineers and technicians design systems precisely to NBC and IS standards, ensuring correct pipe sizing, pump selection, and strategic placement of hydrants and valves for maximum coverage and pressure.",
 
-        "Quality & Certifications : All our products are ISI certified, guaranteeing reliability and strict adherence to national safety standards. Our services consistently meet the highest industry benchmarks.",
+        "Comprehensive AMC & Regular Testing : We offer Annual Maintenance Contracts (AMCs) that include",
 
-        "Dedicated & Skilled Professionals : Our team comprises highly trained and experienced fire safety experts committed to delivering excellence in every interaction, from initial consultation to ongoing support."
-        ,
-        "Competitive & Transparent Pricing : We believe that superior fire safety should be accessible. We offer competitive pricing models without compromising on the quality of our products or services."
+       "Routine Inspections : Checking for leaks, corrosion, obstructions, and proper drainage.",
+       "Pressure & Flow Testing : Ensuring adequate water pressure and flow rate at all hydrant points."
+       ,
+       "Valve Exercising & Lubrication : Maintaining smooth operation of all valves.",
+       "Pump House Checks : Verifying the functionality of all pumps, control panels, and power supplies.",
+       "Hose Reel Inspection : Checking hoses for damage, proper winding, and nozzle functionality.",
+       "Prompt Repair & Upgrades : We quickly diagnose and rectify any issues, from minor leaks to major component failures. We also advise on system upgrades to meet evolving safety standards or property needs."
       ]
     },
     {
-      title: "Ready to Enhance Your Gurugram Property's Fire Safety ?",
+      title: "Cost Considerations for Fire Hydrant Systems in Gurugram",
       icon: <Wrench className="w-7 h-7 text-red-700" />,
       points: [
-        "Don't wait for an incident to occur. Partner with Zedexfire, your trusted fire extinguisher supplier and dealer in Gurugram/Gurgaon, and take a decisive step towards creating a safer, more secure environment for your family, employees, or tenants.",
+        "The cost of a fire hydrant system varies significantly based on factors like building size, system complexity (wet/dry riser, number of hydrants/hose reels), pump capacity, water tank requirements, labor, and compliance-specific features. While the initial investment might seem substantial, it is a critical, long-term asset that",
 
-        "Contact us today for a personalized consultation or to explore our comprehensive range of fire safety products and services. Let Zedexfire help you protect what matters most.",
+        "Safeguards lives and property from devastating fire damage.",
+        "Ensures uninterrupted business operations.",
+        "Avoids hefty penalties for non-compliance.",
+        "Potentially lowers insurance premiums."
 
+        
+      ]
+    },
+    {
+      title: "Why Gurugram Trusts Zedexfire for Fire Hydrant Systems",
+      icon: <Wrench className="w-7 h-7 text-red-700" />,
+      points: [
+        "Choosing Zedexfire means partnering with a leader committed to unparalleled safety and service :",
+
+        "Trusted by Leading Organizations : Our proven track record of safeguarding prominent clients such as Reliance, DLF, Apollo Hospitals, ITC, JLL, Honda, and Fortis Healthcare demonstrates our unwavering commitment to excellence and reliability in fire safety solutions.",
+       "Hyper-Local Expertise : We possess an in-depth understanding of Gurugram's specific architectural challenges, industrial demands, and regulatory environment."
+,
+"End-to-End Solutions : From initial design and supply of ISI-certified components to precision installation, proactive maintenance, and full compliance assistance, we cover every aspect of your fire hydrant system needs.",
+"Highly Skilled & Dedicated Team : Our professionals are meticulously trained in the latest fire safety technologies and Gurugram's specific regulatory nuances, ensuring a seamless and reliable experience."
         
       ]
     }
@@ -89,44 +123,91 @@ export default function FireSupplierDealer() {
   const fireClasses = [
     {
       class: 'A',
-      title: 'ABC Dry Powder Fire Extinguishers ',
+      title: 'Fire Water Storage Tank',
       icon: <Flame className="w-5 h-5" />,
-      description: ' Your versatile solution for Class A (ordinary combustibles), B (flammable liquids), and C (electrical) fires, making them ideal for homes, small businesses, and general office spaces.',
+      description: ' A dedicated reservoir ensuring a continuous and sufficient water supply for firefighting operations, independent of municipal lines during emergencies.',
       
     },
     {
       class: 'B',
-      title: 'CO2 Fire Extinguishers ',
+      title: 'Fire Pumps (Jockey, Main, Standby)',
       icon: <Fuel className="w-5 h-5" />,
-      description: " Perfect for Gurugram's numerous IT rooms, server centers and electrical panels, as they extinguish fires without leaving corrosive residue.",
+      description: 
+      <>
+
+        <ul>
+            <li>
+                <strong className=' text-red-500'>Jockey Pump :</strong> Maintains constant pressure in the system, compensating for minor leaks.
+
+            </li>
+            <li>
+                <strong className=' text-red-500'> Main Pump :</strong> Activates automatically upon significant pressure drop (e.g., a hydrant opening), providing the primary high-pressure water flow.
+
+
+            </li>
+            <li>
+                <strong className=' text-red-500'>Standby Pump (Diesel) :</strong>  A crucial backup, often diesel-driven, that kicks in if the main pump fails or power is lost, ensuring an uninterrupted water supply.
+
+
+
+            </li>
+        </ul>
+      </>,
     
     },
     {
       class: 'C',
-      title: 'Water & Foam Fire Extinguishers ',
+      title: 'Piping Network',
       icon: <Zap className="w-5 h-5" />,
-      description: ' Crucial for Class A and B fires respectively, highly effective for residential buildings and commercial properties like hotels and restaurants.',
+      description: 
+         <>
+<p>
+    A robust network of pipes (often made of ductile iron or steel) designed to withstand high pressure, distributing water throughout the building or complex. This includes:
+</p>
+        <ul>
+            <li>
+                <strong className=' text-red-500'>Wet Risers :</strong>  Vertical pipes constantly charged with water, providing immediate access on every floor. Ideal for Gurugram's high-rises.
+
+
+            </li>
+            <li>
+                <strong className=' text-red-500'>Dry Risers :</strong>  Vertical pipes that are normally empty, filled by the fire brigade using their appliances. Suitable where freezing is a concern or immediate constant water is not feasible.
+
+
+
+            </li>
+           
+        </ul>
+      </>,
+       
     
     },
     {
       class: 'D',
-      title: 'Clean Agent Fire Extinguishers ',
+      title: 'Landing Valves (Internal Hydrants)',
       icon: <Factory className="w-5 h-5" />,
-      description: 'Designed for sensitive environments like data centers and high-tech offices, providing residue-free suppression that protects valuable equipment.',
+      description: ' Outlets located on each floor of a building, allowing firefighters to connect hoses inside the structure.',
       
     },
     {
-      class: 'K',
-      title: 'Special Application & Automatic Modular Types ',
+      class: 'E',
+      title: 'External Hydrant Valves',
       icon: <Utensils className="w-5 h-5" />,
-      description: 'Tailored for specific industrial hazards in areas like Manesar or specialized commercial setups.',
+      description: ' Located outside the building, connected to the main piping network, providing critical access points for the fire brigade.',
       
     },
     {
-      class: 'M',
-      title: 'Complete Fire Fighting Systems ',
+      class: 'F',
+      title: 'Hose Reels & Hoses ',
       icon: <Utensils className="w-5 h-5" />,
-      description: ' From robust fire alarm and sprinkler systems to powerful fire hydrants and advanced fire suppression solutions, we equip your property with multiple layers of defense.',
+      description: ' Mounted near landing valves, providing a readily accessible first-aid firefighting solution for occupants to tackle small fires before professional help arrives.',
+      
+    },
+    {
+      class: 'G',
+      title: 'Fire Brigade Inlet',
+      icon: <Utensils className="w-5 h-5" />,
+      description: ' A crucial connection point outside the building, allowing the fire department to pump water into your internal hydrant system, boosting pressure and supply.',
       
     }
   ];
@@ -135,26 +216,26 @@ export default function FireSupplierDealer() {
 
 const extinguishers = [
   {
-    name: "Fire Extinguisher Refilling in Gurugram ",
-    mechanism: "We provide prompt, certified refilling services for all types of extinguishers, adhering to stringent safety and quality standards. Our efficient process ensures your Gurugram property maintains continuous protection.",
+    name: "Wet Riser Systems",
+    mechanism: " The most common in Gurugram's urban environment, continuously filled with water for instant use.",
     
     icon: <WaterIcon className="w-6 h-6 text-red-600" />
   },
   {
-    name: "Professional Installation & Commissioning",
-    mechanism: " Our skilled technicians ensure your fire safety equipment is installed correctly and strategically positioned for maximum effectiveness across your Gurugram premises, in line with building codes.",
+    name: "Dry Riser Systems",
+    mechanism: " Less common in Gurugram due to climate, but used in specific scenarios where pipes must remain dry.",
    
     icon: <FoamIcon className="w-6 h-6 text-red-600" />
   },
   {
-    name: "Annual Maintenance Contracts (AMCs)",
-    mechanism: "Regular maintenance isn't just a recommendation; it's a critical compliance requirement. Our AMCs ensure your fire safety systems are consistently inspected, serviced, and maintained in peak working condition.",
+    name: "Yard Hydrant Systems",
+    mechanism: " External hydrants strategically placed around large commercial properties, industrial parks, or residential townships for external firefighting access.",
     
     icon: <DCPIcon className="w-6 h-6 text-red-600" />
   },
   {
-    name: "Fire Safety Audits & Advisory Services",
-    mechanism: "We conduct thorough fire risk assessments and provide expert guidance to help Gurugram businesses, educational institutions, and residential societies navigate complex regulations and implement best practices.",
+    name: "Sprinkler System Integration",
+    mechanism: "Fire hydrant systems are often integrated with automatic sprinkler systems for a holistic fire protection strategy.",
     
     icon: <CO2Icon className="w-6 h-6 text-red-600" />
   },
@@ -169,16 +250,18 @@ const extinguishers = [
       <section  className="px-8 relative h-screen  md:h-[80vh] bg-gradient-to-r from-red-900 to-red-700">
         <div className="absolute inset-0 bg-black/30">
           <div className="container mx-auto h-full flex flex-col justify-center px-6">
-            <div className="max-w-2xl">
-              <span className=" mt-4 inline-block px-3 py-1 mb-4 text-sm font-medium text-red-100 bg-red-800/50 rounded-full backdrop-blur-sm">
+            <div className="max-w-2xl pt-4">
+              <span className="inline-block px-3 py-1 mb-4 text-sm font-medium text-red-100 bg-red-800/50 rounded-full backdrop-blur-sm">
                 FIRE SAFETY ESSENTIALS
               </span>
               <h1 className=" md:text-3xl font-bold text-white leading-tight mb-4">
-Your Essential Guide to Fire Safety: Zedexfire - Leading Fire Extinguisher Supplier & Dealer in Gurugram/Gurgaon
+Fire Hydrant System in Gurugram: Your Ultimate Shield Against Major Blazes | Zedexfire
+
 
               </h1>
               <p className="text-sm text-red-50 mb-8">
-Gurugram, the dynamic heart of Haryana, continues its incredible growth as a major corporate, commercial, and residential hub. This rapid expansion, however, brings with it an escalating responsibility: ensuring stringent fire safety. At Zedexfire, we are deeply committed to safeguarding lives and property, serving as a premier fire extinguisher supplier and dealer in Gurugram/Gurgaon. We provide comprehensive, compliant, and cutting-edge fire safety solutions precisely engineered for the city's unique infrastructure and needs.
+Gurugram, a beacon of modern infrastructure and booming commerce, houses a dense tapestry of high-rise buildings, sprawling industrial zones, and vibrant residential complexes. In such a rapidly developing urban landscape, conventional fire safety measures are often insufficient against major fire outbreaks. This is where a robust Fire Hydrant System becomes not just a necessity, but an indispensable safeguard. At Zedexfire, we specialize in designing, installing, and maintaining advanced fire hydrant systems in Gurugram, providing the ultimate defense for your property and its occupants.
+
 
               </p>
               <div className="flex flex-wrap gap-4">
@@ -219,14 +302,19 @@ Gurugram, the dynamic heart of Haryana, continues its incredible growth as a maj
                             <div  className="lg:w-6/12 w-full mt-8 lg:mt-0">
                                 <div className="space-y-3">
                                     <h2 className=" text-2xl text-center md:text-left md:text-3xl font-bold text-gray-800">
-Why Fire Safety Demands Your Immediate Attention in Gurugram
+Why a Fire Hydrant System is Crucial for Gurugram Properties
 
                                     </h2>
                                     <div className="max-w-4xl mx-auto">
-          <div className="prose prose-lg prose-red  text-justify md:text-left">
+          <div className="  prose prose-lg prose-red  text-justify md:text-left">
             <p>
-          Recent incidents across Gurugram – from devastating warehouse fires and tragic residential blazes to industrial accidents and AC compressor explosions – serve as powerful reminders that fire hazards are a constant threat. Beyond the immediate danger to lives, non-compliance with the Haryana Fire and Emergency Services Act, 2022, can result in significant legal penalties, operational shutdowns, and severe financial losses. Every building, from a high-rise apartment to a bustling office, must prioritize proactive fire preparedness.
+       While fire extinguishers handle small, incipient fires, a fire hydrant system provides an immediate, high-volume water supply essential for professional firefighters to combat large, escalating blazes. In a city like Gurugram, where rapid response and abundant water are critical, a well-functioning hydrant system can mean the difference between a minor incident and a catastrophic disaster.
 
+
+            </p>
+            <p className=' py-3'>
+              Beyond operational effectiveness, compliance with the Haryana Fire and Emergency Services Act, 2022, is mandatory for many large and high-risk buildings. Non-compliance can lead to severe legal repercussions and significant financial losses. A meticulously installed and maintained fire hydrant system ensures your property meets these vital regulatory requirements.
+  
             </p>
            
           </div>
@@ -245,23 +333,15 @@ Why Fire Safety Demands Your Immediate Attention in Gurugram
     <div className="max-w-4xl mx-auto mb-16 text-center">
       <h2 className=" text-md text-left md:text-3xl font-bold flex items-center justify-center gap-3 text-red-700 mb-4">
         <AlertTriangle className=" w-24 h-full md:w-8 md:h-8 text-red-700" />
-   Zedexfire : Your Complete Fire Safety Partner in Gurugram
+  Understanding the Core Components of a Fire Hydrant System
+
  </h2>
       <p className=" text-sm text-justify md:text-lg text-gray-700">
- With years of dedicated service and an in-depth understanding of Gurugram's evolving fire safety landscape, Zedexfire offers more than just products. We are your comprehensive fire safety partner, ensuring you have the right equipment and knowledge to respond effectively.
-
- </p>
-      <h2 className=" pt-8 text-md text-left md:text-2xl font-bold flex items-center justify-center gap-3 text-red-700 mb-4">
-     Our Extensive Product Range for Gurugram :
-
- </h2>
-      <p className=" text-sm text-justify  text-gray-700">
-We supply a wide array of <Link href='/fire-extinguishers'>
-    ISI-certified fire extinguishers
-</Link> and state-of-the-art firefighting equipment, designed to combat every class of fire hazard prevalent in Gurugram's diverse environments:
+A comprehensive fire hydrant system is a sophisticated network designed for immediate and sustained water delivery. Key components include:
 
 
  </p>
+   
     </div>
 
     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -275,7 +355,7 @@ We supply a wide array of <Link href='/fire-extinguishers'>
               {item.icon}
             </div>
             <h3 className="text-lg font-semibold text-red-800">
-              Class {item.class}: {item.title}
+               {item.class}: {item.title}
             </h3>
           </div>
           <div className="space-y-2 text-sm text-gray-800 leading-relaxed">
@@ -303,11 +383,11 @@ We supply a wide array of <Link href='/fire-extinguishers'>
     <div className="max-w-4xl mx-auto mb-16 text-center">
       <h2 className="text-md text-left md:text-3xl font-bold flex items-center justify-center gap-3 text-red-700 mb-4">
         <FireExtinguisherIcon className="w-24 h-full md:w-8 md:h-8 text-red-700" />
-        Beyond Supply: Our Essential Gurugram-Focused Services
+      Types of Fire Hydrant Systems for Gurugram Properties
 
       </h2>
       <p className=" text-sm md:text-lg text-gray-700 text-justify">
-       A fire extinguisher is only effective if it's properly maintained and ready for use. Zedexfire offers a full spectrum of services to ensure your equipment is always compliant and operational :
+    The choice of system depends on your property's size, occupancy, and specific risks :
 
       </p>
     </div>
@@ -344,31 +424,24 @@ We supply a wide array of <Link href='/fire-extinguishers'>
 <section className="bg-white md:py-20">
   <div className="container mx-auto px-6 max-w-6xl">
      <h2 className=" text-center text-2xl md:text-3xl font-bold text-red-700 mb-4">
-       Navigating Gurugram's Fire Safety Regulations with Confidence
+    Compliance with Haryana Fire Act 2022: Your Legal Obligation
 
         </h2>
         <p className=" text-sm text-center text-gray-600 mb-6">
-    The <strong>Haryana Fire and Emergency Services Act, 2022,</strong> introduces updated compliance norms. For many commercial buildings and high-rise residential properties (above 16.5m), a <strong>Fire No Objection Certificate (NOC)</strong> is mandatory. While a full NOC is valid for up to 5 years (depending on the building type), an <strong>annual Self-Declaration Certificate</strong> affirming your fire fighting system's operational status is now a key requirement.
-  </p>
+  The Haryana Fire and Emergency Services Act, 2022, along with the National Building Code (NBC) and IS standards (e.g., IS 3844 for fire hose reels, IS 909 for hydrants, NFPA 14 for standpipes), dictates rigorous requirements for fire hydrant systems.
+ </p>
     <div className="flex flex-col lg:flex-row items-start pt-12 gap-12 mb-20">
     
       {/* Image Section - Left Side */}
-      <div className="lg:w-1/2 w-full">
-        <div className="relative rounded-xl overflow-hidden shadow-lg">
-          <img 
-            src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1748582659/How_to_use_a_Fire_extinguisher_lggeit.webp" 
-            alt="Proper fire extinguisher usage demonstration"
-            className="w-full h-auto object-cover"
-         
-          />
-        
-        </div>
-      </div>
+     
 
       {/* Content Section - Right Side */}
-      <div className="lg:w-1/2 w-full">
+      <div className="md::w-1/2 w-full">
      
-        
+        <p className=' pb-2'>
+         Key compliance aspects include :
+   
+        </p>
         <div className="space-y-4">
           {passSteps.map(({ step, description, icon }) => (
             <div key={step} className="flex items-start gap-4 p-4 bg-white rounded-lg border border-gray-100 shadow-sm hover:border-red-200 transition-all">
@@ -390,9 +463,13 @@ We supply a wide array of <Link href='/fire-extinguishers'>
     {/* Extinguisher Types Section */}
     <div className="max-w-4xl mx-auto">
       <h2 className="  text-2xl md:text-3xl font-bold text-red-700 mb-8 text-center">
-      Why Choose Zedex Fire?
+     Professional Installation & Critical Maintenance for Lifespan and Reliability
 
       </h2>
+      <p className=' pb-3  text-sm'>
+        A fire hydrant system is only as effective as its installation and maintenance. Common issues like leaks, corrosion, low water pressure, blocked pipes, or malfunctioning valves can render the entire system useless during an emergency.
+
+      </p>
       
       <div className="grid gap-6 sm:grid-cols-2">
         {usageRecommendations.map(({ title, icon, points }) => (
@@ -489,9 +566,13 @@ We supply a wide array of <Link href='/fire-extinguishers'>
  <section className="py-20 bg-gradient-to-r from-red-800 to-red-600 text-white">
         <div className="container mx-auto px-6 text-center">
           <div className="max-w-3xl mx-auto">
-            <h2 className=" text-2xl md:text-3xl font-bold mb-6">Protect What Matters Most</h2>
-            <p className=" text-sm md:text-xl mb-8 text-red-50">
-              Zedex Fire provides certified fire protection solutions for businesses and homes across India. Our experts are ready to assess your needs.
+            <h2 className=" text-2xl md:text-3xl font-bold mb-6">
+         Safeguard Your Gurugram Property with a Robust Fire Hydrant System.
+
+            </h2>
+            <p className=" text-sm   mb-8 text-red-50">
+          Don't leave your property vulnerable to major fire risks. Partner with Zedexfire, your trusted expert for fire hydrant systems in Gurugram/Gurgaon, and invest in a comprehensive shield against disaster.
+
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a  href="tel:9999883999"  className="px-8 py-4 bg-white text-red-700 font-medium rounded-lg hover:bg-gray-100 transition-all flex items-center justify-center gap-2 shadow-md">

@@ -1,9 +1,10 @@
- 
+
 // Example in app/blog/page.js
 import Link from 'next/link'
 
 export default function BlogHome() {
-      const blogsCards = [
+  const blogsCards = [
+    
     {
       href: '/blog/top-fire-fighting-company-in-delhi',
       img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618767/topfire_jx2sgb.webp",
@@ -13,6 +14,7 @@ export default function BlogHome() {
       pub: "Fire Suppression",
       tag: "Fire Safety, Fire Fighting Company, Delhi NCR"
     },
+
     {
       href: '/blog/fire-extinguishers-guide',
       img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1748510430/WhatsApp_Image_2025-05-29_at_13.33.00_11zon_pyefty.webp",
@@ -22,7 +24,7 @@ export default function BlogHome() {
       pub: "Fire Extinguishers",
       tag: "Fire fighting system, Fire Safety, Fire Extinguishers"
     },
-    
+
     {
       href: '/blog/fire-alarm-system',
       img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1749032051/new_1_avqs6t.webp",
@@ -32,18 +34,33 @@ export default function BlogHome() {
       pub: "Fire Alarm System",
       tag: "Fire fighting system, Fire Safety, Fire Extinguishers"
     },
-    
- 
+
 
     {
-  href: '/blog/fire-extinguisher-supplier-and-dealer-in-gurugram',
-  img: "https://images.unsplash.com/photo-1715498486443-62e8a5d04d6a?q=80&w=3164&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  alt: "Fire extinguishers image",
-  title: "Fire Extinguisher Supplier & Dealer in Gurugram | Zedexfire",
-  para: "July 2025 by Zedex Fire Company",
-  pub: "Fire Safety Equipment",
-  tag: "Fire Extinguishers, Gurugram Fire Safety, ISI Certified, Haryana Fire Act Compliance"
-}
+      href: '/blog/fire-extinguisher-supplier-and-dealer-in-gurugram',
+      img: "https://images.unsplash.com/photo-1715498486443-62e8a5d04d6a?q=80&w=3164&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      alt: "Fire extinguishers image",
+      title: "Fire Extinguisher Supplier & Dealer in Gurugram | Zedexfire",
+      para: "July 2025 by Zedex Fire Company",
+      pub: "Fire Safety Equipment",
+      tag: "Fire Extinguishers, Gurugram Fire Safety, ISI Certified, Haryana Fire Act Compliance"
+    },
+
+
+    {
+      href: '/blog/fire-hydrant-system-in-gurugram',
+      img: "https://plus.unsplash.com/premium_photo-1679826780007-6435a693bdff?q=80&w=927&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      alt: "Fire hydrant system installation in Gurugram",
+      title: "Fire Hydrant System Gurugram: Design, Installation & Maintenance | Zedexfire",
+      para: "July 2025 by Zedex Fire Company",
+      pub: "Fire Safety Systems",
+      tag: "Fire Hydrants, Gurugram Fire Safety, ISI Certified, Haryana Fire Act 2022 Compliance"
+    }
+
+
+
+
+
   ];
   return (
     <>
@@ -74,11 +91,11 @@ export default function BlogHome() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
           {blogsCards.map((item, index) => (
             <Link key={index} href={item.href} className="bg-white rounded-xl overflow-hidden shadow hover:shadow-lg transition-all duration-300 group">
-              <div className="overflow-hidden md:h-96 md:w-full">
+              <div className="overflow-hidden md:h-[45vh] md:w-full">
                 <img
                   src={item.img}
                   alt={item.alt}
-                  className="  w-full  object-center object-fill transition-transform duration-300 group-hover:scale-105"
+                  className="  object-cover   object-center  transition-transform duration-300 group-hover:scale-105"
                 />
               </div>
               <div className="p-5">
@@ -106,10 +123,9 @@ export default function BlogHome() {
 
 
 
-     
+
     </>
   )
 }
 
 
- 

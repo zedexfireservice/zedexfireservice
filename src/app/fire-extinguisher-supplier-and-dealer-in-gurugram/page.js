@@ -55,11 +55,11 @@ export const metadata = {
     title: "Fire Extinguisher Supplier & Dealer in Gurugram | Zedexfire",
     description:
       "Secure your Gurugram property with Zedexfire. We provide ISI-certified fire extinguishers, refilling, installation & compliance under the Haryana Fire Act 2022. Trusted by top clients. Act now for safety!",
-    url: "https://www.zedexfire.com/blog/fire-extinguisher-gurugram", // Placeholder: Ensure this matches your actual blog post URL
+    url: "https://www.zedexfire.com/blog/fire-extinguisher-supplier-and-dealer-in-gurugram", // Placeholder: Ensure this matches your actual blog post URL
     type: "article",
     images: [
       {
-        url: "https://www.zedexfire.com/images/blog-fire-extinguisher-gurugram.jpg", // Placeholder: Use a relevant, high-quality image for this blog post
+        url: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1748582659/How_to_use_a_Fire_extinguisher_lggeit.webp", // Placeholder: Use a relevant, high-quality image for this blog post
         width: 1200,
         height: 630,
         alt: "Zedexfire: Fire Extinguisher Supplier and Dealer in Gurugram",
@@ -68,14 +68,14 @@ export const metadata = {
   },
   alternates: {
     canonical:
-      "https://www.zedexfire.com/blog/fire-extinguisher-gurugram", // Placeholder: Ensure this matches your actual canonical URL
+      "https://www.zedexfire.com/blog/fire-extinguisher-supplier-and-dealer-in-gurugram", // Placeholder: Ensure this matches your actual canonical URL
   },
   twitter: {
     card: "summary_large_image",
     title: "Fire Extinguisher Supplier & Dealer in Gurugram | Zedexfire",
     description:
       "Zedexfire: Your trusted Gurugram fire extinguisher supplier & dealer. ISI-certified products, refilling, installation & compliance under Haryana Fire Act 2022. Secure your property now!",
-    image: "https://www.zedexfire.com/images/blog-fire-extinguisher-gurugram.jpg", // Placeholder: Use the same image as Open Graph
+    image: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1748582659/How_to_use_a_Fire_extinguisher_lggeit.webp", // Placeholder: Use the same image as Open Graph
   },
 };
 
