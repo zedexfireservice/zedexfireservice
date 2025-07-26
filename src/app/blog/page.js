@@ -47,6 +47,7 @@ export default function BlogHome() {
     },
 
 
+
     {
       href: '/blog/fire-hydrant-system-in-gurugram',
       img: "https://plus.unsplash.com/premium_photo-1679826780007-6435a693bdff?q=80&w=927&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -58,7 +59,16 @@ export default function BlogHome() {
     }
 
 
-
+,
+{
+  href: '/blog/fire-sprinkler-system-in-gurugram',
+  img: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?q=80&w=3164&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  alt: "Fire sprinkler system installation in Gurugram",
+  title: "Fire Sprinkler System in Gurugram: Design, Installation & Maintenance | Zedexfire",
+  para: "July 2025 by Zedex Fire Company",
+  pub: "Fire Safety Systems", 
+  tag: "Fire Sprinklers, Gurugram Fire Protection, ISI Certified, Haryana Fire Act 2022 Compliance"
+}
 
 
   ];
@@ -91,7 +101,7 @@ export default function BlogHome() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
           {blogsCards.map((item, index) => (
             <Link key={index} href={item.href} className="bg-white rounded-xl overflow-hidden shadow hover:shadow-lg transition-all duration-300 group">
-              <div className="overflow-hidden md:h-[45vh] md:w-full">
+              <div className="overflow-hidden   md:w-full">
                 <img
                   src={item.img}
                   alt={item.alt}
