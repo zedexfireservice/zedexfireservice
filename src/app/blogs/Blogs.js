@@ -23,7 +23,7 @@ export default function Blogs() {
     
     {
       href: '/fire-alarm-system',
-      img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1749032051/new_1_avqs6t.webp",
+      img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1753529201/FAS_Blog_xdhqk3.webp",
       alt: "Fire extinguishers image",
       title: "What is a Fire Alarm System? Your Complete Guide to Safety & Protection with Zedex Fire",
       para: "June 2025 by Zedex Fire Company",
@@ -33,7 +33,7 @@ export default function Blogs() {
     
     {
       href: '/blog/fire-extinguisher-supplier-and-dealer-in-gurugram',
-      img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1749032051/new_1_avqs6t.webp",
+      img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1753529201/FAS_Blog_xdhqk3.webp",
       alt: "Fire extinguishers image",
       title: "What is a Fire Alarm System? Your Complete Guide to Safety & Protection with Zedex Fire",
       para: "June 2025 by Zedex Fire Company",

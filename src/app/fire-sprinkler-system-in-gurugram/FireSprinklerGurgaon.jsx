@@ -244,7 +244,7 @@ Gurugram, a city of towering ambition and rapid development, demands the highest
                                 <div className="relative w-full    rounded overflow-hidden">
 
                                     <img
-                                        src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1748510430/WhatsApp_Image_2025-05-29_at_13.33.00_11zon_pyefty.webp"
+                                        src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1747373103/mobile_view_638_x_870_px_fggarf.webp"
                                         alt="Fire VESDA System"
 
                                         className=" w-full h-full rounded-xl object-center  object-cover "

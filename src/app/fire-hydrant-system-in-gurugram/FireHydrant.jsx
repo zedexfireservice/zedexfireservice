@@ -290,7 +290,7 @@ Gurugram, a beacon of modern infrastructure and booming commerce, houses a dense
                                 <div className="relative w-full    rounded overflow-hidden">
 
                                     <img
-                                        src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1748510430/WhatsApp_Image_2025-05-29_at_13.33.00_11zon_pyefty.webp"
+                                        src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1753529202/inner_hydrant_bvpgcw.webp"
                                         alt="Fire VESDA System"
 
                                         className=" w-full h-full rounded-xl object-center  object-cover "

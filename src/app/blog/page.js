@@ -27,7 +27,7 @@ export default function BlogHome() {
 
     {
       href: '/blog/fire-alarm-system',
-      img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618654/fire-alarm-system_tunw9g.webp",
+      img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1753529201/FAS_Blog_xdhqk3.webp",
       alt: "Fire extinguishers image",
       title: "What is a Fire Alarm System? Your Complete Guide to Safety & Protection with Zedex Fire",
       para: "June 2025 by Zedex Fire Company",
@@ -50,7 +50,7 @@ export default function BlogHome() {
 
     {
       href: '/blog/fire-hydrant-system-in-gurugram',
-      img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618655/fire-hydrant-system_y6jt44.webp",
+      img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1753529202/hydrant_blog_evkkga.webp",
       alt: "Fire hydrant system installation in Gurugram",
       title: "Fire Hydrant System Gurugram: Design, Installation & Maintenance | Zedexfire",
       para: "July 2025 by Zedex Fire Company",

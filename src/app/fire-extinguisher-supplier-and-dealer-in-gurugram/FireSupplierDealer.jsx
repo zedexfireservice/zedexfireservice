@@ -207,7 +207,7 @@ Gurugram, the dynamic heart of Haryana, continues its incredible growth as a maj
                                 <div className="relative w-full    rounded overflow-hidden">
 
                                     <img
-                                        src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1748510430/WhatsApp_Image_2025-05-29_at_13.33.00_11zon_pyefty.webp"
+                                        src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1753529464/extinguisher_ojfdme.webp"
                                         alt="Fire VESDA System"
 
                                         className=" w-full h-full rounded-xl object-center  object-cover "
@@ -356,7 +356,7 @@ We supply a wide array of <Link href='/fire-extinguishers'>
       <div className="lg:w-1/2 w-full">
         <div className="relative rounded-xl overflow-hidden shadow-lg">
           <img 
-            src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1748582659/How_to_use_a_Fire_extinguisher_lggeit.webp" 
+            src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618655/fire-extinguisher1_ogj1a9.webp" 
             alt="Proper fire extinguisher usage demonstration"
             className="w-full h-auto object-cover"
          
