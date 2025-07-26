@@ -27,7 +27,7 @@ export default function BlogHome() {
 
     {
       href: '/blog/fire-alarm-system',
-      img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1749032051/new_1_avqs6t.webp",
+      img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618654/fire-alarm-system_tunw9g.webp",
       alt: "Fire extinguishers image",
       title: "What is a Fire Alarm System? Your Complete Guide to Safety & Protection with Zedex Fire",
       para: "June 2025 by Zedex Fire Company",
@@ -38,7 +38,7 @@ export default function BlogHome() {
 
     {
       href: '/blog/fire-extinguisher-supplier-and-dealer-in-gurugram',
-      img: "https://images.unsplash.com/photo-1715498486443-62e8a5d04d6a?q=80&w=3164&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618655/fire-extinguisher1_ogj1a9.webp",
       alt: "Fire extinguishers image",
       title: "Fire Extinguisher Supplier & Dealer in Gurugram | Zedexfire",
       para: "July 2025 by Zedex Fire Company",
@@ -50,7 +50,7 @@ export default function BlogHome() {
 
     {
       href: '/blog/fire-hydrant-system-in-gurugram',
-      img: "https://plus.unsplash.com/premium_photo-1679826780007-6435a693bdff?q=80&w=927&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618655/fire-hydrant-system_y6jt44.webp",
       alt: "Fire hydrant system installation in Gurugram",
       title: "Fire Hydrant System Gurugram: Design, Installation & Maintenance | Zedexfire",
       para: "July 2025 by Zedex Fire Company",
@@ -62,7 +62,7 @@ export default function BlogHome() {
 ,
 {
   href: '/blog/fire-sprinkler-system-in-gurugram',
-  img: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?q=80&w=3164&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1753263837/fire_sprinkler_m2veyv.webp",
   alt: "Fire sprinkler system installation in Gurugram",
   title: "Fire Sprinkler System in Gurugram: Design, Installation & Maintenance | Zedexfire",
   para: "July 2025 by Zedex Fire Company",
