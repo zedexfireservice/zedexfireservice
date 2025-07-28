@@ -26,10 +26,10 @@ export default function Footer() {
             At Zedex, we are dedicated to providing comprehensive fire and safety solutions to safeguard lives and property.
           </p>
           <div className="flex space-x-4 justify-center  py-4">
-            <a href="#" className="hover:text-orange-500"><FaInstagram /></a>
-            <a href="#" className="hover:text-orange-500"><FaFacebookF /></a>
-            <a href="#" className="hover:text-orange-500"><TbBrandX /></a>
-            <a href="#" className="hover:text-orange-500"><FaLinkedinIn /></a>
+            <Link href="https://www.instagram.com/zedexfireservices/?hl=en" className="hover:text-orange-500"><FaInstagram /></Link>
+            <Link href="https://www.facebook.com/OfficialZedexFire/" className="hover:text-orange-500"><FaFacebookF /></Link>
+            <a href="https://x.com/zedexfire" className="hover:text-orange-500"><TbBrandX /></a>
+            <a href="https://www.linkedin.com/company/zedex-fire-services/" className="hover:text-orange-500"><FaLinkedinIn /></a>
           </div>
         </div>
 
