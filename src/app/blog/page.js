@@ -2,6 +2,13 @@
 // Example in app/blog/page.js
 import Link from 'next/link'
 
+export const metadata = {
+  
+  title:"Fire Safety Blog | Expert Tips & Industry Insights | Zedex Fire Service",
+
+  description:"Stay informed with Zedex Fire Service’s blog—your go-to resource for fire safety tips, industry updates, and compliance best practices. Protect what matters most!"
+}
+
 export default function BlogHome() {
   const blogsCards = [
     
@@ -35,7 +42,6 @@ export default function BlogHome() {
       tag: "Fire fighting system, Fire Safety, Fire Extinguishers"
     },
 
-
     {
       href: '/blog/fire-extinguisher-supplier-and-dealer-in-gurugram',
       img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618655/fire-extinguisher1_ogj1a9.webp",
@@ -46,8 +52,6 @@ export default function BlogHome() {
       tag: "Fire Extinguishers, Gurugram Fire Safety, ISI Certified, Haryana Fire Act Compliance"
     },
 
-
-
     {
       href: '/blog/fire-hydrant-system-in-gurugram',
       img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1753529202/hydrant_blog_evkkga.webp",
@@ -57,9 +61,8 @@ export default function BlogHome() {
       pub: "Fire Safety Systems",
       tag: "Fire Hydrants, Gurugram Fire Safety, ISI Certified, Haryana Fire Act 2022 Compliance"
     }
+    ,
 
-
-,
 {
   href: '/blog/fire-sprinkler-system-in-gurugram',
   img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1753263837/fire_sprinkler_m2veyv.webp",
@@ -68,6 +71,17 @@ export default function BlogHome() {
   para: "July 2025 by Zedex Fire Company",
   pub: "Fire Safety Systems", 
   tag: "Fire Sprinklers, Gurugram Fire Protection, ISI Certified, Haryana Fire Act 2022 Compliance"
+}
+,
+
+{
+  href: '/blog/fire-suppression-system-in-gurugram',
+  img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618657/fire-suppression-system_dawyka.webp",
+  alt: "Fire suppression system installation in Gurugram commercial building",
+  title: "Fire Suppression System Gurugram : Expert Design & Installation | Zedexfire",
+  para: "July 2025 by Zedex Fire Company",
+  pub: "Specialized Fire Protection",
+  tag: "Clean Agent Systems, CO2 Suppression, Kitchen Fire Protection, ISI Certified, Haryana Fire Compliance"
 }
 
 
