@@ -34,7 +34,7 @@ export default function BlogHome() {
 
     {
       href: '/blog/fire-alarm-system',
-      img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1753529201/FAS_Blog_xdhqk3.webp",
+      img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1753768470/FAS_BLOG_te00bz.webp",
       alt: "Fire extinguishers image",
       title: "What is a Fire Alarm System? Your Complete Guide to Safety & Protection with Zedex Fire",
       para: "June 2025 by Zedex Fire Company",
@@ -83,7 +83,18 @@ export default function BlogHome() {
   pub: "Specialized Fire Protection",
   tag: "Clean Agent Systems, CO2 Suppression, Kitchen Fire Protection, ISI Certified, Haryana Fire Compliance"
 }
+,
 
+{
+  href: '/blog/addressable-fire-alarm-system-in-gurugram',
+  img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618654/fire-alarm-system_tunw9g.webp",
+  alt: "Professional fire alarm system installation in Gurugram",
+  title: "Fire Alarm System Gurugram: Design, Installation & Maintenance | Zedexfire",
+  para: "July 2025 by Zedex Fire Company",
+  pub: "Fire Detection Systems",
+  tag: "Smoke Detectors, Alarm Panels, Emergency Notification, ISI Certified, Haryana Fire Act 2022",
+
+}
 
   ];
   return (
