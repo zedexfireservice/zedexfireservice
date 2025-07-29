@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -125,6 +126,13 @@
  
 <url>
   <loc>https://www.zedexfire.com/blog/fire-suppression-system-in-gurugram</loc>
+  <lastmod>2025-05-02T09:40:12+00:00</lastmod>
+  
+</url>
+
+ 
+<url>
+  <loc>https://www.zedexfire.com/blog/addressable-fire-alarm-system-in-gurugram</loc>
   <lastmod>2025-05-02T09:40:12+00:00</lastmod>
   
 </url>
