@@ -583,7 +583,7 @@ const faqs = [
           <p className="text-gray-300 mb-6 text-sm md:text-lg">
             {ctaContent.description}
           </p>
-          <Link href="/contact-Us" className="bg-red-600 hover:bg-red-700 text-white font-medium py-3 px-8 rounded-full transition duration-300 inline-flex items-center gap-2">
+          <Link href="/help-and-support" className="bg-red-600 hover:bg-red-700 text-white font-medium py-3 px-8 rounded-full transition duration-300 inline-flex items-center gap-2">
             <RadioTower   />
           <span className=' text-sm'>  {ctaContent.buttonText}</span>
           </Link>
@@ -757,7 +757,7 @@ const faqs = [
                 At Zedex Fire, our experts provide tailored advice, ensuring you get a system that's not just functional but perfectly suited to your unique requirements. We conduct thorough site assessments and offer comprehensive fire alarm system installation services across Gurugram, Haryana, and Delhi NCR.
               </p>
               
-              <Link href="/contact-Us" className="mt-6 bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-full transition duration-300 inline-flex items-center text-sm gap-2">
+              <Link href="/help-and-support" className="mt-6 bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-full transition duration-300 inline-flex items-center text-sm gap-2">
                 Get Expert Consultation <ChevronRight size={18} />
               </Link>
             </div>
@@ -845,7 +845,7 @@ const faqs = [
           Don’t wait for a crisis to act. Partner with Zedex Fire for state-of-the-art fire alarm system installation, proactive maintenance, and comprehensive fire safety solutions tailored for your peace of mind.
         </p>
 
-        <a    href="tel:9999883999" className=" text-sm inline-flex items-center gap-2 bg-white text-red-700 font-semibold px-8 py-3 rounded-full hover:bg-red-100 transition shadow-md">
+        <a    href="tel:9810216907" className=" text-sm inline-flex items-center gap-2 bg-white text-red-700 font-semibold px-8 py-3 rounded-full hover:bg-red-100 transition shadow-md">
           <PhoneCall size={20} />
           Get FREE Consultation
         </a>

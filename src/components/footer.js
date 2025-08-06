@@ -38,9 +38,9 @@ export default function Footer() {
           <h4 className="text-lg font-semibold mb-4 text-center ">Quick Links</h4>
           <ul className="space-y-2 text-sm  text-center ">
             <li><Link href="/" className="hover:text-orange-500">Home</Link></li>
-            <li><Link href="/about-Us" className="hover:text-orange-500">About Us</Link></li>
+            <li><Link href="/about-our-company" className="hover:text-orange-500">About Us</Link></li>
             <li><Link href="/our-clients" className="hover:text-orange-500">Clients</Link></li>
-            <li><Link href="/contact-Us" className="hover:text-orange-500">Contact</Link></li>
+            <li><Link href="/help-and-support" className="hover:text-orange-500">Contact</Link></li>
           </ul>
         </div>
 
@@ -82,7 +82,7 @@ export default function Footer() {
             </li>
             <li className="flex text-center gap-2">
               <BsFillTelephoneFill className="mt-1 " />
-              <a href="tel:9999883999" className=" w-54">9999-883-999</a>
+              <a href="tel:9810216907" className=" w-54">9810216907</a>
             </li>
             <li className="flex text-center gap-2">
               <IoLocationSharp className="mt-1 " />

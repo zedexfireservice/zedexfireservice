@@ -6,7 +6,7 @@ export const metadata = {
   title: "Fire Extinguisher in Delhi | Manufacturer & Supplier | Zedex Fire",
   description: "Zedex Fire: Your ISO 9001:2008 certified manufacturer & supplier of fire extinguishers in Delhi NCR. Get quality products, refilling, AMC & expert services. Contact us!",
   keywords: [
-   
+
     "Fire extinguishers",
     "Buy fire extinguishers",
     "ISI mark fire extinguisher",
@@ -29,11 +29,11 @@ export const metadata = {
     "Wheeled fire extinguisher",
     "Automatic fire extinguisher",
     "Fire extinguisher refilling",
-    "Fire extinguisher AMC",    
+    "Fire extinguisher AMC",
     "Zedex Fire extinguisher",
     "Zedex fire safety",
     "Zedex fire protection",
-    "ISO 9001:2008 certified",  
+    "ISO 9001:2008 certified",
     "Fire extinguisher Delhi",
     "Fire extinguisher supplier Delhi",
     "Fire extinguisher manufacturer Delhi",
@@ -41,7 +41,7 @@ export const metadata = {
     "Fire extinguisher Noida",
     "Fire extinguisher India",
     "Fire extinguisher online India",
-    "Fire extinguisher Delhi NCR",  
+    "Fire extinguisher Delhi NCR",
   ],
   robots: "index, follow",
 
@@ -52,7 +52,7 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1748002618/WhatsApp_Image_2025-05-23_at_17.45.48_l0uvu4.jpg", //  
+        url: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1748002618/WhatsApp_Image_2025-05-23_at_17.45.48_l0uvu4.jpg",
         width: 1200,
         height: 630,
         alt: "Zedex Fire Extinguisher in Delhi NCR",
@@ -66,7 +66,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Fire Extinguishers Delhi NCR | Manufacturer & Supplier - Zedex Fire",
     description: "Zedex Fire: ISO 9001:2008 certified supplier of fire extinguishers in Delhi NCR. Products, refilling, AMC & expert services. Contact us!",
-    image: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1748002618/WhatsApp_Image_2025-05-23_at_17.45.48_l0uvu4.jpg", 
+    image: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1748002618/WhatsApp_Image_2025-05-23_at_17.45.48_l0uvu4.jpg",
   },
 };
 
@@ -76,9 +76,9 @@ export default function FireExtinguisherPage() {
 
   return (
     <>
-      
 
-<FireExtinguisher/>
+
+      <FireExtinguisher />
 
     </>
   );

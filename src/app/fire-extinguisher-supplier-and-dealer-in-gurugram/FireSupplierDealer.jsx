@@ -494,7 +494,7 @@ We supply a wide array of <Link href='/fire-extinguishers'>
               Zedex Fire provides certified fire protection solutions for businesses and homes across India. Our experts are ready to assess your needs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a  href="tel:9999883999"  className="px-8 py-4 bg-white text-red-700 font-medium rounded-lg hover:bg-gray-100 transition-all flex items-center justify-center gap-2 shadow-md">
+              <a  href="tel:9810216907"  className="px-8 py-4 bg-white text-red-700 font-medium rounded-lg hover:bg-gray-100 transition-all flex items-center justify-center gap-2 shadow-md">
                 <Phone className="w-5 h-5" />
                 Schedule Consultation
               </a>
@@ -511,7 +511,7 @@ We supply a wide array of <Link href='/fire-extinguishers'>
       {/* Floating Emergency Button */}
       <div className="fixed bottom-6 right-6 z-50">
         <a 
-          href="tel:9999883999" 
+          href="tel:9810216907" 
           className="flex items-center gap-2 px-6 py-3 bg-red-600 text-white font-medium rounded-full shadow-lg hover:bg-red-700 transition-all animate-pulse"
         >
           <Phone className="w-5 h-5" />

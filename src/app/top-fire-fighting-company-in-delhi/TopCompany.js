@@ -156,7 +156,7 @@ export default function TopCompany() {
 
                     <h2 className=' text-2xl font-bold py-4 text-center  md:text-left'>Protecting India, One Property at a Time</h2>
 
-                    <p className=' text-justify md:text-left '>At Zedex Fire Company, our mission extends beyond simply providing fire fighting equipment. We are dedicated to creating safer environments for communities and businesses across Delhi NCR and India. By choosing <Link href="/about-Us">
+                    <p className=' text-justify md:text-left '>At Zedex Fire Company, our mission extends beyond simply providing fire fighting equipment. We are dedicated to creating safer environments for communities and businesses across Delhi NCR and India. By choosing <Link href="/about-our-company">
                         <strong className=' text-red-500 hover:text-red-700'>
                             Zedex Fire Company
                         </strong>

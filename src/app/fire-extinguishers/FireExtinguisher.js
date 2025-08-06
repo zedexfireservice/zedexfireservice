@@ -54,7 +54,7 @@ export default function FireExtinguisher() {
     {
       title: 
       <>
-      <a href="tel:9999883999">
+      <a href="tel:9810216907">
       <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 transform hover:scale-105">Get Pricing for ABC Extinguishers</button>
  </a>
       </>
@@ -77,7 +77,7 @@ export default function FireExtinguisher() {
     {
       title: 
       <>
-  <a href="tel:9999883999">
+  <a href="tel:9810216907">
 
 
       <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 transform hover:scale-105">Get Pricing for CO2 Extinguishers</button>
@@ -102,7 +102,7 @@ export default function FireExtinguisher() {
     {
       title: 
       <>
- <a href="tel:9999883999">
+ <a href="tel:9810216907">
 
       <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 transform hover:scale-105">Get Pricing for Water/Foam Extinguishers
       </button>
@@ -129,7 +129,7 @@ export default function FireExtinguisher() {
     {
       title: 
             <>
- <a href="tel:9999883999">
+ <a href="tel:9810216907">
 
       <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 transform hover:scale-105">Get Pricing for Wet Chemical Extinguishers
       </button>
@@ -154,7 +154,7 @@ export default function FireExtinguisher() {
     {
       title: 
            <>
- <a href="tel:9999883999">
+ <a href="tel:9810216907">
 
       <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 transform hover:scale-105">Get Pricing for Clean Agent Extinguishers</button>
     </a>
@@ -178,7 +178,7 @@ export default function FireExtinguisher() {
     {
       title: 
             <>
- <a href="tel:9999883999">
+ <a href="tel:9810216907">
 
       <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 transform hover:scale-105">Get Pricing for Automatic Extinguishers
       </button>
@@ -549,15 +549,7 @@ export default function FireExtinguisher() {
               return null;
             })}
 
-            <motion.div 
-              variants={fadeInVariants}
-              className="text-gray-700 leading-relaxed mt-8 text-center"
-            >
-              <p className=' py-3'> Need help choosing the right extinguisher for your specific needs in Delhi NCR? </p>
-              <button className="ml-2 bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300">
-                Request a Free Site Assessment
-              </button>
-            </motion.div>
+         
           </motion.div>
 
           {/* Services Section */}
@@ -595,37 +587,7 @@ export default function FireExtinguisher() {
             </div>
           </motion.div>
 
-          {/* CTA Section */}
-          <motion.div 
-            variants={itemVariants}
-            className="w-full p-7 rounded-xl bg-gradient-to-r from-red-50 to-gray-50 mb-20"
-          >
-            <div className="flex items-center justify-center h-full">
-              <div className="w-full flex flex-col justify-center items-center gap-6 text-center">
-                <motion.h2 
-                  variants={fadeInVariants}
-                  className="text-2xl md:text-3xl font-bold text-gray-800"
-                >
-                  Get Expert Advice for Your Fire Safety Solution Needs
-                </motion.h2>
-                <motion.p 
-                  variants={fadeInVariants}
-                  className="text-gray-700 max-w-2xl"
-                >
-                  Our certified fire safety experts are ready to assess your needs and recommend the perfect fire protection solution for your premises in Delhi NCR.
-                </motion.p>
-                <motion.div variants={fadeInVariants}>
-                  <a
-                    href="tel:9999883999"
-                    className="inline-block rounded-lg relative overflow-hidden group items-center justify-center px-6 py-3 m-1 cursor-pointer border-b-4 border-l-2 active:border-red-600 active:shadow-none shadow-lg bg-gradient-to-tr from-red-600 to-red-500 border-red-700 text-white font-bold"
-                  >
-                    <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-52 group-hover:h-32 opacity-10"></span>
-                    <span className="relative">Contact Zedex Fire Expert</span>
-                  </a>
-                </motion.div>
-              </div>
-            </div>
-          </motion.div>
+        
 
           {/* Why Choose Us Section */}
           <motion.div 
@@ -648,7 +610,9 @@ export default function FireExtinguisher() {
                   className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow"
                 >
                   <h3 className="text-xl font-bold text-red-600 mb-3">{reason.title}</h3>
+                  
                   <p className="text-gray-700">{reason.description}</p>
+
                 </motion.div>
               ))}
             </div>
@@ -675,7 +639,7 @@ export default function FireExtinguisher() {
                 </motion.p>
                 <motion.div variants={fadeInVariants}>
                   <a
-                    href="tel:9999883999"
+                    href="tel:9810216907"
                     className="inline-block rounded-lg relative overflow-hidden group items-center justify-center px-6 py-3 m-1 cursor-pointer border-b-4 border-l-2 active:border-white active:shadow-none shadow-lg bg-white text-red-600 font-bold hover:bg-gray-50 transition"
                   >
                     <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-red-100 rounded-full group-hover:w-52 group-hover:h-32 opacity-10"></span>

@@ -13,8 +13,8 @@ export default function Contactus() {
      const notifye = () => toast.error(" Invalid Details ");
     const notifys = () => toast(" Message Sent ");
     const router = useRouter();
-    const phoneNumber = "9999883999";
-    const phoneNumber2 = "9810216907";
+    const phoneNumber = "9810216907";
+    const phoneNumber2 = "9999883999";
 
 
     const handlePhoneCall = () => {
@@ -37,7 +37,7 @@ export default function Contactus() {
         // Opening the URL in a new tab
         
         window.open(mapsUrl, '_blank');
-    };
+    };[]
 
 
 
@@ -226,10 +226,14 @@ export default function Contactus() {
                                     <p className="text-sm leading-7  font-light opacity-50">  {detail.value}</p>
                                     <p className="text-sm leading-7  font-light opacity-50"> {detail.value2}</p>
                                     <button
+
                                         className="bg-btn_primary py-2.5 px-8  text-[14px] rounded-full hover:text-gray-400"
                                         onClick={detail.onClick}
+
                                     >
+                                    
                                         Get in Touch
+
                                     </button>
                                 </div>
 

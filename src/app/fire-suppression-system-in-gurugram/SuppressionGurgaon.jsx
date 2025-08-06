@@ -424,20 +424,20 @@ Zedexfire offers a diverse range of specialized fire suppression systems, each t
       {fireClasses.map((item) => (
         <div
           key={item.class}
-          className="group relative overflow-hidden rounded-2xl border border-red-200 bg-red-50 p-6 shadow-md hover:shadow-lg transition-all"
+          className="group relative overflow-hidden rounded-2xl border border-red-200 bg-red-50 p-6 shadow-md hover:shadow-lg transition-all "
         >
           <div className="flex items-center gap-4 mb-4">
             <div className="p-3 bg-white border border-red-200 rounded-xl shadow">
               {item.icon}
             </div>
             <h3 className="text-lg font-semibold text-red-800">
-               {item.class}: {item.title}
+               {item.class} : {item.title}
             </h3>
           </div>
           <div className="space-y-2 text-sm text-gray-800 leading-relaxed">
-            <p>
+            <div>
              {item.description}
-            </p>
+            </div>
             
             
           </div>
@@ -659,7 +659,7 @@ Expert Design, Installation & Critical Maintenance for Uncompromised Safety
 
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a  href="tel:9999883999"  className="px-8 py-4 bg-white text-red-700 font-medium rounded-lg hover:bg-gray-100 transition-all flex items-center justify-center gap-2 shadow-md">
+              <a  href="tel:9810216907"  className="px-8 py-4 bg-white text-red-700 font-medium rounded-lg hover:bg-gray-100 transition-all flex items-center justify-center gap-2 shadow-md">
                 <Phone className="w-5 h-5" />
                 Schedule Consultation
               </a>
@@ -676,7 +676,7 @@ Expert Design, Installation & Critical Maintenance for Uncompromised Safety
       {/* Floating Emergency Button */}
       <div className="fixed bottom-6 right-6 z-50">
         <a 
-          href="tel:9999883999" 
+          href="tel:9810216907" 
           className="flex items-center gap-2 px-6 py-3 bg-red-600 text-white font-medium rounded-full shadow-lg hover:bg-red-700 transition-all animate-pulse"
         >
           <Phone className="w-5 h-5" />

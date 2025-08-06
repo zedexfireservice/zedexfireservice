@@ -1,12 +1,12 @@
 "use client"
- 
+
 import Link from 'next/link'
 import React, { useEffect, useRef, useState } from 'react'
 
 export default function AboutUs() {
 
 
-     const [currentIndex, setCurrentIndex] = useState(0);
+    const [currentIndex, setCurrentIndex] = useState(0);
 
 
     const slides = [
@@ -147,10 +147,10 @@ export default function AboutUs() {
     ];
 
 
-  return (
-    <>
-    
-         <div className="relative w-full h-screen overflow-hidden"
+    return (
+        <>
+
+            <div className="relative w-full h-screen overflow-hidden"
                 ref={containerRef}
                 onMouseDown={handleMouseDown}
                 onMouseMove={handleMouseMove}
@@ -171,8 +171,8 @@ export default function AboutUs() {
                             <img src={slide.img} className='  hidden md:block h-full w-full   object-center object-cover' alt='ss' width="500" height="500" />
 
                             <img src={slide.img2} className=' md:hidden  h-full w-full object-center object-cover' alt='ss'
-                 
-                />
+
+                            />
 
                         </div>
 
@@ -187,6 +187,7 @@ export default function AboutUs() {
 
 
                 <div className="absolute bottom-4 z-2 left-1/2 transform -translate-x-1/2 flex space-x-2">
+
                     {slides.map((_, index) => (
                         <button
                             key={index}
@@ -196,10 +197,11 @@ export default function AboutUs() {
                             aria-current={index === currentSlide ? "true" : undefined}
                         />
                     ))}
+
                 </div>
 
-
             </div>
+
 
             <section className="bg-white  px-11 py-16  ">
 
@@ -210,24 +212,21 @@ export default function AboutUs() {
                             className="w-full h-full object-center   object-cover rounded-3xl"
                             src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746619560/about_thumb02_mhu7je.webp"
                             alt="Zedex Complete Solutions for Fire Safety "
-                           
                         />
-
-                      
-
 
 
                     </div>
                     <div className="font-light text-gray-700 text-[15px]  md:text-[16px] text-center md:text-left">
 
-                        <div className="w-full   ">
+                        <div className="w-full">
                             <div className="about_right">
                                 <div className="about-content">
                                     <div className="mb-6">
 
                                         <p className="text-[#000000]  text-sm font-bold py-2 uppercase">About Us</p>
                                         <h1 className="text-3xl md:text-4xl font-bold text-[#212529]">Zedex Complete Solutions</h1>
-                                        <p className="text-3xl md:text-4xl font-bold text-[#212529] mb-4">for Fire &amp; Safety</p>
+                                        <p className="text-3xl md:text-4xl font-bold text-[#212529] mb-4">for Fire &amp; Safety
+                                        </p>
 
                                         <p className="text-[#000000] leading-relaxed ">
                                             At Zedex, we are dedicated to providing comprehensive fire and safety solutions to safeguard lives and property. With a focus on quality, reliability, and expert installation services, we offer a wide range of fire protection systems that cater to various needs. Whether for residential, commercial, or industrial purposes, Zedex is your trusted partner in ensuring safety in case of fire emergencies.
@@ -258,7 +257,7 @@ export default function AboutUs() {
 
                                     <div className="mt-8">
                                         <Link
-                                            href="/about-us"
+                                            href="/about-our-company"
                                             className="  font-bold inline-flex items-center gap-2 px-6 py-3 bg-[#ED3237]  text-white rounded-lg shadow hover:bg-orange-600 transition"
                                         >
                                             Read More  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
@@ -292,7 +291,7 @@ export default function AboutUs() {
                                     <img
                                         src={item.img}
                                         alt={item.title}
-                                       
+
                                         className="mx-auto w-auto h-14 "
                                     />
                                 </div>
@@ -357,7 +356,7 @@ export default function AboutUs() {
                                 <img
                                     src={cert.src}
                                     alt={cert.alt}
-                                    
+
                                     className={`object-contain rounded-lg`}
                                 />
                             </div>
@@ -366,6 +365,6 @@ export default function AboutUs() {
                 </div>
             </section>
 
-    </>
-  )
+        </>
+    )
 }

@@ -466,7 +466,7 @@ export default function HeroPage() {
 
                     <div className="mt-8">
                       <Link
-                        href="/about-us"
+                        href="/about-our-company"
                         className="  font-bold inline-flex items-center gap-2 px-6 py-3 bg-[#ED3237]  text-white rounded-lg shadow hover:bg-orange-600 transition"
                       >
                         Read More  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
