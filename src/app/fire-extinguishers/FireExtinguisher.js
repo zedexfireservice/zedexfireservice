@@ -35,197 +35,186 @@ export default function FireExtinguisher() {
     }
   ];
 
-  const ABCChemicalFire = [
-    {
-      title: "ABC Dry Chemical Fire Extinguishers : "
-    },
-    {
-      title: "Versatile Protection :",
-      description: "Your multi-purpose solution for Class A, B, and C fires. Ideal for homes, offices, schools, and general commercial spaces in Delhi NCR."
-    },
-    {
-      title: "Key Features :",
-      description: "High effectiveness, rapid knockdown, available in various capacities."
-    },
-    {
-      title: "Suitable For :",
-      description: "Wood, paper, plastics, flammable liquids, electrical equipment."
-    },
-    {
-      title: 
-      <>
+ const ABCChemicalFire = [
+  {
+    title: "ABC Dry Chemical Fire Extinguishers",
+    imgsrc: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618669/abc-dry-powder-extinguisher_cbhshq.webp"
+  },
+  {
+    title: "Versatile Protection :",
+    description: "Your multi-purpose solution for Class A, B, and C fires. Ideal for homes, offices, schools, and general commercial spaces in Delhi NCR."
+  },
+  {
+    title: "Key Features :",
+    description: "High effectiveness, rapid knockdown, available in various capacities."
+  },
+  {
+    title: "Suitable For :",
+    description: "Wood, paper, plastics, flammable liquids, electrical equipment."
+  },
+  {
+    title: (
       <a href="tel:9810216907">
-      <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 transform hover:scale-105">Get Pricing for ABC Extinguishers</button>
- </a>
-      </>
-    },
-    {
-      title: "CO2 Fire Extinguishers : ",
-    },
-    {
-      title: "Residue-Free Solution : ",
-      description: "Perfect for Class B (flammable liquids) and electrical (Class C) fires, especially in sensitive environments like data centers, server rooms, and laboratories across Delhi NCR."
-    },
-    {
-      title: "Key Features : ",
-      description: "Non-conductive, non-corrosive, no clean-up required."
-    },
-    {
-      title: "Suitable For : ",
-      description: "Flammable liquids, electrical equipment."
-    },
-    {
-      title: 
-      <>
-  <a href="tel:9810216907">
-
-
-      <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 transform hover:scale-105">Get Pricing for CO2 Extinguishers</button>
-       </a>
-      </>
-    },
-    {
-      title: "Water & Foam Fire Extinguishers : "
-    },
-    {
-      title: "Effective for Class A/B : ",
-      description: "Water extinguishers are ideal for Class A fires, while Foam (AFFF) extinguishers are highly effective on Class A and B fires."
-    },
-    {
-      title: "Key Features : ",
-      description: "Cooling and soothing effect."
-    },
-    {
-      title: "Suitable For : ",
-      description: "Wood, paper, cloth (Water); Flammable liquids (Foam)."
-    },
-    {
-      title: 
-      <>
- <a href="tel:9810216907">
-
-      <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 transform hover:scale-105">Get Pricing for Water/Foam Extinguishers
-      </button>
-
- </a>
-
-      </>
-    },
-    {
-      title: "Wet Chemical Fire Extinguishers (Class K/F) : ",
-    },
-    {
-      title: "Kitchen Fire Specialists : ",
-      description: "Specifically designed for Class K (cooking oil and fat) fires, making them indispensable for restaurants, food courts, and commercial kitchens in Delhi NCR."
-    },
-    {
-      title: "Key Features : ",
-      description: "Forms a cooling blanket, prevents re-ignition."
-    },
-    {
-      title: "Suitable For : ",
-      description: "Cooking oils and fats."
-    },
-    {
-      title: 
-            <>
- <a href="tel:9810216907">
-
-      <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 transform hover:scale-105">Get Pricing for Wet Chemical Extinguishers
-      </button>
-    </a>
-  </>
-    },
-    {
-      title: "Clean Agent Fire Extinguishers (e.g., HFC 236fa) : ",
-    },
-    {
-      title: "Sensitive Environment Protection : ",
-      description: "An ideal choice for valuable assets, electronics, and critical documents, effective on Class A, B, and C fires without leaving residue."
-    },
-    {
-      title: "Key Features : ",
-      description: "Non-toxic, non-corrosive, electrically non-conductive, ozone-friendly."
-    },
-    {
-      title: "Suitable For : ",
-      description: "Server rooms, data centers, museums, art galleries."
-    },
-    {
-      title: 
-           <>
- <a href="tel:9810216907">
-
-      <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 transform hover:scale-105">Get Pricing for Clean Agent Extinguishers</button>
-    </a>
-    </>
-    },
-    {
-      title: "Automatic Modular Fire Extinguishers : "
-    },
-    {
-      title: "Unattended Fire Protection : ",
-      description: "Automatically detects and suppresses fires in enclosed spaces, ideal for server rooms, electrical panels, and storage areas."
-    },
-    {
-      title: "Key Features : ",
-      description: "Ceiling-mounted, automatic activation, ideal for 24/7 protection."
-    },
-    {
-      title: "Suitable For :",
-      description: "Unattended spaces, high-risk areas.",
-    },
-    {
-      title: 
-            <>
- <a href="tel:9810216907">
-
-      <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 transform hover:scale-105">Get Pricing for Automatic Extinguishers
-      </button>
+        <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 transform hover:scale-105">Get Pricing for ABC Extinguishers</button>
       </a>
-    </>
-    }
-  ];
+    )
+  },
+  {
+    title: "CO2 Fire Extinguishers",
+    imgsrc: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1755668457/CO2_j5bgn9.webp"
+  },
+  {
+    title: "Residue-Free Solution : ",
+    description: "Perfect for Class B (flammable liquids) and electrical (Class C) fires, especially in sensitive environments like data centers, server rooms, and laboratories across Delhi NCR."
+  },
+  {
+    title: "Key Features : ",
+    description: "Non-conductive, non-corrosive, no clean-up required."
+  },
+  {
+    title: "Suitable For : ",
+    description: "Flammable liquids, electrical equipment."
+  },
+  {
+    title: (
+      <a href="tel:9810216907">
+        <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 transform hover:scale-105">Get Pricing for CO2 Extinguishers</button>
+      </a>
+    )
+  },
+  {
+    title: "Water & Foam Fire Extinguishers",
+    imgsrc: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1755668457/Foam_aand_water_type_qfwezz.webp"
+  },
+  {
+    title: "Effective for Class A/B : ",
+    description: "Water extinguishers are ideal for Class A fires, while Foam (AFFF) extinguishers are highly effective on Class A and B fires."
+  },
+  {
+    title: "Key Features : ",
+    description: "Cooling and soothing effect."
+  },
+  {
+    title: "Suitable For : ",
+    description: "Wood, paper, cloth (Water); Flammable liquids (Foam)."
+  },
+  {
+    title: (
+      <a href="tel:9810216907">
+        <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 transform hover:scale-105">Get Pricing for Water/Foam Extinguishers</button>
+      </a>
+    )
+  },
+  {
+    title: "Wet Chemical Fire Extinguishers (Class K/F)",
+    imgsrc: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1755670654/wet_chemical_oucpzt.webp"
+  },
+  {
+    title: "Kitchen Fire Specialists : ",
+    description: "Specifically designed for Class K (cooking oil and fat) fires, making them indispensable for restaurants, food courts, and commercial kitchens in Delhi NCR."
+  },
+  {
+    title: "Key Features : ",
+    description: "Forms a cooling blanket, prevents re-ignition."
+  },
+  {
+    title: "Suitable For : ",
+    description: "Cooking oils and fats."
+  },
+  {
+    title: (
+      <a href="tel:9810216907">
+        <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 transform hover:scale-105">Get Pricing for Wet Chemical Extinguishers</button>
+      </a>
+    )
+  },
+  {
+    title: "Clean Agent Fire Extinguishers (e.g., HFC 236fa)",
+    imgsrc: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1755668457/Clean_Agent_wl31jp.webp"
+  },
+  {
+    title: "Sensitive Environment Protection : ",
+    description: "An ideal choice for valuable assets, electronics, and critical documents, effective on Class A, B, and C fires without leaving residue."
+  },
+  {
+    title: "Key Features : ",
+    description: "Non-toxic, non-corrosive, electrically non-conductive, ozone-friendly."
+  },
+  {
+    title: "Suitable For : ",
+    description: "Server rooms, data centers, museums, art galleries."
+  },
+  {
+    title: (
+      <a href="tel:9810216907">
+        <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 transform hover:scale-105">Get Pricing for Clean Agent Extinguishers</button>
+      </a>
+    )
+  },
+  {
+    title: "Automatic Modular Fire Extinguishers",
+    imgsrc: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1755668457/Automatic_Modular_Fire_Extinguishers_nkg9d3.webp"
+  },
+  {
+    title: "Unattended Fire Protection : ",
+    description: "Automatically detects and suppresses fires in enclosed spaces, ideal for server rooms, electrical panels, and storage areas."
+  },
+  {
+    title: "Key Features : ",
+    description: "Ceiling-mounted, automatic activation, ideal for 24/7 protection."
+  },
+  {
+    title: "Suitable For :",
+    description: "Unattended spaces, high-risk areas."
+  },
+  {
+    title: (
+      <a href="tel:9810216907">
+        <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 transform hover:scale-105">Get Pricing for Automatic Extinguishers</button>
+      </a>
+    )
+  }
+];
 
   const Comprehensive = [
     {
-      title: "Fire Extinguisher Refilling & Recharging in Delhi NCR : "
+      title: "Fire Extinguisher Refilling & Recharging in Delhi NCR  "
     },
     {
-      title: "Certified & Reliable : ",
+      title: "Certified & Reliable  ",
       description: "We provide expert refilling and recharging services for all types of fire extinguishers, adhering to ISO 9001:2008 and BIS/ISI standards. Our facilities in Delhi NCR ensure quick and efficient service."
     },
     {
-      title: "Importance : ",
+      title: "Importance  ",
       description: "Regular refilling after use or expiry is crucial for operational readiness."
     },
     {
-      title: "Annual Maintenance Contracts (AMC) for Fire Extinguishers : "
+      title: "Annual Maintenance Contracts (AMC) for Fire Extinguishers  "
     },
     {
-      title: "Ensuring Compliance & Readiness : ",
+      title: "Ensuring Compliance & Readiness  ",
       description: "Our AMCs guarantee periodic inspections, maintenance, and necessary repairs, keeping your fire extinguishers in optimal condition and ensuring compliance with local regulations."
     },
     {
-      title: "Benefits : ",
+      title: "Benefits  ",
       description: "Peace of mind, prolonged equipment life, immediate response to issues."
     },
     {
-      title: "Professional Installation Services : ",
+      title: "Professional Installation Services  ",
       description: "Our certified technicians ensure proper installation and placement of fire extinguishers in your premises across Delhi NCR, maximizing their effectiveness in an emergency."
     },
     {
-      title: "Fire Safety Audits & NOC Consultancy in Delhi : "
+      title: "Fire Safety Audits & NOC Consultancy in Delhi  "
     },
     {
-      title: "Expert Guidance : ",
+      title: "Expert Guidance  ",
       description: "Our team conducts thorough fire safety audits of your property and assists with obtaining Fire No Objection Certificates (NOC) and ensuring compliance with Delhi's fire safety regulations."
     },
     {
-      title: "Hands-on Fire Safety Training Programs : "
+      title: "Hands-on Fire Safety Training Programs  "
     },
     {
-      title: "Empowering Your Team : ",
+      title: "Empowering Your Team  ",
       description: "We offer practical training sessions for your staff or residents on the correct use of fire extinguishers (PASS method), emergency evacuation procedures, and basic fire prevention techniques, building a safer community in Delhi NCR."
     }
   ];
@@ -459,96 +448,101 @@ export default function FireExtinguisher() {
               Zedex Fire is a proud provider of ISO 9001:2008 and BIS/ISI certified fire extinguishers, ensuring adherence to the highest Indian and international safety standards. Explore our diverse range:
             </motion.p>
 
-            {ABCChemicalFire.map((item, index) => {
-              if (index % 5 === 0) {
-                return (
+         <div className="     min-h-screen py-16 px-4 md:px-8">
+      <div className="container mx-auto">
+        {ABCChemicalFire.map((item, index) => {
+          // Check if the current item is the start of a new card group (every 5 items)
+          if (index % 5 === 0) {
+            return (
+              <motion.div 
+                key={index}
+                variants={containerVariants}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.3 }}
+                className={`flex flex-col py-8 ${index % 10 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'} items-center gap-8 my-12`}
+              >
+                <div className="md:w-1/2 w-full">
                   <motion.div 
-                    key={index}
-                    variants={containerVariants}
-                    className={`flex flex-col py-8 ${index % 10 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'} items-center gap-8 my-12 `}
+                    whileHover={{ scale: 1.02 }}
+                    className="relative w-full  h-[350px] overflow-hidden rounded-4xl"
                   >
-                    <div className="md:w-1/2 w-full">
-
-                <motion.div 
-  whileHover={{ scale: 1.02 }}
-  className="relative w-full h-[200px]   md:h-[350px]   overflow-hidden"
->
-  <img 
-    src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1748002618/WhatsApp_Image_2025-05-23_at_17.45.48_l0uvu4.jpg"
-    alt={item.title}
-    className="w-full h-full object-contain border rounded-4xl p-4 "
-  />
-</motion.div>
-                      
-                    </div>
-
-                    <div className="md:w-1/2 w-full">
-                      <motion.h3 
-                        variants={fadeInVariants}
-                        className="text-2xl font-bold text-red-600 mb-4"
-                      >
-                        {item.title}
-                      </motion.h3>
-                      {ABCChemicalFire[index + 1] && (
-                        <>
-                          <motion.h4 
-                            variants={fadeInVariants}
-                            className="text-xl font-semibold mb-2"
-                          >
-                            {ABCChemicalFire[index + 1].title}
-                          </motion.h4>
-                          <motion.p 
-                            variants={fadeInVariants}
-                            className="text-gray-700 mb-4"
-                          >
-                            {ABCChemicalFire[index + 1].description}
-                          </motion.p>
-                        </>
-                      )}
-                      {ABCChemicalFire[index + 2] && (
-                        <>
-                          <motion.h4 
-                            variants={fadeInVariants}
-                            className="text-xl font-semibold mb-2"
-                          >
-                            {ABCChemicalFire[index + 2].title}
-                          </motion.h4>
-                          <motion.p 
-                            variants={fadeInVariants}
-                            className="text-gray-700 mb-4"
-                          >
-                            {ABCChemicalFire[index + 2].description}
-                          </motion.p>
-                        </>
-                      )}
-                      {ABCChemicalFire[index + 3] && (
-                        <>
-                          <motion.h4 
-                            variants={fadeInVariants}
-                            className="text-xl font-semibold mb-2"
-                          >
-                            {ABCChemicalFire[index + 3].title}
-                          </motion.h4>
-                          <motion.p 
-                            variants={fadeInVariants}
-                            className="text-gray-700 mb-6"
-                          >
-                            {ABCChemicalFire[index + 3].description}
-                          </motion.p>
-                        </>
-                      )}
-                      {ABCChemicalFire[index + 4] && (
-                        <motion.div variants={fadeInVariants}>
-                          {ABCChemicalFire[index + 4].title}
-                        </motion.div>
-                      )}
-                    </div>
+                    <img 
+                      src={item.imgsrc}
+                      alt={item.title}
+                      className="w-full h-full object-contain border rounded-4xl p-4 "
+                    />
                   </motion.div>
-                );
-              }
-              return null;
-            })}
+                </div>
 
+                <div className="md:w-1/2 w-full">
+                  <motion.h3 
+                    variants={fadeInVariants}
+                    className="text-2xl font-bold text-red-600 mb-4"
+                  >
+                    {item.title}
+                  </motion.h3>
+                  {ABCChemicalFire[index + 1] && (
+                    <>
+                      <motion.h4 
+                        variants={fadeInVariants}
+                        className="text-xl font-semibold mb-2"
+                      >
+                        {ABCChemicalFire[index + 1].title}
+                      </motion.h4>
+                      <motion.p 
+                        variants={fadeInVariants}
+                        className="text-gray-700 mb-4"
+                      >
+                        {ABCChemicalFire[index + 1].description}
+                      </motion.p>
+                    </>
+                  )}
+                  {ABCChemicalFire[index + 2] && (
+                    <>
+                      <motion.h4 
+                        variants={fadeInVariants}
+                        className="text-xl font-semibold mb-2"
+                      >
+                        {ABCChemicalFire[index + 2].title}
+                      </motion.h4>
+                      <motion.p 
+                        variants={fadeInVariants}
+                        className="text-gray-700 mb-4"
+                      >
+                        {ABCChemicalFire[index + 2].description}
+                      </motion.p>
+                    </>
+                  )}
+                  {ABCChemicalFire[index + 3] && (
+                    <>
+                      <motion.h4 
+                        variants={fadeInVariants}
+                        className="text-xl font-semibold mb-2"
+                      >
+                        {ABCChemicalFire[index + 3].title}
+                      </motion.h4>
+                      <motion.p 
+                        variants={fadeInVariants}
+                        className="text-gray-700 mb-6"
+                      >
+                        {ABCChemicalFire[index + 3].description}
+                      </motion.p>
+                    </>
+                  )}
+                  {ABCChemicalFire[index + 4] && (
+                    <motion.div variants={fadeInVariants}>
+                      {ABCChemicalFire[index + 4].title}
+                    </motion.div>
+                  )}
+                </div>
+              </motion.div>
+            );
+          }
+          return null;
+        })}
+      </div>
+    </div>
          
           </motion.div>
 
@@ -576,9 +570,9 @@ export default function FireExtinguisher() {
                   key={index}
                   variants={itemVariants}
                   whileHover={{ scale: 1.03 }}
-                  className="bg-white p-6 rounded-xl shadow-md border border-gray-100"
+                  className="bg-white flex justify-center items-center flex-col p-6 rounded-xl shadow-md border border-gray-100"
                 >
-                  <h3 className="text-xl font-bold text-red-600 mb-3">{service.title}</h3>
+                  <h3 className=" text-center text-xl font-bold text-red-600 mb-3">{service.title}</h3>
                   {service.description && (
                     <p className="text-gray-700">{service.description}</p>
                   )}

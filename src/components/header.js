@@ -18,7 +18,6 @@ import { usePathname } from 'next/navigation';
 function Header() {
 
 
-
   const [openDropdown, setOpenDropdown] = useState(null);
 
 
@@ -37,7 +36,6 @@ function Header() {
     { href: '/', text: 'Home' },
 
     { href: '/about-our-company', text: 'About Us' },
-
 
     {
       to: '#',
@@ -633,8 +631,6 @@ function Header() {
 
 
     </nav>
-
-
 
   );
 }
