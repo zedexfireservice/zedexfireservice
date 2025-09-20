@@ -36,7 +36,7 @@ export const metadata = {
     "Fire suppression systems Faridabad",
     "Fire suppression systems India",
   ],
-   robots: "index, follow",
+   robots: "noindex, nofollow",
 
   openGraph: {
     title: "Fire Suppression Systems Delhi NCR | ISO Certified Zedex Fire",

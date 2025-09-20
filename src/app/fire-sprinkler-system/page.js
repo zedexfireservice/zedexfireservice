@@ -37,7 +37,7 @@ export const metadata = {
     "Fire sprinkler system Faridabad",
     "Fire sprinkler system India",
   ],
-   robots: "index, follow",
+   robots: "noindex, nofollow",
 
   openGraph: {
     title: "Fire Sprinkler System in Delhi NCR | ZedEx Fire",
