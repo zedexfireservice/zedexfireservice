@@ -49,7 +49,7 @@ export const metadata = {
     "fire prevention Gurugram",
     "business continuity Gurugram",
   ],
-   robots: "noindex, nofollow",
+   robots: "index, follow",
   openGraph: {
     title: "Fire Alarm System Gurugram: Design, Installation & Maintenance | Zedexfire",
     description:

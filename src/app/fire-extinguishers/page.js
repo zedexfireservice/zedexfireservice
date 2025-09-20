@@ -43,7 +43,7 @@ export const metadata = {
     "Fire extinguisher online India",
     "Fire extinguisher Delhi NCR",
   ],
-   robots: "noindex, nofollow",
+   robots: "index, follow",
 
   openGraph: {
     title: "Fire Extinguisher in Delhi | Manufacturer & Supplier | Zedex Fire",

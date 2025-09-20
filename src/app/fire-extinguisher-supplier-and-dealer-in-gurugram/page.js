@@ -50,7 +50,7 @@ export const metadata = {
     "fire prevention Gurugram",
     "emergency preparedness Gurugram",
   ],
-   robots: "noindex, nofollow",
+   robots: "index, follow",
   openGraph: {
     title: "Fire Extinguisher Supplier & Dealer in Gurugram | Zedexfire",
     description:

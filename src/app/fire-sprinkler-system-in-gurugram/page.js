@@ -48,7 +48,7 @@ export const metadata = {
     "reduce insurance costs fire",
     "property value increase fire safety",
   ],
-   robots: "noindex, nofollow",
+   robots: "index, follow",
   openGraph: {
     title: "Fire Sprinkler System in Gurugram: Design, Installation & Maintenance | Zedexfire",
     description:

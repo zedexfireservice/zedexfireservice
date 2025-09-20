@@ -59,7 +59,7 @@ export const metadata = {
     "life safety fire suppression",
     "business continuity fire safety",
   ],
-   robots: "noindex, nofollow",
+   robots: "index, follow",
   openGraph: {
     title: "Fire Suppression System Gurugram: Expert Design & Installation | Zedexfire",
     description:

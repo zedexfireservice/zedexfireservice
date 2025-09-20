@@ -33,7 +33,7 @@ export const metadata = {
     "Anti rodent system Faridabad",
     "Anti rodent system India",
   ],
-   robots: "noindex, nofollow",
+   robots: "index, follow",
 
   openGraph: {
     title: "Top Ultrasonic Anti Rodent in Delhi NCR | Zedex Fire",

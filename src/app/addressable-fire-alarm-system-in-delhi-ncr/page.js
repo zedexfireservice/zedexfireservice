@@ -36,7 +36,7 @@ export const metadata = {
     "Fire alarm system Ghaziabad",
     "Fire alarm system Faridabad",
   ],
-   robots: "noindex, nofollow",
+   robots: "index, follow",
 
   openGraph: {
     title: "Addressable Fire Alarm System in Delhi - Zedex Fire",
