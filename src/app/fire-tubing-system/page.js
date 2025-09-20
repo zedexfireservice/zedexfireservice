@@ -31,7 +31,7 @@ export const metadata = {
     "Fire tubing system Noida",
     "Fire tubing system India",
   ],
-  robots: "index, follow",
+   robots: "noindex, nofollow",
 
   openGraph: {
     title: "Fire Tube Suppression System in Delhi NCR | Zedex Fire",

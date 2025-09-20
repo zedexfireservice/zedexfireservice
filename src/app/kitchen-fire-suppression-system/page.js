@@ -30,7 +30,7 @@ export const metadata = {
     "Kitchen fire suppression Noida",
     "Kitchen fire suppression India",
   ],
-  robots: "index, follow",
+   robots: "noindex, nofollow",
 
   openGraph: {
     title: "Commercial Kitchen Fire Suppression Systems | Zedex Fire Service",

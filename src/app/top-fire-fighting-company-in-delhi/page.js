@@ -31,7 +31,7 @@ export const metadata = {
     "Fire fighting company Faridabad",
     "Fire fighting company India",
   ],
-  robots: "index, follow",
+   robots: "noindex, nofollow",
 
   openGraph: {
     title: "Top Fire Fighting Company in Delhi NCR | Zedex Fire Services",

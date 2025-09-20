@@ -38,7 +38,7 @@ import FireDoorPage from "./FireDoorPage";
     "Fire doors Faridabad",
     "Fire doors India",
   ],
-  robots: "index, follow",
+   robots: "noindex, nofollow",
 
   openGraph: {
     title: "Fire Doors in Delhi NCR: Manufacturer, Supplier, and Installation",

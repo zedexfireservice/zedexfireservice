@@ -32,7 +32,7 @@ export const metadata = {
     "Fire alarm installation Delhi NCR",  
     "Fire alarm system Delhi",  
   ],
-  robots: "index, follow",
+   robots: "noindex, nofollow",
 
   openGraph: {
     title: "Fire Alarm Systems: Installation in Gurugram – Zedex Fire",

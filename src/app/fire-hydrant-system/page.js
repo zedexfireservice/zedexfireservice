@@ -42,7 +42,7 @@ export const metadata = {
     "Fire hydrant system Ghaziabad", 
     "Fire hydrant system Faridabad", 
   ],
-  robots: "index, follow",
+   robots: "noindex, nofollow",
 
   openGraph: {
     title: "Fire Hydrant System in Delhi NCR and India - Zedex Fire",

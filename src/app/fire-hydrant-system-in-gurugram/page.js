@@ -54,7 +54,7 @@ export const metadata = {
     "life safety Gurugram",
     "business continuity Gurugram",
   ],
-  robots: "index, follow",
+   robots: "noindex, nofollow",
   openGraph: {
     title: "Fire Hydrant System Gurugram: Design, Installation & Maintenance | Zedexfire",
     description:

@@ -34,7 +34,7 @@ export const metadata = {
     "VESDA Faridabad",
     "VESDA India",
   ],
-  robots: "index, follow",
+   robots: "noindex, nofollow",
 
   openGraph: {
     title: "VESDA in Delhi NCR | Early Detection - Zedex Fire",
