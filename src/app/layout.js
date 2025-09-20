@@ -74,8 +74,7 @@ const geistMono = Geist_Mono({
     "Fire protection systems Gurugram",
     "Fire safety equipment Noida",
   ],
-  robots: "index, follow",
-
+  
   openGraph: {
     title: "Zedex Fire: Fire Fighting Equipment & Safety Solutions India",
     description: "Protect your assets with Zedex Fire's comprehensive range of high-quality fire fighting equipment, safety solutions, and suppression systems. Reliable fire protection for all sectors.",
@@ -90,6 +89,9 @@ const geistMono = Geist_Mono({
       },
     ],
   },
+
+  robots: "noindex, nofollow",
+
   alternates: {
     canonical: "https://www.zedexfire.com/",
   },
@@ -105,6 +107,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+<meta name="robots" content="noindex, nofollow" />
 
         <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-16532850100"></Script>
 
