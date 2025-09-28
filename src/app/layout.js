@@ -91,7 +91,7 @@ const geistMono = Geist_Mono({
   },
  
 
-robots: "noindex, nofollow",
+robots: "index, follow",
 
   alternates: {
     canonical: "https://www.zedexfire.com/",

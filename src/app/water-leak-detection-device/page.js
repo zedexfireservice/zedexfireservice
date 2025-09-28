@@ -34,7 +34,7 @@ export const metadata = {
     "Water leak detection Noida",
     "Water leak alarm India", 
   ],
-   robots: "noindex, nofollow",
+   robots: "index, follow",
 
   openGraph: {
     title: "Water Leak Detection in Delhi NCR | WLD by Zedex Fire",

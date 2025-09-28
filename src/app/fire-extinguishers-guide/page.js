@@ -28,7 +28,7 @@ export const metadata = {
   "Fire extinguisher guide India",
     "Fire safety India",
   ],
-   robots: "noindex, nofollow",
+   robots: "index, follow",
 
   openGraph: {
     title: "The Ultimate Guide to Fire Extinguishers: Types, Uses & Safety in India",
