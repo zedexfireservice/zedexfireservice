@@ -76,7 +76,7 @@ const geistMono = Geist_Mono({
   ],
   
   openGraph: {
-    title: "Zedex Fire: Fire Fighting Equipment & Safety Solutions India",
+    title: "Zedex Fire Services | Leading Fire Safety Solutions",
     description: "Protect your assets with Zedex Fire's comprehensive range of high-quality fire fighting equipment, safety solutions, and suppression systems. Reliable fire protection for all sectors.",
     url: "https://www.zedexfire.com/",
     type: "website",
@@ -85,7 +85,7 @@ const geistMono = Geist_Mono({
         url: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618669/abc-dry-powder-extinguisher_cbhshq.webp", // Placeholder: Suggest using a strong, relevant image from their homepage, e.g., a banner image or main product shot.
         width: 1200,
         height: 630,
-        alt: "Zedex Fire fighting equipment and safety solutions",
+        alt: "Zedex Fire Services | Leading Fire Safety Solutions",
       },
     ],
   },
@@ -98,7 +98,7 @@ robots: "index, follow",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Zedex Fire: Fire Fighting & Safety Equipment",
+    title: "Zedex Fire Services | Leading Fire Safety Solutions",
     description: "Your trusted partner for fire fighting equipment, complete fire safety solutions, and reliable suppression systems. Ensure maximum protection with Zedex Fire.",
     image: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618669/abc-dry-powder-extinguisher_cbhshq.webp", // Placeholder: Same as Open Graph image
   },
@@ -108,7 +108,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-<meta name="robots" content="noindex, nofollow" />
+// <meta name="robots" content="noindex, nofollow" />
 
         <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-16532850100"></Script>
 
