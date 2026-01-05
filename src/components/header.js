@@ -251,7 +251,7 @@ function Header() {
 
 
                     <a
-                      href="/zedex-fire-services-catalogue-2025.pdf"
+                      href="/zedex-fire-services-catalogue-2025.pdf" rel="nofollow"
                       download="zedex-fire-services-catalogue-2025"
                       className={`relative inline-flex items-center justify-start inline-block px-5 py-3 overflow-hidden font-bold rounded-full group ${isScrolled
                         ? " text-black hover:text-black border-black"
