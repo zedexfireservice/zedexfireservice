@@ -24,7 +24,7 @@ const geistMono = Geist_Mono({
 
   export const metadata = {
      title: {
-    default: "Zedex Fire: Fire Fighting Equipment & Safety Solutions India",
+    default: "Zedex Fire Services | Leading Fire Safety Solutions",
     template: "%s"
   },
   
