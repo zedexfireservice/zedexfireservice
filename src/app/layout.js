@@ -27,7 +27,9 @@ const geistMono = Geist_Mono({
     default: "Zedex Fire Services | Leading Fire Safety Solutions",
     template: "%s"
   },
-  
+  verification: {
+    google: "JZS7lm8ZnieiJrYNPlrak7_aof-8UBTd74dNVuDpaaM",
+  },
   
   description: "Zedex Fire offers a comprehensive range of high-quality fire fighting equipment, safety solutions, and suppression systems. Protect your assets with our reliable and innovative fire protection technology for commercial, industrial, and residential needs.",
   keywords: [
@@ -91,7 +93,7 @@ const geistMono = Geist_Mono({
   },
  
 
-robots: "index, follow",
+robots: "index: true, follow: true",
 
   alternates: {
     canonical: "https://www.zedexfire.com/",
