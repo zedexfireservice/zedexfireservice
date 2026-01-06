@@ -28,7 +28,7 @@ const geistMono = Geist_Mono({
     template: "%s"
   },
   verification: {
-    google: "JZS7lm8ZnieiJrYNPlrak7_aof-8UBTd74dNVuDpaaM",
+    google: "0p_BQCRfdQvqEdzx7TJzGx-bw21ruyHrPbTjYLsc6No",
   },
   
   description: "Zedex Fire offers a comprehensive range of high-quality fire fighting equipment, safety solutions, and suppression systems. Protect your assets with our reliable and innovative fire protection technology for commercial, industrial, and residential needs.",
@@ -124,8 +124,8 @@ export default function RootLayout({ children }) {
           `
         }} />
 
-        <meta name="google-site-verification" content="JZS7lm8ZnieiJrYNPlrak7_aof-8UBTd74dNVuDpaaM" />
-
+<meta name="google-site-verification" content="0p_BQCRfdQvqEdzx7TJzGx-bw21ruyHrPbTjYLsc6No" />
+  
         <Script id="google-analytics" >
 
           {` window.dataLayer = window.dataLayer || [];
