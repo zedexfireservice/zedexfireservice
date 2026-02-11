@@ -1,5 +1,17 @@
-User-Agent: *
+# Allow all search engines to crawl the main site
+User-agent: *
+Disallow:
 
-Allow: /
+# Block access to sensitive or admin folders
+Disallow: /wp-admin/
+Disallow: /admin/
+Disallow: /login/
+Disallow: /cgi-bin/
+
+# Prevent crawling of private files or folders
 Disallow: /private/
+Disallow: /tmp/
+Disallow: /backup/
 
+# Sitemap location (update the URL if different)
+Sitemap: https://www.zedexfire.com/sitemap.xml
