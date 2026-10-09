@@ -110,7 +110,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-// <meta name="robots" content="noindex, nofollow" />
+<meta name="robots" content="index, follow" />
 
         <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-16532850100"></Script>
 
