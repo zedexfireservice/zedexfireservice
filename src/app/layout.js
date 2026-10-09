@@ -111,7 +111,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
 <meta name="robots" content="index, follow" />
-
         <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-16532850100"></Script>
 
         <script dangerouslySetInnerHTML={{
@@ -124,7 +123,7 @@ export default function RootLayout({ children }) {
           `
         }} />
 
-<meta name="google-site-verification" content="0p_BQCRfdQvqEdzx7TJzGx-bw21ruyHrPbTjYLsc6No" />
+<meta name="google-site-verification" content="cIm-eUxTKlTukRPXx--qDUn3HlRveY0xDsFLmn9LF_s" />
   
         <Script id="google-analytics" >
 
